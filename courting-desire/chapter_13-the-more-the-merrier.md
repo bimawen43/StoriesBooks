@@ -1,0 +1,1399 @@
+# Chapter\_13 The More The Merrier
+
+## Begin
+
+{% hint style="info" %}
+![](https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_fancy_dressing_room.jpg-story) \*Scene COURTING\_DESIRE\_INTRO
+{% endhint %}
+
+Narrator: Chapter Thirteen \| The More The Merrier
+
+## cd13\_last\_witness
+
+\*Play Music m\_melancholy\_tension\_heartbeat  
+\*
+
+{% hint style="info" %}
+![](https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_king_antechamber_day.jpg-story) \*Scene KING\_ANTECHAMBER \(Color: Black\)
+{% endhint %}
+
+\*Camera Left 0  
+\*  
+\*Camera Right 3  
+Narrator: You are standing in the king's antechamber, being tried for witchcraft.  
+Rene: I will now present the last witness.  
+Narrator: A wave of shock hits you as the last witness steps into the room.  
+&gt;&gt;  
+Alice_Think\(surprise\): It's Anne!  
+&gt;  
+Anne\(sad\): ...  
+Narrator: Anne studiously avoids looking at you as she walks up to the front of the room.  
+Rene: Tell everybody who you are, please.  
+Anne\(surprise\): But you all already know who I am-  
+Rene: It's for the official records.  
+Anne\(sad\): I'm Anne Mazarin... your daughter.  
+Rene: You've been witness to the accused's behavior almost ever since she first arrived, have you not?  
+Anne: Well I didn't see what happened when she first arrived here at the palace, or at the market...  
+Anne: But yeah, I was visiting Armand when he brought her back home with him.  
+Rene: Have you seen or heard anything... out of the ordinary about her?  
+Narrator: Anne glances at you, and for a brief second almost seems to look regretful... but she looks away again quickly.  
+Anne: Oh yeah.  
+&gt;&gt;  
+Alice_Think\(sad\): So much for all those declarations of friendship.  
+&gt;  
+Anne\(angry\): First of all, she latched on to Armand as soon as she arrived, bewitching him.  
+Anne\(angry\): Then, as soon as she arrived at the palace the next day, she did the same to Philippe.  
+Rene: Explain what you mean by bewitched.  
+Anne\(angry\): The both of them fell for her so fast, it was ridiculous. And most certainly unnatural.  
+Anne\(angry\): I've no doubt she cast a spell on them.  
+&gt;&gt;  
+Armand\(angry\): This is the most ludicrous thing I've ever heard.  
+Philippe\(angry\): Seriously, Anne?  
+Anne\(angry\): I mean, look at them! They're completely under her spell!  
+Anne\(angry\): Like I said, first she cast a spell on Armand that night...  
+Anne\(angry\): Then she wrangled her way into coming along with us to the palace the very next morning...  
+Anne\(angry\): Where she immediately sank her claws into Philippe.  
+Anne: Oh! I almost forgot. She's no noblewoman, even though she pretends to be one.  
+Anne: She'd never ridden in a carriage before that morning!  
+Anne: And then she talked about driving machines made of metal called cars.  
+Narrator: Anne shuddered dramatically and made the sign of the cross.  
+\*Condition
+
+## \(cd\_13\_01\_CP\_anne\_goaway\)
+
+### A. \(Condition: ANNE\_STAYS &gt;= 1\)
+
+### B. \(Condition: ANNE\_GOAWAY &gt;= 1\)
+
+**A**
+
+Narrator: Then she lowers her voice to an exaggerated whisper.  
+Anne: The worst and strangest thing is... **She got Philippe to paint a portrait of her**...  
+Anne: Months before she came!  
+Rene: How do you know that?  
+Anne: Philippe told all of us himself.  
+&gt;
+
+**B**
+
+&gt;  
+Rene: It's interesting that you mention her putting a spell on Philippe...  
+Rene: Were you aware of the portrait he'd painted of her?  
+Anne\(surprise\): Huh?  
+Narrator: Mazarin turns to the King and Queen, and his voice raises dramatically.  
+Rene: You see, your Majesties...  
+Rene: **The accused got Philippe to paint a portrait of her... months before she came!**  
+\*_\*  
+Narrator: You look at the King and Queen. Louis has a look of shock on his face, and even Therese looks taken aback.  
+Louis\(surprise\): Philippe, is this true?  
+Narrator: Philippe steps forward quickly.  
+Philippe\(angry\): It's true that I'd painted a portrait of a woman who I'd had several dreams about...  
+Philippe\(sad\): But it's ridiculous to claim that that woman is Lady {Alice Name}, just because there's a resemblance.  
+Louis: I think that we should see this portrait.  
+Rene: Of course. I already have it here.  
+\_Camera Left 3  
+Narrator: Two of the guards leave the room and come back almost immediately carrying a painting and an easel, and set it up just in front of the King.  
+Rene: As you can see, your Majesty, this is clearly a portrait of the accused.  
+Louis\(surprise\): This... it certainly looks like her, yes.  
+&gt;&gt;  
+Louis: Lady {Alice Name}, what do you have to say about this?  
+Alice\(sad\): Your Majesty...
+
+## \(cd\_13\_02\_explain\_painting\)
+
+### A. I knew nothing about this until that day.
+
+### B. I've never seen that portrait in my life!
+
+**A**
+
+Louis: What happened that day?  
+Alice: Philippe showed us the portrait, and we all remarked how similar the girl looked to me.  
+\*Alice Trial +1  
+Alice: It's not like anybody had anything to hide. It came as a huge surprise to me too, as you can imagine.  
+&gt;  
+Narrator: There is a silence as the King considers your words.  
+Therese: She has a point. You frequently dream of deer and wild boar before a hunt, Louis.  
+Therese: And sometimes I dream of parties and the food that will be served, before the event happens.  
+Therese: Perhaps the dreams are just indicative of our thoughts and desires.  
+Louis: Hmm...  
+Narrator: Mazarin narrows his eyes.
+
+**B**
+
+&gt;  
+Rene: Oh really? Because the guards say that Philippe showed you this painting that day.  
+Rene: In addition, I retrieved this **from your room.** \(Condition: PHILIPPE\_PAINTING &gt;= 1\)  
+Alice\(sad\): I... I mean... I didn't know about it before then!  
+Rene: Your story changes when you get caught in a lie, hmm?  
+Alice\(sad\): I'm not lying! This has nothing to do with me!  
+Louis: Hmm...  
+Narrator: Mazarin smiles triumphantly, as if sensing that victory was near.  
+\*\*\*
+
+## cd13\_interrogate\_rene
+
+\*Stop Music  
+\*Play Music m\_rage\_tension\_restless  
+Louis: Was that your last witness, Rene?  
+&gt;&gt;  
+Alice\*Think\(sad\): At least it's over...  
+&gt;  
+Rene: It was. But before I wrap up...  
+Rene: I think it's time the accused answered some questions herself.  
+&gt;&gt;  
+Rene: First of all, HOW did you get in the palace, and into her Majesty's study, three days ago?  
+Alice\(sad\): I...
+
+## \(cd\_13\_03\_how\_to\_get\_in\)
+
+### A. I told you, I don't remember! \(Condition: FIRST\_QUESTION\_12 &gt;= 1\)
+
+### B. I don't remember! \(Condition: DENIED\_FIRST\_12 &gt;= 1\)
+
+### C. I just... appeared there!
+
+### D. I was lost and wandered in...?
+
+**A**
+
+Rene: Oh, that's right. **You don't remember.** How convenient.
+
+**B**
+
+Rene: **You don't remember.** How convenient.
+
+**C**
+
+Rene: Aha! So you admit you apparated there!  
+Alice\(sad\): I... what?? Like teleportation?  
+Rene: That's what you just admitted you did.  
+Alice\(sad\): It was a figure of speech!
+
+**D**
+
+Rene: **You wandered in.**  
+\*\*\*  
+Rene: The palace is heavily guarded.  
+Rene: Aside from the obvious fact that it's impossible for anyone to just waltz in the palace unnoticed...  
+Rene: You managed to make your way all the way into her Majesty's private study!  
+Rene: If you didn't use witchcraft to get in, then **how did you do it??**  
+Alice\(sad\): I... I...  
+Rene: Secondly, what were you doing in her Majesty's private study?  
+Alice\(sad\): I...
+
+## \(cd\_13\_04\_what\_were\_you\_doing\)
+
+### A. I was looking for my way out.
+
+### B. I didn't know it was the Queen's study!
+
+### C. Would you believe, looking at a ring?
+
+**A**
+
+Alice\(sad\): The room was unrecognizable, I was so confused... I just wanted to find my way out!
+
+**B**
+
+Alice\(sad\): I... I thought I was somewhere else!  
+Rene: Oh? Where did you think you were?  
+Alice\(sad\): I thought I was in an artefacts display room.
+
+**C**
+
+Rene: Aha! So you were trying to steal her Majesty's jewellery?  
+Alice\(sad\): No!  
+Therese: But I don't keep any of my jewellery in my study.  
+Rene: What ring were you looking at, then?  
+Alice\(sad\): An emerald ring that belongs to Armand...  
+Rene: In her Majesty's study?  
+\*\*\*
+
+## cd13\_framed
+
+Rene: A likely story. Are you sure you weren't there trying to get hold of her Majesty's personal effects?  
+Alice\(surprise\): {_Attention What?? No!}  
+Rene: It's well known that in order to cast a spell on someone.  
+Rene: Witches often require a personal belonging of the victim...  
+Rene: Is that what you were doing there? Trying to steal something in order to cast a spell on the Queen?  
+Alice\(sad\): {_Attention No!!}  
+&gt;  
+Narrator: The room is silent as you glance frantically around you.  
+Narrator: Louis' expression is stern, Therese looks worried, Armand is frowning and Philippe looks angry.  
+Louis\(sad\): ...  
+Therese\(sad\): ...  
+Armand\(sad\): ...  
+Philippe\(angry\): ...  
+Narrator: Mazarin is the only one who is smiling.  
+&gt;&gt;  
+Rene\(happy\): ...  
+Narrator: Your stomach flip flops in fear and anxiety, as you realize that...  
+Alice\*Think\(sad\): This is really not looking good for me, at all.  
+Narrator: Finally, Mazarin speaks again.  
+Rene: Where are you from, exactly?  
+Alice\(sad\): I... I don't re-  
+Rene: Don't give me that amnesia crap.  
+Rene: You don't have any problem remembering other things, like your 'technology', your 'euros', and your 'cars'.
+
+## cd13\_defend\_against
+
+Narrator: You take a deep breath.  
+\*Country Naming: Which country are you from? \| Country  
+\*Stop Music  
+\*Play Music m\_intense\_tension\_assembling\_02  
+Alice\(sad\): I'm from {Country Name}.  
+Rene: {Country Name}? Stop lying. There are any 'phones', 'euros', or 'cars' there.  
+Alice: There aren't any phones, euros or cars anywhere in the world right now, actually.  
+Alice: So what point are you trying to make?  
+Narrator: Mazarin looks taken aback by your question.  
+Alice_Think: Now is the best time to get Armand and Philippe to speak up for me...  
+Alice_Think: And debunk that love spell nonsense!  
+Alice: As for those ridiculous love spell accusations...
+
+## \(cd\_13\_05\_testify\)
+
+### A. Ask Armand and Philippe to speak! \(Cost: 18 Diamond ID: plot\_cd\_13\_testify\)
+
+### B. Just defend yourself.
+
+**A**
+
+#### \*Goto cd13\_guys\_testify
+
+**B**
+
+#### \*Goto cd13\_defend\_yourself
+
+\*\*\*
+
+## cd13\_guys\_testify
+
+Alice: I think that Philippe and Armand should be allowed to speak for themselves.  
+&gt;  
+\*Stop Music  
+\*Play Music m\_gently\_romance\_butterflies\_love\_01  
+Narrator: The both men step forward at once.  
+Armand\(angry\): Your Majesty, frankly I find it insulting for anyone to say that Lady {Alice Name} put a spell on me.  
+Armand: My affections for her are easy to explain.  
+Armand: I wasn't, as Lady Anne claims, 'immediately bewitched' by her.  
+Armand: At first I was merely concerned about her safety.  
+Armand: I wasn't going to leave her alone and defenceless on the streets, unable to fend for herself.  
+Armand: That's not the way that I was brought up.  
+Armand: But then the more time I spent with her, the more some of her qualities became obvious to me.  
+Armand: She's brave, kind, and selfless.  
+Narrator: Armand's kind words fills you with a warm glow, and you fight to hold back tears.  
+\*Alice Trial +1  
+Alice_Think\(cry\): Armand...  
+Armand: So I beg Lord Mazarin not to insult me with that ridiculous claim...  
+Armand: That what I feel for Lady {Alice Name} is nothing but a spell.  
+Louis: Hmm... Thank you for your testimony, Lord Armand.  
+Louis: What about you, Philippe? I'd like to hear from you too.  
+Philippe\(angry\): This accusation of witchcraft and spells is ridiculous.  
+Louis: It's true that you're not the same person you were before.  
+Philippe\(smile\): If you mean my old habit of playing the field...  
+Philippe: I've been changing a long time before this, as you well know.  
+Therese\(smile\): That's true.  
+Philippe: Like Armand, my feelings for Lady {Alice Name} didn't happen immediately.  
+Philippe: At first, I was intrigued by her, because yes, firstly she resembles this person that I dreamed of.  
+Philippe: But mostly because unlike most of the other ladies in court, she actually dares to speak her mind.  
+Philippe: She's honest, and it's a refreshing change.  
+\_Alice Trial +1  
+Alice\*Think\(cry\): Thank you, Philippe...  
+Philippe: So while it's easy to claim that she must have put a spell on me, since I fell for her immediately...  
+Philippe: It simply **isn't true**.  
+Louis: Hmm... It looks like I have a lot to consider.
+
+#### \*Goto cd13\_end\_trial
+
+## cd13\_defend\_yourself
+
+Alice\(sad\): Do you have any proof at all that I did any 'love spells'? Aside from conjecture?  
+&gt;  
+Therese: She's right, all we've heard so far is conjecture.  
+Louis: Hmm...
+
+#### \*Goto cd13\_end\_trial
+
+## cd13\_end\_trial
+
+\*Stop Music  
+\*Play Music m\_intense\_stimulate\_mighty\_kingdom\_01  
+Louis: Alright, I've heard enough.  
+Narrator: A heavy silence falls in the room everybody waits for Louis to speak again.  
+&gt;&gt;  
+Alice_Think\(sad\): Oh my god... is he going to pronounce judgement right now?  
+&gt;  
+Louis: I've heard the testimony of many people today, concerning the accused.  
+Louis: Witchcraft is a serious accusation, and one not to be taken lightly.  
+Louis: Lord Mazarin has called many witnesses today to paint a picture of the accused.  
+\_Condition
+
+## \(cd\_13\_06\_CP\_trial\_point\)
+
+### A. \(Condition: Alice Trial &gt;= 3\)
+
+### B. \(Condition: Alice Trial &lt; 3\)
+
+**A**
+
+Louis: He attempted to cast doubt on the accused's character, background, and motives...  
+Message: Innocent As A Lamb \| Your answers during the trial satisfied the King!  
+Louis: Who has responded admirably to all the accusations.  
+Louis: In addition, seeing as how all the 'proof' of witchcraft are merely conjectural...  
+Message: Found Innocent \| The King finds you not guilty of witchcraft!  
+Louis: I find Lady {Alice Name} innocent of all charges of witchcraft.
+
+**B**
+
+Message: Bad Reputation \| Your answers during the trial did not impress the King.  
+Louis: Now while he may have succeeded in casting doubt on the accused's character, background, and motives...  
+Louis: In spite of this, I note that all the 'proof' of witchcraft are merely conjectural...  
+Message: Found Innocent \| The King finds you not guilty of witchcraft!  
+Louis: Therefore I find Lady {Alice Name} innocent of all charges of witchcraft.  
+\*\*\*  
+Narrator: As Therese breaks into a smile, and Philippe rushes forward to kiss his brother on the cheek with joy...  
+Narrator: You finally let go of the breath which you hadn't even realize you'd been holding.  
+&gt;&gt;  
+Alice: It's finally over...
+
+## \(cd\_13\_07\_end\_trial\)
+
+### A. Cry with relief!
+
+### B. Just smile like crazy!
+
+### C. Go and hug everyone in the room!
+
+**A**
+
+\*Gain ON\_GROUND\_13  
+Narrator: Your legs give way beneath you and you sink to the floor, and start sobbing with relief.  
+Alice\(cry\): It's finally over.  
+Narrator: Armand rushes over to you.  
+Armand\(sad\): {Alice Name}? Don't cry! It's okay now, it's over, Mazarin can't do anything to you now.  
+Alice\(cry\): I... I'm just so happy and relieved!
+
+**B**
+
+\*Gain ARMAND\_HUG\_13  
+Narrator: Your face breaks into a huge smile and you just stand there grinning happily, enjoying the moment.  
+Narrator: Armand rushes over to you.  
+Armand\(happy\): Mazarin can't do anything to you now. How are you feeling?  
+Alice\(happy\): I'm just so happy and relieved!
+
+**C**
+
+\*Gain HUG\_ALL\_13  
+Narrator: Unable to contain your happiness and relief, you rush to embrace first Armand...  
+Armand\(happy\): Haha!  
+Narrator: Armand hugs you back tightly, grinning from ear to ear.  
+Narrator: Then you run over to Philippe and hug him too. Philippe gives you a kiss on your cheek.  
+Philippe\(happy\): Mazarin can't do anything to you now!  
+Narrator: Then, you rush to Therese and Louis, and surprise the both of them together with an embrace!  
+Louis\(surprise\): Oh! I can see why they love you.  
+Therese\(happy\): Congratulations my dear! I never had any doubt you would be cleared of such a ridiculous charge.  
+\*\*\*  
+&gt;
+
+## cd13\_conclusion\_trial
+
+Narrator: Mazarin frowns, his face creased in anger...  
+Rene\(angry\): ...  
+Narrator: And he leaves the room without saying another word.  
+\*Stop Music  
+\*Play Music m\_classical\_cheerful\_garden  
+Narrator: As Armand helps you up, you see the King approaching you, and curtsy. \(Condition: ON\_GROUND\_13 &gt;= 1\)  
+Narrator: Just then, the King approaches you, and you curtsy. \(Condition: ARMAND\_HUG\_13 &gt;= 1\)  
+Narrator: You drop into a curtsy. \(Condition: HUG\_ALL\_13 &gt;= 1\)  
+Alice: Thank you, your Majesty.  
+Louis: No need, I merely gave you a fair hearing.  
+Narrator: He leans forward slightly towards you, and lowers his voice a little.  
+Louis\(smile\): You may want to keep a lower profile, and stay out of trouble from now on.  
+Alice\(smile\): That's good advice that I'll definitely remember.  
+Louis\(smile\): Good. Now I'm afraid that this has worn me out for today. I should probably take a nap.  
+Narrator: You finally notice just how pale the King is looking.  
+&gt;&gt;  
+Alice_Think\(sad\): It must have taken all of his energy to preside over the trial!  
+&gt;  
+Louis: Therese, I fear I may not have the energy for a Masquerade tonight.  
+&gt;&gt;  
+Alice_Think\(surprise\): Oh my God, with everything that has happened since yesterday...  
+Alice\*Think\(surprise\): I'd completely forgotten about the Masquerade Ball!  
+&gt;  
+Therese: Say no more, my darling. I'll inform everyone that it's postponed until tomorrow night.  
+Louis: That would be good. Now if you'll all excuse me.  
+Narrator: Everyone bows and curtsies to the King, who leaves the room with the help of the Queen.  
+Alice: Wow... It's been a long day.  
+Narrator: Now that the trial is over, you feel completely drained... and hungry.  
+Alice: Is it time for dinner already?  
+Narrator: Your stomach rumbles loudly as a reply.  
+Alice\(shy\): Ooops... excuse me.  
+Philippe\(smile\): Let's have dinner.
+
+## cd13\_vent\_anger
+
+{% hint style="info" %}
+![](https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_royal_palace_hallway_day.jpg-story) \*Scene ROYAL\_PALACE\_HALLWAY \(Color: Black Time: 2\)
+{% endhint %}
+
+\*Stop Music  
+\*Play Music m\_classical\_gently\_earth\_prelude\_02  
+Narrator: As you head out into the hallway, you see Anne and Marie standing there talking to each other.  
+Narrator: They both glare at you as they see you, their faces flushing.  
+Marie\(angry\): I can't believe she's getting away scot-free.  
+Alice\(angry\): Excuse me??
+
+## \(cd\_13\_08\_vent\_anger\)
+
+### A. Give them both a piece of your mind! \(Cost: 15 Diamond ID: plot\_cd\_13\_anger\)
+
+### B. Swallow your anger and walk away.
+
+**A**
+
+Narrator: You walk up to the two sisters.  
+Alice\(angry\): Are you two seriously still gossiping about me?  
+Alice\(angry\): After trying to get rid of me by accusing me of something that could have resulted in my death?  
+Anne\(sad\): I...  
+&gt;&gt;  
+Alice\(angry\): Just how ugly and poisonous are the both of you anyway?  
+Alice: You know, you may be pretty on the outside, but you're vile and ugly on the inside.  
+Marie\(angry\)\*Shout: **You** ——  
+Alice: And both Armand and Philippe can see that. That's why they want nothing to do with either of you.  
+&gt;  
+Narrator: They both cringe as if they had been slapped.  
+Alice: And I guess I just feel sorry for the both of you. That's all.  
+Message: What Goes Around Comes Around \| You gave the Mazarin sisters a piece of your mind!  
+Narrator: You walk away with your head held high as the two sisters gape after you.  
+Narrator: Their jaws hanging open in shock and their faces red with embarrassment!
+
+**B**
+
+Alice_Think\(sad\): Froget about them, they're not worth my time!  
+\*\*_
+
+## cd13\_personal\_protection
+
+{% hint style="info" %}
+![](https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_princess_room_night.jpg-story) \*Scene BLUE\_GOLD\_PRINCESS\_ROOM\_NIGHT \(Color: Black Time: 2.5\)
+{% endhint %}
+
+Narrator: After dinner, you head back to your room with both men insisting to walk you.  
+\*Stop Music  
+\*Play Music m\_romance\_dinner\_for\_two\_02  
+Narrator: The sun is just starting to set as you enter your room.  
+Alice: Why did you both insist on walking me back to my room?  
+Armand: After the way Mazarin waylaid you with that guard?  
+Armand: I'm not letting you wander alone in the palace until we can be sure he's not going to be doing that again.  
+Philippe: I agree. Armand is the only other person I trust right now in the Palace, after Louis and Therese.  
+Philippe: First the near drowning, and now this...  
+Philippe: I think it's best for you to always be with either myself or Armand from now onward.  
+Armand: Yes, and I think it'll be best if you had someone to guard you at night too.  
+Alice\(surprise\): At night?
+
+## \(cd\_13\_09\_stay\_at\_night\)
+
+### A. Is that really necessary?
+
+### B. What are you suggesting...?
+
+### C. Mmm, I like the sound of that...
+
+**A**
+
+Armand: I think it is, yes.  
+Philippe: I agree, for your safety.
+
+**B**
+
+Alice\(shy\): Do you really mean...
+
+**C**
+
+Alice\(smile\): If what you're suggesting is what I think you're suggesting.  
+\*\*\*  
+Armand: One of us should stay with you in your chamber at night.  
+Alice\(shy\): ...oh.  
+Philippe: To protect you.  
+Alice: Of course.
+
+## \(cd\_13\_10\_protect\_you\)
+
+### A. I agree, it's best to be safe.
+
+### B. But who will protect me from you?
+
+**A**
+
+Armand\(smile\): I'm glad you think so too.  
+Philippe\(smile\): It's settled then.
+
+**B**
+
+Armand: I don't know what you mean.  
+Alice: Mmm hmm.  
+\*_\*  
+Philippe: I have an even better idea.  
+Philippe: Maybe the **both** of us should stay. This way you'll be **extra** protected.  
+Narrator: Tutorial \| Choosing Armand or Philippe to stay with you will lead to a steamy scene...  
+Narrator: Tutorial \| Choosing the both of them will unlock an extra steamy scene!  
+Alice\(smile\)_Think: Who do I want to stay with me at night?  
+\*Item
+
+## \(cd\_13\_11\_choose\_guard\)
+
+### A. ITEM\_ARMAND I want Armand to stay! \(Cost: 25 Diamond ID: plot\_cd\_13\_armand\)
+
+### B. ITEM\_PHILIPPE I want Philippe to stay! \(Cost: 25 Diamond ID: plot\_cd\_13\_philippe\)
+
+### C. ITEM\_BOTH I want the both of them! \(Cost: 30 Diamond ID: plot\_cd\_13\_armand\_n\_philippe\)
+
+### D. ITEM\_NOTHING I want to be left alone.
+
+**A**
+
+#### \*Goto cd13\_armandsex
+
+**B**
+
+#### \*Goto cd13\_philippesex
+
+**C**
+
+#### \*Goto cd13\_threesomesex
+
+**D**
+
+#### \*Goto cd13\_alone\_night
+
+\*\*\*
+
+## cd13\_armandsex
+
+\*Stop Music  
+\*Play Music m\_gently\_classical\_white\_river\_01  
+\*Armand Romance +1  
+Armand\(smile\): I shall protect you with my life.  
+Narrator: Philippe smiles ruefully.  
+Philippe: I would be upset, if it was anyone other than Armand. Good night.  
+Narrator: He bows and leaves the room.  
+&gt;&gt;  
+Alice\(shy\): I guess it's just the both of us now.  
+Armand: You should rest early, after the day that you've had.  
+Alice: Yes, it's just...  
+Narrator: You flush a slight pink.  
+Armand\(surprise\): What is it?  
+Alice: Usually Jeanne is here to help me out of my dress and get ready for bed.  
+Alice_Think\(shy\): Maybe she saw them escorting me back to my room and decided to give us some privacy.  
+Armand: Oh! Right! I've forgotten how cumbersome these women's gowns are.  
+Alice: It sounds like you've had a bit of experience with women's gowns.  
+Armand: Ah... maybe a little.  
+Armand: I could help you with yours, if you prefer not to bother Jeanne...  
+Alice\(shy\): Oh! Umm... Jeanne is probably busy doing something... somewhere.  
+Narrator: Armand takes a step closer to you, as you begin to tug at the ribbon lacing up your bodice at the front of your dress.  
+Narrator: His hand reaches out to hold yours.  
+Armand: Let me help you with that.  
+Narrator: His eyes don't leave yours, as he expertly begins to unlace your bodice.  
+Narrator: As you stare back into his beautiful emerald-green, gold-flecked eyes, you realize that you're holding your breath.  
+Narrator: Your voice comes out in a breathy whisper...  
+Alice: Thank you.  
+Armand: You're welcome.  
+Narrator: Suddenly, with a hard tug, he pulls the dress right off you, leaving you standing there in just your lingerie.  
+\_Alice Outfit Underwear \(Tap: Record\)  
+Alice\(surprise\): Oh!  
+Armand: Sorry, was that too forceful?  
+Alice: No...
+
+## \(cd\_13\_11\_A\_DP1\_dress\_off\)
+
+### A. You just caught me by surprise.
+
+### B. I like it forceful.
+
+**A**
+
+Armand: My apologies.  
+Alice: That's... that's quite alright.
+
+**B**
+
+Armand: Do you? Interesting.  
+\*_\*  
+Alice: I suppose I should be putting on my nightgown now.  
+Armand: Yes.  
+Narrator: But even as he speaks, his eyes are slowly moving down your body, devouring your curves.  
+Alice: Especially since it's a little unfair that you're standing there fully dressed.  
+Armand\(smile\): Ah, good point. I can hardly go to sleep fully dressed.  
+Alice: Do you usually have someone help you get dressed and undressed as well?  
+Armand: Yes, my valet. He'll be wondering why I'm not in my room tonight. But I can undress myself, of course.  
+Narrator: As if to prove it, he deftly removes his vest, then his shirt, until he's just standing in his breeches.  
+\_Armand Outfit Armand\_Pyjamas  
+Narrator: You can't help but stare at his lean muscular chest, and well chiselled abs.  
+Armand\(smile\): ...  
+Alice\*Think\(smile\): I should...
+
+## \(cd\_13\_11\_A\_DP2\_armands\_body\)
+
+### A. Reach out and touch his abs.
+
+### B. Put on your nightgown and go to bed alone.
+
+**A**
+
+#### \*Goto cd13\_touch\_armand
+
+**B**
+
+Alice: It's late and I'm exhausted...  
+\*Stop Music  
+\*Play Music m\_gently\_classical\_white\_river\_01  
+Narrator: Armand immediately takes a step back, as you reach for your nightgown and put it on.  
+Armand: Of course. You should rest early.  
+\*Alice Outfit Linen\_Nightgown  
+\*Gain NO\_SEX\_13  
+&gt;  
+Alice: Where will you sleep?  
+Armand: This armchair looks comfortable enough.  
+Narrator: He walks over to the armchair in front of the fireplace, and sits down in it.  
+Narrator: You climb in bed, feeling safe at the knowledge that there is someone watching over you in your sleep.  
+Alice: Goodnight, Armand.  
+Armand: Goodnight, {Alice Name}.
+
+{% hint style="info" %}
+![](https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_princess_room_day.jpg-story) \*Scene BLUE\_GOLD\_PRINCESS\_ROOM\_DAY \(Color: White Time: 2.5\)
+{% endhint %}
+
+Narrator: You wake up feeling rested and refreshed the next morning.  
+Narrator: As you sit up in bed, you see Armand already up and dressed, and washing up in front of the washbasin in your room.  
+\*Armand Outfit Armand\_Courtdress  
+Armand\(smile\): Good morning.  
+Alice\(smile\): Good morning. Have you been awake long?  
+Armand\(smile\): About fifteen minutes ago.  
+Alice\(smile\): Thank you for staying with me the whole night.  
+Alice\(sad\): I hope it wasn't too uncomfortable sleeping in the armchair?  
+Armand\(smile\): I was a bit stiff when I woke up, but I'm fine now after walking around.  
+Armand\(smile\): Jeanne should be waiting to come in and help you get dressed for breakfast.  
+Armand\(smile\): Shall I wait for you in the salon for breakfast?  
+Alice\(smile\): Oh! Yes, Jeanne will accompany me there after. See you there.  
+Narrator: Armand bows and leaves the room, and sure enough, Jeanne enters almost immediately.  
+Jeanne\(happy\): Good morning milady!  
+Narrator: You can see that she's bursting with curiosity, as she bustles over to help you get ready.  
+&gt;&gt;  
+Alice: What is it?  
+Jeanne: Did his Grace really spend the night in your room?  
+Narrator: Her question burst out of her before she could stop it, her face so hopeful that it makes you smile.  
+Alice\(smile\): He did, to watch over me as I slept. But he spent the night in the armchair.  
+Jeanne\(sad\): Oh.  
+Narrator: You burst out laughing.  
+Alice\(happy\): You look so disappointed.  
+Jeanne\(smile\): If I'm to be honest, milady, I am rather. Anyway, let's get you ready for the day.
+
+#### \*Goto cd13\_get\_dressed
+
+\*\*\*
+
+## cd13\_touch\_armand
+
+\*Stop Music  
+\*Play Music m\_kiss\_romance\_classical  
+\*Gain SEX\_ARMAND\_13  
+Narrator: Biting your lip, you slide your hand down his hard chest, over the defined muscles of his abdomen.  
+\*Armand Romance +1  
+Armand\(smile\): ...  
+Narrator: Armand stays still, a dangerous glint appearing in his eyes.  
+Narrator: Then he suddenly closes the distance between the both of you, lifting your face with his hand so that you're looking up at him.  
+&gt;&gt;&gt;  
+Armand: You're so beautiful.  
+Alice\(shy\): So are you, to be honest.  
+Narrator: He chuckles softly, his eyes dropping to your mouth.  
+Alice: Armand...
+
+## \(cd\_13\_11\_A\_DP3\_kiss\_armand\)
+
+### A. Kiss me!
+
+### B. Kiss me **hard** !
+
+**A**
+
+Armand: With pleasure.  
+Narrator: He lowers his face to yours and kisses you gently, maddeningly.  
+Narrator: You part your mouth slightly, and he slides the tip of his tongue between your inviting lips teasingly.
+
+**B**
+
+Narrator: He grins and lowers his face to yours, and kisses you hard, his mouth claiming yours hungrily.  
+Narrator: Gasping, you part your mouth slightly, and he slides the tip of his tongue between your inviting lips, teasing your tongue.  
+\*\*\*  
+Narrator: You can barely breathe, your heart is beating so hard in your chest.  
+Narrator: His hand moves to your hair and he takes a handful of it, pulling it so that you have no choice but to tilt your head back.  
+Narrator: Then he kisses down your jaw to your neck, as you gasp and clutch his head, moaning.  
+&gt;&gt;  
+Alice: Ohhh...  
+Armand: I want to taste you.  
+Narrator: His kiss moves lower still, down your neck to your cleavage, teasing and sucking.  
+Alice: Oh... oh my god... Armand...
+
+## \(cd\_13\_11\_A\_DP4\_flirt\_with\_armand\)
+
+### A. Take me to bed!
+
+### B. Drop to your knees and taste him.
+
+**B**
+
+Narrator: You lift his head up to look at you, then giving him a small smile, slowly kiss his chest, then his abdomen, as you sink to your knees.  
+Narrator: Staring into his eyes, you undo his breeches and lick him tentatively.  
+Armand: Oh...  
+Narrator: You kiss and lick him... before taking him in your mouth, looking at him all the while.  
+Narrator: His hands twine themselves in your hair as his eyes roll in ecstasy, his hips bucking.  
+Armand: {_Joyful Ohhh...}  
+\*\*_
+
+## cd13\_bed\_armand
+
+Narrator: Armand reaches down and lifts you up, kissing you again, and you wrap your legs around his hips.  
+Narrator: Not breaking the kiss, he carries you to the bed where he climbs on top of you, pinning you down with his weight.  
+Narrator: His left hand restrains your wrists above your head as the both of you kiss passionately, his right hand exploring your curves.  
+Armand: I've wanted this for so long. I've wanted **you** for so long.  
+Narrator: Your head spinning, you can barely gasp a reply.  
+Alice: I want you too. I **need** you. **Now.** Please...  
+Narrator: He breaks off the kiss, panting, and with a deep growl sinks himself into you!  
+&gt;&gt;&gt;  
+Alice\(surprise\): {_Joyful Oh god, Armand!}  
+Armand: Ohhh, {Alice Name}...  
+Narrator: Your eyes flutter shut as you lose yourself in the breathless rhythm of his body against yours...  
+Narrator: Holding on tight as his movements grow faster, his breath rough against your neck.  
+Narrator: You run your hands over the hard muscles on his back as he moves relentlessly in you, moaning as waves of pleasure leave you practically senseless.  
+Narrator: He kisses you hungrily, claiming your mouth and your neck... as you move with him, your hips gyrating to meet him.  
+Narrator: You feel his muscles tensing, crushing you against him, even as the pleasure builds up inside you until you can't take it any more...  
+Narrator: You cry out against his chest, clinging to him as a wave of pleasure explodes inside you!  
+Alice_Shout\(smile\): Ohhh! Yes!!  
+\*Armand Romance +1  
+Armand\(surprise\): Oh, oh god, {Alice Name}!  
+&gt;&gt;  
+Narrator: Armand sinks down onto you, his face buried in your neck, panting as the aftershocks slowly ebb away.  
+Narrator: A moment later he collapses on the bed next to you, and you both kiss tenderly as your heart starts to slow down its racing.  
+Armand\(smile\): Amazing... you're amazing.  
+Alice\(smile\): Mmm... that was so good, big boy.  
+Narrator: He laughs and closes his eyes, his breath finally easing into a peaceful rhythm.  
+\*Stop Music  
+\*Play Music m\_gently\_lifting\_dreams\_01  
+Narrator: You close your eyes too, happy and satisfied, and drift into a peaceful sleep...
+
+{% hint style="info" %}
+![](https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_princess_room_day.jpg-story) \*Scene BLUE\_GOLD\_PRINCESS\_ROOM\_DAY \(Color: White Time: 2.5\)
+{% endhint %}
+
+&gt;  
+Narrator: You wake up the next morning snuggled up against Armand, your head resting on his shoulder, his arm around you.  
+Armand\(smile\): Good morning.  
+Alice\(smile\): Good morning. Have you been awake long?  
+Armand\(smile\): Maybe five minutes. But I was happy to wait for you to wake up.  
+Narrator: The both of you share a slow, lingering kiss.  
+Alice\(smile\): Mmm... This is a nice way to wake up.  
+Armand\(smile\): I wouldn't mind waking up like this every morning.  
+Armand\(smile\): Jeanne should be waiting to come in and help you get dressed for breakfast.  
+Armand\(smile\): Shall I wait for you in the salon for breakfast?  
+Alice\(smile\): Oh! Yes, Jeanne will accompany me there after.  
+Narrator: Armand gets up and starts to dress, as you enjoy the sight of his body.  
+Alice\(smile\): Such a pity that you have to wear clothes.  
+\*Armand Outfit Armand\_Courtdress  
+Armand\(smile\): I could say the same for you. See you in the salon.  
+Alice\(smile\): Yes, see you.  
+Narrator: He leaves the room, and sure enough, Jeanne enters almost immediately.  
+Jeanne\(happy\): Good morning milady!  
+Narrator: You can see that she's bursting with curiosity, as she bustles over to help you get ready.  
+&gt;&gt;  
+Alice: What is it?  
+Jeanne: Did his Grace really spend the night in your room?  
+Narrator: Her question burst out of her before she could stop it, her face so hopeful, that it makes you smile.  
+Alice\(smile\): He did, to watch over me as I slept.  
+Jeanne\(smile\): Ahh...  
+Alice\(shy\): He, er... watched over me very well.  
+Narrator: The both of you giggle.  
+Jeanne\(smile\): Oh milady, I'm glad. Anyway, let's get you ready for the day.
+
+#### \*Goto cd13\_get\_dressed
+
+## cd13\_philippesex
+
+\*Stop Music  
+\*Play Music m\_gently\_classical\_white\_river\_01  
+\*Philippe Romance +1  
+Philippe\(smile\): I shall protect you with my life.  
+Narrator: Armand smiles ruefully.  
+Armand: How can I be upset when I know you're in capable hands? Good night.  
+Narrator: He bows and leaves the room.  
+&gt;&gt;  
+Alice\(shy\): I guess it's just the both of us now.  
+Philippe: You must be tired.  
+Alice: Yes, it's just...  
+Narrator: You flush a slight pink.  
+Philippe\(surprise\): What is it?  
+Alice: Usually Jeanne is here to help me out of my dress and get ready for bed.  
+Alice: It's strange that she's not here.  
+Alice_Think\(shy\): Maybe she saw them escorting me back to my room and decided to give us some privacy.  
+Philippe: Oh! Right! These women's gowns are so cumbersome.  
+Alice: It sounds like you've had a bit of experience with women's gowns.  
+Narrator: Philippe just grins in reply.  
+Philippe\(smile\): I could help you with yours, if you prefer not to bother Jeanne...  
+Alice\(shy\): Oh! Umm... Jeanne is probably busy doing... something somewhere.  
+Narrator: Philippe takes a step closer to you, and you begin to tug at the ribbon lacing up your bodice at the front of your dress.  
+Narrator: His hand reaches out to hold yours.  
+Philippe: I'll help you with that.  
+Narrator: His eyes don't leave yours, as he expertly begins to unlace your bodice.  
+Narrator: As you stare back into his sky-blue eyes, you realize that you're holding your breath.  
+Narrator: Your voice comes out in a breathy whisper...  
+Alice: Thank you.  
+Philippe: You're welcome.  
+Narrator: Suddenly, with a hard tug, he pulls the dress right off you, leaving you standing there in just your lingerie.  
+\_Alice Outfit Underwear \(Tap: Record\)  
+Alice\(surprise\): Oh!  
+Philippe\(smile\): Sorry, was that too forceful?  
+Alice: No...
+
+## \(cd\_13\_11\_B\_DP1\_dress\_off\)
+
+### A. You just caught me by surprise.
+
+### B. I like it forceful.
+
+**A**
+
+Philippe: Sorry, I didn't mean to scare you.  
+Alice: That's... that's quite alright.
+
+**B**
+
+Philippe: Mmm... me too.  
+\*_\*  
+Alice: I suppose I should be putting on my nightgown now.  
+Philippe: Yes.  
+Narrator: But even as he speaks, his eyes are slowly moving down your body, devouring your curves.  
+Alice: Especially since it's a little unfair that you're standing there fully dressed.  
+Philippe\(smile\): You're completely right. I should get these pesky clothes off too.  
+Alice: Do you usually have someone help you get dressed and undressed as well?  
+Philippe: Yes, my valet. He'll be wondering why I'm not in my room tonight. But I can undress myself, of course.  
+Narrator: As if to prove it, he deftly removes his vest, then his shirt, until he's just standing in his breeches.  
+\_Philippe Outfit Philippe\_Pyjamas  
+Narrator: You can't help but stare at his lean muscular chest, and well chiselled abs.  
+Philippe\(smile\): ...  
+Alice\*Think\(smile\): I should...
+
+## \(cd\_13\_11\_B\_DP2\_philippes\_body\)
+
+### A. Reach out and touch his abs.
+
+### B. Put on your nightgown and go to bed alone.
+
+**A**
+
+#### \*Goto cd13\_touch\_philippe
+
+**B**
+
+Alice: It's late and I'm exhausted...  
+\*Stop Music  
+\*Play Music m\_gently\_classical\_white\_river\_01  
+Narrator: Philippe's face falls as you reach for your nightgown and put it on, but he takes a step back.  
+Philippe: Right, you should rest early then.  
+\*Alice Outfit Linen\_Nightgown  
+\*Gain NO\_SEX\_13  
+&gt;  
+Alice: Where will you sleep?  
+Philippe: This armchair will do.  
+Narrator: He walks over to the armchair in front of the fireplace, and sits down in it.  
+Narrator: You climb in bed, feeling safe at the knowledge that there is someone watching over you in your sleep.  
+Alice: Goodnight, Philippe.  
+Philippe: Goodnight, {Alice Name}.
+
+{% hint style="info" %}
+![](https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_princess_room_day.jpg-story) \*Scene BLUE\_GOLD\_PRINCESS\_ROOM\_DAY \(Color: White Time: 2.5\)
+{% endhint %}
+
+Narrator: You wake up feeling rested and refreshed the next morning.  
+Narrator: As you sit up in bed, you see Philippe already up and dressed, and washing up in front of the washbasin in your room.  
+\*Philippe Outfit Philippe\_Courtdress  
+Philippe\(smile\): Hey, you're awake.  
+Alice\(smile\): Good morning. Have you been awake long?  
+Philippe\(smile\): Just about fifteen minutes.  
+Alice\(smile\): Thank you for staying with me the whole night.  
+Alice\(sad\): I hope it wasn't too uncomfortable sleeping in the armchair?  
+Philippe\(smile\): It wasn't the most comfotable night I ever had, but I'm fine, don't worry.  
+Philippe\(smile\): I think Jeanne is waiting to come in and help you get dressed for breakfast.  
+Philippe\(smile\): Shall I wait for you in the salon for breakfast?  
+Alice\(smile\): Oh! Yes, Jeanne will accompany me there after. See you there.  
+Narrator: Philippe bows and leaves the room, and sure enough, Jeanne enters almost immediately.  
+Jeanne\(happy\): Good morning milady!  
+Narrator: You can see that she's bursting with curiosity, as she bustles over to help you get ready.  
+&gt;&gt;  
+Alice: What is it?  
+Jeanne: Did his Highness really spend the night in your room?  
+Narrator: Her question burst out of her before she could stop it, her face so hopeful, that it makes you smile.  
+Alice\(smile\): He did, to watch over me as I slept. But he spent the night in the armchair.  
+Jeanne\(sad\): Oh.  
+Narrator: You burst out laughing.  
+Alice\(smile\): You look so disappointed.  
+Jeanne\(sad\): If I'm to be honest, milady, I am rather.  
+Jeanne\(smile\): Anyway, let's get you ready for the day.
+
+#### \*Goto cd13\_get\_dressed
+
+\*\*\*
+
+## cd13\_touch\_philippe
+
+\*Stop Music  
+\*Play Music m\_kiss\_romance\_classical  
+\*Gain SEX\_PHILIPPE\_13  
+Narrator: Biting your lip, you slide your hand down his hard chest, over the defined muscles of his abdomen.  
+\*Philippe Romance +1  
+Philippe\(smile\): ...  
+Narrator: Philippe stays still, a dangerous glint appearing in his eyes.  
+Narrator: Then he suddenly closes the distance between the both of you, lifting your face with his hand so that you're looking up at him.  
+&gt;&gt;&gt;  
+Philippe: You're so beautiful. Even more beautiful than in my dreams.  
+Alice\(shy\): So are you, to be honest.  
+Narrator: He chuckles softly, his eyes dropping to your mouth.  
+Alice: Philippe...
+
+## \(cd\_13\_11\_B\_DP3\_kiss\_philippe\)
+
+### A. Kiss me!
+
+### B. Kiss me **hard** !
+
+**A**
+
+Philippe: With pleasure.  
+Narrator: He lowers his face to yours and kisses you gently, maddeningly.  
+Narrator: You part your mouth slightly, and he slides the tip of his tongue between your inviting lips teasingly.
+
+**B**
+
+Narrator: He grins and lowers his face to yours, and kisses you hard, his mouth claiming yours hungrily.  
+Narrator: Gasping, you part your mouth slightly, and he slides the tip of his tongue between your inviting lips, teasing your tongue.  
+\*\*\*  
+Narrator: You can barely breathe, your heart is beating so hard in your chest.  
+Narrator: His hand moves to your hair and he takes a handful of it, pulling it so that you have no choice but to tilt your head back.  
+Narrator: Then he kisses down your jaw to your neck, as you gasp and clutch his head, moaning.  
+&gt;&gt;  
+Alice: Ohhh...  
+Philippe: I want to taste you.  
+Narrator: His kiss moves lower still, down your neck to your cleavage, teasing and sucking.  
+Alice: Oh... oh my god... Philippe...
+
+## \(cd\_13\_11\_B\_DP4\_flirt\_with\_philippe\)
+
+### A. Take me to bed!
+
+### B. Drop to your knees and taste him.
+
+**B**
+
+Narrator: You lift his head up to look at you, then giving him a small smile, slowly kiss his chest, then his abdomen, as you sink to your knees.  
+Narrator: Staring into his eyes, you undo his breeches and lick him tentatively.  
+Philippe: Oh...  
+Narrator: You kiss and lick him... before taking him in your mouth, looking at him all the while.  
+Narrator: His hands twine themselves in your hair as his eyes roll in ecstasy, his hips bucking.  
+Philippe: {_Joyful Ohhh...}  
+\*\*_
+
+## cd13\_bed\_philippe
+
+Narrator: Philippe reaches down and lifts you up, kissing you again, and you wrap your legs around his hips.  
+Narrator: Not breaking the kiss, he carries you to the bed where he climbs on top of you, pinning you down with his weight.  
+Narrator: His left hand restrains your wrists above your head as the both of you kiss passionately, his right hand exploring your curves.  
+Philippe: My angel... I want you. I **need** you.  
+Narrator: Your head spinning, you can barely gasp a reply.  
+Alice: I want you too. I **need** you. **Now.** Please...  
+Narrator: He breaks off the kiss, panting, and with a deep growl sinks himself into you!  
+&gt;&gt;&gt;  
+Alice\(surprise\): {_Joyful Oh god, Philippe!}  
+Philippe: Ohhh, {Alice Name}...  
+Narrator: Your eyes flutter shut as you lose yourself in the breathless rhythm of his body against yours...  
+Narrator: Holding on tight as his movements grow faster, his breath rough against your neck.  
+Narrator: You run your hands over the hard muscles on his back as he moves relentlessly in you, moaning as waves of pleasure leave you practically senseless.  
+Narrator: He kisses you hungrily, claiming your mouth and your neck... as you move with him, your hips gyrating to meet him.  
+Narrator: You feel his muscles tensing, crushing you against him, even as the pleasure builds up inside you until you can't take it any more...  
+Narrator: You cry out against his chest, clinging to him as a wave of pleasure explodes inside you!  
+Alice_Shout\(smile\): Ohhh! Yes!!  
+\*Philippe Romance +1  
+Philippe\(surprise\): Oh, oh god, {Alice Name}!  
+&gt;&gt;  
+Narrator: Philippe sinks down onto you, his face buried in your neck, panting as the aftershocks slowly ebb away.  
+Narrator: A moment later he collapses on the bed next to you, and you both kiss tenderly as your heart starts to slow down its racing.  
+Philippe\(smile\): That was amazing.  
+Alice\(smile\): Mmm... that was so good, big boy.  
+Narrator: He laughs and closes his eyes, his breath finally easing into a peaceful rhythm.  
+\*Stop Music  
+\*Play Music m\_gently\_lifting\_dreams\_01  
+Narrator: You close your eyes too, happy and satisfied, and drift into a peaceful sleep...
+
+{% hint style="info" %}
+![](https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_princess_room_day.jpg-story) \*Scene BLUE\_GOLD\_PRINCESS\_ROOM\_DAY \(Color: White Time: 2.5\)
+{% endhint %}
+
+&gt;  
+Narrator: You wake up the next morning snuggled up against Philippe, your head resting on his shoulder, his arm around you.  
+Philippe\(smile\): Hey, you're awake.  
+Alice\(smile\): Good morning. Have you been awake long?  
+Philippe\(smile\): Maybe five minutes. But I was happy to watch you sleeping.  
+Narrator: The both of you share a slow, lingering kiss.  
+Alice\(smile\): Mmm... This is a nice way to wake up.  
+Philippe\(smile\): I agree completely.  
+Philippe\(smile\): I think Jeanne is waiting to come in and help you get dressed for breakfast.  
+Philippe\(smile\): Shall I wait for you in the salon for breakfast?  
+Alice\(smile\): Oh! Yes, Jeanne will accompany me there after.  
+Narrator: Philippe gets up and starts to dress, as you enjoy the sight of his body.  
+Alice\(smile\): Such a pity that you have to wear clothes.  
+\*Philippe Outfit Philippe\_Courtdress  
+Philippe\(smile\): I could say the same for you. See you in the salon.  
+Alice\(smile\): Yes, see you.  
+Narrator: He leaves the room, and sure enough, Jeanne enters almost immediately.  
+Jeanne\(happy\): Good morning milady!  
+Narrator: You can see that she's bursting with curiosity, as she bustles over to help you get ready.  
+&gt;&gt;  
+Alice: What is it?  
+Jeanne: Did his Highness really spend the night in your room?  
+Narrator: Her question burst out of her before she could stop it, her face so hopeful, that it makes you smile.  
+Alice\(smile\): He did, to watch over me as I slept.  
+Jeanne\(smile\): Ahh...  
+Alice\(shy\): He, er... watched over me very well.  
+Narrator: The both of you giggle.  
+Jeanne\(smile\): Oh milady, I'm glad.  
+Jeanne\(smile\): Anyway, let's get you ready for the day.
+
+#### \*Goto cd13\_get\_dressed
+
+## cd13\_threesomesex
+
+\*Stop Music  
+\*Play Music m\_gently\_classical\_white\_river\_01  
+Alice\(smile\): Being extra protected sounds good to me.  
+\*Armand Romance +1  
+Armand\(smile\): I shall protect you with my life.  
+\*Philippe Romance +1  
+Philippe\(smile\): As shall I.  
+Armand: You should rest early, after the day that you've had.  
+&gt;&gt;  
+Alice: Yes, it's just...  
+Narrator: You flush a slight pink.  
+Philippe\(surprise\): What is it?  
+Alice: Usually Jeanne is here to help me out of my dress and get ready for bed.  
+Alice: It's strange that she's not here.  
+Alice_Think\(shy\): Maybe she saw them escorting me back to my room and decided to give us some privacy.  
+Armand: Oh! Right! I've forgotten how cumbersome these women's gowns are.  
+Philippe: They're a pain to get in and out of, that's for sure.  
+Alice: It sounds like the both of you have had a bit of experience with women's gowns.  
+Armand: Ah... maybe a little.  
+Narrator: Philippe only grins in reply.  
+Armand: I could help you with yours, if you prefer not to bother Jeanne...  
+Alice\(shy\): Oh! Umm... Jeanne is probably busy doing... something somewhere.  
+Philippe: With the both of us helping you, you'll get changed in a fraction of the time it usually takes.  
+Narrator: They both take a step closer to you, as you begin to tug at the ribbon lacing up your bodice at the front of your dress.  
+Narrator: Armand's hand reaches out to hold yours.  
+Armand: Let me help you with that.  
+Narrator: His eyes don't leave yours, as he expertly begins to unlace your bodice.  
+Narrator: As you stare back into his beautiful emerald-green, gold-flecked eyes, you realize that you're holding your breath.  
+Narrator: Your voice comes out in a breathy whisper...  
+Alice: Thank you.  
+Armand: You're welcome.  
+Narrator: In the meantime, Philippe busies himself with sliding the dress off your shoulders.  
+Narrator: Suddenly, with a hard tug, he pulls the dress right off you, leaving you standing there in just your lingerie.  
+\_Alice Outfit Underwear \(Tap: Record\)  
+Alice\(surprise\): Oh!  
+Philippe: Sorry, was that too forceful?  
+Alice: No...
+
+## \(cd\_13\_11\_C\_DP1\_dress\_off\)
+
+### A. You just caught me by surprise.
+
+### B. I like it forceful.
+
+**A**
+
+Philippe: My apologies.  
+Alice: That's... that's quite alright.
+
+**B**
+
+Philippe: Do you? Interesting.  
+\*_\*  
+Alice: I suppose I should be putting on my nightgown now.  
+Armand: Ah.  
+Philippe: Yes.  
+Narrator: But even as they speak, their eyes are slowly moving down your body, devouring your curves.  
+Alice: Especially since it's a little unfair that you're both standing there fully dressed.  
+Armand\(smile\): Ah, good point.  
+Philippe\(smile\): We can hardly go to sleep fully dressed.  
+Alice: Do you usually have someone help you get dressed and undressed as well?  
+Philippe: Yes, my valet. He'll be wondering why I'm not in my room tonight. But I can undress myself, of course.  
+Narrator: As if to prove it, he deftly removes his vest, then his shirt, until he's just standing in his breeches.  
+Narrator: Armand strips off equally quickly.  
+\_Armand Outfit Armand\_Pyjamas  
+\*Philippe Outfit Philippe\_Pyjamas  
+Narrator: You can't help but stare at their lean muscular chests, and well chiselled abs.  
+Philippe\(smile\): ...  
+Armand\(smile\): ...  
+Alice\*Think\(smile\): I should...
+
+## \(cd\_13\_11\_C\_DP2\_guys\_body\)
+
+### A. Reach out and touch Armand's abs.
+
+### B. Slide your hand over Philippe's pecs.
+
+### C. Put on your nightgown and go to bed alone.
+
+**A**
+
+#### \*Goto cd13\_touch\_armandthree
+
+**B**
+
+#### \*Goto cd13\_touch\_philippethree
+
+**C**
+
+Alice: It's late and I'm exhausted...  
+\*Stop Music  
+\*Play Music m\_gently\_classical\_white\_river\_01  
+Narrator: The men immediately take a step back, as you reach for your nightgown and put it on.  
+Philippe: Yes, of course.  
+Armand: You should rest early.  
+\*Alice Outfit Linen\_Nightgown  
+\*Gain NO\_SEX\_13  
+&gt;  
+Alice: Where will you sleep?  
+Armand: Those armchairs look comfortable enough.  
+Narrator: He walks over to one of the armchairs in front of the fireplace, and sits down in it.  
+Philippe\(sad\): I've never tried sleeping in a chair before, I guess there's always a first time for everything.  
+Narrator: Philippe settles down in the other armchair.  
+Narrator: You climb in bed, feeling safe at the knowledge that there is someone watching over you in your sleep.  
+Alice: Goodnight guys.
+
+{% hint style="info" %}
+![](https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_princess_room_day.jpg-story) \*Scene BLUE\_GOLD\_PRINCESS\_ROOM\_DAY \(Color: White Time: 2.5\)
+{% endhint %}
+
+Narrator: You wake up feeling rested and refreshed the next morning.  
+Narrator: As you sit up in bed, you see the men already up and dressed.  
+Narrator: Armand is washing up in front of the washbasin in your room, and Philippe is buttoning his sleeve.  
+\*Armand Outfit Armand\_Courtdress  
+\*Philippe Outfit Philippe\_Courtdress  
+Armand\(smile\): Good morning.  
+Alice\(smile\): Good morning. Have you both been awake long?  
+Philippe\(smile\): About fifteen minutes ago.  
+Alice\(smile\): Thank you for staying with me the whole night.  
+Alice\(sad\): I hope it wasn't too uncomfortable sleeping in the armchairs?  
+Philippe\(smile\): I was a bit stiff when I woke up, but I'm fine now after walking around.  
+Armand\(smile\): Jeanne should be waiting to come in and help you get dressed for breakfast.  
+Armand\(smile\): Shall we wait for you in the salon for breakfast?  
+Alice\(smile\): Oh! Yes, Jeanne will accompany me there after. See you there.  
+Narrator: They both bow and leave the room, and sure enough, Jeanne enters almost immediately.  
+Jeanne\(happy\): Good morning milady!  
+Narrator: You can see that she's bursting with curiosity, as she bustles over to help you get ready.  
+&gt;&gt;  
+Alice: What is it?  
+Jeanne: Did his Grace and his Highness really both spend the night in your room?  
+Narrator: Her question burst out of her before she could stop it, her face so hopeful, that it makes you smile.  
+Alice\(smile\): They did, to watch over me as I slept. But they spent the night in the armchairs.  
+Jeanne\(sad\): Oh.  
+Narrator: You burst out laughing.  
+Alice\(smile\): You look so disappointed.  
+Jeanne\(sad\): If I'm to be honest, milady, I am rather.  
+Jeanne\(smile\): Anyway, let's get you ready for the day.
+
+#### \*Goto cd13\_get\_dressed
+
+\*\*\*
+
+## cd13\_touch\_armandthree
+
+\*Stop Music  
+\*Play Music m\_kiss\_romance\_classical  
+Narrator: Biting your lip, you slide your hand down the defined muscles of Armand's hard abdomen.  
+Armand\(smile\): ...  
+Narrator: Armand stays still, a dangerous glint appearing in his eyes.
+
+#### \*Goto cd13\_threesome\_knit
+
+## cd13\_touch\_philippethree
+
+\*Stop Music  
+\*Play Music m\_kiss\_romance\_classical  
+Narrator: Biting your lip, you slide your hand over the defined muscles of Philippe's hard chest.  
+Philippe\(smile\): ...  
+Narrator: Philippe stays still, a dangerous glint appearing in his eyes.
+
+#### \*Goto cd13\_threesome\_knit
+
+## cd13\_threesome\_knit
+
+\*Gain SEX\_THREESOME\_13  
+Narrator: Then both men suddenly close the distance between themselves and you.  
+Narrator: Philippe lifting your face with his hand so that you're looking up at him...  
+Narrator: While Armand stands just behind you, so close that you can feel the heat of his body.  
+\*Philippe Romance +1  
+Philippe: You're so beautiful.  
+Alice\(shy\): So are you, to be honest.  
+Narrator: He chuckles softly, his eyes dropping to your mouth.  
+\*Armand Romance +1  
+Armand: Your skin is so soft...  
+Narrator: He grazes your neck with his lips, making you shiver involuntarily in delight.  
+&gt;&gt;&gt;  
+Alice: Armand, Philippe...
+
+## \(cd\_13\_11\_C\_DP3\_kiss\_guys\)
+
+### A. Kiss me!
+
+### B. Kiss me **hard** !
+
+**A**
+
+Philippe: With pleasure.  
+Narrator: Philippe lowers his face to yours and kisses you gently, maddeningly.  
+Narrator: You part your mouth slightly, and he slides the tip of his tongue between your inviting lips teasingly.
+
+**B**
+
+Narrator: Philippe grins and lowers his face to yours, and kisses you hard, his mouth claiming yours hungrily.  
+Narrator: Gasping, you part your mouth slightly, and he slides the tip of his tongue between your inviting lips, teasing your tongue.  
+\*\*\*  
+Narrator: In the meantime, Armand kisses your neck and shoulder, cupping your breasts in his hands.  
+Narrator: You can barely breathe, your heart is beating so hard in your chest.  
+Narrator: Philippe hand's moves to your hair and he takes a handful of it, pulling it so that you have no choice but to tilt your head back.  
+Narrator: Then he kisses down your jaw to your neck, as you gasp and clutch his head, moaning.  
+&gt;&gt;  
+Alice: Ohhh...  
+Armand: I want to taste you.  
+Narrator: Armand's kiss moves lower still, down your neck to your cleavage, teasing, nipping, sucking.  
+Alice: Oh... oh my god... Armand...
+
+## \(cd\_13\_11\_C\_DP4\_flirt\_with\_guys\)
+
+### A. Take me to bed!
+
+### B. Drop to your knees and taste them.
+
+**B**
+
+Narrator: You lift Armand's head up to look at you, then giving him a small smile, slowly kiss his chest, then his abdomen, as you sink to your knees.  
+Narrator: Staring into his eyes, you undo his breeches and lick him tentatively.  
+Armand: Oh...  
+Narrator: Caressing him with your hand, you turn your attention to Philippe, relieving him of his breeches as well, then you taste him.  
+Philippe: Oh, yeah...  
+Narrator: You kiss and lick first one, then the other... before taking Armand in your mouth, looking at him all the while.  
+Narrator: His hands twine themselves in your hair as his eyes roll in ecstasy, his hips bucking.  
+Armand: {_Joyful Ohhh...}  
+Philippe: We should take this to the bed.  
+\*\*_
+
+## cd13\_bed\_threesome
+
+Narrator: Philippe reaches down and lifts you up, kissing you again, and you wrap your legs around his hips.  
+Narrator: Not breaking the kiss, he carries you to the bed where you get on your hands and knees and resume your attention on him with your mouth.  
+Narrator: Armand gets behind you, caressing the curves of your behind and spreading you open.  
+Armand: I've wanted this for so long. I've wanted **you** for so long.  
+Narrator: Your head spinning and your mouth full, you can barely gasp a reply.  
+Alice: I want you too. I **need** you. **Now.** Please...  
+Narrator: You feel him pressing at your entrance, and with a deep growl Armand sinks himself into you!  
+&gt;&gt;&gt;  
+Alice\(surprise\): {_Joyful Oh god, Armand!}  
+Armand: Ohhh, {Alice Name}...  
+Narrator: You redouble your efforts on Philippe as you lose yourself in the breathless rhythm of all your bodies...  
+Philippe: {_Joyful Ohhh... yes, like that...}  
+Narrator: Holding on tight to Philippe's muscular legs as their movements grow faster, their breaths hard against your back.  
+Narrator: Armand continues to move relentlessly in you, and you moan as waves of pleasure leave you practically senseless.  
+Narrator: You move with him, your hips gyrating to meet him.  
+Narrator: You feel his muscles tensing, crushing you against him, even as the pleasure builds up inside you until you can't take it any more...  
+Narrator: You cry out as a wave of pleasure explodes inside you!  
+Alice_Shout\(smile\): Ohhh! Yes!!  
+Armand\(surprise\): Oh, oh god, {Alice Name}!  
+Narrator: You feel Philippe tensing up too, until he explodes in your mouth!  
+Armand\(surprise\): Oh! {Alice Name}!  
+&gt;&gt;  
+Narrator: You all collapse in a pile on the bed, Armand's face buried in your neck, Philippe kissing your forehead, panting as the aftershocks slowly ebb away.  
+Philippe\(smile\): Amazing... you're amazing.  
+Armand\(smile\): Wow... that was so good.  
+Alice\(smile\): Mmm... we'll need to do that again.  
+Narrator: They both laugh and close their eyes, their breaths finally easing into a peaceful rhythm.  
+\_Stop Music  
+\*Play Music m\_gently\_lifting\_dreams\_01  
+Narrator: You close your eyes too, happy and satisfied and sandwiched between them, and drift into a peaceful sleep...
+
+{% hint style="info" %}
+![](https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_princess_room_day.jpg-story) \*Scene BLUE\_GOLD\_PRINCESS\_ROOM\_DAY \(Color: White Time: 2.5\)
+{% endhint %}
+
+&gt;  
+Narrator: You wake up the next morning snuggled up between Armand and Philippe, your head resting on Philippe's shoulder, Armand's arm around you.  
+Philippe\(smile\): Good morning.  
+Alice\(smile\): Good morning. Have you both been awake long?  
+Armand\(smile\): Maybe five minutes. But I was happy to wait for you to wake up.  
+Narrator: Armand and you share a slow, lingering kiss, then you turn and kiss Philippe slowly too.  
+Alice\(smile\): Mmm... This is a nice way to wake up.  
+Philippe\(smile\): I wouldn't mind waking up like this every morning.  
+Armand\(smile\): Jeanne should be waiting to come in and help you get dressed for breakfast.  
+Armand\(smile\): Shall we wait for you in the salon for breakfast?  
+Alice\(smile\): Oh! Yes, Jeanne will accompany me there after.  
+Narrator: The both men get up and start to dress, as you enjoy the sight of their bodies.  
+Alice\(smile\): Such a pity that you have to wear clothes.  
+\*Armand Outfit Armand\_Courtdress  
+\*Philippe Outfit Philippe\_Courtdress  
+Philippe\(smile\): I could say the same for you.  
+Armand\(smile\): See you in the salon.  
+Alice\(smile\): Yes, see you.  
+Narrator: They leave the room, and sure enough, Jeanne enters almost immediately.  
+Jeanne\(happy\): Good morning milady!  
+Narrator: You can see that she's bursting with curiosity, as she bustles over to help you get ready.  
+&gt;&gt;  
+Alice: What is it?  
+Jeanne: Did his Grace and his Highness really spend the night in your room?  
+Narrator: Her question burst out of her before she could stop it, her face so hopeful, that it makes you smile.  
+Alice\(smile\): They did, to watch over me as I slept.  
+Jeanne\(smile\): Ahh...  
+Alice\(shy\): They, er... watched over me very well.  
+Narrator: The both of you giggle.  
+Jeanne\(smile\): Oh milady, I'm glad.  
+Jeanne\(smile\): Anyway, let's get you ready for the day.
+
+#### \*Goto cd13\_get\_dressed
+
+## cd13\_alone\_night
+
+\*Gain NO\_SEX\_13  
+Alice: It's late and I'm exhausted...  
+Narrator: The men immediately take a step back.  
+Philippe: Yes, of course.  
+Armand: You should rest early.  
+Philippe: Have a good rest, Lady {Alice Name}.  
+Narrator: They both bow and leave you alone in your room, and you change into your nightgown and climb into bed.  
+Narrator: Exhausted from the day's events, you fall asleep almost instantly.
+
+{% hint style="info" %}
+![](https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_princess_room_day.jpg-story) \*Scene BLUE\_GOLD\_PRINCESS\_ROOM\_DAY \(Color: White Time: 2.5\)
+{% endhint %}
+
+Narrator: You wake up feeling rested and refreshed the next morning.  
+\*Alice Outfit Linen\_Nightgown \(Tap: Record\)  
+Narrator: There is a soft knock on your door, then Jeanne enters the room.  
+Jeanne\(smile\): Good morning milady! I'm so glad that the trial went well!  
+Alice\(smile\): Me too.  
+&gt;&gt;  
+Jeanne\(smile\): Let's get you ready for the day!
+
+#### \*Goto cd13\_get\_dressed
+
+## cd13\_get\_dressed
+
+Jeanne\(smile\): I've heard about the Masquerade party tonight!  
+Alice\(smile\): Yes, it's going to be one exciting evening, alright.
+
+## End
+
