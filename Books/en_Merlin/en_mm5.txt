@@ -1,0 +1,609 @@
+﻿Begin
+*Scene CAVE_ALTAR_NEWNESS 
+*Play Music ponder
+Lancelot(sad): {Merlin Name}, are you all right? You're crying.
+Narrator: Lancelot reaches out and wipes the tears from your cheeks.
+>>
+Merlin(cry): I saw my parents thrown in jail! My mother was badly hurt...
+Merlin(angry): Lord Chesterfield, that bastard, I'll kill him!
+Teague: {Merlin Name}, what you saw may come to pass, but the future is not set in stone...
+>
+
+*Scene BLACK
+Narrator: Chapter Five | Rescue the Parents
+
+*Scene CAVE_ALTAR_NEWNESS 
+>>
+Merlin(surprise): You mean, this hasn't happened yet? There's a chance to change the future?
+Teague: The crystal ball allows you to see the most likely future, but there's more than one possible future.
+Merlin(angry): Then I can stop it. I have to go back to save my parents! 
+Merlin(angry): I can't let Lord Chesterfield take them away!
+>
+Narrator: You rush for the exit but Teague grabs hold of you like an iron clamp.
+Teague(angry): {Merlin Name}, wait!
+Merlin(sad): I'm sorry, I need to go.
+Narrator: You struggle to get away, when suddenly the pendant on your chest glows white, and Teague falls to the ground in shock.
+Teague(sad): {Merlin Name}, you...
+Lancelot(surprise): {Merlin Name}, what are you doing?
+Narrator: You run towards the exit. Lancelot runs after you and Teague's shouting gradually fades away...
+*Stop Music
+*Scene WHITE
+*Wait 1
+*Scene FOREST_PATH_DAY (Color: White Time: 1.5)
+*Play Music the_man
+Narrator: The sun is harsh on your eyes as you adjust to light outside the cave once more...
+Narrator: From this direction, it is easy to quickly make your way out of the dark forest.
+Narrator: Familiar Voice | {Merlin Name}! Where are you? {Merlin Name}!
+Merlin(surprise): Reese?!
+Lancelot(surprise): Reese? There may be something happening in the manor...
+Merlin*Shout(smile): Reese, is that you?!
+Narrator: Reese's Voice | {Merlin Name}?! Lancelot! I can hear your voices, where are you?
+Narrator: You hear the crankling of leaves... You follow the direction of the sound, sticks and grass crunching and whipping through the air as you go.
+Merlin*Shout(smile): Reese, I'm here!
+Narrator: Reese's Voice | {Merlin Name}! My God! It's really you!
+Narrator: You hear Reese's footsteps getting closer and closer, until finally,you pass through the thick bushes, and Reese rushes over to hug you.
+Reese(happy): {Merlin Name}! I've been looking for you.
+Reese(smile): It's a miracle that you were able to escape a grisly end at the point of Lord Chesterfield's sword.
+Reese(smile): Lancelot, thank God that nothing bad has happened.
+Merlin(smile): We're fine.
+Lancelot(smile): Why are you here Reese? What happened?
+Reese(sad): I'm here to inform you that Lord Chesterfield has put a huge bounty on {Merlin Name}'s head!
+Reese(sad): {Merlin Name}... You need to find a safe place to lay low.
+Merlin(angry): That bastard! I'm not afraid of him.
+Merlin(angry): Lord Chesterfield may imprison my parents. I have to go home now to check if they're safe!
+Lancelot(angry): But you don't know if that’s happening right now! It could happen anytime in the future! 
+Lancelot: {Merlin Name}, stop and think about this for a second!
+Merlin(sad): But I need to see my parents now...
+(mm_05n_01_stop_merlin)
+A. Mother needs my care
+B. I can't let Lord Chesterfield use them to threaten me.
+C. It's all because of me...
+A
+Merlin(sad): I haven't been home for a long time, mother must be worried... 
+Merlin(sad): And I don't know how her injuries are healing...
+B
+Merlin(sad): I have to save my parents before Lord Chesterfield takes them away. If I lose any more time it might be too late
+C
+Merlin(sad): If I hadn’t gone  to the manor in the first place, my parents wouldn't be in danger.
+Merlin(sad): It's all my fault, and I have to fix it.
+***
+Reese(sad): {Merlin Name}, it's too dangerous now!
+Merlin(sad): I can't let my parents get  tortured by that monster...
+Narrator: Lancelot looks at you deeply and sighs.
+Lancelot(sad): Alright.
+Reese(surprise): Lancelot, no! Lord Chesterfield has sent nearly half of the guards to find {Merlin Name}.
+Lancelot: She'll be safer with me by her side.
+Narrator: Reese looks at the two of you and sighs.
+Reese(sad): Okay.
+Reese(sad): Take care, {Merlin Name}.
+Narrator: You give Reese a hug and watch her figure gradually disappear on the path to the manor.
+>>
+Lancelot: {Merlin Name}, let's go.
+Narrator: You move back two steps while looking at Lancelot.
+Merlin(sad): Lancelot, I'll go home myself. You don't have to go with me.
+Lancelot(surprise): {Merlin Name}!
+Narrator: He surges forward and puts his hand on your shoulders to stop you.
+Merlin(sad): Lancelot, you've helped me a lot.
+Merlin(sad): This is my own business, so I have to deal with it myself.
+Merlin(sad): I'd feel even guiltier if you got into trouble because of me.
+Lancelot(sad): What if you run into the guards...
+Lancelot(sad): {Merlin Name}, I can't just stand by while you put yourself in danger.
+Merlin(smile): I can take care of myself. I've got magic.
+Lancelot(sad): Magic you still don't know how to use...
+*Condition
+A. (Condition: Plain_Knife >= 1)
+B. (Condition: Plain_Knife = 0)
+A
+Merlin(smile): And I have a knife. If anyone dares to approach me, I'll draw it out without hesitation.
+B
+Merlin(smile): Don't you remember that even Lord Chesterfield couldn't hurt me?
+Merlin(smile): I'll remain vigilant at all times and hide if necessary. It's easier to spot us if we are together.
+***
+Merlin(sad): I just can't let you get involved.
+Merlin(sad): If it weren’t for me, you wouldn't have gotten dragged into that "hunting" game.
+Lancelot(sad): I'm not afraid of getting involved. I'm already involved.
+Merlin(sad): Lancelot, if you really want to help me, go to the manor and help me track Lord Chesterfield's movements.
+Lancelot(sad): But...
+Merlin(sad): Lancelot, I've made up my mind.
+Narrator: You twist and break away from Lancelot's grasp, pushing him away.
+Narrator: A painful expression flashes across his face.
+>>>
+Lancelot(sad): I know I have no right to force you to take me with you...
+>
+Narrator: The golden ray of the setting sun falls upon him. He looks at you silently, reluctance and worry welling up in his eyes...
+Lancelot: But promise me you'll take good care of yourself.
+*Model
+(mm_05n_02_say_goodbye)
+A. Kiss Lancelot goodbye. (Cost: 15 Diamond ID: plot_mm_03_Lancelot) *Goto kiss_lancelot
+B. Thank him and go. *Goto leave_lancelot
+***
+
+kiss_lancelot
+>>
+Merlin(sad): Lancelot...
+// (Change the music here to something romantic)
+Narrator: You step forward, wrapping your arms around his neck and surprising him with a kiss.
+Lancelot(surprise): ...!
+Narrator: His arms come around you as he passionately returns the kiss.
+Narrator: Your heart soars as the two of you embrace for what seems like an eternity before finally parting.
+*Lancelot LOVE +1
+Lancelot(smile): {Merlin Name}... That was...
+Narrator: You press your lips against his again.
+Merlin(sad): I still have to go alone.
+Lancelot(sad): I figured as much...
+Narrator: He gently tucks a lock of your hair behind your ear, his thumb gently resting against your cheek.
+Lancelot: You're an incredible person, {Merlin Name}. 
+Lancelot(smile): I've only known you for a matter of days, but... In that time, I've seen your bravery, your strength...
+Lancelot(smile): You stood up to Lord Chesterfield and his goons... No one's ever done that before.
+Merlin(smile): Lancelot...
+(mm_05n_02_DP1_lancelot_praise)
+A. What are you trying to say?
+B. There's no need for flattery...
+A
+Narrator: Lancelot presses his forehead to yours.
+Lancelot: Only that I admire you greatly... and I want you to be safe.
+Lancelot(smile): Be careful, {Merlin Name}. 
+Lancelot(happy): I haven't known you nearly long enough for you to go dying on me.
+B
+Narrator: Lancelot laughs and pulls you into a hug.
+Lancelot(happy): Is it flattery if it's true?
+Lancelot(smile): You amaze me, {Merlin Name}.
+***
+Narrator: He kisses you again, softly and sweetly.
+>>>
+Lancelot(sad): Be safe. The world would be so much less without you in it.
+>>
+Merlin(smile): I will do my best.
+>
+Narrator: Even though you are heading into danger, you can't help the smile on your face as you walk away from him.
+*Goto woods_alone
+
+leave_lancelot
+>>
+Narrator: You clasp Lancelot's hands in yours and smile at him sincerely.
+Merlin(smile): Thank you, friend. For everything.
+Narrator: He gives your hands a squeeze.
+Lancelot(sad): Be safe, okay?
+Merlin(smile): I'll be fine. You be safe, too.
+>
+Narrator: You hug him warmly, then wave goodbye as you quickly run towards your home.
+*Goto woods_alone
+
+woods_alone
+*Scene BLACK
+Narrator: As the sky grows dark, you make it to the front gate of your house.
+*
+*Scene FIELD_PATH_NIGHT
+>
+*Camera Left 0
+*
+Narrator: Even from a distance, you can see that your house's front door has been left open.
+Narrator: And the fence at the gate has been knocked over.
+Narrator: The hens are running around in terror, and there's blood on the ground...
+>>>
+Merlin*Shout(surprise): Mother!
+>
+*Stop Music
+Narrator: You rush into the house...
+*
+*Scene INSIDE_BEDROOM_NIGHT
+*Camera Left 0
+*
+*Play Music sorrow
+Merlin(sad): Father! Mother! Where are you...
+Narrator: No one answers... The room is empty, the tables and chairs have been knocked to the ground, the fire in the hearth has recently been extinguished.
+*Camera Right 3
+Merlin*Think(sad): I missed them by a hair!
+Merlin*Think(sad): Mom and Dad have been taken by Lord Chesterfield!
+Merlin(angry): I'm going to the manor...
+Merlin(angry): I can trade myself for their freedom.
+Narrator: You run out of the house and rush towards the manor until the sky has gone almost completely black.
+*Stop Music
+*
+*Scene FIELD_PATH_NIGHT
+*Camera Left 0
+*
+*Play Music ponder
+*Camera Right 3
+Narrator: Even from a distance, you can see the outline of the manor castle appear in your field of vision.
+Merlin(sad): Mother, hold on. I'll be there soon...
+
+Narrator: Suddenly, you hear a clattering of horseshoes behind you.
+Narrator: You look back to see a group of riders wielding torches, approaching quickly from behind.
+>>
+Merlin(surprise): ...
+Narrator: Guards Yelling | There she is! Grab her!
+Merlin(angry): I won't let you win.
+>
+Narrator: In a panic, you run forward, and by the time you look up you find that you've run into a valley outside the manor...
+Narrator: The wind suddenly picks up, and the wild grass of the valley slaps against your calves.
+Narrator: You feel a coolness settling in the depth of your bones.
+Narrator: You gasp for air. The shouts of your pursuers seem to  be only a few steps behind you.
+>>
+Hardy(angry): You won't get away!
+*Condition
+A. (Condition: Plain_Knife >= 1) *Goto stabbing_scene
+B. (Condition: Plain_Knife = 0)
+B
+Narrator: The noise behind you is so close that you're afraid if you so much as turn your head, you’ll get caught.
+Narrator: So you focus  and run forward with all your might.
+Merlin*Think(angry): Faster, {Merlin Name}! You won't get caught so easily.
+>
+*Goto teague_magic
+***
+
+stabbing_scene
+Narrator: The knife you carry bumps against your thigh as you run.
+Merlin(surprise): Now is my chance!
+Narrator: You take out the knife and hide it in your sleeve, then turn around and make a gesture of surrender.
+Hardy(smile): Haha, finally giving up?
+Narrator: Hardy dismounts from his horse and walks toward you arrogantly.
+Merlin*Think(angry): Steady... Wait for it...
+Narrator: Your heart pounds loudly in your ears as you grip the knife...
+Hardy(happy): You're no match for us. Glad you finally realized it.
+Narrator: He's coming closer... Closer....
+Merlin*Think(angry): Now!
+(mm_05n_03_CP_stab_him)
+A. Stab him!
+***
+Hardy(surprise): {*Shake Ahh!}
+Merlin(angry): <i>That</i> was for my mother.
+Narrator: Hardy crumples to the ground cradling his wounded shoulder.
+Hardy(surprise): Guards! Grab her! Grab that filthy witch!
+Narrator: But you're already running faster than they can catch you.
+>
+*Goto teague_magic
+
+teague_magic
+*Stop Music
+*Play Music religious
+*Condition
+A. (Condition: Obtain_bracelet >= 1) *Goto oak_god
+B. (Condition: Without_bracelet >= 1) *Goto accident
+***
+
+oak_god
+Narrator: As you round a bend in the trail, the High Priestesses bracelet glows warmly on your wrist and emits a brief flash of light.
+Merlin(surprise): What was that?!
+Narrator: Mysterious Voice | {Merlin Name}...{Merlin Name}...
+Narrator: Echoes ring out, one after another.
+Narrator: Mysterious Voice | Go hide under the oak tree; the goddess of the oak will protect you. Go now...
+Merlin(surprise): Who are you?
+Narrator: Teague's words suddenly flash in your mind...
+Merlin*Think(surprise): He said that the bracelet could let me contact all the souls of the Druids' ancestors...
+*Scene BIG_BANYAN
+*Play Music the_man
+Narrator: Your feet keep pulling you forward unconsciously, and soon you see a huge oak tree.
+Narrator: Mysterious Voice | {Merlin Name}, step into the halo of the oak tree, it will protect you from harm.
+Narrator: You stand under the tree. A soft glow reaches out from the oak tree through the darkness and envelops you.
+>>>
+Merlin(surprise): ...
+>
+Narrator: You halt your footsteps and raise your wrist. The bracelet seems to respond to the call of the great oak tree, and its flashes of light grow faster.
+Merlin(surprise): Is this the power of the High Priestesses magic bracelet?
+Narrator: The footsteps behind you get closer and closer. You turn around and see Hardy moving to encircle you together with a group of guards.
+Hardy(angry): What's going on with this tree?
+Narrator: The guards stare at the glowing tree in horror, and dare not approach.
+Hardy(angry): Witch! Sorceress! Grab her!
+Narrator: Mysterious Voice | {Merlin Name}, gather your energy. The light coming from the oak tree can be used as your weapon.
+Merlin*Think(surprise): I should...
+(mm_05n_04_CP_be_surrounded)
+A. Use the bracelet. (Cost: 30 MAGIC)
+B. Do nothing.
+A
+Merlin(angry): Who dares approach me?
+Narrator: You raise the bracelet, close your eyes and concentrate your mind...
+Merlin(smile): Goddess of the oak, give me your blessing and guide me toward the path of light!
+Narrator: The great oak tree suddenly bursts out with a dazzling light, tossing the guards and horses a dozen paces away!
+>>>
+Hardy(angry): Aahh!
+>
+Narrator: Hardy falls to the ground heavily and cries out in pain! Hand over his heart, he struggles to support himself.
+Merlin(angry): Anyone else?
+B
+Narrator: The guards advance with some hesitation, and try to charge into the halo of light surrounding the oak tree...
+Narrator: But the halo of the tree is like a wall, keeping the guards out.
+***
+Hardy*Shout(angry): Evil witch!
+Hardy*Shout(angry): Surround her! Let's see just how long she can hold out!
+Narrator: The guards form a circle that traps you in the middle. You lean against the trunk and carefully watch the guards surrounding you...
+Narrator: The wind in the valley is growing more and more fierce.
+Narrator: You are cold, hungry, and are almost ready to faint on your feet. 
+Narrator: As time goes by, the rays of light emitting from the great oak tree begin to weaken.
+Hardy(smile): Hahaha, it seems your magic is almost exhausted.
+Narrator: You panic as the protective halo surrounding you begins to fade, growing more and more transparent.
+Narrator: The light of your bracelet seems to glow like a flickering candle, to be snuffed out at the next gust of wind.
+Merlin(sad): If any of you dares to try and hurt me, it won't end well for you.
+Hardy(angry): So close to death and still embarrassing yourself like this. 
+Hardy(angry): Once we catch you, we'll teach you a good lesson.
+Narrator: As they get closer to the oak tree, the circle of guards surrounding you becomes smaller and smaller.
+*Goto teague_rescue
+
+accident
+Narrator: You have no idea how long you've been running, when you suddenly see a huge oak tree before your eyes.
+*Scene BIG_BANYAN
+*Play Music the_man
+Narrator: The footsteps behind you are getting closer and closer. You turn around and see Hardy moving to encircle you together with a group of guards.
+>>>
+Hardy(angry): Grab her!
+Merlin(angry): ...
+>
+Narrator: You crawl back in a panic as the guards rush forward...
+Merlin(angry): If any of you dare hurt me, it won't end well for you.
+Hardy(angry): Another bluff? We won't be fooled again.
+Hardy(angry): So close to death and still embarrassing yourself like this. Give it up.
+Narrator: The guards surround you more and more closely.
+Merlin*Think(sad): This is it... This is the end...
+
+teague_rescue
+*Stop Music
+*Play Music religious
+Narrator: Teague's Voice | {Merlin Name}!
+Narrator: As you look in the direction of the voice, you see Teague standing on the hillside with his magic wand held high.
+>>>
+Teague(smile): ...
+Narrator: The wind fills his robes, and the branches of the great oak tree begin to shake violently.
+Merlin(surprise): Teague!
+>
+Narrator: Teague utters a stream of strange words and waves his wand, a spark of light cuts smashes through the night...
+*+shade2
+*Play Sound s_magic_skill_01
+Narrator: Suddenly, you feel your body becoming extremely light, like your bones have become hollow.
+Hardy(angry): What the hell is going on?!
+Narrator: Your limbs no longer seem to be your own, you try to wave your arms and hear the distinct sound of flapping...
+Narrator: You look down at your body and see a chest of black feathers leading down to a pair of muscular talons...
+*Crow_Merlin Player
+*Crow_Merlin Name {Merlin Name}
+Crow_Merlin*Think: I've turned into a crow?
+Narrator: You find yourself flying over the valley, and another crow swoops towards you from the other side...
+*Play Music tension2
+*Crow_Teague Name Teague
+Crow_Teague: {Merlin Name}... It's alright. It's me... I did this.
+Crow_Merlin: Teague?!
+Narrator: The two of you soar through the air, far away from the guards.
+Crow_Merlin(surprise): I'm a crow?! 
+Crow_Teague: It was the only way we could escape them.
+Narrator: You look at your thin limbs and shiny dark feathers...
+Narrator: You flap your wings as hard as you can, feeling the wind sweep through your feathers like you've never felt before.
+Crow_Merlin: Caw! Caw!
+Crow_Merlin(surprise): Is that what I sound like? How can I understand you?
+Crow_Teague: We understand each other through magic. To everyone else, we sound just like crows.
+Crow_Merlin: I'm a crow...
+(mm_05n_05_the_crows)
+A. Ugh. I'd rather be something else...
+B. This is amazing!
+A
+Crow_Merlin(sad): Crows are bad luck... Why would you transform us into crows?
+Crow_Teague(angry): For Druids, crows help guide the sun through the sky...
+Crow_Teague: ...And keep it safe through the night so it can return to us in the morning.
+Crow_Teague: They have a bad reputation, but they're very important.
+Crow_Merlin*Think: Still... He could have transformed us into something prettier...
+B
+Narrator: You flap your wings and rocket upward on the air current, the guards' torches mere tiny sparkles in the valley below.
+Crow_Merlin(smile): I can fly!
+Crow_Merlin(smile): This is incredible, Teague!
+Crow_Teague(angry): Don't fall. I don't want to have to save you again.
+Crow_Merlin(sad): ...
+***
+Narrator: Teague flies ahead and you hurry to catch up.
+Crow_Merlin(sad): Lord Chesterfield has my parents, Teague. Will you help me free them?
+Narrator: Teague ignores you.
+Crow_Merlin(sad): Teague...?
+Narrator: The two of you fly in silence until you're well away from danger. You follow Teague as he soars downward and comes to rests on a branch.
+Crow_Teague: Rest a moment. We're safe for now. There's no reason to wear ourselves out.
+Narrator: Teague keeps his distance, and his coldness toward you twists guilt in your heart.
+Crow_Merlin(sad): Teague...
+Crow_Teague(angry): What is it?
+Crow_Merlin(sad)*Think: I should...
+(mm_05n_06_teague_rescue)
+A. Apologize.
+B. Thank him. 
+A
+Crow_Merlin(sad): I didn't mean to hurt you in the cave, Teague.
+Crow_Teague: ...
+Crow_Merlin(sad): I'm sorry. Will you accept my apology?
+Crow_Teague: What are you apologizing for?
+Crow_Merlin(sad): For knocking you down...
+Crow_Teague: And?
+Crow_Merlin(sad): And? And for... Everything.
+Crow_Merlin(sad): For being reckless, and for needing to rely on you so much.
+Narrator: Teague stares at you without speaking.
+Crow_Merlin(sad): ...And for Lilith choosing me instead of you.
+Narrator: Teague flinches.
+Crow_Teague(angry): That's not...!
+Crow_Teague: ...That's my own issue. I shouldn't take it out on you.
+Narrator: He heaves a deep sigh. 
+B
+Crow_Merlin(sad): I haven't had the chance to thank you for everything you've done for me. 
+Crow_Merlin(sad): You've given me so much...
+Crow_Teague: Those gifts were from the High Priestess. Not me.
+Crow_Merlin: But still, you taught me what they meant, and now you've rescued me.
+Crow_Merlin: I would still be standing dumbfounded in that cave if not for you.
+Crow_Teague: I was merely doing my sworn duty to the High Priestess... There's no need to thank me.
+Narrator: Despite his words, he seems to puff up a little at your praise.
+***
+Crow_Merlin: Will you help me save my parents, Teague?
+Crow_Merlin(sad): The High Priestess said you were her most reliable friend.
+Crow_Merlin(sad): I don't know if I can do this without you.
+Crow_Teague: Do you know where your parents are being kept?
+Crow_Merlin(sad): I... Well... No.
+Crow_Teague: Then let's ask the crows.
+Crow_Teague: They fly around all day and know everything that happens below.
+Narrator: Just as he said that, two crows flew by  and landed on a nearby branch. They’re staring at you curiously.
+Crow_Merlin(surprise): Crows? How can I talk to them?
+Crow_Teague: There is a spell. I could teach it to you, if you would like. 
+Narrator: Instruction | Learning the <color=maroon>Speak with Animals</color> spell lets you communicate with animals throughout the story, which will enable them to help you.
+Crow_Merlin: ...
+(mm_05n_07_speak_with_animals)
+A. I really want to talk to animals! (Cost: 24 Diamond ID: magic_mm_04_spell01)
+B. Forget it. I'm not interested.
+A
+*Animal_Partner +1
+Narrator: Teague beats his wings, emitting soft blue lights that drift through the air.
+Crow_Teague: Touch it with your finger.
+Narrator: You tap the pretty blue glow and it quickly enters your body. All of a sudden, you hear strange animal voices all around you.
+MagicBook Animal Language
+Crow_Merlin(surprise): This is amazing...
+Narrator: Amid the noises, you make out the conversation between the crows on the branch.
+*Baby_Crow Name Baby Crow
+*Mother_Crow Name Mother Crow
+Baby_Crow: What are those two, mother?
+Mother_Crow: I've never seen them before. They look like us, but something is off...
+Narrator: You fly over and perch next to the crows.
+Baby_Crow: Mom... They're here.
+Mother_Crow: Quick, pretend you didn't see them.
+Crow_Merlin(smile): Hi, how are you doing?
+Baby_Crow: You're a very weird crow...
+Mother_Crow: Hush, child. Don't be rude.
+Crow_Merlin(sad): Have you seen an old human couple taken by a bunch of guards?
+Baby_Crow: Let me think... Oh, would you like some worms?
+Crow_Merlin*Think(sad): Ew...
+Crow_Merlin(sad): No, thank you.
+Baby_Crow: I remember! That mean man in the fancy clothes took an old couple and put them in the dungeon.
+Crow_Merlin(surprise): The dungeon! Got it, thank you so much!
+*Scene BLACK
+Narrator: You fly to Lord Chesterfield's estate and hurry into the castle, soaring through the corridors until you reach the dungeon.
+B
+Crow_Teague: I'm sorry you’ll miss out on learning how to communicate with animals, {Merlin Name}.
+Crow_Teague: You must realize every spell will be of great help to you.
+Crow_Merlin(sad): I really do want to learn it. But it's not really the right time.
+Crow_Merlin(angry): Mother and Father must be kept somewhere in the manor. I need to find them! Now!
+Narrator: You flip your wings and fly. Teague follows you closely.
+*
+*Scene FOREST_PATH_NIGHT
+>
+*
+Narrator: Soon, the manor comes into sight. You hover, searching for your parents...
+Narrator: You see rows of run-down cottages scattered around the castle. They look gloomy, shabby and... perfect for keeping prisoners.
+Crow_Merlin(sad): Perhaps my parents are being kept in one of these cottages...
+Crow_Teague: Perhaps...
+Narrator: You dash towards the cottages, flying in and out through the alleyways between the buildings.
+Narrator: You search the tourney grounds, the bar, and the woodshed. But they're nowhere to be found.
+Crow_Merlin(sad): Teague, they're not here. Where else could they be?
+Crow_Teague: I don't know...
+Crow_Merlin(sad): Anything could be happening to them right now...
+Crow_Merlin(sad): The Lord's men could be torturing them...
+Narrator: You perch on a hitching post, depressed. You see a cottage not far away, its door half open, dim candlelight flickering in the doorway...
+Narrator: Suddenly, you hear the voices of guards from the cottage.
+Narrator*Top: Guards | Today it's Barry and Victor's turn to watch the dungeon.
+Narrator*Top: Guards | Ten copper says they get drunk before their shift is over. Ha!
+Crow_Merlin(surprise): The dungeon?!
+Crow_Teague(surprise): They must be keeping them there!
+*Scene BLACK
+Narrator: You fly into the castle.At the end of the corridor, you spot a stairway leading underground, flickering with dim candlelight.
+Narrator: You and Teague speed down there.
+***
+
+parents_in_the_dungeon
+*
+*Scene DUNGEON_MANOR
+*Camera Left 0
+*
+Narrator: You fly through the gate of the dungeon. 
+Narrator: You and Teague fly directly into the depths of the dungeon. The passage is dark, dimly lit by torches on the wall.
+Crow_Merlin(sad): My parents should be here somewhere...
+Narrator: Suddenly, you hear a shrill cry from afar…
+Crow_Merlin(surprise): It's mother!
+Crow_Teague: Wait!
+Narrator: You race towards the direction of the sound at full speed, leaving Teague far behind.
+*Play Music ponder
+*Camera Middle 1
+Crow_Merlin*Shout(sad): Caw! (Mother! Father!)
+Narrator: In the dim dungeon, two guards are brutally whipping your mother’s back. Your father cries and throws himself at your mother.
+Barry(angry): Tell me where is {Merlin Name}? Where did you hide her?
+Kate(sad): ...
+Asher(angry): ...
+Victor(angry): Don't want to tell me? I will beat you to death if you don't tell me!
+Narrator: The guard strikes his whip again with great force. The wail of your parents echoes in the dungeon.
+Crow_Merlin*Shout(sad): No!!!
+Narrator: I should...
+(mm_05n_08_peck_the_guards)
+A. Peck at the guards ferociously. (Cost: 17 Diamond ID: plot_mm_05n_protection)
+B. Leave and find Teague.
+A
+*Camera Right 1
+Crow_Merlin: Go to hell!
+Narrator: You dive down and peck the face of one of the guards. He lets out a howl of anguish and holds his face in pain, with blood dripping through his fingers.
+Victor(angry): {*Shake Ahhhhhh!}
+Crow_Merlin(smile): You deserve it.
+Barry(angry): Where did that damn bird come from? Get out!
+Narrator: The other guard waves his hands, trying to scare you away.
+Narrator: You flap your wings to dodge his attack and then peck his neck .
+Barry(angry): Damn it... Damn it!
+Narrator: The guard touches his neck in pain and looks ghastly at his blood-smeared hands.
+Barry(angry): How dare you peck me!
+Victor(angry): You won’t escape now!
+Narrator: Two guards block your way and brandish the sticks in their hands, with their eyes bulging in fury.
+Crow_Merlin(smile): Caw!
+*Camera Left 2
+Narrator: You swiftly make your way out of the dungeon  and look for Teague in the corridor.
+Narrator: You finally hear the flapping of wings and fly towards the direction of the sound...
+Crow_Teague: {Merlin Name}, I've finally found you .
+Crow_Merlin(sad): Teague! They are chasing me. Let's go!
+Crow_Teague: What happened?
+Crow_Merlin(sad): There's no time to explain...
+Narrator: You and Teague fly to a dark corner and listen attentively to the movements outside.
+Narrator: Guard's Voice | Where is that damn crow? I will beat it to death if I see it.
+Narrator: Guard's Voice | Forget it. Just bad luck!
+Crow_Merlin(smile): Teague, let's go!
+Narrator: You fly back to the edge of the dungeon.
+*Camera Middle 1
+Crow_Merlin*Shout(sad): Caw! (Mother! Father!)
+Narrator: You call for them but they don't recognize you.
+Narrator: You fall on the ground.
+Narrator: Behind the bars, you see your mother lay her head on your father's knees, breathing heavily.
+B
+Crow_Merlin(sad): I have to find Teague.
+Narrator: You turn away and look for Teague in the corridor.
+Narrator: You finally hear the flapping of wings and fly towards the direction of the sound...
+Crow_Teague: {Merlin Name}, I've finally found you.
+Crow_Merlin(sad): My parents are being tortured by the guards. We have to save them!
+Narrator: You fly back to the dungeon and find that the guards have left.
+Narrator: Behind the bars, you see your mother lay her head on your father's knees, breathing heavily. Blood keeps trailing from your mother's mouth.
+Asher(sad): No, you won't...
+Crow_Merlin*Shout(sad): Caw! (Mother...)
+***
+Kate(sad): I wonder if {Merlin Name} is all right. I miss her so much...
+Crow_Merlin(sad): Teague! Change me back! 
+Narrator: In a flash of light, you find yourself standing on the ground on two very human legs.
+*Merlin Player
+>>>
+Asher(surprise): {Merlin Name}!
+>
+*Camera Left 1
+Merlin(sad): Father!
+Teague: {Merlin Name}, stay here. I'll keep a watch over the corridor.
+Merlin(sad): Thank you, Teague.
+Narrator: As Teague fades into the corridor, you turn to your father. He stares at you, astonished.
+*Camera Middle 1
+Asher(surprise): {Merlin Name}! Is it really you? I thought I saw a crow.
+Narrator: Your father rushes to the bars, clutching your hands between his warm, calloused palms.
+Narrator: You remember when you were a child, he used to hold your hand like this when you were sad. Your hand was so much smaller then.
+Merlin(sad): Father, it's really me.
+Narrator: Your father searches your face, his eyes lit up. 
+Asher(smile): Kate, it's {Merlin Name}. She came for us!
+Kate(sad): {Merlin Name}? My child! Let me see you!
+Narrator: Your father hurries to bring her to the bars.
+Narrator: Your mother struggles with all her might to sit up, trying to touch your face.
+Narrator: You feel the coldness from the tip of her fingers. Tears pour from your eyes.
+Merlin(cry): Mother...
+(mm_05n_09_mother_wounded)
+A. I will make them pay!
+B. I shouldn't have gone into the manor. It's all my fault.
+A
+Merlin(sad): I will make that bastard pay for what he's done to you!
+Merlin(angry): He treats us like dirt! He's killing people for fun!
+Kate(sad): My child, you can't do that. I just want you to be safe.
+Narrator: She reaches out to place her hand on your cheek. You lean into her touch.
+Kate(sad): All I want is for you to be safe, my darling girl.
+B
+Merlin(sad): I'm sorry, Mother.
+Merlin(sad): None of this would have happened if I hadn't provoked Lord Chesterfield. 
+Kate(sad): My child, stop talking about this. I'm just glad you're safe.
+***
+>>
+Narrator: A sudden pain comes upon your mother. She drops her hand, biting her lips, trying to endure the pain. Her body trembles like a leaf.
+Kate(sad): I'm so happy to see you again... one last time...
+Merlin*Shout(sad): No! I'm getting you out of this place!
+>
+End

@@ -1,0 +1,1022 @@
+Begin
+*
+*Scene APARTMENT_EXTERIOR_DAY
+*Camera Left 0
+*
+*Play Music m_romance_sexy_city_bolereando_01
+sing02_surprise_visit
+Narrator: You stand in the open doorway to your apartment, blinking in shock at the unexpected visitors in front of you.
+Lucas(smile): Did you miss me?
+Avery(surprise): The guys from the airport...?
+>>
+Lucas(happy): In the flesh.
+Avery(surprise): But how do you know where I live?
+Sam: Don't flatter yourself, we're not stalking you.
+>
+Narrator: Lucas rolls his eyes at his surly companion.
+Lucas: Ignore him. I usually do.
+Lucas: Anyway, sorry for dropping by out of the blue. But we thought you might be missing this...
+Narrator: He holds something out to you, and with a jolt you recognize your passport.
+>>
+Avery(confuse): How did you get that?
+Lucas: You dropped it when your luggage spilled. We found it in the hallway after you left.
+>
+Narrator: You reach out to take the passport, your fingers brushing Lucas's.
+Narrator: The burly man behind him visibly tenses for a moment, then relaxes when you pull your hand back.
+Lucas: Your address was written on the back cover, so we decided to drop it off in person.
+Avery: Lucas, that's...
+(sfm_02_01_return_passport)
+A. So kind of you. Thank you!
+B. A little creepy, to be honest.
+A
+*Lucas REL +1
+Lucas(happy): Hey, don't mention it.
+Avery: No, really, I owe you one. I wouldn't want to lose this.
+Avery(happy): And not many people would be so thoughtful. I can't believe you came all the way here.
+Lucas(smile): Getting the chance to see you again is all the thanks I need.
+Narrator: Lucas winks at you, and you stifle a laugh behind your hand.
+B
+Avery(sad): I mean, I don't even know you... and you show up at my apartment like this?
+Lucas(surprise): Oh. I didn't think of it like that.
+Sam: I tried to warn him this would happen.
+Sam(sad): As you can see, he didn't listen. Not that he ever does.
+Lucas(sad): Sorry, {Avery Name}. I meant well, I promise.
+Narrator: Lucas looks so forlorn that you have to stifle a smile.
+Avery(smile): It's okay. I'm sure you had good intentions.
+***
+Avery: Did you have to show up at the crack of dawn, though?
+Avery(shy): I'm a bit of a mess. Wasn't expecting visitors this early...
+Narrator: You awkwardly rub a hand over your eyes, still heavy with sleep.
+Sam: Less people on the roads at this hour. Better chance of avoiding any incidents.
+>>>
+Avery(surprise): Incidents?
+>>
+Lucas: He means it's easier to find parking. Less traffic, and all that. Right?
+Narrator: Lucas shoots his companion a look that's somewhere between a glare and a plea.
+Sam: ...Right. That's what I meant.
+Narrator: You glance across the street behind them to see a large, glossy black car.
+Narrator: It's parked between an ancient-looking Volvo and a VW Beetle with duct tape covering a missing window.
+Avery(surprise): Your car is, uh... nice.
+Narrator: They both follow your gaze and shift a bit, seeming to notice for the first time how out of place they are on your quiet street.
+Narrator: Lucas's companion coughs quietly.
+>>
+Avery: So, do you want to...
+(sfm_02_02_invite_lucas)
+A. Come in for coffee?
+B. Get going before the traffic picks up?
+A
+*Lucas REL +1
+Lucas(smile): Actually, I'd love a cup of—
+Sam(angry): Ahem.
+Lucas(happy): Oh come on, just one cup of coffee.
+>>>
+Lucas(smile): We don't want to hurt {Avery Name}'s feelings, right?
+Sam(angry): Hard pass. We're not going in there.
+>
+Avery(angry): I was just trying to be polite.
+B
+Lucas: Oh, I don't know if we have to leave just yet—
+Sam: No, that's exactly what we should be doing.
+>>>
+Sam: See, Lucas? At least <i>this</i> one has some sense.
+Avery(angry): I have a name, you know. Not that you've even told me yours...
+Sam(angry): And I don't plan to, since this is the last time we'll be seeing you.
+***
+>
+Narrator: Tension fills the air as you glare at each other. Lucas nervously hovers between you.
+>>
+Lucas(surprise): Okay, so this isn't going how I hoped...
+Lucas(happy): But that's okay! I have a better idea!
+>>>
+Lucas(smile): {Avery Name}, have dinner with me. I'll send a car for you tonight.
+Avery(surprise): Send a car?
+Sam(surprise): What?
+>>
+Lucas(smile):  Nothing would make me happier than the chance to get to know you better...
+Lucas(confuse): What do you say?
+Narrator: Before you can answer, a familiar voice rings through the apartment behind you.
+*Play Music m_intense_sprightly_mint_chocolate_01
+Narrator*Top: Kylie | Hey, who are you talking to?
+Narrator: Kylie shuffles over to you, smothering a huge yawn as she peers over your shoulder.
+Kylie(sad): You woke me from my beauty sleep...
+>>>
+Kylie(surprise): Oh.
+>
+Narrator: She freezes, staring at Lucas with eyes as round as saucers.
+Avery: Kylie? Uh, these are the guys I told you about, from the airport...
+>>>
+Kylie(surprise): ...
+>>
+Sam(sad): Oh boy, here we go...
+Lucas(smile): Are you the roommate? Nice to meet you.
+>
+Narrator: Lucas flashes his boyish smile at Kylie, seeming not to notice her stunned expression.
+Sam: Lucas, we should really just get out of here before—
+>>
+Kylie(surprise): But you're... Aren't you...? And you're on my doorstep...?
+>
+Narrator: Kylie lets out a squeal before clamping both hands over her mouth, staring from Lucas to you and back again.
+>>
+Kylie(happy): Oh my freaking god, this cannot be really happening.
+Kylie(happy): I'm still sleeping, right? {Avery Name}, pinch me!
+Avery(surprise): I promise she's not usually like this...
+>
+Narrator: You turn back to the others, frowning at Kylie's weird behavior...
+Narrator: Only to see that Lucas's friend is quickly propelling him down the steps and away from your door.
+Avery(surprise): Wait!
+Sam(angry): Car. Now.
+>>>
+Lucas(happy): I'll send my driver to pick you up at eight tonight, {Avery Name}!
+>
+Narrator: Lucas throws a cheerful wave over his shoulder as he's manhandled into the passenger seat of the shiny black car.
+Narrator: Moments later, they're speeding away down your street.
+*Goto sing02_who_is_lucas
+
+sing02_who_is_lucas
+*
+*Scene APARTMENT_INTERIOR_DAY
+*Camera Left 0
+*
+*Play Music m_sprightly_intense_romance_game_set_match_01
+Kylie(happy): Oh my god, oh my god, oh my—
+Avery(sad): Ky, you're starting to freak me out. Why are you a broken record right now?
+Narrator: With difficulty, you manage to sit Kylie down at your kitchen table.
+>>>
+Kylie(surprise): {Avery Name}, do you seriously not know who that was?
+>
+Avery: Lucas? He's...
+(sfm_02_03_who_is_lucas)
+A. A cute stranger who's totally into me?
+B. Some guy who's way too full of himself?
+C. Not my priority. His hot friend, though...
+A
+Kylie(happy): There are millions of people in the world who would kill to be able to say that.
+Avery(surprise): What are you talking about?
+>>>
+Kylie(happy): Do you really think he's into you? Oh my god—
+B
+Kylie(surprise): Duh, he's full of himself! You would be too if you were him!
+Avery(surprise): Okay, seriously, what is going on with you?
+Kylie(happy): I actually thought he seemed surprisingly humble. I mean, I know he barely talked to me, but...
+>>>
+Kylie(surprise): Oh my god he talked to me!
+C
+Kylie: "Friend"? I'm pretty sure that's his bodyguard...
+Kylie(surprise): And weren't you two glaring daggers at each other?
+Avery(happy): That's what makes it interesting. And Lucas isn't really my type.
+Kylie: You're literally the only person in the world who would say that...
+>>>
+Kylie(happy): Especially when he was standing right there in front of you! Oh my god—
+***
+Avery(surprise): Calm down, we're not starting the "oh my god" chant again.
+>
+Narrator: Kylie takes a deep breath, visibly composing herself.
+Kylie: Okay. I'm calm. I'm good.
+Avery: Now can you <i>please</i> fill me in on what's going on here? I'm clearly missing something.
+Kylie: I know you've been living like a hermit for the last year, but did you really not recognize him?
+Narrator: Kylie looks up at you in disbelief, but you just shrug.
+>>
+Avery: No internet, remember?
+Kylie(surprise): But that was Lucas Lucky!
+Avery(surprise): He said his name was Lucas Parker.
+Kylie: "Lucky" is a stage name. {Avery Name}, he's the biggest singer in the world right now.
+>>>
+Avery(surprise): A singer?
+Kylie(smile): Not just a singer, a pop star!
+>>
+Kylie(smile): Ever since he burst into the music scene last year, he's been at the top of the charts.
+Kylie(happy): Seriously, you must be the only person in the city who's never heard of him.
+Avery(surprise): Whoa...
+Kylie(smile): Whoa is right.
+Avery(surprise): Do you think he was offended that I didn't recognize him?
+Kylie(smile): Oh please, he asked you out to dinner! If anything, I think he liked it.
+Avery(sad): I don't know... I can't help worrying I made a fool of myself.
+>>>
+Kylie(confuse): I saw the way he smiled at you. You have nothing to worry about.
+>>
+Kylie: Well, unless his bodyguard throws you into a choke hold or something...
+Avery(sad): Great, that's really reassuring.
+>
+Narrator: You groan, sinking down into the chair next to Kylie.
+>>
+Avery(sad): I'm in way over my head here.
+>
+Narrator: Kylie scoots closer to you, putting a hand on your arm.
+>>
+Kylie(shy): No you're not. You've got me!
+Kylie(shy): I didn't wake up today expecting to coach my best friend through a dinner date with pop royalty, but...
+Kylie(smile): I never back down from a challenge.
+Avery(happy): So you'll be my wing-woman?
+(sfm_02_04_coach_the_date)
+A. I'd rather stay in with you and order a pizza.
+B. Then help me blow his mind tonight.
+A
+*Kylie REL +1
+Kylie(shy): Aww, you know that's my favorite thing ever...
+>>>
+Kylie(happy): But I'm not letting you get out of this so easily!
+>>
+Avery(confuse): Why am I not surprised?
+Kylie(smile): You have to go out there and mingle with celebrities so that I can live vicariously through you!
+Kylie(shy): It's your solemn duty as my best friend.
+B
+Kylie(happy): Hell yeah, that's the plan!
+Kylie(happy): Once I'm through, you'll have Lucas wrapped around your finger.
+>>>
+Avery(happy): Passing some of that confidence over to me might be a good start.
+>
+Narrator: Kylie wiggles her fingers at you as though zapping you with invisible energy.
+Kylie(happy): Bam! Done!
+***
+Avery: Honestly, I'm still trying to wrap my head around the fact that Lucas is a pop star...
+Avery: Is his music even any good?
+Kylie(happy): Well, you can see for yourself if you want...
+Kylie(smile): You <i>know</i> internet stalking is one of my specialties.
+Avery(confuse): You mean you'll help me research him?
+Kylie: Oh yeah, we can go deep. Wouldn't you rather be armed with knowledge instead of going in blind?
+Kylie: I should warn you, though... it might change the way you see him.
+>
+Avery(smile)*Think: This is my chance to dig up some info on Lucas before the dinner tonight!
+Avery*Think: I'm sure the conversation will go better if I know a little more about him...
+Avery: I want to...
+(sfm_02_05_research_lucas)
+A. Research Lucas! (Cost: 18 Diamond ID: plot_sfm_02_lucas_research)
+B. Let him stay a mystery.
+A
+*Goto sing02_research_lucas
+B
+Avery: I'd rather let him tell me about himself.
+Kylie(sad): Boo, where's your sense of curiosity?
+>>>
+Avery: It doesn't seem fair to dig up dirt on him. I think it'll be better this way.
+>>
+Kylie: Suit yourself. But don't blame me if you feel unprepared later!
+*Scene APARTMENT_BEDROOM
+>
+Narrator: The day passes in a blur. As evening approaches, you're sprawled on your bed trying to relax before the dinner.
+Narrator: Suddenly, your door swings open with a bang!
+>>>
+Kylie(confuse): Are you ready for your big night out?
+>
+Avery(surprise): Kylie! Haven't you heard of knocking?
+Kylie(sad): ...You're definitely not ready.
+*Goto sing02_outfit_upsell
+***
+
+sing02_research_lucas
+*Gain RESEARCHED_LUCAS_2
+*Kylie REL +1
+Kylie(happy): I knew you'd be smart about this! Come on, let's get started.
+*Camera Right 2
+Narrator: Kylie leads you into the living room, plopping down on the couch and opening her laptop.
+Kylie: By the way, I meant it when I said you won't be able to look at him the same after this.
+Avery: Bring it on. I'm ready.
+Kylie(happy): You really aren't.
+Narrator: You sit next to Kylie as she pulls up a video, making it fill the laptop screen.
+Narrator: She hits play.
+*Play Music m_gently_sprightly_bed_breakfast_01
+Narrator*Top: Lucas | <color=purple><i>♬ I don't wanna waste another heartbeat, just come to me and show me how our eyes meet... ♬</i></color>
+Narrator: An effortlessly sweet voice fills the room, floating over the strums of a guitar.
+>>
+Avery(surprise): His voice...
+Kylie(happy): Like an angel, right?
+>
+Narrator: You watch in silence for a moment as the Lucas on the screen sings to the camera, never breaking eye contact.
+Narrator: Somehow, when he smiles, it feels like it's meant just for you.
+>>
+Avery(surprise): He's good...
+>
+Narrator: When the song finally ends, you blink. It feels like stepping out of a trance.
+>>
+Kylie(happy): Told you.
+>
+Narrator: Kylie looks smug.
+>>
+Kylie(happy): So what do you think?
+Avery: I think...
+(sfm_02_05_DP1_song_of_lucas)
+A. I just fell in love.
+B. I like him better as Lucas Parker.
+A
+Kylie(smile): Yeah, he has that effect on people.
+>>>
+Avery(surprise): I'm really going to dinner with him? Tonight?
+>>
+Kylie(happy): See? This is why everyone would kill to be in your shoes.
+B
+Avery: I mean, his voice is beautiful, but... it feels like he's putting on an act. It's too polished.
+Kylie: And you want to get to know the real Lucas?
+>>>
+Avery: Yeah. I want to know what he's really like, behind the pop star persona.
+>>
+Kylie(happy): Well, tonight's your chance!
+***
+>
+Narrator: Kylie's expression grows more serious for a moment, and she turns to face you on the couch.
+>>
+Kylie: I want you to be careful, though. Okay, {Avery Name}?
+Avery(surprise): Careful? What do you mean?
+Kylie: I'll let you do your own research on this part, but...
+Kylie(sad): Lucas has a bit of a reputation.
+Avery: He's a pop star. Don't they all have reputations?
+Kylie: Yeah, but Lucas isn't just famous for his songs. He also flirts with everything with a pulse...
+>>>
+Kylie(sad): But he never dates anyone. At least not publicly.
+>>
+Avery(surprise): Really? That's unusual for a celebrity.
+Kylie: It's smart, is what it is. It helps keep the wish fulfillment alive for his fans.
+Kylie(sad): If anyone's perfected the art of leading people on, it's him. I don't want to see you get hurt.
+Avery: Kylie...
+(sfm_02_05_DP2_never_dates)
+A. Thanks for worrying about me.
+B. I can take care of myself.
+A
+Avery(happy): I'm glad I've got you looking out for me. And I promise I'll be careful with Lucas.
+*Kylie REL +1
+Kylie(happy): I know I'm being overprotective, but it's just 'cause I care about you so much.
+Narrator: Kylie squeezes your hand, and you smile back at her.
+B
+Kylie(sad): I know you can. I'm probably being overprotective.
+>>>
+Kylie: It's just 'cause I care about you... You know that, right?
+>>
+Avery(happy): Of course I know. But you don't need to worry about me.
+***
+Kylie(happy): Well, just remember that if you need a rescue I'm a phone call away.
+Kylie(smile): I owe you for all those bad dates you bailed me out of in college.
+Avery(happy): I'll keep that in mind.
+Kylie(happy): Now I hope you're ready to do some reading, 'cause there's a whole lot of content on this guy...
+>
+*Scene APARTMENT_BEDROOM
+*Play Music m_romance_sexy_city_bolereando_01
+Narrator: The day passes in a blur. As evening approaches, you're sprawled on your bed as you scroll through articles on your phone.
+Message: Pop Star | You learned some useful details about Lucas!
+Avery(surprise)*Think: Kylie wasn't kidding... His dating record is spotless.
+Narrator: You skim through more clickbait headlines about Lucas's flirtations with various actresses and models.
+Narrator: Rumors abound, but it's clear that the journalists are scrambling.
+Avery(sad)*Think: <i>"Untouchable Playboy Breaks Hearts at the Grammys..."</i>
+Avery(sad)*Think: <i>"Lucky in Love? Actress Lilian France Takes Her Shot..."</i>
+Avery(surprise)*Think: <i>"Does America's Sweetheart Have a Secret Boyfriend?"</i>
+Narrator: Suddenly, your door swings open with a bang! You jump, almost dropping your phone.
+>>
+Kylie(confuse): Are you ready for your big night out?
+Avery(surprise): Kylie! Haven't you heard of knocking?
+Kylie(sad): ...You're definitely not ready.
+>
+Narrator: Kylie snatches your phone away from you, raising an eyebrow at the headlines on the screen.
+>>
+Kylie: I think that's enough of that. Research time's over.
+*Goto sing02_outfit_upsell
+
+sing02_outfit_upsell
+Avery: I was just—
+Kylie(happy): I don't wanna hear it. It's makeover time!
+Kylie(smile): Where are you going for dinner? You'll want to look up the dress code.
+Avery(surprise): Actually, I have no idea. Lucas didn't say.
+Kylie: Hmm...
+>
+Narrator: Kylie is already busy rooting through your closet, carelessly pulling things off hangers and tossing them on the floor.
+Kylie: Well, I said I was up for a challenge. You'll just have to dress to impress...
+Kylie(smile): Hah! I knew you'd have something buried away back here!
+(sfm_02_06_CP_gender)
+*Condition
+A. (Condition: AVERY_FEMALE_1 >= 1)
+B. (Condition: AVERY_MALE_1 >= 1)
+A
+*Goto sing02_female_outfit
+B
+*Goto sing02_male_outfit 
+***
+
+sing02_female_outfit
+>
+Narrator: She whirls around, clutching a glittering dress that you've never worn before.
+*Avery Outfit Prem_Fancy_Female (Tag: Record)
+Kylie(shy): Try it on, it's perfect!
+Avery(shy): If his bodyguard sees that I'm making an effort, he might go easier on me...
+Avery(smile): And it would definitely make a good impression on Lucas.
+*Model
+(sfm_02_07_A_CP_pay_outfit)
+A. I'll just wear my normal clothes.
+B. Buy this dress! (Cost: 25 Diamond ID: look_sfm_02_clothes05)
+A
+*Avery Outfit Reset
+Avery: I'd feel uncomfortable in something that fancy.
+Kylie: Suit yourself! You look good in anything you wear.
+Kylie(smile): And I'm sure Lucas can get you in anywhere, regardless of the dress code.
+B
+*Gain PREM_FANCY_2
+Avery(smile): How do I look?
+Kylie(surprise): {Avery Name}...
+*Kylie REL +1
+Kylie(smile): You look freaking gorgeous!
+Avery(happy): Thanks to your help!
+Kylie(smile): No way, this is all you.
+***
+*Goto sing02_drive_to_dinner
+
+sing02_male_outfit
+>
+Narrator: She whirls around, clutching a sleek suit jacket that you've never worn before.
+*Avery Outfit Prem_Fancy_Male (Tag: Record)
+Kylie(smile): Try it on, it's perfect!
+Avery(smile): If his bodyguard sees that I'm making an effort, he might go easier on me...
+Avery(smile): And it would definitely make a good impression on Lucas.
+*Model
+(sfm_02_07_B_CP_pay_outfit)
+A. I'll just wear my normal clothes.
+B. Buy this suit! (Cost: 25 Diamond ID: look_sfm_02_clothes06)
+A
+*Avery Outfit Reset
+Avery: I'd feel uncomfortable in something that fancy.
+Kylie: Suit yourself! You look good in anything you wear.
+Kylie(smile): And I'm sure Lucas can get you in anywhere, regardless of the dress code.
+B
+*Gain PREM_FANCY_2
+Avery(smile): How do I look?
+Kylie(surprise): {Avery Name}...
+*Kylie REL +1
+Kylie(smile): You look freaking handsome!
+Avery(happy): Thanks to your help!
+Kylie(smile): No way, this is all you.
+***
+*Goto sing02_drive_to_dinner
+
+sing02_drive_to_dinner
+*Play Sound s_carhorn
+Narrator: Suddenly, you hear a series of quick honks from the street outside.
+Avery(surprise): Is the car here already?
+Kylie(smile): Remember, I expect a full report when you get back. I want all the juicy details!
+*
+*Scene APARTMENT_EXTERIOR_NIGHT
+*Camera Left 0
+*
+Narrator: The chauffeur holds the car door open for you, and you settle into the luxurious leather seats in the back.
+Avery(surprise): Wow. This is an upgrade from the subway...
+Narrator: Your driver doesn't reply, just starts the engine and smoothly pulls out onto the street.
+Narrator: You stare out the tinted window as you drive through the city, past buildings that are increasingly posh.
+Avery*Think: What am I getting myself into...?
+*
+*Scene RESTAURANT_EXTERIOR_NIGHT
+*Camera Left 0
+*
+Narrator: Just as your nerves are starting to get the best of you, your phone vibrates with a text message.
+Narrator*Top: Kylie | <i>Juicy details, okay? Take notes if you have to!</i>
+Narrator: You smile at your phone, Kylie's bright tone making you feel more at ease.
+Avery(happy)*Think: You got it, Kylie...
+*Camera Right 2
+Narrator: Some time later, your driver pulls up in front of an elegant high-rise.
+Narrator: He holds the door as you step out, giving you a little bow.
+Avery(surprise): Oh, uh... thanks. I guess this is the restaurant?
+Narrator: You glance back over your shoulder, but he's already driving away.
+Avery(sad): ...Right. Here goes nothing, then.
+Narrator: You walk up to the doors, but the doorman immediately steps in front of you.
+*Goto sing02_doorman_is_polite (Condition: PREM_FANCY_2 >= 1)
+*Goto sing02_doorman_is_rude
+
+sing02_doorman_is_polite
+Doorman(happy): Can I help you? I'd be happy to direct you.
+Narrator: Suddenly grateful that you wore the outfit Kylie suggested, you give him your best smile.
+Avery(smile): Yes, I'm supposed to be meeting Lucas Parker for dinner?
+*Goto sing02_elevator_with_sam
+
+sing02_doorman_is_rude
+Doorman(angry): Pardon, this establishment is reservation only.
+Narrator: He gives you a disdainful look, and you suddenly wish you wore the outfit Kylie suggested.
+Avery(sad): I'm supposed to be meeting Lucas Parker for dinner...
+*Goto sing02_elevator_with_sam
+
+sing02_elevator_with_sam
+>>>
+Doorman(surprise): Really? But... we weren't informed that Mr. Parker would be having company.
+>
+Narrator: The doorman's eyes narrow in suspicion.
+Avery: Well, I'm sure...
+(sfm_02_08_the_doorman)
+A. That was an oversight. Could you check again?
+B. He'll never eat here again if you don't let me in.
+A
+Doorman: I suppose he may have forgotten to inform the staff...
+Avery: Could you send word to him that {Avery Name} is here? I'm sure he'll clear this up.
+B
+Doorman(surprise): Let's not jump to any conclusions! I'm sure there was some mistake...
+Avery(angry): It seems the mistake was yours.
+***
+Doorman: You understand, of course, that we have to be thorough with things like this.
+*Play Music m_melancholy_modern_doubt_tension_2_hearts_01
+Doorman: If you could just wait here, I'll go check with my supervisor and—
+*Sam Outfit Sam_Formal_Dress
+>>>
+Sam: No need. {Avery Name} is with me.
+>
+Narrator: Both you and the doorman turn in surprise at the curt voice.
+Doorman(surprise): Oh! Of course. My apologies.
+*Scene HIGH_RISE_ELEVATOR
+Narrator: You follow Lucas's bodyguard inside, and he leads you into an elevator.
+Avery: Thanks for the help back there. I—
+Sam: Just doing my job.
+Narrator: A tense silence falls over the two of you as the doors slide shut.
+Avery: So... the restaurant's on the top floor? I bet the view is nice...
+Sam: I want to make something clear.
+Narrator: He doesn't look at you, staring straight ahead as he speaks.
+>>
+Sam(angry): This ignorant act you've got going on? I don't buy it.
+>
+Avery(surprise): What do you—?
+Sam(angry): Lucas might believe that you didn't recognize him, but I'm not so easily taken in.
+>>
+Sam(angry): Whatever you want out of him, just know... I'll be watching you.
+>
+Avery(angry): Seriously?
+(sfm_02_09_sams_warning)
+A. You should get to know me better.
+B. You need to back off.
+A
+Avery: I think I might surprise you.
+Sam: I doubt it.
+Avery(smile): Try me.
+B
+Avery(angry): I'm getting sick of you treating me like this.
+>>>
+Avery(angry): What did I ever do to you?
+>
+Sam(angry): I've met people like you before... people who seem too good to be true.
+Sam(angry): I'm not interested in waiting around for the tables to turn.
+***
+Narrator: Awkward silence fills the air again, and you sigh.
+>>
+Avery(sad): Look, we clearly got off on the wrong foot when we met at the airport...
+Avery: Why don't we start over?
+Sam(surprise): Start over?
+Avery: I'm {Avery Name}. It's nice to meet you.
+>
+Narrator: You turn to him and hold out your hand, refusing to back down from his steely gaze.
+Narrator: After a long moment, he grips your hand in a handshake so firm it nearly crushes you.
+*Sam Name Sam
+>>
+Sam: Sam Rivera.
+Avery(happy): So you do have a name.
+>
+Narrator: He drops your hand almost as quickly as he took it, his expression unreadable...
+Narrator: But his eyes sweep over you before he turns back to the elevator doors.
+*Goto sing02_sam_is_impressed (Condition: PREM_FANCY_2 >= 1)
+*Goto sing02_sam_is_unimpressed
+
+sing02_sam_is_impressed
+*Sam REL +1
+Sam: At least you saw fit to dress appropriately.
+Avery(surprise): Is that a compliment? Did you just compliment me?
+Sam(surprise): What? No.
+Avery(happy): Uh huh.
+*Goto sing02_greet_lucas
+
+sing02_sam_is_unimpressed
+Sam(angry): Figures. You didn't even bother to dress appropriately.
+Avery(angry): How I dress is none of your business.
+*Goto sing02_greet_lucas
+
+sing02_greet_lucas
+*
+*Scene ROOFTOP_DINNER_NIGHT
+*Camera Left 0
+*
+*Camera Middle 2
+*Play Music m_gently_sprightly_bed_breakfast_01
+*Lucas Outfit Lucas_Formal_Dress
+Narrator: Finally, the elevator doors swing open. Your jaw drops as you take in the view.
+Avery(surprise): You can see the whole city from up here...
+Lucas(shy): {Avery Name}! You made it.
+Narrator: Lucas stands up from a table near the edge of the roof, the soft lighting making his face seem to glow.
+Lucas(smile): I went ahead and booked the rooftop for us tonight.
+Avery(surprise): You booked... the entire rooftop?
+Lucas(happy): I wanted a quiet atmosphere so that we can finally talk.
+*Camera Left 3
+Narrator: He pulls out the chair across from him. You glance back at Sam as you walk over and take a seat.
+*Camera Middle 1
+Sam(angry): ...
+Narrator: He doesn't say a word as he takes up his post by the doors, arms crossed over his chest.
+*Camera Left 3
+*Condition
+A. (Condition: PREM_FANCY_2 >= 1)
+A
+Narrator: Lucas lets his eyes linger as he takes in your outfit.
+*Lucas REL +1
+>>R
+Lucas(happy): You look amazing, {Avery Name}. I'm impressed.
+Avery(shy): Thanks. I clean up alright.
+Lucas(smile): More than alright.
+***
+
+sing02_dinner_with_lucas
+Lucas: Do you like French cuisine?
+Lucas: The courses are fixed for tonight, but I'm sure the chef would oblige if I requested an alternative menu.
+Avery(surprise): Uh, that's okay. French cuisine sounds perfect.
+Narrator: Lucas picks up on your discomfort, giving you a soft smile.
+Lucas(happy): Is the rooftop too much? I'm coming on too strong, huh?
+Avery(shy): It's not that. I just feel like I should be honest with you...
+Narrator: Lucas tenses, his smile faltering for a moment.
+Lucas: Oh?
+Avery: I know who you are now. My roommate recognized you.
+Lucas(happy): Is that all? You had me worried for a minute there.
+Avery: I just wanted to be upfront about it. I really didn't know who you were when we met, but...
+Lucas(happy): It's alright. It was fun while it lasted.
+Avery(surprise): <b>"Fun"?</b>
+(sfm_02_10_fun)
+A. I was worried I'd offended you.
+B. Are you disappointed that I know now?
+A
+Lucas(happy): Oh god, no. It was like I hit the jackpot.
+>>
+Avery(surprise): So you're really telling me you don't like being treated like a celebrity?
+>
+Lucas: It has its perks, I won't lie. But...
+B
+Lucas: To be honest, I had hoped it would take you a little longer to find out...
+Lucas: It's selfish, but I wanted to enjoy it for as long as I could.
+***
+Lucas(happy): It's been a long time since someone talked to me like a normal person.
+Lucas(smile): Would you like some wine? They told me it's their oldest vintage.
+Narrator: Lucas pours from a very expensive-looking bottle of wine, and you raise your eyebrows.
+Avery(happy): Yeah, I can't imagine why people wouldn't treat you normally...
+Avery(surprise): Sorry! I didn't mean that, it's just... the wine... and the rooftop...
+Narrator: Lucas laughs, and the sound is so bright that you can't help smiling along with him.
+>>>R
+Lucas(happy): Please don't apologize. This is what I like about you.
+>>R
+Lucas(smile): Promise me you'll always speak your mind like that, okay?
+Avery(happy): Okay. I promise.
+Lucas(happy): Thanks. It's a relief to meet someone who doesn't have preconceived assumptions about me.
+Lucas: There's a reason my social life has been... well, pretty nonexistent.
+Narrator: There's a lull in the conversation as you both try your food. Lucas gazes out over the city as you eat.
+Avery(surprise): Oh my god. I think my mouth is in heaven.
+Lucas(surprise): Huh?
+Lucas(happy): Oh, the meal. Good, right?
+Avery(happy): This is hands down the best food I've ever eaten.
+Lucas(happy): See, these are just the kinds of reminders I need. It gets so easy to just...
+Narrator: His smile fades away as he looks down at his plate.
+Lucas: For a while now, it's felt like I'm drifting through life on autopilot. Taking things for granted.
+Lucas(sad): I need to remember what normal feels like, sometimes.
+Avery: Well, if you're looking for normal...
+(sfm_02_11_be_normal)
+A. I'm about as average as it gets.
+B. Maybe you shouldn't have become a singer.
+A
+Narrator: He looks back up at you, tilting his head to the side.
+Lucas: Somehow, I doubt that.
+B
+Lucas: Honestly, it doesn't feel like I had much of a choice. I love singing. It's my passion.
+Lucas: But you're right, there's nothing worse than listening to a celebrity complain about his life...
+***
+Lucas(happy): Will you tell me about yourself? I want to know everything.
+Avery(shy): Really? My life's not nearly as exciting as yours.
+>>>R
+Lucas(smile): Why don't you let me be the judge of that?
+>>R
+Narrator: You tell him about college, and how you spent the last year teaching English abroad.
+Narrator: He listens so attentively that you forget to feel self-conscious.
+Avery: ...And now I'm here. Trying to figure out what I want to do with my life.
+Lucas: So you want to help people? Teaching those kids, that was fulfilling for you?
+Avery: Yeah, it was. It felt like I could really make a difference in their lives...
+Avery: But now there are so many paths I could take, it's hard to know where to start.
+Lucas(happy): You'll find the right path. I can tell.
+Avery: I guess you'd know what that's like...
+Avery(happy): If your popularity's anything to go by, I'd say you definitely found the right path.
+*Goto sing02_extra_conversation (Condition: RESEARCHED_LUCAS_2 >= 1)
+*Goto sing02_lucas_upsell
+
+sing02_extra_conversation
+Lucas(happy): Why do I feel like you did your research on me?
+Avery(happy): I may have done some digging.
+*Lucas REL +1
+Lucas(happy): I'm flattered.
+>>>R
+Lucas: But I have to ask... did anything you read make you see me differently?
+>>R
+Avery(surprise): Oh. Well...
+Lucas: You promised to speak your mind, remember?
+Avery(shy): The whole dating thing was a bit of a surprise... or lack of dating, I should say.
+Lucas(happy): What did you expect, a trail of exes lined up behind me?
+Avery(shy): Honestly? Yeah.
+Avery(shy): But it seems like you're the king of leading people on without ever making a commitment.
+Narrator: Lucas sighs, leaning back in his chair. He tilts his head back, staring up at the sky.
+Lucas: It's a bit... complicated.
+Avery: Complicated?
+(sfm_02_12_CP_complicated)
+A. That's okay. It's none of my business.
+B. Care to explain?
+A
+Avery: We just met the other day. You don't need to spill all your secrets to me.
+*Lucas REL +1
+Lucas: Thanks, {Avery Name}. You have no idea how nice it is to hear that...
+Lucas(happy): Usually, everyone's trying to pry my secrets out of me.
+B
+Lucas: I wish I could spill all my secrets to you, {Avery Name}...
+Lucas(sad): But I've learned the hard way that it's better to be cautious. I hope you understand.
+***
+*Goto sing02_lucas_upsell
+
+sing02_lucas_upsell
+Narrator: You both fall silent as a waiter comes to clear away your dishes.
+Narrator: Glancing toward the elevator, you see that Sam is watching you with narrowed eyes.
+Avery(sad): Is he ever going to give us some privacy?
+Narrator: Lucas follows your gaze, and chuckles.
+Lucas(happy): Not likely. He takes his job very seriously.
+Narrator: Suddenly, Lucas's eyes sparkle with mischief.
+>>>R
+Lucas(shy): But if it's privacy you want, I might have an idea.
+Avery(smile): Do tell...
+Narrator: Lucas leans forward over the table, beckoning you closer so he can whisper.
+>>R
+Lucas: There's a rooftop garden on the other side of that wall over there. Very secluded.
+Lucas(smile): If I tip the waiter well enough, I bet I can get him to cause a distraction...
+Avery(confuse): Which will let us sneak over the wall without being seen?
+Lucas(happy): I think we could steal a few moments before we get caught.
+Lucas(smile): Are you up for it?
+Avery(shy)*Think: If I sneak away with Lucas, we could finally have a moment alone together...
+(sfm_02_13_sneak_over)
+A. Let's do it! (Cost: 17 Diamond ID: plot_sfm_02_lucas_sneak)
+B. I don't want to take the risk.
+A
+*Goto sing02_sneak_away_with_lucas
+B
+Avery: Getting banned from the premises doesn't sound like a good end to the evening.
+Lucas: Fair enough. Guess it's a good thing <i>one</i> of us is responsible.
+*Goto sing02_cliffhanger
+***
+
+sing02_sneak_away_with_lucas
+*Play Music m_sprightly_intense_romance_game_set_match_01
+*Gain SNUCK_AWAY_WITH_LUCAS_2
+Narrator: Lucas's smile grows wider, and he presses a finger to his lips as the waiter comes back over to your table.
+Lucas(happy): Excuse me, you see my surly looking friend over there?
+Narrator: The waiter leans closer as Lucas slides a sizable wad of bills across the table to him.
+Lucas: I'm hoping you can do us a favor...
+Narrator: Lucas whispers a few words in his ear. The waiter nods, pocketing the tip as he walks away.
+Lucas(smile): And now, we wait.
+Avery(happy): What did you tell him?
+Lucas(happy): You'll see in five... four... three... two...
+Narrator: Suddenly, you hear a loud crash and whip your head around!
+*Camera Middle 1
+>R
+Sam(angry): Hey, watch it!
+>>R
+*Camera Left 1
+Lucas(happy): ...One.
+*Camera Middle 1
+Narrator: The waiter apologizes profusely for spilling wine all over Sam's clothes, dabbing with a napkin.
+>R
+Sam(angry): I just got this shirt pressed...
+Narrator: As you watch, Sam swears under his breath as the waiter leads him into the elevator to get him cleaned up.
+*Camera Left 1
+Lucas(happy): Now's our chance! Go!
+Narrator: As the doors slide shut, Lucas grabs you by the hand and pulls you after him!
+Narrator: You reach the garden wall, grinning as you glance back over your shoulder.
+Avery*Think: I should...
+(sfm_02_13_DP1_garden_wall)
+A. Climb over the wall!
+B. Ask Lucas for a boost!
+A
+Narrator: Without hesitation, you jump and hoist yourself over the wall!
+Lucas(surprise): Whoa, you're good at this! You sure this is your first time?
+Avery(happy): I may have jumped a few fences in college.
+Narrator: Lucas is quick to follow you, slipping over the wall in a fluid motion.
+B
+Avery(happy): Can you help me up?
+Lucas(happy): My pleasure.
+Narrator: Lucas steps behind you, so close you can feel his breath tickle the back of your neck...
+Narrator: His hands close over your waist, lifting you up until you can reach the top of the wall.
+Avery(happy): Thanks.
+***
+*Play Music m_sprightly_romance_modern_8th_world_wonder_01
+*Camera Right 2
+Narrator: You find yourself in a beautiful garden, illuminated by the warm glow of lanterns.
+Narrator: It's empty except for the two of you, and the wall keeps you hidden from prying eyes.
+>>
+Avery(happy): This is much more private.
+Lucas(happy): Thought you'd like it.
+Avery: How long do we have?
+Lucas: Not long. I told the waiter to buy us as much time as he could, but...
+Lucas: We should probably make the most of the few moments we have.
+>
+Narrator: A cool breeze blows over the rooftop, making you shiver.
+Narrator: Lucas drapes an arm around your shoulder, and you suddenly realize how close you're standing.
+>>
+Avery(shy): And what did you have in mind?
+Lucas(happy): That's up to you, {Avery Name}. I'm happy just being close to you.
+Avery(happy): Are you always so smooth with the lines?
+Lucas(smile): It's an art form. I just happen to have it perfected.
+Narrator: You roll your eyes, unable to hide your smile.
+Avery(happy): If it's up to me, then I want to...
+(sfm_02_13_DP2_up_to_you)
+A. Kiss you. *Goto sing02_kiss_lucas
+B. Ask you some questions. *Goto sing02_question_lucas
+***
+
+sing02_kiss_lucas
+*Play Music m_gently_snug_sprightly_romance_mama_whisper_01
+*Gain KISSED_LUCAS_2
+>
+Narrator: Lucas tilts his head toward yours, his lips just a breath away...
+*Lucas REL +1
+Lucas(happy): Mm, that's another art form I've—
+>>>
+Avery(shy): Just shut up and kiss me.
+>
+Narrator: You reach for him and wrap your arms around his neck, pulling him to you.
+Narrator: His lips move gently against yours in a sweet, lingering kiss that leaves you wanting more.
+>>>
+Lucas(shy): {Avery Name}...
+>
+Narrator: Lucas's eyes hold yours, and he slowly draws his lower lip between his teeth as though to taste the echo of your kiss.
+>>
+Lucas(shy): Feel free to shut me up anytime.
+Avery(shy): I bet you say that to everyone.
+>
+Narrator: He opens his mouth to protest, but you kiss him again before he can speak.
+Narrator: This time, Lucas circles his arms around you and pulls you close against him.
+Avery*Think: I should...
+(sfm_02_13_A_DP3_kiss)
+A. Deepen the kiss.
+B. Pull away.
+A
+Narrator: You melt into Lucas, swiping your tongue over his lips.
+>>>
+Lucas(shy): God, you're good at this...
+>
+Narrator: Lucas groans as you part your lips against his, kissing him harder and deeper.
+Narrator: His hands grip your hips, pulling you firmly against his body.
+Avery(shy): Lucas...
+Narrator: When you finally pull away, both of you are breathing hard.
+B
+Narrator: You break the kiss and take a step back, giving Lucas a playful smile.
+>>
+Avery(smile): Let's not get too carried away.
+Lucas(confuse): You're killing me, {Avery Name}...
+Avery(happy): I figure you're used to getting what you want...
+Avery(smile): Can't make it too easy for you. I have to leave you wanting more, right?
+>
+Narrator: Lucas groans, but he's smiling.
+***
+*Goto sing02_sam_catches_you
+
+sing02_question_lucas
+*Play Music m_gently_snug_sprightly_romance_mama_whisper_01
+Narrator: Lucas crosses his arms and leans back against the wall.
+>>
+Lucas(happy): Alright, lay it on me. I promise I'll be honest.
+Avery: Do you...
+(sfm_02_13_B_DP4_questions)
+A. Really never go on dates?
+B. Ever wish you weren't famous?
+A
+Lucas(sad): Oof, going right for the punch. I guess I set myself up for this.
+Avery: If we're going to be friends, or whatever ths is, then I'd really like to know.
+Lucas(happy): 'Whatever this is'?
+>
+Narrator: You raise an eyebrow, refusing to take the bait.
+>>
+Lucas: Alright, alright, I'll answer your question. I've dated in the past, yeah...
+Lucas(sad): But only in secret. It was better that way, for a number of reasons.
+Avery(sad): That must have been so hard, having to hide your relationships.
+Lucas(sad):  The few times I tried, it... didn't work out.
+Lucas(sad): I told myself it was better to stay single, after that. But... it gets a bit lonely.
+B
+Lucas(surprise): Oof, going for the hard questions right away.
+Lucas: You couldn't have asked for my favorite color? It's yellow, by the way.
+>
+Narrator: You raise an eyebrow, refusing to take the bait.
+>>
+Lucas: Alright, alright, I'll answer your question. Yes, sometimes I wish I wasn't famous.
+Lucas(sad): I know it sounds ungrateful, so I hate to admit it... but I think about it sometimes.
+Avery(surprise): Why? Do you not like your current lifestyle?
+Lucas: I don't know if I could give it up. I love being on stage, it's a thrill like nothing else.
+Lucas(sad): But there are certain... freedoms that I've lost. I'd be lying if I said that wasn't hard.
+***
+>
+Narrator: For a moment, Lucas's expression looks vulnerable... but then he puts his smile back on.
+>>
+Lucas(happy): Next question?
+Avery: Why did you ask me out to dinner tonight? Really?
+Lucas(happy): Is it not enough that I think you're cool?
+Avery: Oh please, you're probably surrounded by effortlessly cool people all the time.
+>
+Narrator: Lucas sighs and runs a hand through his hair.
+>>
+Lucas: You're right, there's more to it than that.
+Lucas(sad): My life has been kinda... lacking in inspiration, recently.
+Lucas(shy): You seem like someone who can inspire me.
+Avery(surprise): Oh...
+Lucas(happy): Is that a good enough answer for you?
+Avery(happy): For now.
+*Goto sing02_sam_catches_you
+
+sing02_sam_catches_you
+>
+Narrator: Suddenly, Lucas presses a finger to his lips, crouching down a bit behind the wall.
+*Play Music m_intense_stimulate_romance_sprightly_flames_01
+Avery(surprise): What is it?
+Lucas: I thought I heard something—
+Narrator*Top: Sam | Lucas! I know you're over there!
+Avery(surprise): He sounds pissed...
+Narrator*Top: Sam | You have two minutes before I haul you over this wall and drop you on your ass!
+Lucas(sad): Guess our time's up. He isn't kidding.
+Avery: Let's...
+(sfm_02_13_DP5_angry_sam)
+A. Mess with him a little.
+B. Do what he says.
+A
+Narrator: Lucas's eyes light up when he sees your mischievous grin.
+>>>
+Lucas(smile): I'll follow your lead.
+>
+Narrator: Moving quickly, you sneak along the garden wall until you're at the far edge.
+Narrator: Lucas helps you climb back over, and you both drop down to the ground as quietly as you can.
+*Camera Left 2
+Sam(angry): I do not get paid enough for this...
+Narrator: Gesturing for Lucas to stay quiet, you lead the way back to your dinner table and take a seat.
+Avery(happy): Looking for us?
+Narrator: Sam whirls around, a scowl on his face when he sees you and Lucas.
+Lucas(happy): Hiya.
+>>>
+Sam(angry): You think this is funny?
+>
+Lucas(confuse): The look on your face? Definitely.
+Narrator: Sam turns on you, his scowl deepening.
+Sam(angry): I'm guessing this was <i>your</i> idea.
+Avery(smile): Only this last part. We were just having some fun...
+B
+Avery(sad): I'm pretty sure he could put us both in a headlock without breaking a sweat.
+Lucas(sad): You're not wrong.
+Narrator: Reluctantly, you and Lucas climb back over the wall.
+*Camera Left 2
+Narrator: You're met with the sight of a scowling Sam.
+>>>
+Sam(angry): At least you didn't try to make a run for it.
+>
+Lucas: Calm down, Sam. We just wanted a moment to ourselves.
+Sam(angry): Yeah, I know exactly what you wanted. You think I'm not used to these games of yours?
+Avery: Hey, everything's fine. Lucas isn't some kid you need to babysit.
+Narrator: Sam turns on you, his scowl deepening.
+>>
+Sam(angry): Lucas and I have been through more than you could imagine.
+Sam(angry): Don't think you can step between us and tell me how to do my job.
+Avery(sad): That's not what I'm trying to do.
+***
+Sam(angry): How am I supposed to keep you safe if you keep pulling stunts like this, Lucas?
+Lucas: Let's talk about this later. No need to ruin {Avery Name}'s evening.
+>
+Narrator: Sam opens his mouth to argue, but Lucas firmly turns his back on him and gives you his full attention.
+Lucas(happy): For what it's worth... I had a great time tonight.
+Avery(happy): Me too. It was perfect.
+*Goto sing02_cliffhanger
+
+sing02_cliffhanger
+Narrator: As Lucas walks you toward the elevator, he gently takes you by the arm.
+>>>
+Lucas: Before you go, can I...?
+>
+Narrator: He gestures for your phone, and you hand it to him.
+>>
+Lucas(shy): Now you'll have my number, so we can meet up again soon.
+Avery(shy): Somebody's eager.
+>
+Narrator: Lucas winks as he hands your phone back to you, a cheeky grin on his face.
+Lucas(shy): Always eager to make new friends.
+Sam: Let's go, {Avery Name}. I'll walk you out to the car.
+Avery: I can walk myself out—
+Sam(angry): I insist.
+Lucas(happy): Stop trying to seem scary, Sam. Nobody's buying it.
+Narrator: The elevator doors open, and you look back at Lucas one last time.
+Avery*Think: I should...
+(sfm_02_14_goodbye_lucas)
+A. Kiss him on the cheek.
+B. Hug him.
+C. Wave goodbye.
+A
+Narrator: You step closer to Lucas and quickly brush your lips against his cheek.
+*Lucas REL +1
+Lucas(confuse): What did I do to earn that?
+>>>
+Avery(happy): Don't let it go to your head.
+>
+Lucas(shy): Too late.
+B
+Narrator: You step closer to Lucas and wrap your arms around him in a quick hug.
+*Lucas REL +1
+Lucas(shy): Get home safely, {Avery Name}.
+Narrator: He holds you tight for a moment before letting you go.
+C
+Narrator: You give Lucas a small wave over your shoulder as you step into the elevator.
+Avery(smile): Thanks for dinner.
+Lucas(smile): Anytime. Really.
+***
+*
+*Scene RESTAURANT_EXTERIOR_NIGHT
+*Camera Right 0
+*
+*Play Music m_intense_classical_tension_boreal_01
+Narrator: Sam doesn't say a word to you as he walks you outside to the car.
+Narrator: You're about to comment on his silence, when the backdoor slides open...
+*Barry Name Stranger
+Barry: Get in. We have a lot to talk about.
+End

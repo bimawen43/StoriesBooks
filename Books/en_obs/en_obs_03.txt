@@ -1,0 +1,663 @@
+Begin
+*Scene KATE_BEDROOM_DAY 
+Narrator: Chapter Three | <color=maroon>The Mission</color>
+*Play Music m_intense_tension_others_are_coming_01
+
+obs03_castellano_family
+*Scene POLICE_STATION_DESK (Color: Black)
+Narrator: At the police station, you turn around to find Michael standing behind you with his arms folded, his eyes flashing.
+>>
+Michael(angry): My last name is Castellano.
+Michael(angry): Julian Castellano is my brother.
+Kate(surprise): {*Joyful What???}
+>
+Narrator: Out of the corner of your eyes, you see your colleagues Kelly and Lee gaping at the both of you like goldfish.
+Narrator: Michael glares at them, and they immediately turn away and hurriedly begin typing on their keyboards.
+Michael(sad): Look...
+Narrator: He pinches the bridge of his nose as if he has a headache, and sighs wearily.
+Michael(sad): Do we really have to do this?
+Kate: ...
+(obs_03_01_the_brothers)
+A. Yes, we <b><i>really</i></b> do.
+B. Seriously?? Why didn't you tell me?
+C. This is <b><i>important</i></b>, Michael!
+***
+Michael(angry): Fine. The breakroom please.
+Narrator: He turns around abruptly and walks off, and you follow after him angrily.
+*Stop Music
+*Scene POLICE_STATION_BREAKROOM (Color: Black)
+*Play Music m_melancholy_tension_poisoned_rose
+Kate(angry): Seriously?? When were you going to tell me, Michael?
+Michael(sad): Does it make a difference?
+>>
+Kate(angry): {*Attention Does it make a difference???}
+Kate(angry): OF COURSE it makes a difference!
+Kate(angry): You're related to the most feared American Italian mafia in New York...
+Kate(angry): {*Attention It's your family!}
+Narrator: Michael flinches noticeably, and looks away.
+Michael(angry): They haven't been in a long time.
+Kate(sad): But--
+Michael(angry): Why? You don't think I can be impartial?
+Michael(angry): You think I'll sabotage the case? Just like the rest of them.
+Kate(sad): No!
+(obs_03_02_be_impartial)
+A. I just wish I'd found out from YOU.
+B. Honestly, I don't know what to think.
+C. Don't you dare turn this on me!
+A
+Kate(sad): How do you think it makes me feel, finding out this way from Kelly and Lee?
+Kate(sad): It makes me realize I don't really know anything about you.
+B
+Kate(sad): I just feel... betrayed?
+Michael(angry): I haven't lied to you.
+Kate(sad): No, you just omitted to tell me something very important.
+C
+Kate(angry): Don't make it out like it's my fault!
+Michael(angry): And it's mine?
+***
+Narrator: Michael stands as stiff as stone, his arms folded, glaring at you. You glare back at him.
+Kate(angry): Michael, I need to know everything if we're to work together.
+Michael(angry): There's nothing else to know.
+Kate(sad): But why are you a cop??
+Kate(sad): You're the eldest son. Why didn't you take over the family business??
+Narrator: To your frustration, Michael just continues staring at you in silence.
+Kate(sad): Michael, please. Look, maybe you want to keep some things private, but...
+Kate(angry): Partners should be able to trust each other with their lives.
+Michael(angry): And you don't feel like you can trust me. I get it.
+Kate(sad): I'm sorry Michael, but...
+(obs_03_03_can_not_be_trust)
+A. I can't work with someone like this.
+B. This is just too much to take in.
+C. Help me understand!
+A
+Kate*Think(sad): No matter how attracted I am to him.
+B
+Kate(sad): I don't understand any of this. I don't understand <b><i>you</i></b>.
+C
+Kate(sad): Because I'm really trying to, Michael.
+***
+Narrator: Michael continues standing there stiffly, in silence. Finally, he looks away and sighs.
+Michael(sad): I won't blame you if you want to be assigned another partner.
+Michael(sad): Levine is in his office right now, go right ahead and ask him to assign you someone else.
+>
+Narrator: Michael turns around and leaves, leaving you standing alone in the breakroom, shocked and frustrated.
+Kate*Think(sad): How did we go from yesterday evening to... this?
+
+obs03_director_command
+*Stop Music
+*Scene POLICE_CHIEF_OFFICE (Color: Black Time: 2)
+*Play Music m_intense_mystery_suspense_bittersweet_02
+Narrator: You knock on the police chief's door.
+Levine: Come in.
+Kate(angry): Captain, I can't work with him.
+Narrator: The police chief sighs and puts down his pen.
+Levine: Did the others just tell you his last name?
+Kate: Well, they were about to, then Michael came in and said it.
+Kate(angry): But he should have told me earlier!
+Kate*Think(angry): And for that matter, you should have too!
+Kate(angry): So please assign me another partner.
+Levine: Request denied.
+Kate(surprise): But--
+Levine: Michael may be a Castellano, but I have no doubt where his loyalties lie.
+Levine: He's proven it many times over the years.
+Levine: He's also one of our best damn detectives on the force, just so you know.
+Kate(sad): I'm not saying he isn't, but--
+Levine: So learn to work with him.
+Narrator: Tutorial | Asking Levine about Michael will let you find out important information about your new partner!
+>>
+Kate*Think(angry): I need to find out why the captain is so dead-set on partnering us!
+Kate(sad): Captain...
+(obs_03_04_ask_captain)
+A. Why him, of all people? (Cost: 15 Diamond ID: plot_obs_03_levine)
+B. He should have told me earlier!
+C. Yes, Captain.
+A
+*Stop Music
+*Play Music m_gently_melancholy_you_not_wrong
+Kate(sad): Is there really no one else I can be partnered with?
+Levine: Rivera, are you really questioning my decision?
+Kate(surprise): No! I don't mean to--
+Narrator: The captain sighs.
+Levine: Look, I'm aware of how some of the other officers talk about him.
+Levine: And he doesn't help things when he acts like that.
+Kate(sad): No, it really doesn't help.
+Levine: He's a fine detective, but he's stubborn as hell. And proud too.
+Levine: No man is an island, it'll do him good to have a partner.
+Levine: Most importantly, you don't have enough experience, and Michael is the perfect person to teach you.
+Kate(sad): I... understand.
+Levine: You know... he once took a bullet that was meant for me.
+Kate(surprise): Really?
+Levine: Yes. He pushed me out of the way just in time.
+Levine: If it wasn't for him, I might not be here right now. He's a good man.
+Message: A Good Man | You learned more about Michael's character!
+Kate: I see.
+Levine: So, can I take it that I won't be hearing any more about this?
+Kate: Yes, captain.
+Levine: Good.
+B
+Kate(angry): He had all day yesterday to tell me!
+Levine: Rivera, do you think it's easy for anyone to reveal something like that?
+Kate(sad): I... I suppose not.
+Levine: Knowing Michael, he probably would have told you in time.
+Levine: Now I don't want to hear any more about this.
+C
+Levine: Good. Now I don't want to hear anymore about this.
+***
+>
+*Stop Music
+*Play Sound s_telephone01
+Narrator: Captain Levine picks up his phone receiver and dials a button.
+Levine: Michael, please come in to my office.
+*Play Music m_melancholy_tension_intense_walkout
+Narrator: Michael enters the room a minute later. He doesn't look at you.
+Michael: ...
+Narrator: For some reason, that causes a pinching feeling in your chest.
+>>
+Kate(sad): ...
+>
+Levine: Michael, you wanted to tell me something?
+Michael: Yeah. We may have a possible breakthrough, Captain.
+Michael: You know that informer I've been cultivating?
+Levine: Russo?
+Michael(smile): Yeah, him. He passed me a new tip this morning.
+Michael: According to him, the Lucchese family will have an arms shipment arriving next month.
+Michael(smile): He says that it's a big one, and Julian Castellano intends to be present during the exchange.
+Narrator: Michael hands the police chief a report, which he quickly scans through.
+Levine(smile): Wow, this is big. So you think this might be our chance?
+Michael: It could very well be.
+Levine: Alright. Get as much info as you can on this.
+Levine: See if we can organize a raid and catch them red handed.
+Michael: Yes Captain.
+Levine: Alright, get to it, the both of you.
+
+obs03_stealth
+*Stop Music
+*Scene POLICE_CONFERENCE (Color: Black)
+*Play Music m_stimulate_sprightly_clover_02
+Narrator: Michael calls a meeting in the conference room with the team, and briefs everyone on the mission.
+Narrator: You can't help noticing that he doesn't look at you at all throughout the entire briefing.
+Narrator: Finally, he finishes briefing the team. Kelly and Lee are practically hopping in their seats with excitement.
+Michael: Any questions?
+Kelly(surprise): This is huge! It's exactly what we've been waiting for!
+Lee(smile): I know right? We might actually be able to pin the bastard on this.
+Kelly: How reliable is this informer?
+Michael: He's been passing us info for a year and a half. So far it's all been good.
+Michael: Small stuff, but accurate. This is the first big info though.
+Narrator: You raise your hand tentatively, and he looks at you for the first time.
+Michael: Yes, {Kate Name}?
+Kate: Umm...
+(obs_03_05_question_for_mission)
+A. Where do we start?
+B. What should I do?
+C. Actually, forget it.
+A
+Michael: We normally start with a reconnaissance of the location.
+B
+Michael: Normally, we'd need to do a reconnaissance of the location.
+C
+Kate*Think(shy): Don't want to look like a complete newbie in front of the entire team.
+Narrator: Michael casts you a questioning look, but continues.
+Michael: The most crucial piece of info is the location of the deal.
+***
+Kate: It's stated here the informer says it hasn't been determined yet.
+Michael: No, he's still waiting for Castellano to tell all of them.
+Michael: All we can do at this point is gather as much intelligence as we can, and wait.
+Michael: Kelly and Lee, you two gather as much intel as you can on these Russians that are supplying the guns.
+Michael: {Kate Name} and I will monitor the Lucchese's activities for anything out of the ordinary.
+Michael: All right guys, that's it for now.
+
+obs03_embarrassing_situation
+*Stop Music
+*Scene POLICE_STATION_DESK (Color: Black)
+*Play Sound s_keyboard_typing
+Narrator: You all head back to your desks, and you spend the next few hours working in strained silence...
+*Play Music m_melancholy_gently_deal_going_down
+Narrator: With your mysteriously reticent partner, who doesn't talk to you unless it's something concerning the case.
+Michael: ...
+Narrator: There's no sign of the man who made love to you just the night before. (Condition: MICHAEL_SEXTWO_02 >= 1)
+Narrator: There's no sign of the man who smiled and spoke easily with you just the evening before. (Condition: MICHAEL_SEXTWO_02 < 1)
+>>
+Kate*Think(sad): Maybe I should try to make conversation...
+Kate(shy): So, umm...
+(obs_03_06_say_something)
+A. How excited are you about this tip???
+B. What did you have for lunch?
+C. Doing anything this evening after work?
+A
+Kate(happy): I know I am!
+Narrator: He looks at you without speaking, until you squirm with embarrassment.
+Narrator: The corner of his mouth quirks, almost into a smile.
+Michael: Good to know you're so enthusiastic.
+B
+Kate*Think(sad): Did I really just ask him what he had for lunch?
+Narrator: He looks at you without speaking, until you squirm with embarrassment.
+Narrator: The corner of his mouth quirks, almost into a smile.
+Michael: I had a hotdog.
+C
+Narrator: He glances at you, taking his time before answering.
+Michael: Today? I have something on.
+Kate(sad): Wow. Could you give a more evasive answer?
+Narrator: The corner of his mouth quirks, almost into a smile.
+Michael: Guess not.
+***
+Kate(sad): Look, is working together always going to be this awkward from now on?
+Narrator: Michael frowns and crosses his arms.
+Michael: As I recall, you're the one who requested to be assigned another partner.
+Kate(angry): Yeah, and you're the one who said you wouldn't blame me if I did!
+Michael: I don't blame you.
+Michael: Now are we going to work, or are we going to have to talk about our <i>feelings</i>?
+>
+Narrator: Your mouth snaps shut with annoyance, and you work quietly the rest of the day without speaking again to him.
+Narrator: After work, Michael gets up and leaves without saying another word.
+Kate*Think(angry): Fine. Just be broody like that... you stupid, mysterious, good looking man!
+Kate*Think(angry): Actually, you know what? He can't keep acting like that towards me!
+Narrator: Tutorial | Chasing after Michael will increase <color=purple>Romance</color> with him, and unlock a steamy scene!
+Kate*Think(angry): I'm going to...
+(obs_03_07_chase_after_michael)
+A. Chase after him and make him talk to me! (Cost: 20 Diamond ID: plot_obs_03_michael)
+B. Just let him go.
+A
+*Goto obs03_chase_michael
+B
+Kate*Think(angry): Let him brood! I'm not going to chase after him!
+Kate*Think(angry): {Kate Name} Rivera doesn't chase after any man!
+Narrator: You tidy up your desk and stomp angrily out of the station as well.
+*Goto obs03_visit_hospital
+***
+
+obs03_chase_michael
+*Gain MICHAEL_KISS_03
+Kate*Think(angry): Because this is ridiculous!
+*Stop Music
+*Play Sound s_running_high_heeled_shoes
+Narrator: Hurriedly, you grab your bag and run after Michael.
+*Scene POLICE_CARPARK (Color: Black Time: 1.5)
+*Play Music m_melancholy_tension_poisoned_rose
+Narrator: You catch up with him in the car park outside the police station, just as he reaches his car.
+Kate: Michael!
+Michael(surprise): Did you just run after me?
+Kate(angry): You bet I did.
+Narrator: His face falls impassive again almost immediately.
+Michael: I don't know what else you want me to say.
+>>
+Kate(angry): Oh, be quiet, and {*Attention listen!}
+Narrator: You feel yourself starting to flush with anger.
+Kate(angry): I don't know what's up with this sulky, brooding act.
+Kate(angry): You should have told me who you were exactly, right at the beginning, and you know it.
+Kate(angry): And no, it doesn't change a thing, alright?
+Kate(angry): I DON'T think you can't be trusted, just because you're related to mobsters by blood.
+Narrator: You poke a finger at his chest.
+Kate(angry): I asked the captain to assign me another partner, not because of your last name.
+Kate(angry): I asked because I was PISSED OFF at you, because you obviously didn't want to tell me.
+Michael(surprise): I--
+Kate(angry): Well now I'm stuck with you, and you're stuck with me.
+Kate(angry): We're partners whether we like it or not! So either suck it up, or--
+Narrator: He grabs your hand, which is still stabbing a finger at his chest.
+Michael: {Kate Name}.
+Narrator: You're panting to catch your breath from your angry speech.
+Kate(angry): What?
+Michael: You're right. I'm sorry.
+Kate(angry): You--
+Kate(surprise): You are?
+Michael: I should have told you right from the beginning who I am.
+Michael: I guess it was an automatic defense mechanism? Anyway, I have no excuse.
+*Stop Music
+Message: Breaking Michael's Walls | You chased after Michael and got him to lower his guard!
+*Play Music m_snug_romance_decay_tower_01
+Michael(smile): And I'll stop my 'sulky brooding act' now.
+Kate(surprise): Oh.
+Narrator: Michael's gentle tone and apology deflates your anger immediately.
+Kate: Well then, good.
+Michael(smile): So... you don't care that I'm a Castellano?
+Kate*Think(confuse): Do I care...?
+(obs_03_07_DP1_dont_care_about)
+A. It doesn't make a difference.
+B. I really couldn't care less.
+C. I know you're not your brother.
+A
+Kate: You're still Michael.
+B
+Kate: And anyone who does is just idiotic.
+C
+Michael: And how would you know that?
+Kate: I mean I've only spoken a few minutes with him, but that's apparent, believe me.
+***
+Narrator: His blue eyes flash, and his smile deepens.
+*Michael Romance +1
+Michael(smile): I see.
+Kate: Just... I want you to know I have your back, okay? We're partners now.
+Kate(sad): But the way, that really hurt, the way you acted towards me today.
+Kate(sad): Especially after last night. (Condition: MICHAEL_SEXTWO_02 >= 1)
+Michael(sad): I'm sorry.
+Michael(smile): You know, you're scary when you're angry.
+Kate: I... I'm not angry.
+Michael(smile): Alright, when you're <i>passionate</i>.
+Narrator: Suddenly, you become acutely aware of just how close the both of you are standing, and how he's still gripping your hand by your wrist.
+Narrator: As usual, you feel your body immediately start to react to him again.
+Kate(shy): Michael, you're still holding onto my wrist.
+Michael(surprise): Am I?
+Narrator: But he doesn't let go.
+Michael: You're really... different. You're not like her at all.
+Kate: Like who?
+*Stop Music
+*Play Music m_gently_romance_solar_power
+Narrator: But he doesn't answer. Instead, his eyes drop to your mouth.
+Kate: I should...
+(obs_03_07_DP2_holding_wrist)
+A. Lean in and kiss him!
+B. Gently pull back your hand from his grasp.
+A
+Narrator: Before you know what you're doing, you lean in even closer and kiss him on his mouth!
+Narrator: Michael's eyes widen in surprise... then he starts kissing you back just as passionately.
+Narrator: You close your eyes as his mouth explores yours, enjoying the hardness of his kiss, and the feel of his slight stubble against your face.
+Narrator: He takes another step towards you, making you take a step back until you're pinned between his hard, lean body and his car.
+Narrator: His mouth trails down your jaw, and you throw your head back...
+Narrator: Your right hand twining in his hair as he kisses your neck, your left arm wrapping around his neck.
+*Michael Romance +1
+Michael(pleasure): Mmm, {Kate Name}...
+Narrator: You gasp as his right hand slides to your chest and gently squeezes.
+Kate(pleasure): Oh...
+Kate*Think(pleasure): How could he make me so mad at him one moment...
+Kate*Think(pleasure): ...And have me wanting him like this the next?
+Narrator: Suddenly, and much to your disappointment, he suddenly stops kissing you.
+>
+Kate: What's wrong?
+Michael: We're just outside the station. Anybody could step outside right now and see us.
+Kate(shy): Oh! Right.
+Narrator: He releases his hold on your wrist and steps back, ruefully rubbing the back of his neck.
+B
+Kate(shy): Michael... we're just outside the station. Somebody could see us.
+>
+Narrator: He releases his hold on your wrist and steps back, ruefully rubbing the back of his neck.
+Kate*Think(shy): What was that about?
+***
+Narrator: Michael clears his throat.
+Michael: Well, thanks for running after me and talking some sense in me.
+Kate: No problem, partner.
+Michael: So, see you tomorrow then.
+Kate(shy): Yes, see you.
+Narrator: Michael gets in his car and slowly pulls out of the carpark, and you watch him drive away with mixed feelings.
+Kate*Think(sad): This man is going to drive me crazy.
+*Goto obs03_visit_hospital
+
+obs03_visit_hospital
+*Stop Music
+*
+*Scene HOSPITAL_LOBBY (Color: Black Time: 2.5)
+*Camera Left 0
+*
+*Play Music m_sprightly_snug_let_go_home_02
+Narrator: Before heading home though, you stop by the hospital to see your sister, Amy.
+Kate*Think(sad): I wonder how she's feeling today?
+Narrator: The memory of how she looked like the last time you saw her, all pale and thin, sends a sharp stab of pain in your chest.
+*Camera Right 3
+Kate*Think: Oh, there's a gift shop over there! I should get her something to cheer her up!
+Kate*Think: I'll just have a quick look at what they have.
+*
+*Scene HOSPITAL_GIFTSHOP (Color: Black)
+*Camera Left 0
+*
+Narrator: You step into the small but cheery gift shop in the hospital's lobby.
+Narrator: Immediately, a brightly colored, stunning bouquet of gerbera daisies catch your eye.
+Kate*Think(happy): Oh! Her favorite flowers!
+*Item
+(obs_03_08_flowers_show)
+A. ITEM_DAISIES Oh wow, these are beautiful!
+***
+Kate*Think(happy): This will cheer Amy up for sure! 
+Kate*Think: What else could I get her?
+Narrator: You continue walking down the aisles... 
+*Camera Right 3
+Narrator: Until you come to a shelf displaying boxes and boxes of fine chocolate.
+*Item
+(obs_03_09_chocolate_show)
+A. ITEM_CHOCOLATE Oh! Amy loves chocolate! 
+***
+Kate*Think(smile): This will cheer her up too, especially after having to eat hospital food day in and day out.
+Narrator: Tutorial | Getting your sister a present will cheer her up!
+*Item
+(obs_03_10_choose_gift)
+A. ITEM_DAISIES Get her a bouquet of daisies! (Cost: 18 Diamond ID: item_obs_03_daisies) 
+B. ITEM_CHOCOLATE Get her a box of chocolates! (Cost: 18 Diamond ID: item_obs_03_chocolate)
+C. ITEM_NOTHING Pass, she'll be happy with my company.
+A
+*Gain FLOWERS_03
+Kate*Think(happy): These flowers make even me happy just looking at them.
+B
+*Gain CHOCOLATES_03
+Kate*Think(happy): It's her favorite brand of chocolates.
+C
+Kate*Think: I know she'll be happy just to see me.
+***
+
+*Scene HOSPITAL_ROOM (Color: Black Time: 2)
+Narrator: You hurry to your sister's room, eager to see her.
+Narrator: She looks even paler and thinner than the last time you saw her, which was only two days ago.
+*Condition
+A. (Condition: Kate Face = Face_1)
+B. (Condition: Kate Face = Face_2)
+C. (Condition: Kate Face = Face_3)
+D. (Condition: Kate Face = Face_4)
+A
+*Amy Face Face_amy_1
+B
+*Amy Face Face_amy_2
+C
+*Amy Face Face_amy_3
+D
+*Amy Face Face_amy_4
+***
+*Stop Music
+*Play Music m_sprightly_snug_let_go_home_01
+>>
+Amy(smile): Hey! If it isn't my favorite sister!
+Kate(smile): I'm your only sister, doofus.
+*Goto obs03_see_flowers (Condition: FLOWERS_03 >= 1)
+*Goto obs03_see_chocolate (Condition: CHOCOLATES_03 >= 1)
+*Goto obs03_present_knit
+
+obs03_see_flowers
+Amy(surprise): What are you hiding behind your back?
+Kate(smile): What? You mean... this?
+Narrator: You bring the bouquet of gerbera daisies to her in bed.
+>>>
+Amy(happy): Gerbera daisies! They're beautiful!
+>>
+Narrator: Her thin, pale face lights up as she admires the bright colorful flowers.
+Message: Brighten Up Her Day | You cheered up your sister with the bouquet of flowers!
+Amy(happy): You remembered that they're my favorite!
+Amy(happy): Thank you, {Kate Name}!
+Kate(smile): Here, I'll put it in a glass of water for you.
+Narrator: You busy yourself with transferring the flowers into a tall glass of water, then sit down back at her side.
+*Goto obs03_present_knit
+
+obs03_see_chocolate
+Amy(surprise): What are you hiding behind your back?
+Kate(smile): What? You mean... this?
+Narrator: You bring the box of gourmet chocolates to her in bed.
+>>>
+Amy(happy): Oh my god, Godiva!
+>>
+Narrator: Her thin, pale face lights up as she opens the box and immediately pops a chocolate in her mouth.
+Message: Brighten Up Her Day | You cheered up your sister with the box of chocolates!
+Amy(happy): You remembered that they're my favorite!
+Amy(happy): Thank you, {Kate Name}!
+Kate(smile): Hey, don't eat all of that at once! The nurses would kill me!
+Narrator: You laugh as she quickly eats a second one, and sit down by her side.
+*Goto obs03_present_knit
+
+obs03_present_knit
+Amy: Will you stop staring at me like that?
+Kate: I just miss you, that's all.
+(obs_03_11_meet_amy)
+A. You look good.
+B. You look awful.
+C. Change the subject.
+A
+Narrator: Amy bursts out laughing.
+Amy(smile): You were always a terrible liar, {Kate Name}.
+Amy(smile): I look terrible and I know it.
+B
+Narrator: Amy bursts out laughing.
+Amy(smile): I know, it's this hospital gown. Green is really not my color.
+C
+Narrator: You smile at her and change the subject.
+***
+Kate(sad): Have you been eating? Hospital food sucks, I know.
+Amy(sad): Yes... I just haven't been able to keep much of it down ever since starting the chemotherapy.
+Narrator: She shrugs.
+Amy: Anyway, I've always wanted to lose five pounds. Guess I've now succeeded, haha.
+Amy(smile): Can't wait for my hair to start dropping! Then I'll be really pretty.
+Kate(sad): Amy...
+
+obs03_visit_sister
+Narrator: <color=purple>Collectible diary entry 'Amy's Sickness'!</color>
+*Item
+(obs_03_12_pay_photo)
+A. ITEM_VADEMECUM Collect it! (Cost: 18 Diamond ID: item_obs_03_diaryentry04)
+B. ITEM_NOTHING No thanks.
+A
+*Gain DIARYENTRY
+*Vademecum PHOTO_AMY
+// Animation: Two girls in a field holding hands, their backs facing us, fades in on the page
+// Animation: Writing slowly appears across the empty page:
+// The day when Amy was diagnosed with acute myelogenous leukemia, was the worst day of our lives.
+// I'd sworn to take care of her after our parents died, leaving just the two of us to fend for ourselves...
+// And I felt as if I'd somehow failed to take care of her.
+// I would have given anything, done anything, to make her healthy again.
+Message: Amy's Sickness | You've added an entry to your Diary!
+***
+*Stop Music
+*Play Music m_gently_snug_lullaby_01
+Amy(smile): Anyway, I'm fine, really! Tell me what you've been up to.
+Kate: Well... I got transferred to the Gang squad. And I got promoted to Detective.
+Amy(happy): Really?? Oh my god! That's great! So THAT'S why you're not wearing your uniform today!
+Amy: Why the Gang Squad, though? Haven't you always wanted to join Narcotics?
+Kate: It's a, uh... long story. I had a little run in with a gang, while on one of my patrols...
+Narrator: You blush slightly, as a memory of your kiss with Julian Castellano flashes in your mind. (Condition: KISSED_JULIAN >= 1)
+>>>
+Amy(surprise): Oh my god!
+>>
+Kate: I'm fine, obviously! So anyway, the chief decided to put me in the Gang squad.
+Amy(happy): Well I'm so happy for you! Isn't it really hard to make Detective? And so quickly as well?
+Kate(smile): Yup, it usually takes quite a few more years of hard work and experience.
+Kate(smile): So you could say I lucked out.
+Kate(shy): And, uh... I got assigned a partner.
+Narrator: Amy's observant eyes don't miss the slight flush on your face.
+Amy(happy): Oooh... and he's <i>hot</i>, isn't he?
+Kate(shy): No!
+Amy(smile): Spill it!
+(obs_03_13_a_hot_guy)
+A. Alright he's hot!
+B. He's so annoying!
+C. He's so hot but mysterious, it's annoying.
+A
+Amy(happy): YES! Tell me about him!
+B 
+Amy(happy): So he IS hot! Tell me about him!
+C
+Amy(happy): Oooh. I need to know everything about him!
+***
+Kate(shy): Amy, he's my partner.
+Amy(happy): Even better! You get to mix business with pleasure!
+Kate(smile): Oh my God, Amy! You shock me sometimes!
+Amy(happy): I'm just trying to live vicariously through you.
+Kate(smile): Amy, stop!
+Narrator: The both of you laugh, until Amy's laughing is overtaken by a bout of coughing.
+Kate(sad): Should I call for a nurse?
+Amy(sad): I'm... fine.
+
+obs03_medical_bills
+>
+Narrator: Just then, the doctor walks in.
+*Ramsey Name Doctor Ramsey
+Ramsey: Ah, Miss Rivera.
+*Stop Music
+*Play Music m_gently_melancholy_neither_sweat_nor_tears
+Ramsey(sad): I was just discussing the treatment options with Amy earlier on, has she mentioned it to you?
+Kate(surprise): No, she hasn't.
+Narrator: You turn to Amy, just in time to see her shoot the doctor a warning look.
+Kate(sad): Amy? What's this about?
+>>
+Amy(terror): I... I was just about to.
+>
+Ramsey(sad): Amy is an adult and capable of making her own medical decisions concerning her treatment...
+Ramsey(sad): But I hope that you can change her mind.
+Narrator: The doctor leaves the room, and you turn towards Amy with a sinking feeling in the pit of your stomach.
+>>
+Kate(sad): Change your mind about what? What decision did you make?
+Amy(sad): Because it's so aggressive, they're recommending that I undergo chemotherapy, followed by radiation.
+Kate(sad): And?
+Amy(smile): And I told them I would think about it.
+Kate(sad): ... Why, Amy?
+Amy(sad): {Kate Name}... The treatment is expensive. How are we going to pay for it?
+Kate(sad): I... I'll find a way. Amy, if it's the only way to cure this thing, you have to do it.
+Amy(smile): I... okay.
+Kate(sad): Don't worry about the money, Amy. That's my concern, okay?
+Kate(sad): I'll take care of it.
+>
+
+*Stop Music
+*Scene HOSPITAL_CARPARK (Color: Black Time: 2)
+*Play Sound s_walk_high_heeled_shoes
+Narrator: The hospital's underground carpark is surprisingly almost empty at this time, and your footsteps echo in the space as you walk towards your car.
+*Play Music m_intense_tension_others_are_coming_01
+Kate*Think: Where did I park my car? Oh right, over there.
+Narrator: You walk towards your car, while looking for your keys in your bag...
+Narrator: When you suddenly become aware of the sound of footsteps close behind you...
+*Time 7 (Default: A)
+Kate*Think(surprise): I should...
+(obs_03_14_sound_of_footsteps)
+A. Turn around and see who's there.
+B. Start walking faster to your car.
+C. Start reaching for your gun instead.
+A
+Narrator: You try not to panic, but the sudden frisson running over your skin makes you turn around.
+Kate(surprise): Can I help you... {*Attention OH!!}
+B
+Narrator: You start walking faster towards your car, but the footsteps pick up their pace to match yours.
+Kate*Think(sad): Why can't I find my car keys??
+Narrator: Suddenly, someone grabs you by your shoulder!
+Kate(surprise): What the hell... {*Attention OH!!}
+C
+Kate*Think(sad): Something feels off...
+Narrator: Surreptitiously, you start reaching towards your gun instead...
+Narrator: But just as your fingertips graze the handle, someone grabs you by your shoulder!
+Kate(surprise): {*Attention What the--}
+***
+Narrator: Before you can react, a hand presses a strong smelling rag into your face, covering your nose and mouth.
+Narrator: You struggle to free yourself, kicking and pulling at the hand covering your face...
+Kate*Shout(terror): Mmm!!! Mmm!!!
+*+blur
+*+shade2
+Narrator: But the world spins around you and turns dark...
+// 添加昏迷的特效
+*Stop Music
+*-blur
+*Scene BLACK
+Narrator: And you pass out.
+*-blur
+*Scene JULIAN_LIVING (Color: Black Time: 2)
+*Play Music m_sexy_mystery_stimulate_kennedy
+Narrator: As you slowly come to, the first thing you notice is that your head is spinning and pounding terribly...
+Narrator: And it takes a while to focus your eyes on anything.
+Narrator: You feel a terrible nausea...
+(obs_03_15_pass_out)
+A. Close your eyes and wait for the nausea to pass.
+B. Try to make yourself sit up.
+A
+Narrator: You close your eyes again, waiting for the nausea to pass.
+B
+Narrator: You try to make yourself sit up, but the room instantly starts spinning around you, and you break out in a cold sweat.
+Narrator: You slump back down into a foetal position and close your eyes again, waiting for the nausea to pass.
+***
+Narrator: After another minute, you finally start to feel better.
+Narrator: You open your eyes again, and that's when you realize that you seem to be lying on a rug on the floor, in a fancy looking apartment.
+Narrator: Someone is sitting in an expensive looking armchair looking at you...
+>>
+Kate(surprise): {*Attention YOU!}
+Narrator: Julian Castellano grins at you.
+Julian(smile): Me.
+*Scene BLACK (Time: 0.5)
+Narrator: <color=maroon>Obsession</color> | Chapter Three Completed.
+End

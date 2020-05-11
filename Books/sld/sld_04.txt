@@ -1,0 +1,652 @@
+Begin
+*Play Music m_deliberate_thought_ability
+*Scene MERM_HOME_SMALL
+merm04_begin_traveling
+Narrator: You wake up in a house you don't recognize, swaddled in some kind of sleeping bag.
+Layla*Think(surprise): And I'm underwater!
+Layla*Think(sad): That's right... I've been turned into a mermaid...
+Zale(smile): Oh, good! You're up. We need to get moving.
+>>
+Layla*Think: Today I meet the sea witch.
+Narrator: Despite Tai and Zale's assurances, you're still not sure about it.
+>
+Layla: Can you tell me more about the sea witch?
+Zale(smile): Sure. What do you wanna know?
+Layla: Um... Well...
+(sld_04_01_question_for_sea_witch)
+A. You said she might demand payment?
+B. Have you met her before?
+A
+Zale(happy): It's not like you're thinking. It's just like any other service.
+Zale(smile): You wouldn't go to the barber and expect a free haircut, would you?
+Layla: Hmm... I suppose that makes sense...
+B
+Zale: Yeah. She's the best source of transformation potions in this area.
+***
+Narrator: Tai joins us. He kisses his wife and scoops up his daughter in his arms.
+Tai(smile): You be good for Mommy, now, okay?
+>>
+Noona(sad): No... Daddy stay... Don't go...
+Tai(sad): I'm sorry, angel fish. I promise I'll come back as soon as I can, alright?
+Noona(sad): N-no... Daddyyyy...
+Narrator: The little mergirl starts bawling, burying her face in her mother's shoulder.
+>
+Lisi: Separation anxiety... You know how it is... She'll be alright.
+Lisi: The books say the bigger deal we make out of leaving, the worse it'll be, so...
+Tai(sad): Right. I'm off, then. Goodbye, honey.
+Narrator: The three of us swim out the door of his home, leaving the poor girl to her mother.
+*Goto merm04_swimming_lessons
+
+merm04_swimming_lessons
+*Play Music m_sea_mermaid_intense_01
+*
+*Scene CLIFF_HOUSE_UNDERWATER (Color: Black)
+*Camera Left 0
+*
+Layla: How far do we have to go?
+Tai: It's about three or four hours off for a strong swimmer.
+*Condition
+A. (Condition: SWIM_SKILL_PREM >= 1)
+B. (Condition: SWIM_SKILL_PREM = 0)
+A 
+Zale(smile): Yesterday's lesson should help a lot. But you still need to practice.
+Narrator: You resist the urge to stick your tongue out at him. 
+B 
+Layla*Think(sad): Which I am definitely not...
+Zale(smile): Hey, cheer up. It'll take us a little longer, but think of it this way...
+Zale(happy): Plenty of time to practice swimming.
+***
+Layla: ...
+(sld_04_02_long_time)
+A. Oh... Yay.
+B. I'll race you there!
+A 
+Zale(happy): You hate swimming that much?
+Layla(shy): I was never the most athletic person, even back on land...
+Tai(smile): Mer are stronger in the water... It might not be as bad as you think.
+B 
+Zale(surprise): Hey, hey... Hold on. 
+Zale(happy): I'm glad you're so confident in your swimming, but don't wear yourself out.
+Zale: We have quite a long way to go.
+***
+*Play Sound s_animal_whale02
+// Whale song sound effect 
+Zale(smile): Actually, I-- Oh! Do you hear that?
+*Stop Sound
+>>
+Layla(surprise): Hear what?
+Narrator: Both of you go still, listening carefully...
+*Play Sound s_animal_whale01
+// Whale song sound effect(a different one)
+Narrator: A sorrowful, echoing note sounds across the water.
+>
+Layla(surprise): That sound... It was almost like...
+
+*Stop Music
+*
+*Scene SWIM_WITH_WHALES
+>>>
+*
+*Wait 2
+*Play Sound s_animal_whale01
+Layla(surprise): A whale!
+>
+Narrator: An enormous humpback whale swims toward you with her calf in tow.
+Layla(surprise): I knew they were big, but I've only seen pictures... Up close, they're huge!
+Zale(happy): Yeah, but they're sweethearts.
+Zale(happy): If you are kind and gentle to them, they'll be kind and gentle to you.
+*Play Music deepsea
+Narrator: Zale holds out his arm to you again, grinning.
+Zale(happy): Want to go swim with them?
+Layla*Think: I should...
+(sld_04_05_swim_with_the_whales)
+A. Swim with the whales! (Cost: 18 Diamond ID: plot_sld_04_whales) *Goto merm04_prem_whales
+B. Let them go.
+B
+Layla: They're magnificent, but... We should hurry to the sea witch.
+Zale(smile): Alright, if you insist.
+Narrator: The two of you swim away, leaving the whales behind...
+*Goto merm04_destroyed_town
+***
+
+merm04_prem_whales
+*Stop Music
+*Play Music m_sea_beneath_gently
+*Play Sound s_animal_whale02
+Narrator: You take Zale's outstretched arm and let him guide you closer to the whales.
+>>
+Layla(surprise): Are you sure they won't hurt us? 
+Layla(sad): That's a mom with her baby, right? We don't want her to feel threatened...
+>
+Zale(smile): Of course. That's why we have to signal our good intentions.
+*Stop Sound
+Narrator: Zale places a hand over the tattoo over his shoulder, then stretches out his arm, offering his open palm to the whale.
+Narrator: A bubble in a perfect sphere builds in his hand, then bursts with a deep thrumming sound.
+*Play Sound s_mystery_buzz01
+Layla(surprise): Oh my god...
+(sld_04_05_DP1_bubble_ability)
+A. You're a sea witch too!
+B. You can talk to animals!
+A
+Layla(surprise): Or a... sea warlock? Wizard?
+Zale(happy): None of the above.
+Zale(smile): When Tai and I became steadfasts, we were given some of those tools to help us with our jobs.
+B
+Zale(happy): I wish. That would be amazing. But that's a very rare ability... I've never known anyone who could.
+Layla: But it's not impossible... Talking to animals is a real thing that happens.
+Zale(smile): We're going to see a sea witch, {Layla Name}. I'm not sure what you were expecting.
+***
+Layla: So what did you just do?
+Zale: It's just a signal that means we don't mean them harm. 
+Layla(happy): Wait... So you just did the magic equivalent of calling "Here boy!" to a dog you just met?
+Zale(happy): Basically.
+*Play Sound s_animal_whale01
+Narrator: The mother whale and her calf swim closer to you, their slow movements propelling them elegantly through the water.
+>>
+Layla(surprise): They're so beautiful...
+Narrator: The baby hides behind his mother, keeping always at her side as she swims along.
+Narrator: Zale swims to meet them, his own motions smooth and slow as he keeps pace with the mother whale.
+Layla*Think(surprise): Wow... She's so much bigger than him, but they seem to understand each other somehow...
+Narrator: The mother whale twists in the water, exposing her underside, then swimming upside down, before righting herself.
+*Stop Sound
+>>>
+Layla(happy): Wow!
+>>
+Zale(happy): Come on, {Layla Name}... Come up here.
+*Play Sound s_animal_whale02
+Narrator: You swim closer, trying to look non threatening as the mother whale looks you over with an intelligent gaze.
+>
+Layla*Think(smile): I should...
+(sld_04_05_DP2_swim_close)
+A. Swim closer.
+B. Extend a hand to her.
+A
+Narrator: You come closer to the larger whale, who holds still so as not to hurt you.
+Layla(smile): Wow...
+B
+Narrator: You hold still, extending a hand to the whale. She treads water slowly, watching you from a distance.
+Layla(smile): She's beautiful...
+***
+*+WHALE_CALF
+Narrator: The little one slips over his mother's back and curiously comes up to investigate you.
+Layla(happy): Hi! It's nice to meet you.
+Zale(happy): I think he likes you.
+Narrator: The younger whale is still three times your size, but he carefully comes closer until...
+Narrator: <i>Boop!</i>
+>>
+Layla(surprise): He just... headbutted me!
+>
+Zale(happy): He's playing with you.
+Narrator: The whale swims in a loop and comes at you from behind, gently bumping you with his nose.
+Layla(happy): Easy there, big guy. You're gonna give me bruises.
+>>
+Zale(happy): I bet he'll let you pet him.
+Layla(surprise): Really?!
+(sld_04_05_DP3_pet_baby_whale)
+A. Reach out and pet the whale.
+A
+Narrator: You place your hand on the top of the whale's head.
+>>>
+Layla(surprise): Oh! It's smooth and rubbery...
+//Whale call sound effect
+*Play Sound s_animal_whale02
+Narrator: You gently stroke him, and he trills in response.
+***
+>
+Zale(happy): Hey little buddy...
+Narrator: Zale reaches out his hand to pet the whale as well, but the calf flaps his fin at him.
+Zale(surprise): What? Don't like me?
+Narrator: The calf turns around, putting you between him and Zale, hiding behind you the same way he hid behind his mother.
+>>
+Layla(smile): Aww, Zale's a friend! You should be nice to him.
+//Whale call sound effect
+*Play Sound s_animal_whale01
+Narrator: The whale doesn't sound like he agrees with that.
+>
+Zale(smile): Alright, well it's about time we get moving anyway...
+Narrator: Zale reaches out to take your arm in his, and the calf swats his fin through the water again.
+Zale(surprise): Woah!
+Layla(surprise): Hey... Calm down...
+Narrator: The whale's fin is as big as a door, and he gently tugs you away from Zale with it.
+Zale(happy): Oh... I think he's jealous. 
+Layla(surprise): Jealous?
+Zale(happy): Yeah... The little rascal wants you all to himself.
+Zale(smile): Can't say I blame him.
+Layla*Think(shy): I should...
+(sld_04_05_DP4_leave)
+A. Flirt back.
+B. Ignore it.
+A
+>>>
+Layla(shy): Geeze, you don't ever stop, do you?
+*Zale FLIRT +1
+>>
+Zale(smile): Would you want me to?
+Layla(smile): I didn't say that...
+B 
+Narrator: You pat the whale's head again, soothing him like a child.
+Layla(smile): You're a very sweet whale, but I can't stay.
+***
+>
+Narrator: The whale bumps you with his nose again. This time, the mother intervenes.
+//Whale call sound effect
+*Play Sound s_animal_whale02
+Narrator: She calls to her calf and extends a fin, blocking him from swimming closer to you.
+Layla(happy): I bet she's saying, 'No, sweetie, you can't bring her home. Humans are not pets.
+Zale(smile): Mermaids are not pets, you mean.
+Layla: Right...
+Layla*Think(sad): I'm not human anymore...
+Narrator: The calf returns to his mother's side and the two of them slowly swim away.
+Zale(smile): Bye, you two! Stay safe!
+Layla(smile): Thanks for hanging out with us! 
+//Whale call sound effect
+*Play Sound s_animal_whale01
+Narrator: You and Zale both wave at the retreating whales, watching them until they're out of sight.
+
+*Play Sound sinking
+*Scene CLIFF_HOUSE_UNDERWATER
+
+Layla(happy): That was <i>amazing!</i>
+Zale(happy): It's rare that a mother whale will let you get that close to her calf.
+Zale(happy): She must have sensed you're a good person.
+Layla(smile): Or she knew she could end me with one swipe of her fin.
+Zale(happy): That too.
+Narrator: He links arms with you again, ready to catch up to Tai.
+*Goto merm04_destroyed_town
+
+merm04_destroyed_town
+*Stop Music
+*Play Music m_rage_tension_dark
+// music change to something dangerous
+Narrator: The tattoo on Zale's shoulder glows faintly red. The merman gasps, staggering.
+Layla(surprise): Uh... Zale? You're glowing.
+Zale(angry): We need to hurry. Hold on tight.
+// shake the screen effect
+*+shade2
+Narrator: Zale takes off, darting through the water at an alarming speed.
+*-shade2
+Layla(surprise): Aah! 
+Zale(surprise): I said hold on!
+Narrator: You cling tightly to him, feeling every muscle in his body move with each powerful twist of his tail.
+>>>
+Zale(angry): ...
+>>
+Layla*Think(sad): Something must be very wrong...
+>
+Narrator: You see Tai hurrying to meet you.
+Tai(surprise): Zale! 
+Zale(sad): What happened? What's wrong?
+Tai(sad): The Deep Sea Clan. They attacked the village.
+Zale(surprise): What?! When?
+Tai(sad): Early this morning. Just a few hours ago.
+Zale(angry): Then they could still be nearby. 
+Tai(sad): Zale, stop. Think. It will be evening before reinforcements can get here.
+Zale(angry): ...
+Narrator: You can see the muscle ticking in Zale's jaw as he grits his teeth.
+Narrator: Tai places a hand over Zale's tattoo and speaks quietly to his steadfast.
+Tai: The squad that attacked them... It was led by the Shadow.
+Zale(surprise): ...!
+Tai(sad): As strong as we are, we're no match for the Shadow's strike force. You know that.
+Narrator: Zale holds Tai's gaze, fierce and determined, but then he sighs, his shoulders drooping.
+Zale(sad): Damnit.
+Tai: I'm heading back to contact reinforcements. You need to get {Layla Name} to the sea witch first. 
+Narrator: The two mermen clasp hands before Tai swims away.
+Layla*Think(sad): If this town needs help... Isn't that more important?
+Zale: Come on. Let's go.
+
+*Stop Music
+*Play Music m_sadness_ambient_namaste01
+*Scene WITCH_VILLAGE_CLIFF (Color: Black)
+
+Layla(surprise): Is this the village Tai mentioned?
+Zale: It is. We can rest here before going the rest of the way.
+Layla(surprise): Rest? But...
+(sld_04_06_rest_in_the_village)
+A. Don't you need to help them?
+B. Isn't it dangerous?
+A
+Narrator: Zale grits his teeth again, not meeting your eyes.
+Zale: The enemy is long gone. They no longer need my help.
+Layla*Think(sad): I've never seen him like this before.
+B 
+Zale: No. The enemy is long gone. We'll be fine.
+***
+Layla(sad): You want to go after them, don't you? This Shadow and his team.
+Zale(angry): Of course I do. But Tai's right. Going alone would be suicide.
+Narrator: Zale guides you silently toward the village, his thoughts clearly elsewhere.
+Layla*Think(sad): I guess a mermaid's life can be dangerous, too...
+Narrator: As you near the village, several townspeople come out to meet you.
+*Merwoman_Town Name Merwoman Amy
+Merwoman_Town: Are you Tai's steadfast?
+*Merwoman_Town Name Amy
+Zale: I am. We were traveling nearby when we heard the news. He's gone for reinforcements.
+*Merman_Town Name Merman Kim
+Merman_Town: You don't think they'll be back, will they?
+*Merman_Town Name Kim
+Layla*Think(sad): He's practically trembling with fear.
+Narrator: As Zale speaks with the villagers, you drift closer to the buildings. 
+Layla*Think: These houses look fine to me... Was the town really attacked?
+Merwoman_Town: Excuse me, miss?
+>>
+Layla(surprise): Yes? 
+Merwoman_Town: You were with Zale, correct? You've come to help us?
+Layla(smile): Yes. How are you doing? Is there anything I can help with?
+Merwoman_Town(smile): Such a kind girl. The wounded are being tended to. There's not much we can do now.
+Layla: If it's alright with you... Could you tell me what happened?
+(sld_04_07_what_happen)
+A. The buildings seem untouched.
+B. Were there any casualties?
+A 
+Merwoman_Town: This wasn't a raiding party. They left most of the village alone.
+B
+Merwoman_Town(sad): Not yet. We'll have to see how the others recover.
+***
+Merwoman_Town: Thankfully the soldiers only attacked the storehouses on the eastern side of town.
+Layla: Storehouses? What do you keep there?
+Merwoman_Town: Food mostly. It's where we store things for the lean months.
+Merwoman_Town(sad): When the seasons change and the schools migrate away, we might not have enough now.
+Layla: The soldiers were just a band of petty thieves, then. 
+Merwoman_Town(sad): Mmm... these were no bandits. They wore the helms of the Deep Sea Clan. 
+Merwoman_Town(sad): If it were merely some thieves, our spearmen could have run them off easily enough. 
+Layla*Think(sad): Why would elite soldiers attack a village just to steal food?
+Layla: Thank you for answering my questions.
+Merwoman_Town(smile): I'm glad I could help. And maybe, before you go...
+Narrator: She steps behind a counter and moves some things around.
+Layla(surprise)*Think: Oh! This is a shop, isn't it? A mermaid shop...
+>
+Narrator: The shop stall is open and looks nothing like a building. You look around and realize there are many stalls like it...
+Layla(surprise)*Think: Is this a mermaid marketplace?
+Merwoman_Town(smile): A beautiful girl like you deserves a beautiful dress to match. What do you think? 
+Merwoman_Town(happy): The colors complement your tail so perfectly...
+Narrator: She hands you a ruffly garment and urges you behind a curtain to try it on.
+Layla(smile)*Think: Alright, let's see what she has...
+Narrator: The material floats effortlessly over your skin through the water, billowing out around your tail like magic.
+Merwoman_Town(smile): Well? What do you think?
+*Layla Outfit Prem_Undersea_Dreams (Tag: Record)
+Layla(surprise): Oh wow...
+Layla(surprise)*Think: I didn't think I would find something this pretty in such a small town...
+Merwoman_Town(happy): Something tells me Zale would think it's lovely too...
+Layla(happy)*Think: Salespeople are the same everywhere you go, it seems...
+Layla(smile)*Think: Hmmm... Should I get it?
+*Model
+(sld_04_08_pay_dress)
+A. Turn the woman down.
+B. Buy the outfit! (Cost: 25 Diamond ID: look_sld_04_clothes)
+A
+Layla(sad): It's lovely but I have to pass. Thank you, though.
+*Layla Outfit Reset
+>
+Merwoman_Town(smile): Of course, dear.
+Narrator: Amy pats your arm kindly before you swim across the village to find Zale.
+B
+*Gain UNDERSEA_DREAMS
+Layla(happy): It's beautiful. I'll take it. Thank you!
+Narrator: The woman beams at you, then gives you a sly wink.
+Merwoman_Town(happy): I'm sure you want to show it off to Zale now, right?
+Layla(shy): Um, well... That's not--
+Merwoman_Town(smile): He's right over there. Take care, now!
+Narrator: The woman busies herself in her shop and you turn to head over to where Zae is talking with some of the other townspeople.
+***
+Narrator: You struggle to stay in a straight line, but you think you're getting the hang of having a tail.
+Merman_Town(sad): And you're sure the Shadow won't return?
+Zale: If he does, our reinforcements will be waiting for him. 
+Zale(angry): He won't get away with this again.
+*Condition
+A. (Condition: UNDERSEA_DREAMS >= 1)
+B. (Condition: UNDERSEA_DREAMS = 0)
+A 
+Narrator: Zale glances up as you approach and the angry scowl on his face melts away immediately.
+Zale(surprise):  {Layla Name}...
+Layla(shy): The, um... One of the townspeople sold me this dress...
+Zale(smile): You're stunning.
+Narrator: He smiles at you, lost for a moment, before the merman with him clears his throat with a knowing smile.
+Merman_Town(smile): Thank you for your help, Zale... I'll go and speak with the others.
+Narrator: He swims away chuckling to himself, leaving you and Zale alone.
+B
+Narrator: The man seems comforted by Zale's words and swims away, leaving you and Zale alone.
+***
+Layla(sad): You seem to be taking this really hard.
+(sld_04_08_zale_sad)
+A. Do you know these people?
+B. Do you live here?
+A
+Zale(sad): No. Never met them in my life. 
+B
+Zale(sad): No. I've passed through sometimes, but never even stayed the night.
+***
+Layla*Think(sad): Then why is he so upset...
+Narrator: Zale crosses his arms tight against his chest, his biceps solid with his frustration.
+Zale(angry): ...It's Tai's and mine job to protect the villages from things like this.
+Zale(angry): For the last few years, we've had relative peace in this region.
+Zale(angry): So I haven't been as on top of things as I could have been...
+Zale(sad): ...I just feel responsible somehow. 
+Layla(sad): You can't predict the future or be everywhere at once.
+Zale: Yeah... I know. I just want to <i>do</i> something. I hate sitting around.
+Layla*Think: Hmmm...
+Layla: I'm fully rested now and ready to go, so... what if we stopped by the eastern side of town.
+Zale(surprise): Where the attack happened? But it's in the opposite direction.
+Layla: ...We could take the scenic route.
+Narrator: Zale stares at you, a smirk slowly appearing on his face.
+>>
+Zale(smile): You're something else, {Layla Name}.
+Layla(smile): Yeah, well...
+(sld_04_09_zale_easten_side)
+A. I'm curious about what happened.
+B. I'm worried about the town.
+A
+Layla: It seemed odd to me. You don't send the navy SEALs out to steal from villagers.
+Zale: You're right. Tai didn't want us going after them, but investigating is safe enough.
+B
+Layla(sad): They needed those supplies. And people got hurt, and...
+Zale(sad): I know exactly how you feel.
+***
+Narrator: Zale takes your arm and the two of you swim to the far side of the village.
+>
+Layla: The woman I spoke with in town said they attacked the storehouses and nothing else.
+Zale(smile): Doing a little investigating, were you?
+Layla(shy): I was curious!
+Narrator: The storehouses show burn marks, broken doors, and signs of a struggle.
+Narrator: But your eyes are drawn automatically to wait lays behind them.
+Layla(surprise): Is that a... cliff?
+
+*Camera Right 2
+Zale: That's the drop off. The ocean gets much, much deeper past that point.
+Layla: It's so dark...
+Narrator: As you stare at the enormous underwater ravine, you spy a lone figure standing near the cliff's edge.
+*Stop Music
+*Play Sound sinking
+Layla(surprise): Hey, what's that over there? It looks like a person.
+Narrator: You swim closer to get a better look.
+Zale(surprise): {Layla Name}... Where are you going?
+Narrator: You swim closer, careful not to be spotted, but as soon as you're close enough to see who it is...
+*Caden Name ???
+*Caden Outfit Caden_Helmet
+*Stop Sound
+*Play Music m_sea_mermaid_intense_02
+*+CADEN_CLIFF
+*Stop Music
+*Play Music m_rage_tension_dark
+
+Caden(angry): ...
+>>
+Layla(surprise): Oh my god... Did he see us?
+*Caden Name The Shadow
+Zale(angry): That's him. That's the Shadow.
+>
+Caden: ...
+Narrator: After a few breaths, the figure turns his back on you again. 
+Layla*Think: So that was the Shadow...
+Layla(surprise): Why is he still here? 
+(sld_04_10_meet_shadow)
+A. You said he wouldn't come back.
+B. Where are his soldiers?
+A
+Zale(angry): I know. I promised the town they'd be safe.
+Narrator: He reaches an arm to his back as if trying to draw a weapon... Then drops it when he realizes it's not there.
+B 
+Zale: The Shadow doesn't need soldiers to be deadly. He does most of his work alone.
+***
+Layla(sad): Does this mean the town could still be in danger?
+Zale(angry): As long as the Shadow is lurking nearby... Yes.
+Zale: It doesn't make sense. They made their retreat. They had what they wanted...
+Zale: Why linger?
+Narrator: The two of you watch the cliff, thinking.
+>>
+Layla: Let's get closer.
+Zale(surprise): What? No. Definitely not.
+Layla(angry): You said the town was still in danger.
+Zale(surprise): Yeah, which means <i>you</i> are still in danger.
+Layla(angry): He hasn't spotted us yet. We'll stay hidden. 
+Zale(sad): {Layla Name}...
+Layla(angry): He's <i>right there.</i> If we don't at least figure out why, then what good are we?
+Narrator: Zale's eyes flick to the man on the cliff, then back to you.
+>
+Layla*Think: We should...
+(sld_04_11_follow_shadow)
+A. Find out what the Shadow wants. (Cost: 18 Diamond ID: plot_sld_04_caden) *Goto merm04_prem_caden
+B. Stay safe.
+B
+Layla: ...You're right. I'm sorry. Let's head back.
+Layla(sad): We won't do any good if we just get ourselves killed.
+Narrator: The two of you quietly retreat back towards the town.
+*Stop Music
+*Play Music m_sadness_ambient_namaste02
+*Camera Middle 2
+Layla: So... How far is it to the sea witch?
+Zale: Not much farther. There's a shortcut going through a cave on the other side of town.
+Layla(smile): What is it with you and caves?
+Zale(smile): Right? Why don't you ever take me somewhere nice?
+Layla*Think(smile): I'm glad I could get him to smile again...
+*Goto merm04_sea_witch
+***
+
+merm04_prem_caden
+*Stop Music
+*Play Music m_rage_tension_restless
+*Gain SAW_CADEN
+Layla: I'm going. You can stay here if you want.
+Narrator: You swim forward, keeping low to the ground and hidden away behind the rocks and ocean plants.
+Zale: ...Alright, let's go.
+Narrator: Zale takes the lead, ushering you forward only when he's sure you won't be spotted.
+Narrator: The two of you move as quickly and quietly as you can, keeping the Shadow in sight.
+Caden: ...
+Narrator: You whisper to Zale as you move.
+>>>
+Layla(surprise): Why is he just standing there?
+Zale: He looks like he's waiting for someone.
+>
+Narrator: The two of you find a good hiding spot behind a rocky outcropping, both of you staring intently at the Shadow.
+Narrator: A few heartbeats later, another figure swims up from the ravine.
+Soldier: ...
+Narrator: The soldier thuds a fist over his heart, then inclines his head to his superior. 
+Caden: Well?
+Soldier: There were no traces of magic in the area, sir. 
+Soldier: Our scouts report the same all along the cliff edge, sir.
+Caden: Such a powerful energy signature must have had some effect.
+Caden: Your scouts must have missed something.
+Caden: Have them search again.
+Soldier: As you command.
+Caden: Dismissed.
+Narrator: The soldier repeats the fist against his chest, then slips back down into the canyon.
+Narrator: Once he's out of earshot, the Shadow lets out a weary sigh.
+*+CADEN_REMOVE_HELMET
+*Caden Outfit Caden_Armor
+Caden: ...
+>>>
+Layla*Think(surprise): The Shadow...
+(sld_04_11_DP1_caden_face)
+A. He's gorgeous.
+B. He's younger than I thought.
+A
+*Gain CADEN_HOT
+Layla*Think(shy): No, {Layla Name}. He's the enemy, remember?
+B
+>>
+Layla*Think: He's probably my age... And yet he's a feared assassin...
+***
+Narrator: The Shadow's hair waves gently in the currents as he stares back toward the village.
+>
+Caden: Where are you, you coward?
+Narrator: He clenches his fist, glaring at his hand as he does so.
+Caden(angry): Where the <i>hell</i> are you?
+Layla*Think(surprise): Has he seen us?!
+Narrator: But the dark merman is still and doesn't look your way.
+Narrator: After a tense, long moment, he finally vanishes into the ravine and you feel you can breathe again.
+Zale: Let's head back the way we came. Quietly now.
+*Stop Music
+Narrator: Zale guides you towards the village and back to safety.
+*Camera Middle 2
+Layla(sad): Do you know what he's looking for?
+Narrator: Zale doesn't meet your eyes.
+*Play Music m_rage_crisis_final_boss_01
+Zale: I might.
+>>
+Layla(surprise): What is it?
+Zale: It's...
+Zale(sad): You don't need to worry about it.
+Layla(surprise): Huh? Why won't you tell me?
+Zale: You just don't need to know, alright?
+>>>
+Layla(angry): Excuse me?
+(sld_04_11_DP2_leave_quietly)
+A. Do you not trust me?
+B. Why are you being so stubborn?
+A
+>
+Zale: That's not it.
+Layla(angry): Then why the hell can't you tell me?
+B
+>
+Zale(angry): I'm not being stubborn.
+Layla(angry): You're not? Then why the hell won't you tell me what's going on?
+***
+>>
+Zale(angry): Because it's you!
+Zale: ...They're looking for you.
+>>>
+Layla(surprise): Me?
+>>
+Zale(sad): The burst of magic when you transformed... It was enormous. Overpowering.
+Zale(sad): I found you so quickly because Tai and I were already looking for that magic.
+>
+Layla(sad): Then...
+(sld_04_11_DP3_the_magic_power)
+A. It's my fault the town was attacked.
+B. I'm in danger.
+A
+*Stop Music
+*Play Music m_blue_epilog_sadness
+Zale(sad): No... {Layla Name}... You can't think like that.
+Layla(sad): But they came here looking for me, right? If I weren't here--
+Zale(sad): Don't do this to yourself. It won't help anything.
+Layla(sad): ...
+B
+*Stop Music
+*Play Music m_sadness_ambient_namaste03
+Zale: Yeah... All the more reason to get you on land as soon as possible.
+***
+Zale: If the Shadow is looking for you, the safest place for you is back on shore.
+Layla: Then we need to get to the sea witch as soon as possible.
+Zale: Agreed.
+*Stop Music
+*Play Music m_sprightly_fairy_meeting_long
+Narrator: He steers you towards the rocky wall of the village.
+Zale: There's a shortcut through here. A cave.
+Zale: Straight through there and we'll be at the witch's home in no time.
+*Goto merm04_sea_witch
+
+merm04_sea_witch
+Narrator: You follow Zale through the dark, narrow cave, and when you finally emerge...
+
+*Camera Left 2
+*Wait 2
+// SHOW BACKGROUND
+*Amara Name Sea Witch
+Layla(surprise): Woah. She actually lives here?
+Amara(smile): But of course I do.
+Layla(surprise): Ah! 
+Narrator: You flail away from the strange woman, almost slipping upside down again if it weren't for Zale's steadying hand. 
+Zale: {Layla Name}... This is the sea witch.
+Amara(smile): Hello, {Layla Name}.
+Amara(happy): I've been expecting you. 
+End

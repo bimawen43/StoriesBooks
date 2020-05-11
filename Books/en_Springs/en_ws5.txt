@@ -1,0 +1,858 @@
+﻿Begin
+*Scene BLACK
+Narrator: Chapter Five | <color=olive>Crisis is Imminent</color>
+*Play Music mystery
+*
+*Scene DRAWING_ROOM_OLD_HOUSE_NIGHT_LIGHT
+*Camera Left 0
+*
+*Male_Burglar Name Burglar
+*Female_Burglar Name Burglar
+Narrator: The light in the living room is on, and you notice pieces of broken glass scattered on the ground.
+Narrator: Your mom is holding a baseball bat and fighting someone.
+Narrator: The person in front of your mother is tall, with broad shoulders. Looks like it's a man.
+// *Stop Music
+Danielle(angry): ...
+(ws_05n_01_the_break_in)
+A. This is a break-in. It's against the law.
+B. Hey, whoever you are, I've called the police.
+A
+Male_Burglar: Against the law? Open your eyes.
+Narrator: The man bursts into a creepy laughter, sending a chill down your spine.
+B
+Male_Burglar: I have enough time to deal with you before the cops get here.
+***
+Narrator: He walks towards you, laughing maniacally.
+Clare: Stop!
+Narrator: You see your mom hit the burglar with the bat, but he just shrugs it off. He pushes your mom against the wall.
+*Camera Right 2
+Male_Burglar: ...
+Narrator: The man takes out a knife and starts swinging it while walking towards you. 
+*+shade2
+*Play Sound s_gunshot
+Narrator*Top: Sound | Bang!
+Narrator: The gunshot startles you and the burglar both. You turn around and see your mom holding a gun!
+Clare: Don't move!
+>>
+Clare: Hey, {Danielle Name}, come here. Hurry!
+Narrator: The burglar blocks your way, waving the knife. Your mother turns the gun on him.
+Clare: Get away from her!
+>
+Male_Burglar: I bet you don't have the nerve to kill.
+Narrator: The burglar spits out the words, haughty and arrogant. Your mom can't stop trembling. The burglar grins and turns back to you in triumph.
+Danielle(surprise)*Think: I should...
+*Time 7 (Default: A)
+(ws_05n_02_TC_burglar_attack)
+A. Freeze!
+B. Kick him!
+C. Hesitate!
+A
+Narrator: The burglar comes closer and closer to you. You want to run, but your body can't move.
+Narrator: The knife gets closer and closer. You step back but trip over the stairs. The knife slices your arm and blood starts pouring out of the wound.
+Danielle(sad): Ouch!
+*Danielle NERVE -1
+B
+Narrator: You kick the man right in his face. He howls in pain, nearly falling down, but he manages to grab the handrail.
+Narrator: He swings the knife and slashes your leg before you have time to respond.
+C
+Narrator: You want to run, but your body can't move.
+Narrator: The knife gets closer and closer. You step back but trip over the stairs. The knife slices your arm and blood starts pouring out of the wound.
+Danielle(surprise): Ahhh!
+*Danielle NERVE -1
+***
+Narrator: You're pulled backward as the burglar raises his knife.
+Narrator: You try to resist him, but the knife comes closer and closer... All you see is the flickering light reflected by the knife.
+Danielle*Shout(sad): No--
+*+shade2
+
+Narrator*Top: Sound | Bang--
+>>
+Male_Burglar: Ahh--!
+Narrator: The man growls, rolling over in pain.
+Narrator: He covers his leg and blood pours underneath his hand. Too scared to look at it, you draw back.
+Clare(sad): {Danielle Name}, are you okay?
+Danielle(sad): Yes, I'm all right.
+Narrator: Both you and your mom sigh in relief. A sense of weariness crushes you. You look at your mom. Somehow, you consider yourself lucky.
+Clare(sad): Is... he... dead?
+Danielle(sad): No, Mom. He's still alive.
+>
+Narrator: Your mom breathes a sigh of relief, and slumps onto the sofa. Her hand still trembling, she puts the gun aside.
+Danielle: Mom, it's okay. I'll call the police.
+Narrator: You make your way carefully to the kitchen, where the phone rests on the counter. Suddenly a dark figure appears behind your mother!
+>>
+*Stop Music
+Danielle(surprise): Mom, behind you!
+>
+*Play Music tension8
+Clare(sad): What?
+Narrator: You see the dark figure dash towards your mom from behind.
+Narrator: Before your mom can even process what you said, the figure grabs a candlestick and bashes her on the head!
+Narrator: Blood runs down your mom's forehead. She falls to the ground and drops the gun.
+>>
+Danielle*Shout(sad): No! Mom!
+>
+Narrator: You run over to check on your mom.
+Female_Burglar: Stop her, you idiot! Did you really let two women knock you down?
+Narrator: The woman lowers her voice, still, you seem to have heard it before...
+Danielle*Think(surprise): This woman's voice is so familiar...
+Narrator: The male burglar grabs your leg. You struggle and kick him, trying to get away. But his hands seem to pin you down.
+Female_Burglar: Your turn.
+*Camera Middle 1
+Narrator: You try to escape, but his hands stop you.
+Narrator: The woman walks towards you. You stand there, watching her come closer and closer. Your heart pounds violently in your chest.
+Narrator: Suddenly, your mom grabs the woman's leg with all her strength. Her knuckles go white.
+>>>
+Clare(sad): Run! {Danielle Name}!
+>>
+Female_Burglar: Get away! You bitch!
+Narrator: The woman keeps kicking your mom, but your mom's grip is strong and determined. She's not letting the woman get away.
+Narrator: Blood runs down into your mom's eyes, and yet her sight never leaves you.
+Danielle*Think(cry): She's trying to save me...
+>
+Female_Burglar: You asked for it!
+Narrator: The woman grabs a knife and stabs your mom!
+Narrator: She keeps stabbing your mom once... twice... until your mom loses all her strength. But she never lets go, and she never takes her eyes off you.
+*Stop Music
+Danielle*Shout(cry): No!
+*Play Sound staircase1
+Narrator: The female burglar steps over your mom's body and walks directly towards you. You can see her coming closer and closer.
+Narrator: The knife shimmers in the light. You try to escape, but the man grabs you so tighly that you can't move.
+*Camera Left 1
+*Stop Sound
+*Play Music tension8
+>>
+Danielle*Think(surprise): I need to get rid of him.
+Danielle*Think(angry): I should...
+*Time 7 (Default: C)
+(ws_05n_03_TC_burglar_grabing)
+A. Smash him with a vase.
+B. Punch his wounds.
+C. Force his hand off.
+A
+Narrator: You grab the vase not far from the stairs and smash it over the man's head.
+Narrator: He screams and loosens his grip, his hand flying to the wound on his head.
+*Danielle NERVE +2
+Danielle(angry): You deserve that, bastard.
+>
+Narrator: You run upstairs and hurry into your room before the woman manages to grab you.
+B
+Narrator: You reach down and punch his wound. The man screams.
+Male_Burglar: BITCH!
+Narrator: He shoves you against the banister and you hit your head. You feel dizzy, your vision blurring.
+Narrator: You try to stand up, kicking blindly.
+*Danielle NERVE +2
+Danielle(angry): You deserve that, bastard.
+Male_Burglar: Damn it!
+>
+Female_Burglar: You idiot!
+Narrator: You shake your head, realizing that the man has fallen down the stairs. He must have tripped the woman during his fall.
+Narrator: You struggle to stand up, trying to balance your body, and you stumble to your bedroom.
+C
+Narrator: You try to force his hand off of you. But it doesn't work. The female burglar has already rushed up to you with the knife!
+*Danielle NERVE -1
+Danielle(surprise)*Shout: Aaaaaaaah!
+Narrator: You lurch to the side to avoid her blade. The knife scratches your neck and sinks into your shoulder.
+Narrator: You seize her hand with your good arm, trying with all your might to break her fingers.
+Narrator: She groans and drops the knife. You kick the knife down the stairs.
+Narrator: In the commotion, you break free from the man's grip. But you take punches all over your face, your body, and your arms.
+Narrator: In the midst of the chaos, you kick someone in the face.
+Female_Burglar: Little BITCH!
+Narrator: Something hits you across the face, hard. You feel dizzy and your sight grows dim.
+Narrator: As you recover from the dizziness, you look down to see that the thing you're grabbing is a knife.
+>
+Narrator: You struggle to stand up, threatening them with the knife, and walk backwards towards your room.
+***
+
+*Scene OLD_HOUSE_BEDROOM_NIGHT (Time: 0.2)
+*Stop Music
+*Play Music mystery
+Narrator: You run into your room and lock the door as quickly as you can. Still worried, you put the chain on the door hurriedly.
+Narrator: After that, you lean against the door and take a deep breath in relief.
+Narrator: Cracking sounds come from the stairs. You hear heavy footsteps.
+>>
+Danielle(surprise): ...
+Narrator*Top: Man's Voice | Ouch! I can't walk!
+Narrator*Top: Woman's Voice | Shut up! You idiot! You can get your revenge once we catch her.
+Narrator*Top: Woman's Voice | Where did she go? I'm gonna break her legs!
+>>>
+Danielle*Think(sad): They're coming!
+>>
+Narrator: You listen carefully, leaning your back against the door. You cover your mouth and hold your breath, trying not to make a sound.
+Narrator: The wooden floor creaks constantly under their footsteps.
+Narrator: Sometimes, the sounds are clear. And sometimes, they’re so vague you can barely make them out.
+Narrator: It feels like a century before the sounds of their footsteps finally die out.
+Danielle(sad): Pheeewww!
+Danielle*Think(sad): What am I going to do? I need help.
+Narrator: You turn on your phone, only to see that the battery is about to die. What's worse, you hear the footsteps coming back.
+Narrator: Your phone plays an emergancy alert.
+Narrator: You desperately try to stop the sound, but the phone just keeps ringing.
+*Play Music tension6
+Narrator*Top: Woman's Voice | Gotcha!
+Narrator: The footsteps become much more rapid. Suddenly, you hear something slam against the door.
+Narrator: You turn around and see that the door is about to be split open!
+Danielle*Think(surprise): I need to block the door...
+>
+Narrator: Bang! The door is knocked open. The chain begins to loosen.
+Narrator*Top: Woman's Voice | Come out! There's no use hiding. Let's finish this quickly...
+Narrator: Another bang. The chain grows looser and looser.
+Narrator*Top: Woman's Voice | Hey, you! Don't just stand there! Come here and help me!
+Narrator: You try to push your bed against the door, but it's so heavy you can barely budge it. 
+Narrator: You shove the bed with all your might, eyes fixated on the door. You can see the chain about to drop.
+Narrator: You block the door with the bed just a second before the chain drops!
+>>
+Danielle(sad): Phew--
+Narrator*Top: Man's Voice | Damn it! It's blocked!
+Narrator*Top: Woman's Voice | Find an axe! Quickly!
+>>>
+Danielle(surprise): ...!
+>>
+Narrator: You look around. There's no way to escape the room, except through the window.
+Narrator: You look through the window. Everything seems so high from the ground; you tremble and feel dizzy as you look down.
+Narrator: Suddenly, you hear a cracking sound from behind. You turn back. They've got an axe--and they're about to split open your door!
+Danielle(angry): There's no time!
+Narrator: You take a deep breath and try to open the window. But it stays still.
+Narrator: You look down and see the rust surrounding the frame. There's no way to open it.
+Danielle(sad): NOOOO! Not now! Don't do this to me!
+Narrator: The sounds of the axe become louder and louder. You try and open the window with all your might, but it stays shut.
+Danielle(sad): I need to open this! I have to!
+Narrator: The glass reflects a shimmering light.
+Narrator: You picture yourself punching through the window, imagining the pain when its fragments scratch your skin.
+Narrator: You look back and see the crack in your door becoming wider with each passing moment.
+Narrator: The light reflected off the axe sends a shiver down your spine.
+Danielle*Think(sad): I'm going to...
+(ws_05n_04_break_the_window)
+A. Smash the window with my elbow.
+B. Grab the chair by the door and smash the window.
+A
+Danielle(sad): Come on, {Danielle Name}. It can't be that painful...
+Narrator: You wrap your elbow in your jacket, trying to shield yourself. You take a moment to catch your breath and smash your elbow against the glass.
+Narrator: You hit the glass with all your strength once, twice. Finally, the glass shatters--but your arm begins to bleed, too. 
+Danielle(sad): Ow! It hurts... But it's Okay. Be strong, {Danielle Name}.
+>
+Narrator: You hold back your tears and climb out onto the windowsill. The fragments of glass slice into your hands.
+B
+Narrator: You take a deep breath, walk to the door, and reach for the chair. The sound of the axe suddenly disappears.
+Narrator: You bend down and look curiously through the crack. A pair of dark eyes is staring back at you!
+Danielle(surprise): ...!
+Narrator: You become frozen with fear. Suddenly, a hand reaches through the slit and grabs you!
+*Danielle NERVE -2
+Danielle(surprise): Aaaaaaaah!
+Female_Burglar: Aha! Gotcha!
+Narrator: The woman drags you to her. You struggle and scream, trying to push her hand off of you. But she's too strong.
+Narrator: There's no way to get rid of her.
+Danielle(sad): NOOOO!
+Narrator: You clutch the bed, trying to break free. But the hand seems to be glued to you. You bite down on the woman's wrist.
+Female_Burglar: Ouch!
+>
+Narrator: She releases her hand, crying out in pain. The taste of her blood disgusts you.
+Narrator: Without hesitating, you grab the chair, smash the window, and climb out onto the windowsill.
+***
+*Stop Music
+Narrator: The sounds of the axe become even quicker and stronger.
+*Play Sound hit1
+Narrator: Bang!
+Narrator: You hear an enormous crash as the door splinters in half.
+*Play Music breaths
+Narrator: You turn back and see the woman pushing the shards of the broken door aside. She strides toward you with the axe.
+Danielle(surprise): ...
+Narrator: You slip and fall before you can even react.
+*Stop Music
+
+flee_on_the_street
+*
+*Scene OLD_HOUSE_YARD_NIGHT
+*Camera Right 0
+*Play Music grave2
+*
+Danielle(sad): Owww! It hurts!
+Narrator: You find yourself lying in a bush in your backyard. You feel twinges of pain in your ankle and your back.
+Narrator: You look up and see a silhouette standing by the window. The dazzling light is so bright that you can't make out the person's face. 
+Danielle(surprise): ...
+Narrator: You crawl out of the bush in spite of the pain. Your ankle slows you down as you try to walk.
+Narrator: You clench your teeth and stagger to the road.
+*Camera Left 3
+*Scene STREET_NEIGHBOR_NIGHT
+Narrator: The street is completely dark. Everybody must be asleep... You look at Joe's home and see that all the lights have already been turned off.
+Danielle: I should...
+(ws_05n_05_run_to_the_street)
+A. Hide in the woods. *Goto hide_in_the_woods
+B. Go to Joe for help. *Goto call_Joe
+***
+
+hide_in_the_woods
+*Stop Music
+Narrator: You can hear footsteps coming closer and closer. You hide yourself in the woods in desperation.
+*Play Music tension8
+*Condition
+A. (Condition: DOG >= 1)
+B. (Condition: DOG < 1)
+A
+Narrator: Suddenly, you hear the bark of a dog in Joe's yard. In the silent night, its barking is extremely loud.
+*Play Sound s_woof1
+Narrator*Top: Sound | Woof! Woof!
+>>
+Danielle(surprise)*Think: It's {Summer Name}!
+Danielle(surprise): Help, help me!
+>
+Narrator: {Summer Name} darts towards street with a whoosh. You hear a woman's scream from behind.
+Female_Burglar: Get off me! You beast!
+B
+Narrator: You hear nothing but dead silence in the air. The footsteps become more and more clear.
+Narrator: You look to the ground and pick up a stone. You toss it at Joe's bedroom window.
+Danielle*Think(sad): Come on...
+Danielle(sad): Joe, help me!
+***
+*Goto joe_open_door
+
+call_Joe
+*Stop Music
+Narrator: You cross over the fence and rush to Joe's door. You bang on the door as hard as you can. It shakes under your fist.
+>>
+*Play Music tension8
+Danielle(sad): Joe! Open the door, please! Someone is trying to kill me!
+Narrator: You knock on the door with all your might. No one answers.
+*Condition
+A. (Condition: DOG >= 1)
+A
+Narrator: Suddenly, you hear the bark of a dog in Joe's yard. In the silent night, its barking is extremely loud.
+*Play Sound s_woof1
+Narrator*Top: Sound | Woof! Woof!
+Danielle(surprise)*Think: It's {Summer Name}!
+Danielle(surprise): Help, help me!
+>
+Narrator: {Summer Name} darts towards street with a whoosh. You hear a woman's scream from behind.
+Female_Burglar: Get off me! You beast!
+***
+
+joe_open_door
+Narrator: Suddenly, you see a ray of light. It becomes brighter and brighter.
+Narrator: You look up and see the lights in Joe's house turning on. Joe is looking curiously through the window.
+Joe(surprise): What happened, {Danielle Name}? I heard you screaming!
+Danielle(sad): Joe, help me!
+Joe(surprise): Wait, I'm coming!
+Narrator: Soon, Joe opens the door. You throw yourself into his arms, trembling.
+>>
+Danielle(sad): Thank you... thank you for saving me...
+Narrator: Joe holds you in his arms and pats your back gently. You burst into tears.
+Joe: {Danielle Name}? {Danielle Name}? Don't be afraid. You're safe now.
+Joe(surprise): What happened?
+Narrator: You look up and see the concern in Joe's eyes. Recalling what happened, you begin to tremble again.
+Danielle(sad): Someone... someone broke into my house with a knife.
+Joe(surprise): What? Are you okay?
+Danielle(sad): I'm all right... but... my mom... They stabbed my mom!
+Joe(surprise): Oh my God! How could this have happened? Don't worry, I'll help you.
+*Stop Music
+
+examine_your_home
+*
+*Scene DRAWING_ROOM_OLD_HOUSE_NIGHT_LIGHT
+*Camera Right 0
+*Play Music grave2
+>
+*
+Narrator: Joe takes you back to your home. You can't help but grab his arm as he opens the door.
+*Camera Left 4
+*Camera Middle 2
+>>
+Joe(surprise): {Danielle Name}, are you sure someone broke into your house?
+Narrator: You look at the living room in confusion. There's no sign of a break-in. Everything looks perfectly normal. 
+Danielle(surprise): What the...?
+Danielle(sad)*Shout: Mom? Can you hear me?
+>
+Narrator: Your voice echoes in the empty house. No one answers.
+Joe(sad): {Danielle Name}, it looks pretty normal to me.
+Narrator: Joe scans your home with suspicion.
+Danielle(surprise): But someone broke into my home! And they slashed my door. Look!
+Narrator: You drag Joe to your room.
+*Scene OLD_HOUSE_BEDROOM_NIGHT (Time: 0.5)
+Narrator: To your surprise, everything in your room is perfectly normal. The door and the window are intact.
+Danielle(surprise): This is NOT possible!
+Narrator: You shove Joe and rush downstairs.
+Narrator*Top: Joe | {Danielle Name}, wait!
+*Scene DRAWING_ROOM_OLD_HOUSE_NIGHT_LIGHT (Time: 0.5)
+Narrator: Joe follows you closely.
+Narrator: You dash to the living room and examine every inch of the floor. But you can't find even a single bloodstain.
+Danielle(sad): What on earth is going on...
+Joe(sad): {Danielle Name}, are you all right? You don't look so good.
+Narrator: Joe helps you over to the sofa. He crouches down in front of you and puts a hand on your shoulder, concerned.
+Joe(sad): {Danielle Name}, listen to me. 
+Joe(sad): About Gavin's death. I know it hasn't been easy for you.
+Joe(sad): Did you have a bad dream?
+Danielle: ...
+(ws_05n_06_back_home_with_joe)
+A. I'm pretty sure someone broke in!
+B. It can't be a dream!
+A
+Danielle(angry): No! It wasn't a dream. I know what I saw!
+Joe(sad): But I can't see any sign of a break-in.
+Danielle(angry): You don't believe me?
+Joe(surprise): I do believe you...it's just...
+B
+Danielle(sad): It felt so real!! It couldn't have been a dream!
+Joe: But dreams always feel real, don't they?
+***
+Danielle(sad): But where's my mom? I can't find her anywhere.
+Joe: Maybe she went out to take care of some business. Don't worry, she's an adult.
+Joe: She can take care of herself.
+Danielle(sad): But she wouldn't go out without telling me.
+Narrator: Joe pats your shoulder, softening his voice.
+Joe(smile): {Danielle Name}, you've gone through a lot recently.
+Joe(smile): Get some sleep. I'm sure your mom will be back when you wake up.
+Narrator: As you try to say more, Joe squeezes your shoulder. It feels like he's trying to give you his strength through the squeeze.
+Narrator: Suddenly, you notice something flickering.
+Danielle(surprise): Is that...
+*Stop Music
+Narrator: You find a strange dagger laying on the shelf.
+*Play Music pity
+*Item
+(ws_05n_07_dagger_show)
+A. Dagger_Orange_Ore A dagger with an orange stone
+*Dagger_Orange_Ore -1
+***
+Danielle(surprise): This dagger is so unique. I don't think I've ever seen anything like it.
+Danielle(angry): It must be theirs!
+Narrator: Joe shakes his head hesitantly.
+Joe(sad): It's an ornament, not a murder weapon. Look at the gem and the patterns.
+Narrator: You follow where Joe is pointing and see the retro patterns and gems on the sheath.
+Joe: But I think...you should keep it. Maybe you can find some clues with it.
+Danielle(surprise)*Think: I should...
+(ws_05n_08_pay_dagger)
+A. Keep the dagger. (Cost: 15 Diamond ID: item_ws_05n_dagger)
+B. Take it to the police.
+A
+*Item
+A. Dagger_Orange_Ore Take the dagger.
+***
+*Orange_Ore +1
+Narrator: You nod and draw the dagger out of its sheath. The blade reflects the light of the sun.
+Joe(smile): It's sharp. I bet it'll come in handy if you'll ever have to defend yourself.
+Danielle(angry): You're right. And I will never let anyone hurt my mother or my friends again.
+Narrator: You hold the dagger tight, and think of your mother. A sadness comes over you...
+B
+Joe(sad): That's not a good idea. 
+Joe(sad): Don't you remember that they won't investigate anything connected to the Forbidden Forest?
+Danielle(surprise): Are you suspicious of the police?
+Joe(sad): No. I just mean it’s better to rely on yourself than on others.
+Narrator: You put down the dagger. The only thing you care about is where your mom is.
+***
+Danielle(smile): You will always be with me, right?
+// Joe(smile): I promise I will...
+Joe: {Danielle Name}, don't worry. I'll be here with you. Now, you need to get some sleep.
+Joe: If your mom doesn't come home by tomorrow, I'll take you to the police, okay?
+Danielle(sad): ...Okay.
+Narrator: You look outside and shiver as you see the shapes of the trees.
+Narrator: Joe helps you up from the sofa and walks you to your room.
+Joe(smile): I'll stay here and protect you. Don't be afraid. Everything will be all right.
+*Scene BLACK (Time: 2)
+// *+dream
+Clare(surprise): {Danielle Name}, run!
+Male_Burglar: Do you want to see her dying breath?
+Female_Burglar: This woman is finally going to die!
+Narrator: You turn around and see your mom lying on the ground with a knife stabbed in her back. Her gazed is fixated on you.
+Clare(sad): {Danielle Name}, run...
+Clare(smile): Goodbye, darling...
+*Stop Music
+
+breakfast
+*Scene OLD_HOUSE_BEDROOM_DAY
+Danielle*Shout(surprise): Aaaaaaaah!
+Narrator: You wake up from the nightmare and find yourself lying in your bed. Brilliant sunshine streams into your room.
+Narrator: You touch your forehead and find it covered in sweat. You can't remember what you dreamt of, but a sense of horror still lingers.
+Narrator: You walk downstairs and hear melodious sounds from the kitchen.
+*Scene KITCHEN_OLD_HOUSE
+*Play Music peaceful1
+Danielle(happy): Mom?
+Narrator: You rush into the kitchen and see someone standing there, wearing your mom's apron.
+Narrator: Hearing your voice, the person turns around. It's Joe. He gives you a big smile.
+Joe(happy): {Danielle Name}, hey, you're awake? Wait a second, breakfast is almost ready.
+Joe(smile): I'm frying eggs. Do you like yours sunny-side-up?
+Danielle: ...Yes.
+Narrator: Joe brings you some thin strips of bacon, eggs, and oatmeal decorated with fresh strawberries.
+Narrator: He sits across from you, looking at you tenderly.
+Danielle: ...
+(ws_05n_09_the_breakfast)
+A. My mom used to make this for me.
+B. Thank you, Joe. It looks delicious.
+A
+Joe: I found a recipe on the fridge. I used it to make breakfast. Was it your mom's recipe?
+Danielle(sad): Yes. She used to keep recipes on the fridge.
+Joe: I thought you might like it.
+Narrator: You take a bite. It's not the best meal you've ever eaten. But hey, it's the thought that counts...
+Danielle(smile): It's delicious, Joe. Thank you so much.
+B
+>>
+Joe: If you think it looks delicious, you should see how it actually tastes! 
+Narrator: You pick up a fork and take a bite.
+Danielle: You're right, this is perfect. Just like your hugs.
+Danielle(smile): I feel a little better now.
+Narrator: Joe smiles at you.
+***
+Joe: {Danielle Name}, how did you sleep?
+Narrator: You recall your dream and tremble, dropping your fork on the plate.
+Danielle(sad): Joe, I had a nightmare. I was so scared.
+Joe(smile): Dreams aren't real. Tell me about it. It might make you feel better.
+Danielle(sad): I dreamed that someone broke into my house and stabbed my mom. My mom was missing...
+Narrator: Joe goes quiet. His smile disappears, too.
+Joe(sad): {Danielle Name}, your mom didn't come back. I called the police. 
+Joe(sad): They should be here soon.
+Narrator*Top: Sound | Knock--knock--
+Danielle(surprise): Who is it?
+Narrator: Joe opens the door. It's Brian and another police officer. They walk in holding a box.
+Brian: We received a call reporting a murder from Joe Harris. Where's the crime scene?
+Danielle(sad): Follow me.
+*
+*Scene DRAWING_ROOM_OLD_HOUSE
+*Camera Middle 0
+*
+*Camera Right 2
+Narrator: You take the officers to the living room and point at the sofa.
+Danielle(sad): Last night, two people broke in and stabbed my mom. They followed me to the stairs. We had a fight.
+Narrator: Brian walks forward and scans the room with suspicion.
+Brian: Did you clean the crime scene?
+Danielle(sad): No. I escaped and called for help. When I came back, it looked like this...
+Brian(angry): Young lady, do I look like a fool?
+Brian: Officer Tom will stay here to check the scene.
+Brian: You two, come with me to the station. We need to ask you questions.
+ 
+at_the_police_station
+*Scene POLICE_STATION
+*Play Music sad2
+Narrator: Joe comes to the station with you, but he's stopped outside Kohl's office.
+Narrator: You sit in Kohl's office. You've never felt so helpless in your whole life.
+Kohl(sad): I'm sorry, {Danielle Name}. This must be very hard for you.
+Danielle(sad): Thank you, Sheriff Kohl. Do you know where my mom is? I'm worried about her.
+Kohl: How about you tell me what happened last night first?
+Danielle(sad): Of course.
+Narrator: You tell him everything.
+Kohl: And that's when you last saw your mom?
+Danielle(sad): Yes. When I came back with Joe, Mom was already missing.
+Kohl: Did you see who the burglars were?
+Danielle(sad): No. They covered their faces.
+Kohl: Well, did you see them stab your mom with your own eyes?
+Danielle(sad): Yes. She put herself between me and the burglars to defend me.
+>>
+Kohl(surprise): Really? She did?
+Danielle(surprise): Why do you keep asking me about this?
+Narrator: Your voice trails off under Kohl's harsh look.
+Kohl: Our officers Brian conducted blood tests.
+Kohl: There was no trace of blood anywhere in your house.
+Kohl(angry): You shouldn't play tricks on the police like this, kid.
+*Stop Music
+*Play Music grave2
+>>>
+Danielle(surprise): What?
+Danielle(angry): I'm telling the truth!
+Danielle(angry): Someone broke into my house and stabbed my mom. They probably kidnapped her...
+Kohl(surprise): Are you hallucinating? There's no sign of a break-in, let alone blood.
+Danielle(angry): No, I'm not hallucinating, because...
+(ws_05n_10_hallucinating)
+A. I was there!
+B. Someone might have destroyed the evidence.
+A
+Danielle(angry): They stabbed my mom and took her away...
+Danielle(cry): We need to save her! She might be waiting for us to save her!
+Narrator: Sheriff Kohl stares at you, clearly doubting that you're telling the truth.
+Danielle(sad): Sheriff Kohl, I swear, what I said is true. I wouldn't joke about my mom's life.
+B
+Kohl: {Danielle Name}, that's not possible. It's very tough to clean up blood without leaving a trace.
+Danielle(angry): Sheriff Kohl, I'm sure someone broke into our house and stabbed my mom!
+***
+Danielle(angry): My mom has gone missing!
+>>
+Kohl: Maybe she went through something upsetting and tried to stay away for a while.
+Kohl: I hate to say this, but the adult world is complicated.
+Narrator: Kohl speaks to you with a tender tone.
+Danielle(angry): No, I know my mom. She wouldn't do that!
+Danielle(angry): You have to find her.
+Kohl: Shh, kid, calm down.
+Kohl: Since you're so insistent, we'll look into it, but it'll take some time.
+Danielle(sad): Please make it quick, then. She is hurt.
+Narrator: Sheriff Kohl sighs.
+>
+Kohl: All right, we'll take your word for it...for now, and look for Clare.
+Kohl: I hope that we'll be able to get some answers after we find Clare.
+Narrator: Kohl opens the door for you. Joe enters immediately and gives you a big hug.
+*Stop Music
+
+back_from_the_police
+*Scene DRAWING_ROOM_OLD_HOUSE
+*Play Music ponder
+Joe: {Danielle Name}, what did Kohl say?
+Danielle(sad): They didn't believe me. But they said they'd look for Mom.
+Narrator: Joe helps you sit down on the sofa. He goes to the kitchen and comes back a few moments later with a cup of hot tea.
+Joe: {Danielle Name}, have some tea. It will make you feel better.
+Danielle(sad): Joe...
+Joe(surprise): What?
+Danielle(sad): I don't understand. How did this happen?
+Danielle(sad): We just moved here. We haven't made any enemies.
+Narrator: You recall what happened last night, shivering.
+>>
+Danielle(sad): If they didn't come for Mom, they came for me.
+Joe(surprise): Why would you say that?
+Danielle(sad): Is it all because of the Forbidden Forest? Did someone know I was investigating it?
+Danielle(sad): You and Mom told me to never get involved with the Forbidden Forest.
+Danielle(sad): But I didn't listen... Why didn't I?
+Joe(sad): {Danielle Name}, even if it has something to do with the Forbidden Forest, it's not your fault.
+Joe(sad): You shouldn't blame yourself.
+Danielle(cry): I know, but I can't forgive myself. It should have been me... not my mom...
+Narrator: You tremble as tears start flooding from your eyes. Joe gently holds you in his arms.
+Narrator: You mutter to yourself, trembling. Never have you felt so helpless in your life.
+Narrator: It's like you're drowning in the ocean and there are no lifeboats in sight.
+>
+Danielle(sad): Joe, I can't stop thinking. It's driving me nuts. Did they take my mom? What would they do to her?
+Joe: {Danielle Name}, are you sure about what happened last night?
+Danielle(sad): Yes. One hundred percent sure.
+Joe(smile): Then, let's go and look into it. You know, even the most careful criminal can make mistakes.
+Narrator: Guide | Searching your room with Joe can help you to win more <color=blue>NERVE</color>. You may find <color=blue>clues</color> about why your mom disappeared.
+Danielle: ...
+(ws_05n_11_search_the_house)
+A. Of course. Let's go! (Cost: 20 Diamond ID: plot_ws_03_joe) *Goto accompanied_by_Joe
+B. I want to leave it alone for a while.
+B
+Danielle: Thank you, Joe, but I just want to leave it alone for a while. I'm so tired.
+Joe: Sorry. How can I help?
+Danielle: Say something. Keep me talking, please.
+*Goto next_day 
+***
+
+accompanied_by_Joe
+Narrator: You look at the living room and search your memory.
+>>
+Danielle(sad): I think they snuck into my yard... and broke into my home... through the window of the kitchen...
+Joe: Then we can search these places.
+Narrator: You and Joe search carefully throughout the house.
+*
+*Scene OLD_HOUSE_YARD_DAY
+*Camera Left 0
+>
+*
+*Camera Right 4
+*Camera Middle 2
+Narrator: You can't find anything in the house. You become more and more depressed.
+Narrator: You and Joe search the yard until you find yourselves standing beneath your bedroom window.
+Danielle: I jumped through the window and fell on this bush...
+Danielle: They chased me out here. Maybe we can find some clues here.
+Narrator: You and Joe search through the bush but find nothing. All you see are the green leaves and a few bugs fluttering in the bush.
+Danielle(sad): No... Nothing...
+Joe(smile): Don't give up so easily. Let's keep looking.
+Narrator: The clouds roll by and the yard lights up in the glow of the sun. Suddenly, you see something shining in the yard.
+>>
+Danielle*Think(surprise): What is that?
+>
+Narrator: You walk to the shining thing and brush the grass aside. It's a tiny piece of glass.
+Joe(happy): Look, I found something else.
+Narrator: You follow where Joe is pointing and find a piece of black cloth with a strange symbol on it.
+*Condition
+A. (Condition: Strange_Badge >= 1)
+B. (Condition: Strange_Badge < 1)
+A
+Danielle: It looks familiar...
+Narrator: Suddenly you recall the badge found in the forest and take it from your pocket.
+*Danielle NERVE +2
+Danielle(surprise): The symbols are barely the same...
+Danielle: They came for me because I investigated the Forbidden Forest!
+Joe(sad): Hey, it's not your fault!
+*Joe NERVE +3
+Joe(smile): At least we know who attacked you last night and we can find them following this clue, don't we?
+Danielle: What if they hurt my mother...
+Narrator: You look at Joe with teary eyes. He sighs and presses your face against his chest.
+Joe(sad): Don't be so depressed, {Danielle Name}. On the positive side... they came for you, not your mother.
+Joe: They would rather take your mother as a hostage to stop your investigation than hurt her.
+Danielle(sad): I hope so...
+B
+Danielle(surprise): It looks familiar...
+Narrator: Suddenly you recall the badge found in the forest.
+*Danielle NERVE +2
+Danielle(surprise): Do you remember it? There is the same symbol on the badge...
+*Joe NERVE +3
+Joe(surprise): Yes, at least we know who attacked you last night and we can find them following this clue, don't we?
+*Stop Music
+***
+Narrator: The two of you walk back to the living room.
+
+next_day
+*Scene SENIOR_MIDDLE_SCHOOL_STAIRCASE
+Narrator: The next day, You make your way over to the school. As soon as you enter the stairwell, you meet Benjamin.
+*Play Music peaceful1
+>>
+Benjamin(surprise): Oh my God, you're hurt! What happened?
+Danielle(sad): It's nothing. But my mom...
+Narrator: You tell Benjamin what happened last night.
+Narrator: Benjamin gives you a warm hug and holds your face in his hands.
+Benjamin(sad): I'm sorry. You don't have to bear all of this by yourself.
+Danielle(sad): I don't know. But the police didn't believe what I said.
+Benjamin(angry): I think we should act preemptively.
+Benjamin(angry): Let me show you the clues I've found during my recent investigations...
+>
+Narrator: Benjamin takes his phone out and taps the Photos app.
+*Stop Music
+Narrator: You take his phone. The pictures are too fuzzy to make out clearly.
+Narrator: The only thing you can tell for certain is that they were all taken in the Forbidden Forest.
+>>
+*Play Music forbidden
+Danielle(surprise): Where is the monster?
+Benjamin: Here.
+>
+Narrator: Benjamin points at something in the picture. You study it carefully and see a figure.
+Narrator: It's running so fast that it's become a blur. You can only see its shadow.
+Danielle(surprise): Wow, it runs so fast... Wait, there's something else!
+Narrator: You look closer and find someone else in the dark bush. You can't see his face.
+Narrator: But it looks like he's pointing at the monster with a gun.
+Benjamin(angry): Yes, it's a man.
+Danielle: This man looks so calm. He's not afraid of the monster at all.
+Benjamin: He must know this monster very well.
+Danielle(surprise): ...
+(ws_05n_12_bens_clues)
+A. Or maybe he controls the monster.
+B. Maybe he's the one who chased Gavin.
+A
+Danielle(surprise): I get the feeling that the monster is afraid of him.
+Benjamin: Maybe this man tamed the monster. Just like in fairy tales.
+Danielle(angry): That would explain why the monster never goes anywhere outside of the Forbidden Forest...
+Danielle(angry): ...Because its owner doesn't let this thing break into the town. 
+Benjamin(surprise): But why does he keep the monster around, then?
+B
+Danielle: The Forbidden Forest, the monster, the murder, and this man...
+Danielle: There must be some connection between all of them.
+Danielle: Maybe he saw Gavin was taking pictures and then started chasing Gavin.
+Benjamin: Even if he didn't chase Gavin, he must have known something.
+Danielle: It's a small town, after all. Illegal activities are always connected.
+Benjamin: Now I think there might be another explanation for Gavin's death. 
+Benjamin: Maybe he wasn't killed by the monster.
+Benjamin: We have to find out the truth.
+***
+Benjamin: Okay, we need to figure out what else we can find.
+Narrator: Benjamin stands up with his bag. Several notebooks fall from his bag.
+Narrator: A familiar paper catches your eye.
+Danielle*Think(surprise): It's from that old miner's diary!
+*Item
+(ws_05n_13_page_two_show)
+A. Page_Ⅱ_from_the_Diary_of_the_Miner A diary revealing the secrets of the town
+*Page_Ⅱ_from_the_Diary_of_the_Miner -1
+***
+Danielle(surprise): I should...
+(ws_05n_15_page_two_claim)
+A. Read it. (Cost: 12 Diamond ID: item_ws_03_journal)
+B. Leave it there.
+A
+Danielle(smile): Wait, Ben. I need to read this.
+Benjamin(surprise): What is it? 
+Danielle: It's a key to the town's secrets.
+Narrator: You pick up the page and read it.
+Journal en_day2
+// “March 28th, 1965\ Dear Diary, it's been two weeks. Every day has been full of suffering.”
+// “About 8 days ago, I received a telegram. It was from my mother. She told me Bonnie was sick. But she didn't want to go to the hospital because we were short of money. I was devastated...”
+// “I remembered 10 years ago, when I proposed to her, I promised to make her the happiest woman in the world. But looking back, I've given her nothing but poverty and heavy housework. I couldn't even give her health.”
+// “A week ago, I applied for the job in the No. 13 mine. Working there has been even more dangerous painful. But I thought everything was worth it to help my family, wasn't it?”
+// “I thought the reason the No. 13 mine paid so much more was because it was dangerous. But today, I realized I was wrong. The real reason is that this mine is incredibly valuable.”
+// “This morning, when I was working, I saw something. Even though it was covered in dust, I could see it glowing in the dim light. Mr. Williams drove us out. When I went by later that afternoon, the whole area was fenced off. There were even some police officers watching the place.”
+// “I heard it was a huge diamond, worth more than I can even imagine. Apparently, it would take a lot of time and effort to mine it. How I wish I could own just a tiny piece!”
+// “The living conditions in this damned place are terrible too. Since yesterday, my skin's been itching. I want to send mom a telegram, asking her for her old remedy for itching. And I want to tell Bonnie that my new job pays more than the last one. We don't need to worry about money anymore.”
+// “How I miss them!”
+Benjamin: What did you find?
+Danielle: I don't know, exactly. But I think I'm one step closer to the truth.
+B
+Narrator: Benjamin picks up the paper and puts it back in his bag.
+***
+
+drama_in_the_broadcasting_room
+Narrator: Suddenly, you hear a girl's voice over the intercom.
+Narrator: Even though she sounds like she's trembling with fear, you can hear determination in her tone.
+Narrator*Top: Broadcast | Fellow students, I need to tell you the horrible truth. It's about the Forbidden Forest...
+Narrator*Top: Broadcast | ...about Gavin and everyone who's died in the woods...
+>>
+Danielle(surprise): It's Mavis!
+Narrator*Top: Mavis | We were told that Gavin died in an accident. 
+Narrator*Top: Mavis | Well, in this town, everyone knows what "accident" means, right?
+Narrator*Top: Mavis | It means the monster in the Forbidden Forest.
+Benjamin(surprise): Oh my God! Mavis!
+Danielle(surprise): She's so brave!
+>
+Narrator*Top: Mavis | Everyone in this town is afraid of the Forbidden Forest. 
+Narrator*Top: Mavis | So every time a body is found in that place, the police will jump to call it “an accident”. 
+Narrator*Top: Mavis | But have you ever thought... Why the police never catch the monster?!
+Narrator*Top: Mavis | I've heard that the monster guards something in the Forbidden Forest.
+Narrator*Top: Mavis | Is the police's doing nothing because they are in league with the monster?!
+Narrator: You hear rapid footsteps from the staircase. You also hear the principal's voice.
+Narrator*Top: Mavis | I have so many questions. I can't remained silent any more.
+Narrator*Top: Mavis | So I'm choosing to unveil this, to force the police to stop ignoring this question!
+Narrator*Top: Mavis | I want justice for Gavin!
+Narrator*Top: Man's Voice | Nonsense! Get out!
+Narrator: Suddenly, you hear a loud flurry of static over the intercom. Then everything goes quiet.
+Danielle(surprise): We need to go help Mavis!
+*Stop Music
+
+points_count
+*Scene BLACK (Time: 2.5)
+Narrator: <color=purple>Spring Paradise</color> | Chapter Five Completed.
+*Condition
+A. (Condition: Danielle NERVE >= 75)
+B. (Condition: Danielle NERVE >= 50)
+C. (Condition: Danielle NERVE >= 25)
+D. (Condition: Danielle NERVE < 25)
+A
+Danielle(happy): <color=blue>Nerve [{Danielle NERVE}/100]</color>
+B
+Danielle(smile): <color=blue>Nerve [{Danielle NERVE}/100]</color>
+C
+Danielle(sad): <color=blue>Nerve [{Danielle NERVE}/100]</color>
+D
+Danielle(angry): <color=blue>Nerve [{Danielle NERVE}/100]</color>
+***
+*Condition
+A. (Condition: Joe NERVE >= 75)
+B. (Condition: Joe NERVE >= 50)
+C. (Condition: Joe NERVE >= 25)
+D. (Condition: Joe NERVE < 25)
+A
+Joe(happy): <color=blue>Nerve [{Joe NERVE}/100]</color>
+B
+Joe(smile): <color=blue>Nerve [{Joe NERVE}/100]</color>
+C
+Joe(sad): <color=blue>Nerve [{Joe NERVE}/100]</color>
+D
+Joe(angry): <color=blue>Nerve [{Joe NERVE}/100]</color>
+***
+*Condition
+A. (Condition: Mavis NERVE >= 75)
+B. (Condition: Mavis NERVE >= 50)
+C. (Condition: Mavis NERVE >= 25)
+D. (Condition: Mavis NERVE < 25)
+A
+Mavis(happy): <color=blue>Nerve [{Mavis NERVE}/100]</color>
+B
+Mavis(smile): <color=blue>Nerve [{Mavis NERVE}/100]</color>
+C
+Mavis(sad): <color=blue>Nerve [{Mavis NERVE}/100]</color>
+D
+Mavis(angry): <color=blue>Nerve [{Mavis NERVE}/100]</color>
+***
+*Condition
+A. (Condition: Benjamin NERVE >= 75)
+B. (Condition: Benjamin NERVE >= 50)
+C. (Condition: Benjamin NERVE >= 25)
+D. (Condition: Benjamin NERVE < 25)
+A
+Benjamin(happy): <color=blue>Nerve [{Benjamin NERVE}/100]</color>
+B
+Benjamin(smile): <color=blue>Nerve [{Benjamin NERVE}/100]</color>
+C
+Benjamin(sad): <color=blue>Nerve [{Benjamin NERVE}/100]</color>
+D
+Benjamin(angry): <color=blue>Nerve [{Benjamin NERVE}/100]</color>
+***
+*Condition
+A. (Condition: Alan NERVE >= 75)
+B. (Condition: Alan NERVE >= 50)
+C. (Condition: Alan NERVE >= 25)
+D. (Condition: Alan NERVE < 25)
+A
+Alan(happy): <color=blue>Nerve [{Alan NERVE}/100]</color>
+B
+Alan(smile): <color=blue>Nerve [{Alan NERVE}/100]</color>
+C
+Alan(sad): <color=blue>Nerve [{Alan NERVE}/100]</color>
+D
+Alan(angry): <color=blue>Nerve [{Alan NERVE}/100]</color>
+***
+End

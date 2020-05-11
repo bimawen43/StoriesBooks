@@ -1,0 +1,705 @@
+Begin
+*Scene BLACK
+Narrator: Chapter Seven | <color=olive>The Impaler</color>
+*Play Music m_mystery_suspense_tension_slunky_01
+*
+*Scene MANSION_BALLROOM_INT_NIGHT
+*Camera Left 0
+*
+*Dracula Face Draculaface_1
+Narrator: Adjusting his collars, Dracula strolls right past you and approaches the Night brothers.
+Narrator: You stare at him as he walks by, his old-fashioned, smooth cologne dancing on your nostrils.
+>>
+Eve(surprise): I can't believe that's Dracula!
+Eve(surprise): I mean... the brothers told me they represent fantastical beasts.
+>
+Eve(surprise): I just didn't expect him!
+Narrator: The tall, lithe man revolves around the ballroom.
+Narrator: He judges every piece of furniture with his narrow gaze and smug smirk.
+Eve*Think(surprise): Should I say something to him?
+(iatw_07_01_greet_dracula)
+A. Hello.
+B. Stay quiet. 
+A
+Eve(happy): It's good to meet you.
+Dracula(smile): Hmm.
+Narrator: He doesn't even look at you, glancing around at the room.
+B
+Eve*Think(sad): I'm not gonna say anything!
+***
+Dracula(smile): Last time I stepped foot in this place, humans rode around in horse and buggies.
+Dracula(smile): Yet not a single change in your decorations.
+Dracula(smile): Shame.
+>>
+Eve*Think(angry): Hey, I actually like this place!
+(iatw_07_02_old_decorations)
+A. That's not true.
+B. Be quiet!
+C. I agree.
+A
+Eve(angry): This place is nice! What kind of standards do you have where this isn't posh?!
+Narrator: Finally, Dracula glances at you.
+Narrator: But despite his gaze, you still feel invisible as he simply looks past you.
+B
+Eve(angry): You should really be more respectful.
+Sabastian(angry): {Eve Name}, don't.
+Eve(angry): What?! I'm just saying-
+Narrator: Sabastian waves your comment away. You seal your lips shut and roll your eyes.
+C
+Eve(happy): This place is in desperate need of a woman's touch. I'm just happy someone finally said it.
+Narrator: Dracula peers over at you, smirking at your comment. A small bow of his head confirms that he agrees.
+***
+*Stop Music
+*Play Music m_blue_epilog_sadness
+>
+Narrator: Dracula approaches the Night brothers as they stand at attention.
+Derek(smile): It's good to see you again, sire.
+Dracula(smile): Yes, I'd assume it would be.
+Dracula(smile): I am, after all, quite spectacular.
+Narrator: You see Sabastian and Liam roll their eyes to Dracula's comment.
+Narrator: Dracula peers over at them, but they're quick to hide their real feelings with a fake smile.
+Narrator: Dracula smiles from ear to ear.
+>>
+Dracula(smile): It is good to see my boys again.
+Dracula(smile): You all look healthy.
+Narrator: He swivels on his heels, turning straight to you.
+Narrator: You swallow the knot out of your throat as his eyes bore holes into yours.
+Narrator: Dracula glides over to you, his eyes scanning you from top to bottom.
+Narrator: They linger on the parts of you he finds especially delicious.
+*Stop Music
+*Play Music m_tension_rage_mystery_forest_fear_01
+>>>
+Dracula(smile): And who... is this lovely creature.
+>
+Eve*Think(surprise): What should I say?
+(iatw_07_03_lovely_creature)
+A. Give him a memorable introduction! (Cost: 17 Diamond ID: plot_iatw_07n_dracula)
+B. Stay quiet.
+A
+>>
+Eve(happy): My name is {Eve Name}. I'm the new assistant working in your case.
+Dracula(happy): Is that what you are, hmm?
+Narrator: You wink at him with a smirk. His eyes go wide with surprise.
+Eve(happy): I'm anyone you want to be, hotshot.
+Dracula(smile): My goodness. A feisty one, isn't she?
+>
+Eve(happy): I can honestly say I never thought I'd meet Dracula in the flesh.
+Dracula(happy): Now that you have, what do you think?
+Eve(happy): Eh, I've seen better.
+Dracula(happy): Now my dear, I'm not sure if I buy that.
+Eve(happy): Well, you don't know what I've seen.
+Dracula(happy): I can only imagine the chaos you will bring here at the Night Firm, young one.
+Dracula(happy): I fear you may throw this law firm into chaos.
+Eve(happy): Well we could all use a little crazy in our life, can't we?
+Eve(happy): After all, it sounds like you have plenty.
+Dracula: That I do. And you, {Eve Name}, may be too much for me.
+Dracula(happy): Something I never thought I'd say to a human.
+Dracula(happy): You truly are special, aren't you, young one.
+Eve(happy): Suppose you'll have to wait and find out.
+Dracula(happy): I suppose I will. 
+B
+Narrator: Your lips seal shut. But your brain fails to come up with any words to even say.
+Dracula(smile): A shy one, is she?
+***
+*Goto flirt_threat (Condition: Eve Outfit = Gorgeous_Dress)
+*Goto flirt_knit
+
+flirt_threat
+*Stop Music
+*Play Music m_romance_modern_intense_mystery_city_jewels
+Narrator: His eyes linger on your legs from your skirt.
+>>
+Dracula(smile): My God. She is divine to look at.
+Narrator: Dracula slowly makes his way close to you.
+Dracula(smile): I would do anything to... roam your hillsides, my dear.
+Narrator: Dracula's fang shoot out of his canine teeth.
+*Dracula Face Draculaface_2
+Dracula(smile): Taste you.
+>>>
+Eve*Think(surprise): Oh my God!
+(iatw_07_04_draculas_fang)
+A. Get away, you creep.
+B. Come have a taste.
+C. Please, stay back.
+A
+Eve(angry): Put those disgusting fangs back in your mouth.
+>
+Dracula(smile): Are you going to make me, mortal? I'd love to see you try.
+B
+Eve(happy): Afraid you might like it?
+Dracula(smile): Are you?
+>
+Sabastian(smile): Stop it.
+C
+Eve(sad): I don't... I just want to do my job.
+Eve(sad): I don't mean anything...
+>
+Dracula(smile): Relax, little one. You are but a treat for us vampires.
+***
+>>
+Sabastian*Shout(angry): Get away from her!
+Narrator: But Dracula only laughs at Sabastian's threat.
+Elijah: Easy, sir. She's our new assistant.
+Derek(happy): She's helping us with your case.
+Sabastian(angry): You are not to harm her!
+>
+Liam(angry): Trust me.
+Narrator: His eyes don't leave yours. Finally, he retracts his fangs.
+*Dracula Face Draculaface_1
+Dracula(smile): It appears the brothers have a fondness for you beyond what is professional.
+Dracula(smile): As they do, I presume.
+
+flirt_knit
+*Stop Music 
+*Camera Right 2
+Narrator: Finally, Dracula has a seat on one of the chairs. You and the brothers join him.
+*Play Music m_tension_intense_mystery_cool_club
+Dracula(smile): So boys, where are we at?
+>>
+Sabastian(angry): Stop calling us that. You're not our father.
+Dracula(smile): Aren't I though, young Sab?
+Narrator: Dracula paces around the room.
+Dracula(smile): Your birth father slept with your mother.
+Dracula(smile): I gave you immortality and power beyond measure.
+>
+Dracula(smile): Which sounds like more of a father?
+Narrator: The brothers don't have an answer to that. Derek clears his throat shifting in his seat.
+Derek(happy): Well... we've been reading up on your case.
+Derek(smile): Obviously, we have agreed to represent you in court pro bono.
+>>
+Eve(surprise): You're doing this free of charge? Why?
+Derek(angry): Because we have made an agreement.
+Elijah: He is the one that turned us into vampires. We owe him a debt.
+Liam(angry): We are paying our debt to you now.
+Liam(angry): We will keep you from being buried alive for all eternity.
+>>>
+Liam(angry): And you will leave us the hell alone. Forever.
+>
+Narrator: The tension is so thick in the room you can barely breathe.
+Narrator: You purse your lips together, eyeing the ceiling and floor.
+Dracula(smile): If you deliver justice, then our blood debt will be cleared.
+Narrator: The brothers exchange glances and everyone nods.
+Eve*Think(surprise): Do I agree with that?
+(iatw_07_05_pay_debt)
+A. That makes sense to me.
+B. You should still be paid.
+A
+Eve(happy): Lawyers work without pay all the time. It's called bartering.
+Sabastian(happy): That's true.
+Dracula(smile): The girl knows her stuff.
+B
+Eve(angry): It only makes sense.
+Dracula(smile): In your world. Not in ours.
+Eve(sad): Oh.
+***
+Eve(confuse): So what's is Dracula getting charged with?
+Sabastian: Dracula is charged with first-degree murder.
+>>
+*Stop Music
+Eve(confuse): Murder of...?
+*Play Sound s_horrible
+Dracula(angry): My wife.
+*Play Music m_tension_rage_modern_intense_chase
+>>>
+Eve(surprise): Oh. Yikes.
+>>
+Dracula(angry): I am charged with murder.
+Dracula(angry): But the Night Brothers will do whatever it takes to ensure I am not convicted of it.
+Dracula(smile): Now boys, how do we go about doing that?
+Liam(angry): Before we do, I need to hear it from him.
+Eve(surprise): Hear what?
+Liam(angry): I need him to look me in the eyes and tell me he didn't do it.
+Derek(sad): Brother, I-
+Sabastian: Liam's right. We need to know we can trust him.
+Sabastian: That he's not leading us down a rabbit hole into our deaths.
+Narrator: An uncharacteristic snarl creeps onto Dracula's face.
+*Play Sound s_vampire
+*Dracula Face Draculaface_2
+Narrator: Dracula growls at Liam, his teeth elongated.
+>>
+Dracula(angry): I did not kill my wife Mary.
+Dracula(angry): I would never harm her. She was my heart and soul.
+Narrator: A sadness falls onto Dracula's face as he turns towards the roaring fireplace.
+*Stop Music
+*Play Music m_blue_epilog_sadness
+*Dracula Face Draculaface_1
+Dracula(sad): I am nothing without her.
+>
+Eve*Think(sad): He sounds genuine. But do I believe him?
+(iatw_07_06_believe_draculas)
+A. I believe him.
+B. I don't believe him.
+A
+Dracula(smile): Good. 
+Liam(angry): Well that makes one of us. I'm not convinced.
+B
+Eve(angry): I mean no offense, but you're Dracula. It's hard not to buy into that story.
+>>
+Eve(angry): You've killed millions, right?
+Dracula(angry): But not my wife!
+>
+Dracula: I swear it.
+***
+Narrator: Dracula turns to the boys.
+Dracula(sad): If you deliver justice... prove my innocence.
+Dracula(smile): Then our blood debt will be clear. You will be free of the sire bond.
+Derek(happy): We will do our best.
+Narrator: Dracula shoots up from his chair, adjusting his jacket. The rest of you stand with him.
+>>
+Dracula(smile): Feel free to visit my villa. It is still a crime scene, but you will find any clues there.
+Dracula(smile): My resources. Family. Everyone is available for your questions.
+>
+Elijah(happy): Very well.
+*Camera Middle 2
+Narrator: Dracula bows his head to everyone. He turns and walks out, but pauses just outside the door.
+Narrator: His voice trembles.
+Dracula(angry): If you...
+Dracula(angry): If you find the man that killed my wife.
+Dracula(angry): Do not feel the need to press charges against him.
+Dracula(angry): I will kill him before you even get the chance.
+Narrator: His threat haunts the room, chilling you to the bone.
+Narrator: The brothers remain silent before Dracula finally leaves the room.
+*Stop Music
+*Camera Right 1
+Narrator: After the front door closes, the brothers turn to each other.
+*Play Music m_sadness_melancholy_gently_casual_desire
+Liam(angry): This was a mistake. We will either be freeing the monster who murdered Mary...
+Liam(angry): Or we are at war with Dracula himself. Neither option is optimal.
+Derek(sad): We have no choice. He pulls our strings until he breaks our sire bond.
+Elijah(sad): Until then, we are beholden.
+>>
+Eve(confuse): Is that how it works? If you turn someone, you can control them?
+Derek: Not entirely, but close. It's a compulsion that's near impossible to resist.
+Sabastian: And if you resist too long, it can cause serious pain.
+Sabastian: But it takes energy from both parties, so it's not used as often as you might imagine.
+>
+Eve: But he's using it now? For this?
+Narrator: Derek nods.
+Derek: He's been formally charged with murdering his wife and unborn child and draining them both of blood.
+Narrator: You gasp, the details hitting you hard.
+Eve*Think(surprise): Oh my God! I didn't know that's how they died.
+(iatw_07_07_murdering)
+A. That's horrible.
+B. That makes sense.
+C. That's disgusting.
+A
+Eve(sad): God, I can't imagine.
+B
+Eve(surprise): I mean he's a vampire, right? I assume that's how he'd kill someone.
+C
+Eve(angry): Spare me the details.
+Sabastian: You're part of the team now, {Eve Name}. No details will be spared from you.
+***
+Narrator: As you focus, your legal knowledge begins hitting you.
+Eve: So he's been charged. That means there will be a trial.
+Derek: In a few days.
+>>>
+Eve(surprise): What?! We only have a few days?
+>>
+Derek(happy): Our legal system works quickly in this world.
+Derek: And the prosecutors are really gunning for Dracula.
+Eve: Are we defending him?
+Elijah: Yes.
+Eve: What if he's guilty?
+Derek: He says he's not.
+Eve: But... what if he is.
+Narrator: Liam glares at you.
+>
+Liam(angry): We don't have a choice.
+Elijah: Which is why we need to get to work. What's first?
+Derek: First, {Eve Name} needs to bone up on our legal system. It is much different than hers.
+Sabastian(happy): Your Harvard training flies out the window now, lovely.
+Derek: Elijah, why don't you take {Eve Name} to the library to begin studying. Find her the right books.
+Derek: The rest of us will formulate our plan for the next few days.
+Derek: Figure out what kind of case we should present to the judge and jury.
+Narrator: Elijah sticks his elbow out. You wrap your arm around his as he accompanies you off.
+>>
+Sabastian(sad): {Eve Name}. Wait.
+*Camera Middle 1
+Narrator: You turn back around.
+Derek: What is it, Sab?
+Sabastian: Human intuition. It's more valuable that we realize.
+>
+Sabastian: Gut reaction, {Eve Name}. Do you think Dracula is guilty?
+Narrator: All four brothers turn to you.
+Eve(surprise): I think...
+(iatw_07_08_human_intuition)
+A. Yes.
+B. No.
+C. I don't know.
+A
+Eve(angry): She was drained of blood. Who else would do that besides Dracula?
+Eve(angry): And take it from me. The most dangerous person to a wife is her husband.
+Eve(angry): More husbands kill wives than anybody else. Makes sense to me.
+Narrator: The brothers nod.
+Sabastian: Very well.
+B
+Eve(sad): He seemed to love his wife. I just don't see it.
+Narrator: The brothers nod.
+Sabastian: Very well.
+C
+Eve(sad): I just can't get a read on him.
+Liam(happy): So much for that human intuition, huh Sab?
+Narrator: Sabastian shrugs Liam off.
+***
+Narrator: Elijah follows you off towards the library.
+*
+*Scene MANSION_LIBRARY_INT_NIGHT
+*Camera Right 0
+*
+*Stop Music
+*Play Music m_romance_beauty_love
+Narrator: Elijah holds the door open for you as you step into their library.
+*Play Sound s_transformation2
+Narrator: From ceiling to floor books. Thousands of books.
+>>
+Eve*Think(surprise): Oh my God! This place is beautiful! I didn't even know they had a library...
+Narrator: Rows of stacks, extending as far as the eye can see.
+Eve(happy): This whole library is yours?
+>
+Elijah(smile): Ours.
+Narrator: In the hearth of the room are long wooden studying tables with books sprawled out.
+Narrator: Gazing up, your eyes wander the staircases.
+Narrator: Upstairs are several other floors full of tomes, scrolls, and more books.
+Elijah(smile): Every law book we could get our hands on is in this room.
+Elijah(happy): You might even find a few from your world buried in here somewhere.
+Narrator: Walking alongside the stacks of books, Elijah's hand gently presses against your back.
+Narrator: His soft touch sends electricity through your spine that nearly causes you to shiver.
+Elijah(smile): You won't need to read them all, obviously.
+Elijah(happy): But I've selected a few for you to start with.
+>>
+Elijah(smile): They pertain mainly to vampire law, spousal murder, and Dracula's legal history.
+Elijah(happy): I've placed them on that table for you to read.
+Narrator: You run your finger along the countless rows of book spines, glancing at a few titles.
+Eve*Think(smile): "Ethical Guidelines for the Safe Arraignment of Centaurs."
+Eve*Think(happy): "Punitive Damages in Ex Partes and other Torts against Fairie Dragons."
+Eve(smile): There's so much to learn!
+Eve(confuse): I've got my work cut out for me, don't I?
+Elijah(happy): Indeed.
+>
+Eve*Think(sad): I don't know if I can do this...
+(iatw_07_09_much_to_learn)
+A. This should be a breeze.
+B. I'm not sure I can do this.
+C. This is too much.
+A
+Eve(happy): I've got plenty of homework, but it's nothing I can't handle.
+Elijah(happy): Excellent.
+B
+Eve(sad): This is all just... so much.
+Eve(sad): How am I supposed to learn everything about your world's legal system in a few days?
+Narrator: Elijah shrugs, smiling at you.
+Elijah(happy): I'm sure you'll figure it out. If anyone can, it's you.
+C
+>>
+Eve(sad): I can't do this, Elijah. You're all mystical creatures and I'm just... me.
+Eve(sad): Just a human.
+Elijah(sad): Now you stop that talk right now, missy. You are human, but that's what makes you beautiful.
+Elijah: You're unique. One of a kind. And fully capable of helping us.
+Elijah(happy): That's precisely why we hired you. You have a human perspective that we desperately need.
+>
+Elijah(happy): What you consider faults we consider positive traits.
+***
+Elijah(happy): We're all happy you're here, {Eve Name}. Even Liam, despite his temper.
+Elijah(happy): You float around in my mind like how you float around our halls. With grace. Beauty.
+Elijah: And a sharp wit. We need you to win this.
+Eve(shy): That's sweet. Thank you.
+Narrator: Elijah checks his watch.
+Elijah(happy): Now I'd love to stay and chat, but you have a lot of work ahead of you.
+Elijah(happy): Much catching up to do, learning the laws of a whole new world.
+Elijah(happy): I'm afraid if I stay I will be but a bother, so this is where I leave you.
+>>
+Eve*Think(surprise): Do I want him to stay?
+(iatw_07_10_elijah_stay)
+A. Tell him to stay and flirt! (Cost: 20 Diamond ID: plot_iatw_07_elijah)
+B. Ask him to leave.
+A
+Eve(happy): I need to work, but I feel like I haven't gotten the chance to get to know you.
+Eve(happy): You don't have to run off so soon, do you?
+Elijah(happy): I suppose I could be convinced to stay.
+Eve(happy): Good. Stay. Show me around this place.
+Narrator: Wrapping your arm around his again, you both mosey through each stack of books.
+*Camera Left 2
+>>
+Eve(shy): You've been nice to me from day one. The interview. Don't think I haven't noticed.
+Elijah(happy): I'm probably considered the nice one when compared to my brothers.
+Elijah(happy): I've never been one to caught fights or arguments.
+Eve(happy): So that makes you level-headed.
+Elijah(shy): I prefer to think it makes me a lover.
+Eve(shy): You don't typically hear the words "lover" and "vampire" in the same sentence.
+Elijah(happy): Most aren't. But I don't know... Even before Dracula turned us...
+Elijah(happy): When we were druids of the elemental world. Even then I only wanted love.
+Elijah(happy): While Liam and Sab spent their days killing our enemies, I was off with nature.
+Elijah(happy): Or here. Reading. It's embarrassing to say that I've likely read nearly every book here.
+Elijah(sad): But all of that changed when Dracula bit us.
+Elijah(sad): Now... I've been branded a creature of the night. A monster.
+Elijah(sad): And I've made it my objective to prove to the world that I'm still that loving man.
+>
+Eve*Think(sad): That's so sad!
+(iatw_07_10_DP1_elijahs_story)
+A. You're not a monster.
+B. You're a monster.
+C. You decide what you are.
+A
+Eve(happy): You may be a vampire, but you will always be you.
+Eve(happy): I look into your eyes and I only see Elijah.
+Eve(happy): A gentle soul. 
+Narrator: Your words light him up as he smiles with a brightness you've never seen from the brothers.
+>>
+Elijah(happy): Thank you so much for that, {Eve Name}.
+B
+Eve(sad): No offense, but the person you were was lost when you started drinking other people's blood.
+Eve(sad): You may not consider yourself one, but that doesn't change a label that the world decides.
+Elijah(sad): I suppose that's true.
+Eve(happy): But hey, that doesn't have to mean being a monster is a bad thing.
+Eve(happy): I like monsters. Always have.
+>>
+Elijah(happy): Is that so?
+C
+Eve(happy): Nobody gets to say who you are. Who you aren't.
+Eve(happy): Not even Dracula. You are whatever you want to be.
+>>
+Eve(happy): And from where I'm standing, you're anything but a monster.
+Narrator: Your words light him up as he smiles with a brightness you've never seen from the brothers.
+Elijah(happy): Thank you so much for that, {Eve Name}.
+***
+***
+*Stop Music
+*Play Music m_romance_sexy_gently_nighttime_stroll_01
+*+ELIJAH_SOFT
+// Narrator: You stare into his eyes, feeling lost.
+Narrator: He wipes hair out of your face, his warm touch lingering on your cheek.
+Narrator: His hand falls to your shoulder as he savors every touch of your skin.
+Narrator: He smiles, a calmness washing over you that you've never felt before.
+Eve*Think(sad): He's so innocent. So calm. I've never met someone that made me feel so at ease.
+Eve*Think(happy): Let alone a vampire.
+Elijah(happy): You very well may be more important to me than I realized.
+Narrator: Elijah pauses, pulling you both into one particular shelf of books.
+>>
+Elijah(happy): Hey. I want you to have something.
+Narrator: Elijah reaches up and grabs a book.
+Narrator: Blowing off the dust, he hands it to you as you read the cover.
+Eve(happy): <i>"Meditations in an Emergency"</i> by Frank O'Hara?
+Elijah(happy): I started reading your world's literature the second I discovered your world.
+Elijah(happy): He was a poet from your world. One of my favorites.
+Elijah(happy): Books from other worlds aren't supposed to be here.
+Elijah(happy): It's not a legal book, but I snuck it in here when my brothers weren't looking.
+Elijah(happy): It's my favorite. Give it a read.
+>
+Eve(happy): I will. Thank you.
+Narrator: Wrapping the book under your arm, he wraps his arm around your shoulders.
+Narrator: You feel his warmth as you lean into him, closing your eyes.
+Narrator: His cologne of earth pine swirls your mind.
+Narrator: He turns you both out of the stacks, returning to the front door.
+Narrator: But you feel like you're dancing with him. Lost in his movement.
+Narrator: Lost in the moment of Elijah.
+Narrator: Finally, you open your eyes.
+>>
+Elijah(happy): This must be where I leave you.
+Elijah(sad): There is much work to be done.
+>
+Eve(sad): Yeah. I probably shouldn't put it off anymore.
+B
+Eve(sad): I should probably get to work. It'd be best if you left.
+Elijah: Of course. Good luck, my dear.
+***
+Narrator: Elijah turns and leaves the library.
+Narrator: Sinking into the soft chair, you grab the closest book to you.
+Eve(happy): <i>"Fangs and Felony - A Complete History of Vampire Legal History".</i>
+Eve(happy): Well... no better place to start than this, I suppose.
+*Play Sound s_page_turning
+Narrator: Flipping open the dusty book, you start from the first page and read.
+*
+*Scene MANSION_GARDEN_INT_NIGHT
+*Camera Right 0
+*
+*Stop Music
+*Play Music m_soft2
+Narrator: After countless hours of reading, you walk outside of the mansion for a short break.
+Eve*Think(happy): Some fresh air sounds nice. I've been breathing in dust for hours!
+Narrator: Outside, you peruse the sprawling gardens alongside the mansion.
+Narrator: Moonlight bounces, illuminating the yard in a beautifully blue, dark aura.
+Eve*Think(happy): This world is so beautiful.
+*Play Sound s_grass
+Narrator: The closest bush rustles again, as you step back in fear.
+Eve*Think(surprise): What was that?!
+(iatw_07_11_bush_rustles)
+A. Hello?
+B. Stay quiet.
+C. Go away!
+A
+Eve(terror): Who's there?!
+B
+Narrator: You freeze still, remaining quiet.
+C
+Eve(angry): Get out of here, whoever you are!
+***
+Narrator: But the bush rustles again. Your heart leaps out of your chest.
+Eve(angry): Who's there?!
+Narrator: A small kitten pops out of the bush, shaking a leaf off of its coat.
+Eve(happy): A kitten!
+*Play Sound s_cat
+Kitten(happy): *Meow*
+*Stop Music
+*Play Music m_motherguitar
+*+KITTEN_CUTE
+>>
+Eve(happy): Oh my God, you're so adorable!
+Narrator: You scoop the small cat into your arms, gently petting its head.
+Eve(smile): Hey, little guy! What are you doing out here?
+*Play Sound s_cat2
+Kitten(happy): *purr*
+Narrator: He nuzzles into your arms, closing his eyes.
+Narrator: He purrs every time you pet him, the silver moonlight bouncing off of his coat.
+>
+Eve*Think(smile): Hmm... what should I call you?
+(iatw_07_12_name_kitten)
+A. Moon.
+B. Sabastian.
+C. Nothing.
+A
+Eve(smile): I've always loved the name Moon.
+*Kitten Name Moon
+B
+Eve*Think(smile): I'm sure Sabastian will get a kick out of having a cat with his name!
+*Kitten Name Sabastian
+C
+Eve*Think(smile): Maybe you don't need a name.
+***
+Eve*Think(happy): I have so much going on right now, I'm not sure I have the time for a pet!
+Eve*Think(sad): Should I keep him?
+(iatw_07_13_keep_kitten)
+A. Keep him!
+B. Don't keep him.
+A
+Eve*Think(smile): Whatever. I could use something soft to cuddle with at night.
+Eve*Think(happy): Especially being around a bunch of vampires all day.
+>>
+Eve*Think(happy): Welcome to your new home.
+Eve*Think(sad): Hopefully I don't have to battle with the brothers over this, but I will if I must.
+>
+Eve*Think(sad): I don't even know if vampires have allergies...
+*Camera Left 2
+Narrator: The backdoor swings open as Lily steps outside. She waves at you before walking over.
+Lily(smile): Hey, {Eve Name}! Haven't seen you in a while. Are you adjusting okay?
+Eve(smile): Hey Lily! Yeah it's going fine.
+Narrator: Lily notices the cat in your arms, gasping.
+Narrator: After a high-pitched squeal of delight, she wraps her hand in the tiny creature.
+>>
+Lily(happy): {*Joyful Oh my gosh!} He's so cute! Please tell me you're keeping him.
+Eve(smile): That's the plan. Hopefully that's okay.
+Lily(happy): A pet is exactly what we need. Too much testosterone with all the Night Brothers.
+Narrator: Lily gazes up at you, smiling.
+Lily(smile): I'm so happy you're here, {Eve Name}. You're exactly what we needed around here.
+Eve(happy): Thanks, Lily.
+>
+Lily(happy): Oh! I'll find him a food and water bowl. And kitty litter! I think we have some!
+Eve(smile): Good idea. Want to take him?
+Narrator: Lily leaps for the cat, her widening smile clearly a yes to your question.
+Narrator: She turns and leaves, returning into the house.
+Lily(happy): Come on, boy! Let's see your new home!
+Narrator: You watch Lily leave, laughing.
+B
+Eve*Think(sad): I probably don't have the time to take care of a cat. I should be smart about this!
+Eve*Think(sad): As much as I'd love one, I can barely take care of myself.
+Eve*Think(sad): This cat deserves more love than I can give.
+Narrator: Setting the cat down, you try your best to shoo it away.
+>>
+Eve(sad): Shoo! Get out of here! Find another home.
+*Play Sound s_cat
+Kitten(sad): *meow*?
+Narrator: The kitten lingers, refusing to leave. After one final shove, the kitten scurries off.
+Narrator: But instead of returning to the bushes, it sprints off towards the backdoor.
+*Camera Left 0.5
+Narrator: Just at that second, the door swings open as Lily steps outside.
+Lily(surprise): {*Attention Ahh!}
+Narrator: She jumps, startled by the kitten.
+Narrator: After a high-pitched squeal of delight, she wraps her hand in the tiny creature.
+Lily*Shout(happy): Oh my Goodness! A cat!
+Narrator: You walk over to Lily.
+Eve(sad): Yeah I just found him here.
+>
+Lily(happy): He's so cute! Please tell me you're keeping him.
+Eve(sad): I can't. I just don't have the time to show a pet the love it deserves.
+Lily(sad): That's understandable. But I do!
+Lily(happy): A pet is exactly what we need. Too much testosterone with all the Night Brothers.
+Lily(happy): I'll take care of him, don't worry.
+Eve(happy): Okay, fair enough.
+>>
+Lily(happy): I heard you were out here. I hadn't seen you since the crash. Are you doing okay?
+Eve(happy): I'm hanging in there. I'm definitely getting a crash course of this world.
+Lily(happy): It's definitely a lot to take in. But I'm happy you're here.
+Lily(happy): And I'm happy this little guy showed up!
+Narrator: Lily nuzzles into the cat.
+Lily(happy): Oh! I'll find him a food and water bowl. And kitty litter! I think we have some!
+>
+Narrator: She turns and leaves, returning into the house.
+Lily(happy): Come on, boy! Let's see your new home!
+Narrator: You watch Lily leave, laughing.
+***
+*
+*Scene MANSION_GARDEN_INT_DAYBREAK (Color: White Time: 2)
+*Camera Left 0
+*
+*Stop Music
+*Play Music m_gently_snug_romance_dancing_star_01
+*Play Sound s_bird_morning
+>
+Narrator: A streak of golden sunlight catches your attention to the horizon.
+Narrator: The sun slowly peaks itself into view.
+>>
+Eve*Think(surprise): Oh my God! It must be morning.
+Eve*Think(surprise): With all this craziness lately, I didn't realize I had stayed up all night.
+>
+Eve*Think(sad): I guess I better get used to that, working for vampires now...
+Narrator: Turning around, you head back into the mansion.
+Eve*Think(happy): I should really try to get some sleep!
+Narrator: You head up the stairs and retire to your chambers for the night.
+*
+*Scene MANSION_BEDROOM_INT_NIGHT
+*Camera Left 0
+*
+*Eve Outfit Reset
+Narrator: Hours later...
+Narrator: Your eyes slowly open as you roll over on your new, king-sized mattress.
+Narrator: The silk sheets gently caress your skin, coaxing you to return to your slumber.
+Eve*Think(happy): I've never slept on a bed so comfortable.
+Eve*Think(happy): That was some of the best sleep I've ever had. I didn't even know I was tired.
+Narrator: You check the time.
+>>
+Eve*Think(surprise): 6PM. I slept through the whole day!
+Eve*Think(sad): I guess that's my new life. Sleeping all day, working all night.
+Narrator: Stretching, you slowly step out of bed and approach your wardrobe.
+Eve*Think(happy): Alright. Second day on the job. Hopefully it'll be smoother than the first.
+Narrator: You take a sniff of yourself.
+Eve*Think(sad): Yikes. I need to shower too.
+>
+Eve*Think(happy): Hmm. What should I wear?
+*Eve Outfit Black_Temptation
+Eve(happy): I should...
+*Model
+(iatw_07_14_pay_dress)
+A. I can't wear this...
+B. perfect! (Cost: 19 Diamond ID: look_iatw_07_clothes09)
+A
+*Eve Outfit Reset
+Eve*Think(happy): Looking professional is a waste. I should just look great!
+Eve*Think(happy): After all, they're working with me. They might as well get used to me!
+B
+Eve*Think(happy): I should look my best. This job is important!
+Eve*Think(happy): And the brothers sure look professional. I should be the same!
+***
+Narrator: Grabbing your outfit, you head into the bathroom and take a shower.
+*Camera Right 2
+Narrator: After your steamy shower, you walk out into your bedroom, dressed in your clothes.
+Narrator: But you freeze in your step.
+>>
+Eve(surprise): {*Joyful Oh my God!}
+Narrator: Your bed is made. The wardrobe, organized.
+Narrator: Your previous clothes were tossed on the floor, but now they're gone.
+Eve*Think(angry): Was someone in my room?!
+Eve(surprise): Hello!?
+Narrator: Only silence replies, an eerie calm falling over your room.
+Eve*Think(surprise): Who was in here while I showered!?
+Eve*Think(surprise): Oh my God...
+End
