@@ -1,10 +1,16 @@
 # Begin  
-\*Scene COURTING_DESIRE_INTRO  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_fancy_dressing_room.jpg-story' width='60'>
+\*Scene COURTING_DESIRE_INTRO
+{% endhint %}  
 Narrator: Chapter Seven | <color=olive>Cheeky Royals</color>  
 # cd07_rescued  
 \*Play Music m_intense_tension_assembling_01  
 \*  
-\*Scene PALACE_GARDEN_FOUNTAIN_DAY (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_palace_garden_fountain_day.jpg-story' width='60'>
+\*Scene PALACE_GARDEN_FOUNTAIN_DAY (Color: Black)
+{% endhint %}  
 \*Camera Left 0  
 \*  
 Narrator: As you slowly open your eyes, the first thing you notice, is that you seem to be lying on the ground.  
@@ -20,7 +26,7 @@ Narrator: Another minute goes by as you keep coughing out water bit by bit, as A
 Armand(sad): Just keep breathing. In... out. In... out.  
 Narrator: Your eyes slowly focus on him.  
 Alice(surprise): Armand...  
-(cd_07_01_armand_breathing)  
+# (cd_07_01_armand_breathing)  
 ## A. You're dripping wet!  
 ## B. I'm dripping wet!  
 ## C. I need more mouth to mouth resuscitation.  
@@ -66,7 +72,7 @@ Narrator: The handmaid starts crying huge sobs.
 Alice: Jeanne, it's alright. I'm alright.  
 Armand: Yes, thank God.  
 Alice: Armand... This is the second time that you've saved me.  
-(cd_07_02_armand_save_second)  
+# (cd_07_02_armand_save_second)  
 ## A. I owe you my life.  
 ## B. I need to stop getting in trouble like this.  
 ## C. How are you always around when I need you?  
@@ -113,7 +119,7 @@ Philippe: Perhaps it's better to let one of us carry you in.
 Armand: Yes, I think so too. Better not to exert yourself right now.  
 Narrator: Tutorial | Letting one of them carry you will not only increase <color=purple>Romance</color> with him... It will also make Anne or Marie <i>jealous</i>!  
 Alice: I think...  
-(cd_07_03_carry_walkmyself)  
+# (cd_07_03_carry_walkmyself)  
 ## A. Armand should carry me! (Cost: 18 Diamond ID: plot_cd_07_armand) *Goto cd07_Armandcarry  
 ## B. Philippe should carry me! (Cost: 18 Diamond ID: plot_cd_07_philippe) *Goto cd07_Philippecarry  
 ## C. I can walk by myself. *Goto cd07_walkmyself  
@@ -144,7 +150,7 @@ Armand(smile): Maybe I will.
 Alice(smile): Is that a promise?  
 Armand(smile): Do you want it to be?  
 Alice(smile): ...  
-(cd_07_03_DP1_armand_carry_everywhere)  
+# (cd_07_03_DP1_armand_carry_everywhere)  
 ## A. Yes, I do.  
 ## B. I don't know.  
 #### A  
@@ -164,7 +170,10 @@ Philippe: Hmph.
 \*Stop Music  
 \*Play Music m_classical_cheerful_garden  
 \*  
-\*Scene PALAIS_ROYALE_FACADE (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_palais_facade_day.jpg-story' width='60'>
+\*Scene PALAIS_ROYALE_FACADE (Color: Black)
+{% endhint %}  
 \*Camera Right 0  
 \*  
 Narrator: You have just reached the Palace, when suddenly you hear someone gasp!  
@@ -207,7 +216,7 @@ Alice(smile): Maybe you should.
 Philippe(smile): Maybe I will.  
 Alice(smile): Is that a promise?  
 Philippe(smile): Do you want it to be?  
-(cd_07_03_DP2_philippe_carry_everywhere)  
+# (cd_07_03_DP2_philippe_carry_everywhere)  
 ## A. Yes, I do.  
 ## B. I don't know.  
 #### A  
@@ -227,7 +236,10 @@ Armand: Hmph.
 \*Stop Music  
 \*Play Music m_classical_cheerful_garden  
 \*  
-\*Scene PALAIS_ROYALE_FACADE (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_palais_facade_day.jpg-story' width='60'>
+\*Scene PALAIS_ROYALE_FACADE (Color: Black)
+{% endhint %}  
 \*Camera Right 0  
 \*  
 Narrator: You have just reached the Palace, when suddenly you hear someone gasp!  
@@ -264,7 +276,10 @@ Armand: Alright, but maybe you should hold on to us anyway.
 Alice: That might be a good idea.  
 Narrator: You take the arms that they offer you, and with their help, walk slowly back to the Palace.  
 \*  
-\*Scene PALAIS_ROYALE_FACADE (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_palais_facade_day.jpg-story' width='60'>
+\*Scene PALAIS_ROYALE_FACADE (Color: Black)
+{% endhint %}  
 \*Camera Right 0  
 \*  
 Narrator: Just as you arrive, Jeanne steps out through the entrance.  
@@ -274,19 +289,28 @@ Narrator: Just as you arrive, Jeanne steps out through the entrance.
 \*Play Music m_gently_classical_white_river_02  
 Jeanne: Your Grace, the chamber is ready.  
 Philippe: Very good, let's head there straight away.  
-\*Scene BLUE_GOLD_PRINCESS_ROOM_DAY (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_princess_room_day.jpg-story' width='60'>
+\*Scene BLUE_GOLD_PRINCESS_ROOM_DAY (Color: Black)
+{% endhint %}  
 Narrator: The room in the Palace that has been prepared for you is, quite frankly, the most beautiful room you have ever seen.  
 Narrator: Furnished entirely in baby blue and gold, with an elegant four poster bed, the room is also strangely familiar...  
 \>>  
 Alice(surprise): Wait... I've seen this room before...  
-\*Scene BLUE_GOLD_PRINCESS_ROOM_NIGHT (Color: White)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_princess_room_night.jpg-story' width='60'>
+\*Scene BLUE_GOLD_PRINCESS_ROOM_NIGHT (Color: White)
+{% endhint %}  
 \*Alice Outfit Linen_Nightgown (Tag: Record)  
 \*Armand Outfit Armand_Pyjamas  
 Armand: What's the matter, cherie? Can't sleep?  
 \*Philippe Outfit Philippe_Pyjamas  
 Philippe: Come back to bed, darling. Let us keep you warm...  
 Alice(shy): Ohhh...  
-\*Scene BLUE_GOLD_PRINCESS_ROOM_DAY (Color: White)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_princess_room_day.jpg-story' width='60'>
+\*Scene BLUE_GOLD_PRINCESS_ROOM_DAY (Color: White)
+{% endhint %}  
 \*Alice Outfit Reset  
 Alice(surprise): Oh my god...  
 \>>>  
@@ -300,7 +324,7 @@ Narrator: Philippe stares at your reaction, then grins as he seems to guess what
 \*Philippe Outfit Philippe_Courtdress  
 Philippe(smile): Nice dream, was it? Do tell.  
 Alice*Think(shy): I should...  
-(cd_07_04_tell_dream)  
+# (cd_07_04_tell_dream)  
 ## A. Tell them about the sexy dream! (Cost: 15 Diamond ID: plot_cd_07_dream)  
 ## B. Maybe later.  
 #### A  
@@ -358,7 +382,7 @@ Jeanne: Would you like me to start the fire in the fireplace?
 Alice: Oh! A fire would be nice, thank you Jeanne.  
 Jeanne: You should get in bed under the covers and stay warm, in the meantime.  
 Alice: Oh, I think...  
-(cd_07_05_have_rest)  
+# (cd_07_05_have_rest)  
 ## A. That's a good idea.  
 ## B. I want to sit in front of the fireplace for a while.  
 #### A  
@@ -451,7 +475,7 @@ Narrator: Philippe comes over and kneels on your other side.
 Philippe: {Alice Name}, you said that {*Joyful you were pushed}.  
 Alice(sad): Yes.  
 Philippe: How certain are you?  
-(cd_07_06_certain_pushed)  
+# (cd_07_06_certain_pushed)  
 ## A. I... I can't be certain.  
 ## B. I'm very sure.  
 #### A  
@@ -502,7 +526,7 @@ Narrator: Your voice is as small as a mouse.
 Alice(shy): ...no.  
 Narrator: You squirm under their incredulous stare.  
 Philippe: You've been talking to us all this time... completely naked.  
-(cd_07_07_completely_naked)  
+# (cd_07_07_completely_naked)  
 ## A. Yes.  
 ## B. I thought it was Jeanne coming back with clothes.  
 ## C. It was too awkward at that point to say anything.  
@@ -560,7 +584,7 @@ Jeanne(happy): Otherwise, I also have the most stunning gown for you! Here, try 
 Narrator: Tutorial | The Blue Jewel Dress will permanently raise your <color=purple>Charm</color>, and increase all love interest's affections towards you!  
 Alice: ...  
 \*Model  
-(cd_07_08_pay_gown)  
+# (cd_07_08_pay_gown)  
 ## A. Wear your old dress.  
 ## B. Wear the Blue Jewel Dress! (Cost: 29 Diamond ID: look_cd_07_clothes)  
 #### A  
@@ -614,7 +638,7 @@ Alice: You both think that it's definitely somebody right here, in the Court?
 Armand(angry): It has to be.  
 Armand(angry): Nobody else would have the chance.  
 Alice: ...  
-(cd_07_09_kill_king)  
+# (cd_07_09_kill_king)  
 ## A. Do you have any idea who would want him dead?  
 ## B. Have there been previous attempts to kill him?  
 ## C. We have some time to find out who it is.  
@@ -646,7 +670,7 @@ Armand: I did promise that she'll be under my watch and protection, and I take m
 Narrator: The both men turn to you.  
 Armand: {Alice Name}, what do you think?  
 Alice: I...  
-(cd_07_10_stay_in_where)  
+# (cd_07_10_stay_in_where)  
 ## A. Agree with Philippe.  
 ## B. Agree with Armand.  
 ## C. Both of you have a point.  
@@ -708,7 +732,7 @@ Armand: I'll stay in the Palace too, while you are here.
 Alice(surprise): You want to stay here too?  
 Armand: Yes, so that I can continue to protect you.  
 Alice: I think...  
-(cd_07_11_armand_protect)  
+# (cd_07_11_armand_protect)  
 ## A. I definitely need you!  
 ## B. It's not necessary.  
 ## C. The more people protecting me, the better.  
@@ -741,7 +765,7 @@ Narrator: Suddenly, your door is flung open with a bang!
 Marie(angry): Huh, there you all are. Why am I not surprised?  
 \*Play Music m_rage_tension_restless  
 Alice(surprised): Marie...  
-(cd_07_12_marie_barging)  
+# (cd_07_12_marie_barging)  
 ## A. What are you doing barging in my room?  
 ## B. How can I help you?  
 ## C. Haven't you ever heard of knocking?  
@@ -791,7 +815,10 @@ Narrator: The two sisters each take hold of Armand and Philippe's arms, and firm
 Armand(surprise): But--  
 Alice: It's okay. There's something I want to have a look at, anyway. See you all later.  
 \*Stop Music  
-\*Scene PALACE_KITCHEN (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_palace_kitchen_day.jpg-story' width='60'>
+\*Scene PALACE_KITCHEN (Color: Black)
+{% endhint %}  
 \*Play Music m_sprightly_fairy_meeting_long  
 Alice*Think: The King was poisoned... <i>and the food came from this kitchen.</i>  
 ### \*Goto firsttimekitchen (Condition: GOSSIP_SPREADS_6 >= 1)  
@@ -813,7 +840,7 @@ Alice: Beatrice, I was just wondering if you could help answer some questions.
 Beatrice(sad): Oh! Is this regarding the night his Majesty fell sick?  
 Beatrice(sad): Because Lord Mazarin has already investigated it thoroughly.  
 Alice*Think: Damn it, she's reluctant to speak with me.  
-(cd_07_13_ask_beatrice)  
+# (cd_07_13_ask_beatrice)  
 ## A. Make her answer all my questions! (Cost: 20 Diamond ID: plot_cd_07_beatrice) *Goto ask_three  
 ## B. Get her to answer one question. *Goto ask_one  
 \***  
@@ -824,7 +851,7 @@ Message: The Cook Tells All | You persuaded Beatrice to answer all your question
 Beatrice: Oh... okay. I'll try my best to help you. What do you want to know?  
 # ask_threestart  
 Alice: Beatrice...  
-(cd_07_13_DP1_ask_question)  
+# (cd_07_13_DP1_ask_question)  
 ## A. Do you prepare all of the meals for the King? (Condition: END_A = 0)  
 ## B. Who handles the dishes? (Condition: END_B = 0)  
 ## C. Who are the food and drink tasters? (Condition: END_C = 0)  
@@ -859,7 +886,7 @@ Beatrice: And Simon who tastes all of the King's drinks directly from his cup be
 Alice: I only have one question.  
 Beatrice: Oh alright, if it's just one question.  
 Alice*Think: Which question should I ask?  
-(cd_07_14_CP_one_question)  
+# (cd_07_14_CP_one_question)  
 ## A. Do you prepare all of the meals for the King?  
 ## B. Who handles the dishes?  
 ## C. Who are the food and drink tasters?  
@@ -900,4 +927,4 @@ Alice*Think(sad): Ugh, that isn't enough for me to understand what happened. If 
 Narrator: Suddenly, a hand grabs your elbow, and shakes you out of your reverie!  
 \>>>  
 Rene(angry): What are you doing here?  
-End  
+# End  

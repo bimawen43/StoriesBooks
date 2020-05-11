@@ -1,7 +1,13 @@
 # Begin  
-\*Scene COURTING_DESIRE_INTRO  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_fancy_dressing_room.jpg-story' width='60'>
+\*Scene COURTING_DESIRE_INTRO
+{% endhint %}  
 Narrator: Chapter Eight | <color=olive>The Royal Palace</color>  
-\*Scene PALACE_KITCHEN (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_palace_kitchen_day.jpg-story' width='60'>
+\*Scene PALACE_KITCHEN (Color: Black)
+{% endhint %}  
 Narrator: You're just leaving the palace kitchen after carrying out your investigations, deep in thought...  
 \*Play Music m_intense_classical_tension_rage_bellissimo_02  
 Narrator: When suddenly, a hand grabs your elbow, and shakes you out of your reverie!  
@@ -9,7 +15,7 @@ Narrator: When suddenly, a hand grabs your elbow, and shakes you out of your rev
 Rene(angry): What are you doing here?  
 \>>  
 Alice(sad): I...  
-(cd_08_01_rene_challenged)  
+# (cd_08_01_rene_challenged)  
 ## A. I was just wandering around the palace.  
 ## B. I was just having a chat with the cook.  
 ## C. Why do I have to explain myself to you??  
@@ -31,7 +37,10 @@ Rene(angry): Consider this a warning.
 Narrator: He bows slightly, and points towards the door.  
 \*Play Music m_blue_mystery_decline_01  
 Alice(sad): Don't worry, I was just on my way out.  
-\*Scene ROYAL_PALACE_HALLWAY (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_royal_palace_hallway_day.jpg-story' width='60'>
+\*Scene ROYAL_PALACE_HALLWAY (Color: Black)
+{% endhint %}  
 Alice*Think(sad): The way Lord Mazarin just showed up like that was creepy...  
 Alice*Think(sad): Almost as if he had eyes watching me.  
 Narrator: As you make your way down the hallway, you see a doorway leading off on the left.  
@@ -44,7 +53,10 @@ Narrator: You walk a bit nearer to the doorway...
 Narrator*Top: Voice | Who's there?  
 Therese: Oh, {Alice Name}, is that you? Please, come in and join us!  
 Alice*Think: Oh, it's the Queen!  
-\*Scene FANCY_17TH_SITTINGROOM (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_fancy_sitting_room.jpg-story' width='60'>
+\*Scene FANCY_17TH_SITTINGROOM (Color: Black)
+{% endhint %}  
 Narrator: You enter the same sitting room which you had previously been with Armand and Philippe.  
 Narrator: This time however, it is Therese and two other ladies of the court who are sitting there.  
 Narrator: You hastily drop into a curtsy.  
@@ -58,7 +70,7 @@ Helene(smile): What a pleasure!
 Therese(smile): Do come and join us, won't you?  
 Narrator: Tutorial | Join the Queen and the Ladies of the Court to increase their <color=purple>opinion</color> of you!  
 Alice*Think: I might be able to learn some information about the King's poisoning...  
-(cd_08_02_queen_invited)  
+# (cd_08_02_queen_invited)  
 ## A. I'd love to join you! (Cost: 18 Diamond ID: plot_cd_08_queen) *Goto cd08_chatqueen  
 ## B. No, I'd really hate to intrude.  
 #### B  
@@ -84,7 +96,7 @@ Therese(smile): Do try some of the cakes, as well.
 Therese(smile): I'm particularly fond of the <i>millefeuille</i>, and the <i>financiers</i>.  
 Therese(smile): Do you like cakes?  
 Alice(smile): Oh, I...  
-(cd_08_02_DP1_french_cakes)  
+# (cd_08_02_DP1_french_cakes)  
 ## A. Think French pastries are heaven!  
 ## B. Like to indulge once in a while.  
 ## C. Am unfortunately on a diet.  
@@ -128,7 +140,7 @@ Therese(smile): And then Armand decided to stay here too. Interesting.
 Alice: Philippe only suggested that I stay here because he was concerned about my safety.  
 Therese(surprise): Really? Why is he concerned about your safety? Are you in danger?  
 Alice*Think: Should I tell them about the pond incident?  
-(cd_08_02_DP2_pond_incident)  
+# (cd_08_02_DP2_pond_incident)  
 ## A. Confide in the Queen and her friends.  
 ## B. Keep it to yourself.  
 ## C. Mention it vaguely.  
@@ -192,13 +204,19 @@ Narrator: You get up and curtsy, and leave the Queen and her ladies in waiting.
 # cd08_findguys  
 \*Stop Music  
 \*Play Music m_sprightly_fairy_meeting_long  
-\*Scene ROYAL_PALACE_HALLWAY (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_royal_palace_hallway_day.jpg-story' width='60'>
+\*Scene ROYAL_PALACE_HALLWAY (Color: Black)
+{% endhint %}  
 Alice*Think: Well, it's been interesting so far.  
 Alice*Think: I've learned many things just exploring and investigating on my own today.  
 Narrator: Suddenly, you hear the unmistakeable voices of Armand, Philippe, Anne and Marie coming from another salon just further down the hall.  
 Alice*Think: They must be playing cards in here!  
 \*  
-\*Scene CREAM_SALON (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_royal_palace_cream_salon.jpg-story' width='60'>
+\*Scene CREAM_SALON (Color: Black)
+{% endhint %}  
 \*Camera Right 0  
 \*  
 Narrator: You enter the pretty little cream salon to find the four of them sitting around a small table.  
@@ -226,7 +244,7 @@ Narrator: Tutorial | And largely increase <color=purple>Romance</color> with who
 \*Stop Music  
 Alice: I think I'd like...  
 \*Item  
-(cd_08_03_tour_of_palace)  
+# (cd_08_03_tour_of_palace)  
 ## A. ITEM_ARMAND Armand to give me a tour! (Cost: 22 Diamond ID: plot_cd_08_armand_tour) *Goto cd08_armandtour  
 ## B. ITEM_PHILIPPE Philippe to give me a tour! (Cost: 22 Diamond ID: plot_cd_08_philippe_tour) *Goto cd08_philippetour  
 ## C. ITEM_NOTHING I don't want to explore the Palace anymore. *Goto cd08_owntour  
@@ -245,14 +263,17 @@ Philippe(sad): Alas, does that mean I have to go play cards?
 Marie(smile): Yes.  
 Armand(smile): Good luck.  
 Narrator: The both of you exit the room, leaving Philippe with a forlorn look on his face.  
-\*Scene ROYAL_PALACE_HALLWAY (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_royal_palace_hallway_day.jpg-story' width='60'>
+\*Scene ROYAL_PALACE_HALLWAY (Color: Black)
+{% endhint %}  
 Armand(smile): We have the afternoon to ourselves. So I was thinking of showing you the ballroom...  
 Alice(smile): Oh! I'd love to see it!  
 Armand(smile): And there's the most amazing view of the gardens from a particular balcony.  
 Alice(smile): Oh, I'd love to see that too.  
 Armand(smile): Where would you like me to bring you first?  
 Alice(smile): ...  
-(cd_08_04_A_DP1_first_visit)  
+# (cd_08_04_A_DP1_first_visit)  
 ## A. The ballroom!  
 ## B. The balcony with the view!  
 #### A  
@@ -281,7 +302,7 @@ Armand: Yes. They both love dancing, so perhaps you'll have a chance to see it s
 Armand: When Louis is feeling better, of course.  
 Armand(smile): But in the meantime... May I have a dance?  
 Alice(shy): Oh! But...  
-(cd_08_04_A_DP2_dance)  
+# (cd_08_04_A_DP2_dance)  
 ## A. I don't know how to dance!  
 ## B. There's no music!  
 ## C. Just the two of us?  
@@ -305,7 +326,7 @@ Narrator: You hold him tightly as you follow his lead, your arm around his neck,
 Narrator: You can almost hear the music, as he spins you around confidently.  
 \*Camera Left 3  
 Alice(shy): This is...  
-(cd_08_04_A_DP3_feeling)  
+# (cd_08_04_A_DP3_feeling)  
 ## A. Incredibly romantic!  
 ## B. Really fun!  
 ## C. Making me dizzy!  
@@ -343,7 +364,10 @@ Alice(smile): Yes!
 # cd08_armand_balcony  
 \*Stop Music  
 \*Play Music m_gently_romance_heavenly  
-\*Scene ROYAL_PALACE_BALCONY (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_royal_palace_balcony.jpg-story' width='60'>
+\*Scene ROYAL_PALACE_BALCONY (Color: Black)
+{% endhint %}  
 \>  
 Narrator: You follow Armand as he brings you to a small salon, located on the highest floor of the Palace.  
 Narrator: He leads you to a french window that faces the garden...  
@@ -358,7 +382,7 @@ Narrator: You turn around, and suddenly realize just how close he's standing.
 \>>>  
 Armand: I thought you might enjoy a brief respite from the craziness here.  
 Alice: ...  
-(cd_08_04_A_DP4_brief_respite)  
+# (cd_08_04_A_DP4_brief_respite)  
 ## A. I'm relieved to be away from those girls.  
 ## B. I enjoy being with <i>you</i>.  
 #### A  
@@ -400,7 +424,10 @@ Marie(angry): But...
 Armand(sad): Have fun.  
 Anne(smile): Now then, where were we?  
 Narrator: The both of you exit the room, leaving Armand with a forlorn look on his face.  
-\*Scene ROYAL_PALACE_HALLWAY (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_royal_palace_hallway_day.jpg-story' width='60'>
+\*Scene ROYAL_PALACE_HALLWAY (Color: Black)
+{% endhint %}  
 \>>  
 Philippe(smile): So there are two places I want to show you...  
 Philippe(smile): First, did you know that there is a royal ballroom in the palace?  
@@ -410,7 +437,7 @@ Alice(smile): Oh, I'd love to see that too.
 \>  
 Philippe(smile): Where would you like me to bring you first?  
 Alice(smile): ...  
-(cd_08_04_B_DP1_first_visit)  
+# (cd_08_04_B_DP1_first_visit)  
 ## A. The ballroom!  
 ## B. The balcony with the view!  
 #### A  
@@ -439,7 +466,7 @@ Philippe: Yes. They both love dancing, and Therese hosts dances here quite often
 Philippe: So perhaps you'll have a chance to see a party being held in here soon.  
 Philippe(smile): But in the meantime... would you like to dance?  
 Alice(shy): Oh! But...  
-(cd_08_04_B_DP2_dance)  
+# (cd_08_04_B_DP2_dance)  
 ## A. I don't know how to dance!  
 ## B. There's no music!  
 ## C. Just the two of us?  
@@ -463,7 +490,7 @@ Narrator: You hold him tightly as you follow his lead, your arm around his neck,
 Narrator: You can almost hear the music, as he spins you around confidently.  
 \*Camera Left 3  
 Alice(shy): This is...  
-(cd_08_04_B_DP3_feeling)  
+# (cd_08_04_B_DP3_feeling)  
 ## A. Incredibly romantic!  
 ## B. Really fun!  
 ## C. Making me dizzy!  
@@ -499,7 +526,10 @@ Alice(smile): Yes!
 # cd08_philippe_balcony  
 \*Stop Music  
 \*Play Music m_gently_romance_heavenly  
-\*Scene ROYAL_PALACE_BALCONY (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_royal_palace_balcony.jpg-story' width='60'>
+\*Scene ROYAL_PALACE_BALCONY (Color: Black)
+{% endhint %}  
 \>  
 Narrator: You follow Philippe as he brings you to a small salon, located on the highest floor of the Palace.  
 Narrator: He leads you to a french window that faces the garden...  
@@ -515,7 +545,7 @@ Narrator: You turn around, and suddenly realize just how close he's standing.
 Philippe: I thought you might enjoy the view too.  
 \>>  
 Alice: ...  
-(cd_08_04_B_DP4_brief_respite)  
+# (cd_08_04_B_DP4_brief_respite)  
 ## A. I'm relieved to be away from those girls.  
 ## B. I enjoy being with <i>you</i>.  
 #### A  
@@ -556,7 +586,10 @@ Marie(sad): Fine, I guess we've played enough rounds anyway.
 ### \*Goto cd08_explore_palace  
 # cd08_explore_palace  
 \*Stop Music  
-\*Scene PALACE_DINING (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_royal_palace_dining.jpg-story' width='60'>
+\*Scene PALACE_DINING (Color: Black)
+{% endhint %}  
 \*Play Music m_rage_tension_restless  
 Narrator: In the dining room, Anne and Marie immediately take the seats beside Armand and Philippe.  
 Narrator: You're just wondering where you should sit yourself, when suddenly, someone else at the table stands up.  
@@ -564,7 +597,7 @@ Rene: Lady {Alice Name}, what a pleasant surprise.
 Alice(surprise): Really? I mean... likewise.  
 Rene: Will I have the pleasure of having you sit beside me this evening?  
 Alice(surprise): You want me to sit beside you?  
-(cd_08_05_sit_beside_rene)  
+# (cd_08_05_sit_beside_rene)  
 ## A. Umm, okay...  
 ## B. I'd rather not...  
 ## C. Do I even have a choice?  
@@ -586,7 +619,7 @@ Alice(sad): It is.
 Rene: Tell me, Lady {Alice Name}...  
 Rene: Do you remember <i>anything</i> at all? Or is your mind a total blank?  
 Alice: ...  
-(cd_08_06_remember_anything)  
+# (cd_08_06_remember_anything)  
 ## A. I remember my name...  
 ## B. I remember how to speak...  
 ## C. I remember my manners.  
@@ -611,7 +644,7 @@ Rene: How disappointing.
 Narrator: From further down the table, you see Philippe looking at Mazarin and frowning.  
 Narrator: Tutorial | Catch Philippe's eye and let him not only rescue you from Mazarin's questioning and company, but also unlock a romantic scene with him alone!  
 Alice*Think(sad): Philippe can save me!  
-(cd_08_07_philippe_rescue)  
+# (cd_08_07_philippe_rescue)  
 ## A. Let Philippe rescue you! (Cost: 17 Diamond ID: plot_cd_08_philippe_rescue) *Goto cd08_philippe_rescue  
 ## B. Tolerate Mazarin's questioning. *Goto cd08_continue_torture  
 \***  
@@ -627,7 +660,10 @@ Philippe: Perhaps you need better company, Lady {Alice Name}. Come with me...
 Alice(smile): With pleasure.  
 Narrator: Rene Mazarin shoots you a dirty look as you get up and take Philippe's hand, and let him lead you away!  
 Narrator: Philippe leads to you to a door at the side of the room...  
-\*Scene PALACE_BALCONY_NIGHT (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_palace_balcony_night.jpg-story' width='60'>
+\*Scene PALACE_BALCONY_NIGHT (Color: Black)
+{% endhint %}  
 Narrator: You step through the door onto a moonlit terrace, with an incredible view of Paris at night.  
 Alice(surprise): Wow... this is so beautiful. Oh wow, I can even see the Seine from here!  
 \*Philippe Romance +1  
@@ -640,7 +676,7 @@ Narrator: Philippe frowns.
 Philippe: He seems to have taken a particular interest in you, for some reason. Although...  
 Philippe(smile): I can't blame him. You're very fascinating.  
 Alice: ...  
-(cd_08_07_DP1_philippe_praised)  
+# (cd_08_07_DP1_philippe_praised)  
 ## A. Am I?  
 ## B. So are you.  
 #### A  
@@ -668,7 +704,10 @@ Narrator: You head back into the dining room, where the servers are just beginni
 Alice*Think: Oh, Rene Mazarin has already left, thank god.  
 Narrator: You return to your seats, and finish eating in peace.  
 \*Stop Music  
-\*Scene BLUE_GOLD_PRINCESS_ROOM_NIGHT (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_princess_room_night.jpg-story' width='60'>
+\*Scene BLUE_GOLD_PRINCESS_ROOM_NIGHT (Color: Black)
+{% endhint %}  
 \*Play Music m_blue_mystery_decline_02  
 Narrator: That night as you return to your room, your thoughts are occupied with how Rene Mazarin interrogated you during dinner.  
 ### \*Goto cd08_room_knit  
@@ -696,7 +735,7 @@ Alice(sad): ...
 Rene(angry): But it's my job to protect and advise the King...  
 Rene(angry): And I am <i>watching you</i>.  
 Alice(angry): Lord Mazarin...  
-(cd_08_08_CP_renes_warning)  
+# (cd_08_08_CP_renes_warning)  
 ## A. For the last time, I'm not a spy.  
 ## B. Watch me all you like.  
 ## C. And I'm watching YOU.  
@@ -714,7 +753,10 @@ Narrator: You feel your face burning.
 Alice*Think(sad): I... I can't take this anymore.  
 Narrator: Stifling a sob, you push back your chair and run out of the dining room too.  
 \*Stop Music  
-\*Scene BLUE_GOLD_PRINCESS_ROOM_NIGHT (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_princess_room_night.jpg-story' width='60'>
+\*Scene BLUE_GOLD_PRINCESS_ROOM_NIGHT (Color: Black)
+{% endhint %}  
 \*Play Music m_rage_tension_restless  
 Narrator: You somehow manage to find your way back to your room, through your tears.  
 Narrator: Wiping them away angrily, you run into the room and throw yourself onto the bed...  
@@ -732,7 +774,7 @@ Alice*Think: Since I can't possibly tell them I came from the future!
 Alice*Think(sad): What am I going to do?  
 \>  
 Alice*Think(sad): This is awful, I need to speak with...  
-(cd_08_09_need_to_speak)  
+# (cd_08_09_need_to_speak)  
 ## A. Armand.  
 ## B. Philippe.  
 ## C. Both of them.  
@@ -783,4 +825,4 @@ Philippe: It's... it's like you've put a spell on me.
 Narrator: He walks even nearer, until he has you pressed up against the door!  
 \>>>  
 Philippe(sad): Are you a witch?  
-End  
+# End  

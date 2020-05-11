@@ -1,10 +1,16 @@
 # Begin  
-\*Scene COURTING_DESIRE_INTRO  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_fancy_dressing_room.jpg-story' width='60'>
+\*Scene COURTING_DESIRE_INTRO
+{% endhint %}  
 Narrator: Chapter Fifteen | <color=olive>Snakes In The Palace</color>  
 ### \*Goto premiumbranch (Condition: BECOME_SPY >= 1)  
 ### \*Goto nonpremiumbranch (Condition: BECOME_SPY < 1)  
 # premiumbranch  
-\*Scene QUEEN_CHANGINGROOM (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_queen_changeroom.jpg-story' width='60'>
+\*Scene QUEEN_CHANGINGROOM (Color: Black)
+{% endhint %}  
 Narrator: You've snuck out of the Masquerade party, and at the moment you're in a changing room having a secret rendezvous with the Queen...  
 Narrator: Who has just dropped a bombshell on you.  
 \>>>  
@@ -245,7 +251,10 @@ Alice*Think: Or something more sinister than that?
 Alice*Think: I'd better tell the Queen about all this!  
 \***  
 \>  
-\*Scene QUEEN_CHANGINGROOM (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_queen_changeroom.jpg-story' width='60'>
+\*Scene QUEEN_CHANGINGROOM (Color: Black)
+{% endhint %}  
 Narrator: You hurry back to the changing room, but only the queen's handmaid is there.  
 Alice: Agnes, do you know if her Majesty will be returnng here? I have to speak with her urgently.  
 Agnes: I only know that her Majesty is tending to his Majesty, milady.  
@@ -507,7 +516,10 @@ Philippe: Back to what started it all.
 ### \*Goto alice_room (Condition: PHILIPPE_PAINTING >= 1)  
 ### \*Goto philippe_room (Condition: PHILIPPE_PAINTING < 1)  
 # alice_room  
-\*Scene BLUE_GOLD_PRINCESS_ROOM_NIGHT (Color: black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_princess_room_night.jpg-story' width='60'>
+\*Scene BLUE_GOLD_PRINCESS_ROOM_NIGHT (Color: black)
+{% endhint %}  
 Narrator: Philippe and you sneak off quietly from the Masquerade party, and you follow him as he leads you back to...  
 \>>  
 Alice(surprise): My own room?  
@@ -608,4 +620,4 @@ Marie*Shout(angry): You... you harlot!
 \>>  
 Philippe(surprise): Marie? What are you doing here?  
 Marie(angry): I could ask the both of you the same question!  
-End  
+# End  

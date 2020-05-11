@@ -1,8 +1,14 @@
 # Begin  
-\*Scene COURTING_DESIRE_INTRO  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_fancy_dressing_room.jpg-story' width='60'>
+\*Scene COURTING_DESIRE_INTRO
+{% endhint %}  
 Narrator: Chapter Two | <color=olive>Duke Armand</color>  
 \*Play Music m_intense_romance_acoustic_symphony_01  
-\*Scene PARIS_ALLEY (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_17th_paris_alley.jpg-story' width='60'>
+\*Scene PARIS_ALLEY (Color: Black)
+{% endhint %}  
 Narrator: You are standing in the middle of a marketplace in Paris, 1664, disheveled and shocked...  
 Narrator: Having just been rescued by a handsome stranger from two thugs.  
 Armand: ...  
@@ -32,11 +38,17 @@ Armand(surprise): Mademoiselle!
 \*-shade1  
 \*-blur  
 \*Stop Music  
-\*Scene BLACK  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_black.jpg-story' width='60'>
+\*Scene BLACK
+{% endhint %}  
 Narrator: Before everything goes dark completely.  
 \*Play Music m_mystery_tension_heartbeat_01  
 \*  
-\*Scene HOTEL_VILLEROY_SUITE_DIM (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_hotel_villeroy_suite_dim.jpg-story' width='60'>
+\*Scene HOTEL_VILLEROY_SUITE_DIM (Color: Black)
+{% endhint %}  
 \*Camera Left 0  
 \*  
 Narrator: You slowly open your eyes...  
@@ -50,7 +62,10 @@ Alice(surprise): Umm... What happened? And where am I?
 \*Camera Right 2  
 Narrator: The woman walks over to the window and draws aside the curtains. Warm sunlight floods the room.  
 \*  
-\*Scene HOTEL_VILLEROY_SUITE_BRIGHT  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_hotel_villeroy_suite_bright.jpg-story' width='60'>
+\*Scene HOTEL_VILLEROY_SUITE_BRIGHT
+{% endhint %}  
 \*Camera Right 0  
 \*  
 Narrator: You look around...  
@@ -69,7 +84,7 @@ Jeanne: Because nobody seems to know who you are or where you come from.
 Narrator: She clasps her hands together in concern.  
 Jeanne: Don't you remember what happened?  
 Alice*Think(sad): I fainted... I've never done that before.  
-(cd_02_01_remember)  
+# (cd_02_01_remember)  
 ## A. Maybe it was the toll from time traveling?  
 ## B. It must've been the shock from this afternoon!  
 #### A  
@@ -135,7 +150,7 @@ Narrator: For some reason, your heart skips a beat at the thought of seeing him 
 Alice(shy): I think I'm fine now. Should I go see him now?  
 Jeanne(sad): Yes, but... Milady, would you like to change out of your clothes into something new first?  
 Alice(surprise): Huh? What's wrong with what I'm wearing?  
-(cd_02_02_CP_wearing)  
+# (cd_02_02_CP_wearing)  
 \*Condition  
 ## A. (Condition: STICKOUT >= 1)  
 ## B. (Condition: FANTINE_DRESS >= 1)  
@@ -156,7 +171,7 @@ Jeanne(smile): Here, try it on!
 Narrator: Tutorial | This special outfit will help you to raise your <color=purple>Charm</color>! Your Charm helps you to improve your <color=purple>relationship with other characters</color>!  
 Alice: ...  
 \*Model  
-(cd_02_03_silk_dress)  
+# (cd_02_03_silk_dress)  
 ## A. Just stick with what I am wearing.  
 ## B. Wear the Gold Silk Dress! (Cost: 25 Diamond ID: look_cd_02_silkdress)  
 #### A  
@@ -173,7 +188,10 @@ Jeanne(happy): That dress really does wonders for your complexion!
 \>  
 \***  
 Jeanne: Please follow me, milady!  
-\*Scene ARMAND_STUDY_EVENING (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_study_evening.jpg-story' width='60'>
+\*Scene ARMAND_STUDY_EVENING (Color: Black)
+{% endhint %}  
 Narrator: You follow Jeanne as she leads the way to Duke Armand's study.  
 Narrator: The room is decidedly masculine, with warm oak paneled walls, and a writing table.  
 \*Stop Music  
@@ -199,7 +217,7 @@ Alice(shy): Thank you, Your Grace.
 Alice: Thank you for rescuing me just now.  
 Armand: There's no need to thank me for doing something that any gentleman should have done.  
 Alice: I mean it.  
-(cd_02_04_thanks_armand)  
+# (cd_02_04_thanks_armand)  
 ## A. If you hadn't come when you did...  
 ## B. Not everyone would have done what you did.  
 #### A  
@@ -253,7 +271,7 @@ Narrator: You suddenly realize that he has the most gorgeous dimples, when he sm
 Armand(smile): {Alice Name}, would you like to stay in my residence...  
 Armand(smile): While I try to help you figure out how to get home?  
 Alice: ...  
-(cd_02_05_stay_in_residence)  
+# (cd_02_05_stay_in_residence)  
 ## A. Wait, what? You want me to stay with you?  
 ## B. Stay with a hunk like you?? YES PLEASE!!!  
 ## C. I don't know...  
@@ -293,7 +311,7 @@ Armand: Yes, if you don't mind.
 Alice*Think: I'm so glad I took the ring with me! It's solid proof that my story is true!  
 Narrator: You take the ring out and hold it out in the palm of your hand...  
 \*Item  
-(cd_02_06_CP1_the_ring)  
+# (cd_02_06_CP1_the_ring)  
 ## A. Emerald_Ring Show Armand the ring.  
 #### A  
 Narrator: Armand is visibly shocked when he sees it!  
@@ -303,7 +321,7 @@ Armand(surprise): This ring... it can't be!
 Alice(surprise): Huh? Do you recognize it?  
 Armand(surprise): I do...  
 Alice: ...  
-(cd_02_06_CP2_Armand_explains)  
+# (cd_02_06_CP2_Armand_explains)  
 ## A. Ask Armand to explain! (Cost: 12 Diamond ID: plot_cd_02_Armand_explains) *Goto armand_explainsone  
 ## B. Don't press for an explanation. *Goto Armandthinks  
 \***  
@@ -323,7 +341,7 @@ Narrator: Armand takes the ring from you and he holds the two rings together, ex
 Armand(surprise): This is amazing... <i>They're identical!</i>  
 \>  
 Alice(surprise): There's only one explanation...  
-(cd_02_06_CP3_two_same_ring)  
+# (cd_02_06_CP3_two_same_ring)  
 ## A. They look identical because they must be the same ring!  
 ## B. Maybe mine is a replica of your ring?  
 ## C. I have no idea.  
@@ -349,7 +367,7 @@ Armand: That sounds almost like...
 Alice(surprise): Huh? Do you recognize it?  
 Armand(surprise): I do...  
 Alice: ...  
-(cd_02_07_CP1_Armand_explains)  
+# (cd_02_07_CP1_Armand_explains)  
 ## A. Ask Armand to explain! (Cost: 12 Diamond ID: plot_cd_02_Armand_explains) *Goto armand_explainstwo  
 ## B. Don't press for an explanation. *Goto Armandthinks  
 \***  
@@ -358,7 +376,7 @@ Narrator: He strides quickly over to a fancy cabinet in one corner of the room.
 Narrator: You watch as he opens a drawer and retrieves something before returning.  
 Narrator: You look at what he's holding in his hand...  
 \*Item  
-(cd_02_07_CP2_the_ring)  
+# (cd_02_07_CP2_the_ring)  
 ## A. Emerald_Ring It's the same ring!  
 #### A  
 Alice(surprise): Oh my god... How come you have it right here???  
@@ -413,7 +431,10 @@ Narrator: Armand is staring at you, with both a curious expression, and an amuse
 \*Stop Music  
 \*Play Music m_gently_lifting_dreams_02  
 \*  
-\*Scene HOTEL_VILLEROY_SUITE_NIGHT (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_hotel_villeroy_suite_night.jpg-story' width='60'>
+\*Scene HOTEL_VILLEROY_SUITE_NIGHT (Color: Black)
+{% endhint %}  
 \*Camera Right 0  
 \*  
 Narrator: You return to your suite, to find Jeanne waiting for you with a covered tray.  
@@ -445,7 +466,7 @@ Alice(smile): Okay Jeanne. Have a good night.
 Jeanne(happy): Have a good night milady!  
 Narrator: Jeanne drops into another curtsy, then picks up the tray with the empty bowl and exits, leaving you alone in your chamber.  
 Alice*Think: It's really strange to have somebody wait on me hand and foot...  
-(cd_02_08_the_chamber)  
+# (cd_02_08_the_chamber)  
 ## A. It's really luxurious!  
 ## B. I don't think I could ever get used to it.  
 #### A  
@@ -484,7 +505,10 @@ Narrator: Moonlight trickles in the room, and you immediately feel better as the
 Narrator: You look out of your window...  
 \*Stop Music  
 \*Play Music m_gently_romance_heavenly  
-\*Scene HOTEL_VILLEROY_GARDEN_ROOMVIEW_NIGHT (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_hotel_villeroy_garden_roomview_night.jpg-story' width='60'>
+\*Scene HOTEL_VILLEROY_GARDEN_ROOMVIEW_NIGHT (Color: Black)
+{% endhint %}  
 Narrator: Your room overlooks what looks like a modest, but well manicured garden.  
 Narrator: The moon is full tonight, bathing the garden in soft moonlight.  
 Narrator: Suddenly, to your surprise you see a figure strolling in the garden below...  
@@ -497,13 +521,19 @@ Alice*Think: But he's also charming and mysterious??
 Narrator: As you keep looking at him, you see him sigh, and frown deeply.  
 Alice*Think: I have to find out what he's doing down there!  
 \*  
-\*Scene HOTEL_VILLEROY_SUITE_NIGHT (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_hotel_villeroy_suite_night.jpg-story' width='60'>
+\*Scene HOTEL_VILLEROY_SUITE_NIGHT (Color: Black)
+{% endhint %}  
 \*Camera Right 0  
 \*  
 \*Camera Left 2  
 Narrator: You quickly put your shoes back on, and leave your room.  
 \*  
-\*Scene HOTEL_VILLEROY_GARDEN_NIGHT (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_hotel_villeroy_garden_night.jpg-story' width='60'>
+\*Scene HOTEL_VILLEROY_GARDEN_NIGHT (Color: Black)
+{% endhint %}  
 \*Camera Right 0  
 \*  
 Narrator: Finding the door to the garden unlocked, you leave the house and walk into the garden, which is gently lit by the full moon.  
@@ -526,7 +556,7 @@ Armand: Yes. I find that a small stroll usually helps me to clear my mind, whene
 \>  
 Narrator: He looks away, and his brows draw together again in a frown, like you saw him do before from your window.  
 Alice: Armand...  
-(cd_02_10_armands_thinking)  
+# (cd_02_10_armands_thinking)  
 ## A. Is everything alright?  
 ## B. Are you worried about something?  
 #### A  
@@ -575,7 +605,7 @@ Narrator: Tutorial | Some special choices will unlock bonus <color=purple>romant
 Narrator: Tutorial | Romance points will affect your relationship with your love interest... And ultimately determine how the story will end for you!  
 Armand(happy): ...  
 \*Model  
-(cd_02_12_stay_with_armand)  
+# (cd_02_12_stay_with_armand)  
 ## A. I want to stay longer with Armand! (Cost: 22 Diamond ID: plot_cd_02_Armand) *Goto premiumscene  
 ## B. I'll just go back up to bed.  
 #### B  
@@ -650,7 +680,7 @@ Alice(shy): I'm glad to, if it helps you to feel better.
 Armand(smile): I've never met anyone like you.  
 Alice(smile): You're only saying that because I'm from the future.  
 Armand(smile): The future must be a very interesting place.  
-(cd_02_12_DP1_the_future)  
+# (cd_02_12_DP1_the_future)  
 ## A. It's really really different from now.  
 ## B. Wait, so you believe me?  
 #### A  
@@ -678,7 +708,10 @@ Alice(shy): Yes.
 Narrator: He stands up in one smooth motion, reaches out his hand to you, and helps you to stand back up.  
 \*Camera Left 3  
 Narrator: The both of you walk in companionable silence back to the mansion.  
-\*Scene HOTEL_VILLEROY_FOYER_NIGHT (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_hotel_villeroy_foyer_night.jpg-story' width='60'>
+\*Scene HOTEL_VILLEROY_FOYER_NIGHT (Color: Black)
+{% endhint %}  
 Armand: Will you need me to escort you back to your chamber?  
 Alice(smile): I think I can remember the way back to my room...  
 Alice(smile): Unless, the way back is fraught with perils?  
@@ -698,7 +731,10 @@ Alice(shy): Good night.
 \*Stop Music  
 \*Play Music m_blue_mystery_decline_01  
 \*  
-\*Scene HOTEL_VILLEROY_SUITE_NIGHT (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_hotel_villeroy_suite_night.jpg-story' width='60'>
+\*Scene HOTEL_VILLEROY_SUITE_NIGHT (Color: Black)
+{% endhint %}  
 \*Camera Left 0  
 \*  
 Narrator: You manage to find your way back to your room with no problem...  
@@ -712,4 +748,4 @@ Narrator: Suddenly, you notice somebody standing by the window in your room, her
 \*Anne Name ???  
 Anne(angry): {*Shake <b><i>How dare you???</i></b>}  
 Anne*Shout(angry): <b>Stay away from Armand!!!</b>  
-End  
+# End  

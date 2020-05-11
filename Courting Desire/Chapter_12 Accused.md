@@ -1,17 +1,23 @@
 # Begin  
-\*Scene COURTING_DESIRE_INTRO  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_fancy_dressing_room.jpg-story' width='60'>
+\*Scene COURTING_DESIRE_INTRO
+{% endhint %}  
 Narrator: Chapter Twelve | <color=olive>Accused</color>  
 # cd12_be_under_arrest  
 \*Play Music m_rage_tension_restless  
 \*  
-\*Scene DUNGEON_CELL (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_manor_dungeon_aisle.jpg-story' width='60'>
+\*Scene DUNGEON_CELL (Color: Black)
+{% endhint %}  
 \*Camera Right 0  
 \*  
 Narrator: You are locked in a cold, damp and dark dungeon cell...  
 Narrator: Under the orders of Rene Mazarin, awaiting trial for <color=red>witchcraft</color> in the morning.  
 Alice*Think(sad): Oh my God! What am I going to do?  
 Narrator: You struggle to control the rising swell of panic threatening to engulf you, as you slowly sink onto the cold, damp stone floor.  
-(cd_12_01_prisoner)  
+# (cd_12_01_prisoner)  
 ## A. This must be a nightmare!  
 ## B. I'm doomed!  
 ## C. I need to get out of here!  
@@ -50,7 +56,10 @@ Narrator: You turn and look at the prison guard standing against the wall, looki
 Palace_Guard2: ...  
 Alice(sad): Yes, okay.  
 # cd12_rescue  
-\*Scene BLUE_GOLD_PRINCESS_ROOM_NIGHT (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_princess_room_night.jpg-story' width='60'>
+\*Scene BLUE_GOLD_PRINCESS_ROOM_NIGHT (Color: Black)
+{% endhint %}  
 \*Stop Music  
 \*Play Music m_classical_gently_earth_prelude_01  
 Narrator: The four of you make your way to your room.  
@@ -61,7 +70,7 @@ Alice(sad): Oh.
 Therese: It was already good that Louis decided that you should be released from the dungeon, before the trial.  
 Therese: Louis only agreed to give you preferential treatment because he likes you, and because I protested.  
 Alice(sad): I see.  
-(cd_12_02_preferential_treatment)  
+# (cd_12_02_preferential_treatment)  
 ## A. But I'm innocent!  
 ## B. Thank you for helping me.  
 ## C. I still have to be tried???  
@@ -85,7 +94,7 @@ Narrator: You feel your shoulders relax with relief.
 Alice: At least I'll have all your support.  
 Therese: I know it's really scary, but we won't let anything happen to you.  
 Alice: Thank you, Madam.  
-(cd_12_03_queens_care)  
+# (cd_12_03_queens_care)  
 ## A. Ask about witchcraft beliefs.  
 ## B. Ask what might happen at the trial.  
 ## C. Ask what happens to people found guilty.  
@@ -119,7 +128,7 @@ Alice*Think(sad): If I'm found guilty of witchcraft tomorrow, it'll be a horribl
 \*Play Music m_intense_romance_acoustic_symphony_01  
 Narrator: Tutorial | The Queen can give you tips to help you with the trial tomorrow!  
 Alice*Think: I should...  
-(cd_12_04_ask_for_tips)  
+# (cd_12_04_ask_for_tips)  
 ## A. Ask the Queen for tips! (Cost: 12 Diamond ID: plot_cd_12_queen)  
 ## B. Just wing it.  
 #### A  
@@ -144,12 +153,18 @@ Narrator: Perhaps noticing the look of panic on your face, Therese quickly adds.
 Therese: I'll leave my personal guards outside your door. Rest assured that no one will bother you again tonight.  
 Alice: Thank you so much, Madam.  
 Therese: No problem. Now rest.  
-\*Scene BLACK (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_black.jpg-story' width='60'>
+\*Scene BLACK (Color: Black)
+{% endhint %}  
 \*Stop Music  
 Narrator: You try your best to sleep, but it's easier said than done.  
 Narrator: You spend half the night tossing and turning in your bed, worrying over what's going to happen the next day.  
 # cd12_take_stand  
-\*Scene BLUE_GOLD_PRINCESS_ROOM_DAY (Color: Black Time: 2)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_princess_room_day.jpg-story' width='60'>
+\*Scene BLUE_GOLD_PRINCESS_ROOM_DAY (Color: Black Time: 2)
+{% endhint %}  
 \*Play Music m_gently_snug_away_in_a_manger_02  
 Narrator: You must have managed to fall asleep sometime in the night somehow, because the next thing you know, it's already morning.  
 Narrator: There is a gentle knocking on the door...  
@@ -163,7 +178,7 @@ Jeanne: I brought you something to eat.
 Alice(sad): I don't really have an appetite.  
 Jeanne: I understand, but you should try to eat something nonetheless, to keep your energy up.  
 Jeanne(smile): These buttery croissants are very good, or try a pain au chocolat!  
-(cd_12_05_breakfast)  
+# (cd_12_05_breakfast)  
 ## A. Eat something.  
 ## B. Don't eat.  
 #### A  
@@ -206,7 +221,7 @@ Jeanne: Won't you try it on?
 \*Alice Outfit Elegant_Gold_Dress (Tag: Record)  
 Alice(Smile): A stunning gold dress that will give you an edge in the trial!  
 \*Model  
-(cd_12_06_pay_dress)  
+# (cd_12_06_pay_dress)  
 ## A. Wear the dress you wore yesterday.  
 ## B. Wear the Elegant Gold Dress! (Cost: 29 Diamond ID: look_cd_12_clothes01)  
 #### A  
@@ -220,7 +235,7 @@ Jeanne(happy): Oh, milady! It fits you like a charm!
 \***  
 Jeanne: Are you ready, milady?  
 Alice: Yeah...  
-(cd_12_07_are_you_ready)  
+# (cd_12_07_are_you_ready)  
 ## A. No, I'm terrified.  
 ## B. I'm as ready as I'll ever be.  
 ## C. Let's do this.  
@@ -235,7 +250,10 @@ Alice: Mazarin, take your best shot. Because this girl isn't going down without 
 \***  
 # cd12_king_judge  
 \*  
-\*Scene KING_ANTECHAMBER (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_king_antechamber_day.jpg-story' width='60'>
+\*Scene KING_ANTECHAMBER (Color: Black)
+{% endhint %}  
 \*Camera Left 0  
 \*  
 \*Stop Music  
@@ -302,7 +320,7 @@ Narrator: Louis turns a troubled gaze on you.
 Louis(sad): Lady {Alice Name}, is this true?  
 Narrator: Tutorial | Your choices are important and will affect the <color=purple>trial</color>!  
 Alice(sad): I...  
-(cd_12_08_servants_evidence)  
+# (cd_12_08_servants_evidence)  
 ## A. Confirm you were there.  
 ## B. Deny you were there.  
 #### A  
@@ -371,7 +389,7 @@ Rene: Why would Lady {Alice Name} run away, if she wasn't up to no good?
 \>>  
 Louis(sad): Do you have an explanation, Lady {Alice Name}?  
 Alice(sad): I panicked because...  
-(cd_12_09_have_an_explanation)  
+# (cd_12_09_have_an_explanation)  
 ## A. They were accusing me of being a spy.  
 ## B. He was scary!  
 #### A  
@@ -423,7 +441,7 @@ Narrator: Rene turns to you as the cheesemonger bows and hurriedly leaves the ro
 Rene: Can you please explain what are <i>'euros'</i>?  
 Rene: Because as to my knowledge, there's no country anywhere that uses such a currency.  
 Alice(sad): It's...  
-(cd_12_10_euros)  
+# (cd_12_10_euros)  
 ## A. A mistake, just a slip of the tongue.  
 ## B. The currency where I'm from.  
 #### A  
@@ -469,7 +487,10 @@ Narrator: The King nods his agreement, even as Mazarin presses his lips together
 Rene(angry): ...  
 Narrator: You walk with shaky legs to Armand and Philippe, take their outstretched arms, and gratefully leave the antechamber with them.  
 # cd12_take_rest  
-\*Scene BLUE_GOLD_PRINCESS_ROOM_DAY (Color: Black Time: 2)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_princess_room_day.jpg-story' width='60'>
+\*Scene BLUE_GOLD_PRINCESS_ROOM_DAY (Color: Black Time: 2)
+{% endhint %}  
 \*Stop Music  
 \*Play Music m_gently_lifting_dreams_01  
 Narrator: Jeanne, who had been hovering anxiously outside the antechamber, follows the three of you to your room.  
@@ -483,7 +504,7 @@ Narrator: As the handmaid curtsies and bustles out of the room, Armand and Phili
 \>>  
 Armand(sad): How are you holding up?  
 Alice: I...  
-(cd_12_11_are_you_alright)  
+# (cd_12_11_are_you_alright)  
 ## A. I think I'm okay.  
 ## B. I'm a total wreck.  
 ## C. I could use a hug!  
@@ -527,7 +548,7 @@ Alice: That would be nice... I like the sound of that.
 Narrator: Tutorial | Unlock a romantic moment if you choose one of them to stay with you!  
 Alice: I think I'd like...  
 \*Item  
-(cd_12_12_keep_you_company)  
+# (cd_12_12_keep_you_company)  
 ## A. ITEM_ARMAND Armand to stay with me! (Cost: 22 Diamond ID: plot_cd_12_armand)  
 ## B. ITEM_PHILIPPE Philippe to stay with me! (Cost: 22 Diamond ID: plot_cd_12_philippe)  
 ## C. ITEM_NOTHING To rest alone.  
@@ -559,7 +580,7 @@ Alice(sad): I know.
 Narrator: Armand brings your hand to his mouth and kisses it tenderly.  
 Armand(sad): I feel like I've failed you.  
 Alice: Armand...  
-(cd_12_12_A_DP1_armand_sorry)  
+# (cd_12_12_A_DP1_armand_sorry)  
 ## A. Of course you haven't.  
 ## B. You've done nothing but protect me.  
 ## C. Perhaps you can help me more now.  
@@ -584,7 +605,7 @@ Armand: Anyway, you should lie down and rest before the guard comes to call us b
 Alice: Yes, good idea.  
 Narrator: You lie down in your bed, under the covers.  
 Alice: Armand...  
-(cd_12_12_A_DP2_hold_armand)  
+# (cd_12_12_A_DP2_hold_armand)  
 ## A. Ask him to lie in bed beside you and hold you!  
 ## B. Ask him to sit beside you.  
 #### A  
@@ -613,7 +634,7 @@ Alice: Why haven't we done this earlier?
 Armand(smile): We should make it a habit, yes.  
 Narrator: You stare into those emerald green eyes which have grown so familiar to you in the past few days.  
 Alice: Armand...  
-(cd_12_12_A_DP3_kiss_armand)  
+# (cd_12_12_A_DP3_kiss_armand)  
 ## A. Kiss me.  
 ## B. Keep holding me.  
 #### A  
@@ -679,7 +700,7 @@ Alice(sad): I know.
 Narrator: Philippe brings your hand to his mouth and kisses it tenderly.  
 Philippe(sad): I feel like I've failed you.  
 Alice: Philippe...  
-(cd_12_12_B_DP1_philippe_sorry)  
+# (cd_12_12_B_DP1_philippe_sorry)  
 ## A. Of course you haven't.  
 ## B. You've done nothing but protect me.  
 ## C. Perhaps you can help me more now.  
@@ -703,7 +724,7 @@ Alice: Yes, good idea.
 Narrator: You lie down in your bed, under the covers.  
 Alice: Philippe...  
 Philippe: Hmm?  
-(cd_12_12_B_DP2_hold_philippe)  
+# (cd_12_12_B_DP2_hold_philippe)  
 ## A. Ask him to lie in bed beside you and hold you!  
 ## B. Ask him to sit beside you.  
 #### A  
@@ -732,7 +753,7 @@ Alice: Why haven't we done this earlier?
 Philippe(smile): I don't know. We definitely should.  
 Narrator: You stare into those sky blue eyes which have grown so familiar to you in the past few days.  
 Alice: Philippe...  
-(cd_12_12_B_DP3_kiss_philippe)  
+# (cd_12_12_B_DP3_kiss_philippe)  
 ## A. Kiss me.  
 ## B. Keep holding me.  
 #### A  
@@ -794,7 +815,10 @@ Alice(sad): I'm coming. Let's get this over with.
 ### \*Goto cd12_resume_trial  
 # cd12_resume_trial  
 \*  
-\*Scene KING_ANTECHAMBER (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_king_antechamber_day.jpg-story' width='60'>
+\*Scene KING_ANTECHAMBER (Color: Black)
+{% endhint %}  
 \*Camera Left 0  
 \*  
 \*Camera Right 3  
@@ -809,7 +833,7 @@ Narrator: The two guards bring in Jeanne, who is visibly shaking with fright and
 Narrator: You catch her eye...  
 Jeanne(sad): ...  
 Alice*Think(sad): Poor Jeanne... she seems frightened out of her wits.  
-(cd_12_13_poor_jeanne)  
+# (cd_12_13_poor_jeanne)  
 ## A. Give her a reassuring smile.  
 ## B. Give her a worried nod.  
 ## C. Make her laugh by crossing your eyes.  
@@ -875,7 +899,7 @@ Louis: Hmm.
 Narrator: The King turns it over in his hands, examining it.  
 Louis: Can you please explain what this is, Lady {Alice Name}?  
 Alice(angry): That's not proof of witchcraft. It's not proof of <i>anything</i>.  
-(cd_12_14_explain_cellphone)  
+# (cd_12_14_explain_cellphone)  
 ## A. It's a mobile phone. It's technology.  
 ## B. That doesn't belong to me.  
 #### A  
@@ -900,4 +924,4 @@ Rene: I will now present the last witness.
 Narrator: A wave of shock hits you as the last witness steps into the room.  
 \>>  
 Alice*Think(surprise): It's Anne!  
-End  
+# End  

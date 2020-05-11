@@ -1,8 +1,14 @@
 # Begin  
-\*Scene COURTING_DESIRE_INTRO  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_fancy_dressing_room.jpg-story' width='60'>
+\*Scene COURTING_DESIRE_INTRO
+{% endhint %}  
 Narrator: Chapter Four | <color=olive>Prince Philippe</color>  
 \*  
-\*Scene PALAIS_ROYALE_FACADE  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_palais_facade_day.jpg-story' width='60'>
+\*Scene PALAIS_ROYALE_FACADE
+{% endhint %}  
 \*Camera Left 0  
 \*  
 \*Play Music m_intense_romance_acoustic_symphony_01  
@@ -14,7 +20,7 @@ Alice*Think: Let's hope I don't get mistaken for a spy again this time!
 Anne: Ah! Nothing like home. Except for your home, of course, Armand.  
 Armand(smile): Are you still nervous, {Alice Name}?  
 Alice: I think...  
-(cd_04_01_still_nervous)  
+# (cd_04_01_still_nervous)  
 ## A. A little bit, yes.  
 ## B. Not with you here.  
 #### A  
@@ -71,7 +77,7 @@ Narrator: Who suddenly sticks out her foot and hooks your ankle with it!
 \*Play Music m_intense_classical_tension_rage_bellissimo_02  
 Alice(surprise): Ahh...  
 \*Time 10 (Default: C)  
-(cd_04_02_hooks_your_ankle)  
+# (cd_04_02_hooks_your_ankle)  
 ## A. Catch your balance and step past her!  
 ## B. Stomp on her foot and skip away!  
 ## C. Trip and fall flat on your face!  
@@ -124,7 +130,7 @@ Armand(sad): Anne. Please stop your antics. You're not a child anymore.
 \***  
 # bad_anne  
 Alice*Think: I should...  
-(cd_04_03_CP_stomp_annes_foot)  
+# (cd_04_03_CP_stomp_annes_foot)  
 ## A. Admit it.  
 ## B. Deny it!  
 #### A  
@@ -153,7 +159,10 @@ Narrator: Armand offers his arm to you, and you happily hold on to him...
 Narrator: As the both of you walk past the livid girl, who stomps a foot onto the ground in frustration.  
 Anne(angry): Just wait... you won't be smiling for long.  
 \*Stop Music  
-\*Scene ROYAL_PALACE_DAY (Color: black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_royal_palace_day.jpg-story' width='60'>
+\*Scene ROYAL_PALACE_DAY (Color: black)
+{% endhint %}  
 \*Play Sound s_steps1  
 Narrator: You all walk through the main entrance of the Palace.  
 Narrator: Your footsteps on the marble floor echo through the grand hall, and once again, you're struck by the grandeur of it...  
@@ -178,7 +187,7 @@ Narrator: Tutorial | Getting rid of Anne will not only help increase Armand's af
 Armand(smile): What do you think, {Alice Name}?  
 Armand(smile): Do you want me to get rid of her?  
 \*Model  
-(cd_04_04_get_rid_of_anne)  
+# (cd_04_04_get_rid_of_anne)  
 ## A. I'll just tolerate her the entire day.  
 ## B. Yes! Get rid of her! (Cost: 23 Diamond ID: plot_cd_04_armand)  
 #### A  
@@ -244,7 +253,7 @@ Armand(smile): Thank you, Anne.
 \>  
 Narrator: She beams at him, shoots you another look full of daggers, then turns on her heel and skips off quickly.  
 Alice: Armand...  
-(cd_04_04_DP1_anne_leave)  
+# (cd_04_04_DP1_anne_leave)  
 ## A. That was amazing!  
 ## B. She'll be angry when she finds out...  
 #### A  
@@ -305,7 +314,7 @@ Narrator: He takes your hand and raises it to his lips, then kisses your hand ge
 Narrator: All the while staring into your eyes with the most wicked grin you have ever seen.  
 Philippe(smile): Enchanté.  
 \*Model  
-(cd_04_05_meet_philippe)  
+# (cd_04_05_meet_philippe)  
 ## A. You! I've seen you before too!  
 ## B. Oh my God, you're gorgeous!  
 #### A  
@@ -367,7 +376,7 @@ Narrator: Philippe takes a step nearer to you, and you are taken aback by the in
 \>>  
 Philippe(sad): Where do you come from? <i><b>Who are you???</b></i>  
 Alice(surprise): ...  
-(cd_04_06_who_are_you)  
+# (cd_04_06_who_are_you)  
 ## A. like Armand told you.  
 ## B. Is something wrong? You're scaring me...  
 #### A  
@@ -437,7 +446,7 @@ Jeanne(smile): So... would you like to learn more about him?
 Narrator: Tutorial | Listening to Jeanne will let you gain valuable information on Philippe...  
 Narrator: Tutorial | To help guide your choices during your interactions with him, and help to raise his affection for you later on in the story!  
 Alice: Jeanne...  
-(cd_04_07_learn_about_philippe)  
+# (cd_04_07_learn_about_philippe)  
 ## A. Dish the dirt on Philippe! (Cost: 20 Diamond ID: plot_cd_04_Jeanne)  
 ## B. I'll just wing it.  
 #### A  
@@ -472,7 +481,7 @@ Jeanne(smile): As you can imagine, this means that he is a very important, and p
 Jeanne: And with his power, and looks...  
 \>>  
 Alice: Let me guess...  
-(cd_04_07_DP1_powerful_man)  
+# (cd_04_07_DP1_powerful_man)  
 ## A. Women always throw themselves at him?  
 ## B. He always gets what he wants?  
 #### A  
@@ -517,7 +526,10 @@ Jeanne(happy): A very long way nonetheless, I suspect!
 \*Play Music m_gently_lifting_dreams_02  
 Alice: Come on Jeanne, it's almost time. We should head to the salon now.  
 Jeanne: Yes, milady! I know the way well, it's down this way, follow me!  
-\*Scene FANCY_17TH_SITTINGROOM (Color: black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_fancy_sitting_room.jpg-story' width='60'>
+\*Scene FANCY_17TH_SITTINGROOM (Color: black)
+{% endhint %}  
 Narrator: You follow Jeanne into the most beautiful salon you have ever seen.  
 Narrator: From the delicate crystal chandelier hanging from the ceiling, and the sheer, billowy white curtains against the pastel blue walls...  
 Narrator: To the delicately embroidered, gold-gilded sofas and chairs, and lavish rug on the marble floor.  
@@ -533,7 +545,7 @@ Narrator: Who has seated himself in one of the chairs, instead of beside her on 
 Narrator: He stands up when he sees you arriving.  
 Armand: Take a seat, {Alice Name}. Philippe is not here yet, but he must be here soon.  
 Alice*Think: Where should I sit?  
-(cd_04_08_CP_where_should_i_sit)  
+# (cd_04_08_CP_where_should_i_sit)  
 ## A. On the sofa, beside Anne.  
 ## B. In the other chair, beside Armand.  
 #### A  
@@ -561,7 +573,7 @@ Narrator: It seems that Philippe hasn't arrived yet, because there is no one els
 Narrator: Armand has seated himself on the sofa, and he stands up as he sees you.  
 Armand: Take a seat, {Alice Name}. Philippe is not here yet, but he must be here soon.  
 Alice*Think: Where should I sit?  
-(cd_04_09_CP_where_should_i_sit)  
+# (cd_04_09_CP_where_should_i_sit)  
 ## A. On the sofa, beside Armand. *Goto nexttoarmand  
 ## B. In one of the other chairs. *Goto otherchair  
 \***  
@@ -580,7 +592,7 @@ Narrator: Where his fingertips graze your cheekbone, they leave behind an electr
 \*Armand Romance +1  
 Armand(smile): I'm glad you agreed it was best to send Anne away for the day.  
 Alice(shy): Armand...  
-(cd_04_09_DP1_flirt_with_armand)  
+# (cd_04_09_DP1_flirt_with_armand)  
 ## A. Jeanne is standing right over there...  
 ## B. Philippe is going to walk in at any moment...  
 #### A  
@@ -679,7 +691,7 @@ Anne(surprise): But... but...
 Philippe(sad): I painted this several months ago.  
 \>  
 \*Condition  
-(cd_04_10_the_painting)  
+# (cd_04_10_the_painting)  
 ## A. (Condition: Alice Face = Face_1)  
 ## B. (Condition: Alice Face = Face_2)  
 ## C. (Condition: Alice Face = Face_3)  
@@ -688,7 +700,10 @@ Philippe(sad): I painted this several months ago.
 \*Item  
 ### ## A. Painting Look closely.  
 #### A  
-\*Scene FANCY_17TH_SITTINGROOM +PAINTING_01  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_fancy_sitting_room.jpg-story' width='60'>
+\*Scene FANCY_17TH_SITTINGROOM +PAINTING_01
+{% endhint %}  
 Narrator: Philippe has unveiled a painting of a portrait of a girl...  
 Narrator: A girl that looks exactly like <b><i>you</i></b> !  
 \***  
@@ -696,7 +711,10 @@ Narrator: A girl that looks exactly like <b><i>you</i></b> !
 \*Item  
 ### ## A. Mysterious_Painting Look closely.  
 #### A  
-\*Scene FANCY_17TH_SITTINGROOM +PAINTING_02  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_fancy_sitting_room.jpg-story' width='60'>
+\*Scene FANCY_17TH_SITTINGROOM +PAINTING_02
+{% endhint %}  
 Narrator: Philippe has unveiled a painting of a portrait of a girl...  
 Narrator: A girl that looks exactly like <b><i>you</i></b> !  
 \***  
@@ -704,7 +722,10 @@ Narrator: A girl that looks exactly like <b><i>you</i></b> !
 \*Item  
 ### ## A. Philippe's Painting Look closely.  
 #### A  
-\*Scene FANCY_17TH_SITTINGROOM +PAINTING_03  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_fancy_sitting_room.jpg-story' width='60'>
+\*Scene FANCY_17TH_SITTINGROOM +PAINTING_03
+{% endhint %}  
 Narrator: Philippe has unveiled a painting of a portrait of a girl...  
 Narrator: A girl that looks exactly like <b><i>you</i></b> !  
 \***  
@@ -712,7 +733,10 @@ Narrator: A girl that looks exactly like <b><i>you</i></b> !
 \*Item  
 ### ## A. The_Painting Look closely.  
 #### A  
-\*Scene FANCY_17TH_SITTINGROOM +PAINTING_04  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_fancy_sitting_room.jpg-story' width='60'>
+\*Scene FANCY_17TH_SITTINGROOM +PAINTING_04
+{% endhint %}  
 Narrator: Philippe has unveiled a painting of a portrait of a girl...  
 Narrator: A girl that looks exactly like <b><i>you</i></b> !  
 \***  
@@ -738,7 +762,7 @@ Narrator: Philippe glances at all of your surprised faces.
 Philippe(sad): This is going to sound really crazy.  
 Narrator: He hesitates, as if debating with himself whether or not to tell all of you something.  
 Alice: Philippe...  
-(cd_04_11_philippe_explains)  
+# (cd_04_11_philippe_explains)  
 ## A. Please tell me how it is that you painted me! (Cost: 18 Diamond ID: plot_cd_04_philippe_explains) *Goto philippe_explains  
 ## B. It's okay if you don't want to explain.  
 Message: The Painting | You didn't press Philippe to tell you about the painting.  
@@ -762,7 +786,7 @@ Philippe: Well, by a girl.
 Philippe: She comes to me almost every night, in my dreams...  
 Philippe: So much that I felt compelled to paint her likeness.  
 Alice(surprise): Wait...  
-(cd_04_11_DP1_haunted_by_a_dream)  
+# (cd_04_11_DP1_haunted_by_a_dream)  
 ## A. You've been dreaming of <i>me</i>???  
 ## B. This is too freaky.  
 #### A  
@@ -803,4 +827,4 @@ Armand(sad): So the reason you painted this is because...
 ### \*Goto ending_knit  
 # ending_knit  
 Philippe: I wanted to find her.  
-End  
+# End  

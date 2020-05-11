@@ -1,16 +1,22 @@
 # Begin  
-\*Scene COURTING_DESIRE_INTRO  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_fancy_dressing_room.jpg-story' width='60'>
+\*Scene COURTING_DESIRE_INTRO
+{% endhint %}  
 Narrator: Chapter Three | <color=olive>The Fake Fiancee</color>  
 \*Play Music m_intense_classical_tension_rage_bellissimo_01  
 \*  
-\*Scene HOTEL_VILLEROY_SUITE_NIGHT (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_hotel_villeroy_suite_night.jpg-story' width='60'>
+\*Scene HOTEL_VILLEROY_SUITE_NIGHT (Color: Black)
+{% endhint %}  
 \*Camera Right 0  
 \*  
 Narrator: As you're returning to your chambers, a very angry woman confronts you.  
 \*Anne Name ???  
 Anne*Shout(angry): <b>Stay away from Armand!!!</b>  
 Alice(surprise): Huh??  
-(cd_03_01_meet_anne)  
+# (cd_03_01_meet_anne)  
 ## A. Who are you??  
 ## B. What are you doing in my room??  
 #### A  
@@ -53,7 +59,7 @@ Anne: That's right.
 \*Stop Music  
 \*Play Music m_intense_classical_tension_rage_bellissimo_02  
 Alice(sad): Oh.  
-(cd_03_02_fiancee_of_armand)  
+# (cd_03_02_fiancee_of_armand)  
 ## A. Ouch, that hurt like a punch to the gut.  
 ## B. I should've known he was too good to be true.  
 #### A  
@@ -96,7 +102,7 @@ Narrator: It is a few good seconds before your heart stops racing from the confr
 \>>  
 Alice*Think(sad): Wow... I can't believe that just happened.  
 Alice*Think(sad): Can Armand really be engaged to marry such a woman?  
-(cd_03_03_engaged_to_marry)  
+# (cd_03_03_engaged_to_marry)  
 ## A. I thought that he would have better taste.  
 ## B. Actually, I don't think I believe her.  
 #### A  
@@ -123,7 +129,10 @@ Narrator: The linen is soft against your skin, the bed warm and inviting...
 Narrator: And you fall asleep almost instantly.  
 \*Stop Music  
 \*  
-\*Scene HOTEL_VILLEROY_SUITE_BRIGHT (Time: 2.5 Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_hotel_villeroy_suite_bright.jpg-story' width='60'>
+\*Scene HOTEL_VILLEROY_SUITE_BRIGHT (Time: 2.5 Color: Black)
+{% endhint %}  
 \*Camera Left 0  
 \*  
 \*Play Sound s_bird_morning  
@@ -154,7 +163,7 @@ Narrator: She carefully lays down the garment bag on the bed, then peers curious
 \>>  
 Jeanne: What's that that you're holding?  
 Alice: Oh!  
-(cd_03_04_the_phone)  
+# (cd_03_04_the_phone)  
 ## A. It's just my phone.  
 ## B. It's a magical object.  
 #### A  
@@ -212,7 +221,7 @@ Jeanne: Lady Mazarin has held a torch for his Lordship since... forever.
 Alice(surprise): So she just... made it up?? Why would she do that?  
 Jeanne: Well... She hopes to win his affections, and probably sees you as a love rival.  
 Alice(surprise): ...  
-(cd_03_05_a_love_rival)  
+# (cd_03_05_a_love_rival)  
 ## A. That's ridiculous!  
 ## B. She's right, I am a love rival.  
 #### A  
@@ -278,7 +287,7 @@ Narrator: She hesitates, and seems undecided as to whether to continue.
 \>  
 Alice*Think: Looks like Jeanne is trying to warn me about Anne...  
 Alice*Think: But she's afraid of speaking out!  
-(cd_03_06_afraid_of_speaking)  
+# (cd_03_06_afraid_of_speaking)  
 ## A. Get Jeanne to tell you what Anne did! (Cost: 20 Diamond ID: plot_cd_03_Jeanne)  
 ## B. Just let it go.  
 #### A  
@@ -381,7 +390,10 @@ Alice: Alright, I'm ready.
 # gobreakfast  
 \*Stop Music  
 \*Play Music m_romance_dinner_for_two_01  
-\*Scene HOTEL_VILLEROY_MORNINGROOM (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_hotel_villeroy_morningroom.jpg-story' width='60'>
+\*Scene HOTEL_VILLEROY_MORNINGROOM (Color: Black)
+{% endhint %}  
 Narrator: With Jeanne showing you the way, you hurry down to the breakfast room...  
 Narrator: A light and airy, pastel blue and gold gilded affair.  
 Alice*Think(surprise): Why is every room here so seriously lux?  
@@ -392,7 +404,7 @@ Anne: Just joking, Armand.
 Narrator: Armand stands up and faces you, as you approach the breakfast table.  
 Armand(smile): Good morning, {Alice Name}.  
 Alice(smile): Good morning, Armand.  
-(cd_03_07_good_morning)  
+# (cd_03_07_good_morning)  
 ## A. Greet Anne too.  
 ## B. Pointedly ignore Anne.  
 #### A  
@@ -510,7 +522,7 @@ Alice*Think: It's my chance to find out exactly what's going on between Armand a
 Alice: Armand...  
 Armand: Yes?  
 Alice*Think: I'm just wondering...  
-(cd_03_08_wondering_anne)  
+# (cd_03_08_wondering_anne)  
 ## A. Ask Armand how he feels about Anne! (Cost: 12 Diamond ID: plot_cd_03_Armand_feelsanne)  
 ## B. Don't ask him about Anne.  
 #### A  
@@ -546,7 +558,7 @@ Armand: She is not my fiancee.
 Alice: Yes, Jeanne clarified that this morning already.  
 Armand(angry): And I will have a word with her regarding what she said to you.  
 Alice: Oh...  
-(cd_03_09_armand_clarified)  
+# (cd_03_09_armand_clarified)  
 ## A. Yes, please put her back in her place.  
 ## B. Maybe we should just let that pass.  
 #### A  
@@ -590,7 +602,10 @@ Armand(smile): See you in a while.
 \*Stop Music  
 \*Play Music m_intense_classical_melancholy_unknown_longing_01  
 \*  
-\*Scene HOTEL_VILLEROY_SUITE_BRIGHT (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_hotel_villeroy_suite_bright.jpg-story' width='60'>
+\*Scene HOTEL_VILLEROY_SUITE_BRIGHT (Color: Black)
+{% endhint %}  
 \*Camera Right 0  
 \*  
 Narrator: Back in your chamber, you find yourself stressing about the enormity of the occasion.  
@@ -625,7 +640,7 @@ Narrator: You burst out laughing.
 Alice(smile): Did you really just call Prince Philippe the "most eligible bachelor" in France?  
 Jeanne(smile): Not dubbed by me, but many other young ladies.  
 Alice(smile): Is that so? Then tell me, who do you think...  
-(cd_03_10_most_eligible_bachelor)  
+# (cd_03_10_most_eligible_bachelor)  
 ## A. Is more handsome?  
 ## B. Would make a better husband?  
 #### A  
@@ -670,7 +685,7 @@ Narrator: Tutorial | The Blue Silk Dress will permanently raise your Charm, and 
 Narrator: Tutorial | It will also help raise the King and Queen's opinion of you!  
 # chooseoutfit  
 \*Role  
-(cd_03_11_dress_for_the_king)  
+# (cd_03_11_dress_for_the_king)  
 ## A. Outfit Blue_Silk_Dress (Button: Wear the Blue Silk Dress! Cost: 25 Diamond ID: look_cd_03_bluedress)  
 ## B. Outfit Plain_Brown_Dress (Button: Wear a plain dress.)  
 \***  
@@ -688,7 +703,7 @@ Jeanne(smile): It is my pleasure, milady!
 Alice(sad): Maybe I'll just wear this instead.  
 Jeanne(sad): Oh, I'm so sorry to hear you don't like the special dress.  
 Alice*Think(sad): Do I really want to wear this?  
-(cd_03_12_CP_repick_clothes)  
+# (cd_03_12_CP_repick_clothes)  
 ## A. Yes, this will do.  
 ## B. Let me try on the other dress again.  
 #### A  
@@ -702,7 +717,7 @@ Jeanne: Milady, would you also like to change your hairstyle?
 Jeanne: I'm an expert at doing hair for noblewomen.  
 Alice: Oh, what styles can you do?  
 \*Role  
-(cd_03_13_hair_for_the_king)  
+# (cd_03_13_hair_for_the_king)  
 ## A. Hair Long_Romantic_Curls (Button: Choose this look. Cost: 16 Diamond ID: look_cd_03_hair01)  
 ## B. Hair Elegant_Updo (Button: Choose this look. Cost: 16 Diamond ID: look_cd_03_hair02)  
 ## C. Hair Current (Button: Don't change my hairstyle.)  
@@ -753,7 +768,10 @@ Alice(smile): Come on, let's go!
 ### \*Goto carriagescene  
 # carriagescene  
 \*Stop Music  
-\*Scene ARMAND_CARRIAGE_INTERIOR (Time: 2 Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_carriage_interior.jpg-story' width='60'>
+\*Scene ARMAND_CARRIAGE_INTERIOR (Time: 2 Color: Black)
+{% endhint %}  
 \*Play Music m_classical_cheerful_garden  
 Narrator: Ten minutes later, you find yourself seated in Armand's horsedrawn carriage, riding towards the Palace.  
 Narrator: Anne is seated unhappily beside you, her arms folded and lips compressed in a thin line...  
@@ -851,7 +869,7 @@ Anne: More proof that you're just a peasant.
 Armand(angry): Anne.  
 Anne: I'm just <i>joking</i>.  
 Alice: Actually...  
-(cd_03_14_ridden_in_a_carriage)  
+# (cd_03_14_ridden_in_a_carriage)  
 ## A. Where I'm from, we drive <i>cars</i>.  
 ## B. Thank you for teaching me how to sit in a carriage.  
 #### A  
@@ -873,14 +891,17 @@ Armand: Ladies, a wheel broke when we hit the last pothole.
 Armand: We'll have to carry on our way to the palace on horseback.  
 Alice(surprise): Oh! On horseback!  
 Anne: Luckily I'm an accomplished horse-rider.  
-\*Scene PARIS_STREET (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_17th_lane.jpg-story' width='60'>
+\*Scene PARIS_STREET (Color: Black)
+{% endhint %}  
 Narrator: You all exit the carriage and walk towards the front of the carriage, where the carriage driver Gustave is preparing horses for riding.  
 Armand: There are only two horses though, so two of us will have to share a horse.  
 Anne: Well, our skirts are so wide, we won't be able to share a horse in these dresses.  
 Armand: One of you will have to ride with me, then.  
 Anne: Oooh! Me!  
 Alice*Think: I should...  
-(cd_03_15_nervous_back_to_palace)  
+# (cd_03_15_nervous_back_to_palace)  
 ## A. Ride with Armand on his horse! (Cost: 18 Diamond ID: plot_cd_03_Armand_ridehorse)  
 ## B. Let Anne ride with Armand.  
 #### A  
@@ -920,4 +941,4 @@ Alice: Yes, I'm okay. Just... don't go any faster, okay?
 Armand: Don't worry, we'll keep at this pace.  
 Narrator: Soon, you all arrive at the Palace...  
 \***  
-End  
+# End  

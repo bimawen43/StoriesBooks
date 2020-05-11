@@ -1,9 +1,15 @@
 # Begin  
-\*Scene COURTING_DESIRE_INTRO  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_fancy_dressing_room.jpg-story' width='60'>
+\*Scene COURTING_DESIRE_INTRO
+{% endhint %}  
 Narrator: Chapter Eleven | <color=olive>Queen Therese Hatches A Plan</color>  
 \*Play Music m_blue_mystery_decline_02  
 # cd11_unpeaceful_queen  
-\*Scene FANCY_17TH_SITTINGROOM (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_fancy_sitting_room.jpg-story' width='60'>
+\*Scene FANCY_17TH_SITTINGROOM (Color: Black)
+{% endhint %}  
 Narrator: You're having tea with the Queen, who seems to have something weighing on her mind.  
 Therese: Can I trust you?  
 Alice(surprise): Madam, I promise that anything you tell me in confidence, I will keep it to myself.  
@@ -19,7 +25,7 @@ Therese(sad): Court rumors have been brutal.
 Therese(angry): There are whispers floating around that, <i>'the Queen must have done it, perhaps she has a lover!'</i>  
 Therese(sad): And also, <i>'it must have been Philippe, he wants to be King!'</i>  
 Alice(angry): Hmm...  
-(cd_11_01_palace_rumors)  
+# (cd_11_01_palace_rumors)  
 ## A. The rumors must have been started by someone.  
 ## B. Are the both of you the only ones being suspected?  
 ## C. Why do they dare to gossip about you and Philippe?  
@@ -51,7 +57,7 @@ Therese: There is myself, and Philippe of course...
 \>>>  
 Therese: And then there's <i>Rene Mazarin</i>.  
 Alice(surprise): <b>Mazarin??</b>  
-(cd_11_02_criminal_suspect)  
+# (cd_11_02_criminal_suspect)  
 ## A. But why?  
 ## B. I knew there was something off about him!  
 ## C. Oh my god, maybe his daughters are in on it too!  
@@ -72,7 +78,7 @@ Therese(angry): But then, remember how he arranged for Marie to marry Philippe?
 Alice: So if Louis dies, because the both of you don't have a son...  
 Therese: Philippe becomes King of France, and Marie gets to be Queen.  
 Alice: Oh my god... you're right.  
-(cd_11_03_renes_motive)  
+# (cd_11_03_renes_motive)  
 ## A. Then he does have a strong motive.  
 ## B. No wonder Marie wants to marry Philippe so badly.  
 ## C. Oh my god, this is like Game of Thrones.  
@@ -94,7 +100,7 @@ Therese: Follow me.
 \*Play Music m_intense_stimulate_mighty_kingdom_01  
 Narrator: You follow the queen to an enormous room.  
 \*Condition  
-(cd_11_04_tour_first)  
+# (cd_11_04_tour_first)  
 ## A. (Condition: BALLROOM_FIRST_8A >= 1)  
 ## B. (Condition: BALLROOM_FIRST_8P >= 1)  
 ## C. (Condition: BALCONY_FIRST_8A >= 1)  
@@ -131,7 +137,7 @@ Therese: It's an annual tradition, something fun that we look forward to every y
 Therese: I almost cancelled the one for this year, but then Louis started getting better...  
 Therese: So a few days ago I let everyone know that it was back on.  
 Alice(happy): Oh wow... a <i>Masquerade</i>.  
-(cd_11_05_masquerade_party)  
+# (cd_11_05_masquerade_party)  
 ## A. I love masquerade parties!  
 ## B. Will Louis be attending too?  
 ## C. Am I invited?  
@@ -154,7 +160,7 @@ Therese: Yes. You'll have my full protection, of course.
 Therese: And once the poisoner has been found, you'll be <color=blue>richly rewarded</color>.  
 Therese: So... will you help me?  
 Alice*Think: The queen is asking me personally for help!  
-(cd_11_06_queens_spy)  
+# (cd_11_06_queens_spy)  
 ## A. Agree to help her! (Cost: 23 Diamond ID: plot_cd_11_queen)  
 ## B. Tell her you're not spy material.  
 #### A  
@@ -185,7 +191,7 @@ Therese: She'll bring you to me, where I'll give you further instructions.
 Alice: Okay, I just have to go in this room tomorrow at nine, got it.  
 Therese: That's it. Be careful that no one sees you, or follows you. This is a dangerous affair.  
 Alice: ...  
-(cd_11_06_DP1_dangerous_affair)  
+# (cd_11_06_DP1_dangerous_affair)  
 ## A. I understand.  
 ## B. Danger is my middle name.  
 ## C. Just call me Bond.  
@@ -219,7 +225,7 @@ Therese: Of course, I understand. And I don't blame you.
 Therese: I was asking for you to get involved in something really dangerous that doesn't concern you.  
 Alice: Madam, I still want to help in whatever way that I can.  
 Alice: I promise you that...  
-(cd_11_07_CP_try_to_help)  
+# (cd_11_07_CP_try_to_help)  
 ## A. I'll keep my eyes and ears open.  
 ## B. I'll keep an eye on Rene Mazarin.  
 ## C. I'll watch out for anything out of the ordinary.  
@@ -236,7 +242,10 @@ Therese: Good.
 Therese: And now, let's head back to the salon and finish our tea.  
 \*Stop Music  
 \*Play Music m_gently_lifting_dreams_02  
-\*Scene FANCY_17TH_SITTINGROOM (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_fancy_sitting_room.jpg-story' width='60'>
+\*Scene FANCY_17TH_SITTINGROOM (Color: Black)
+{% endhint %}  
 Narrator: The queen appears to be deep in thought as the both of you finish the rest of your tea.  
 \>>  
 Therese: You know... Philippe and Armand are both good men.  
@@ -255,7 +264,10 @@ Therese: See you tomorrow at the party, {Alice Name}.
 Narrator: Her handmaid enters at that moment to start clearing away the cups and dishes, and you realize that tea is over.  
 Alice: Thank you for the tea, Madam. See you tomorrow.  
 \*Stop Music  
-\*Scene ROYAL_PALACE_HALLWAY (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_royal_palace_hallway_day.jpg-story' width='60'>
+\*Scene ROYAL_PALACE_HALLWAY (Color: Black)
+{% endhint %}  
 \*Play Music m_blue_epilog_sadness  
 Narrator: As you exit the salon, you see Jeanne with another servant in the hallway.  
 Francine(cry): Sniff... sniff...  
@@ -276,7 +288,7 @@ Alice(sad): Oh no...
 Francine(cry): It's not my fault. She smeared some blueberries on her dress, and that juice stains permanently...  
 Francine(cry): Nobody can get blueberry stains out, not even if they're the best laundress in the world!  
 Alice(sad): Hmm...  
-(cd_11_08_crying_servant)  
+# (cd_11_08_crying_servant)  
 ## A. It wasn't your fault, then.  
 ## B. Did you tell her that?  
 ## C. That's so unfair!  
@@ -302,7 +314,7 @@ Francine(cry): I'll... I'll just pack up my things and go...
 Alice: Wait! Maybe there's something that I can do to help.  
 Alice*Think: The queen is still in the salon. She's a sympathetic person...  
 Alice*Think: If I speak to her about this, I'm sure she'll do something to help!  
-(cd_11_09_help_francine)  
+# (cd_11_09_help_francine)  
 ## A. Help Francine by speaking to the queen! (Cost: 18 Diamond ID: plot_cd_11_francine)  
 ## B. Tell her you'll speak to Anne.  
 #### A  
@@ -316,7 +328,10 @@ Alice*Think: If I speak to her about this, I'm sure she'll do something to help!
 \*Gain HELPED_SERVANT_11  
 Alice(smile): Francine, come with me into the salon.  
 Francine(surprise): Huh?  
-\*Scene FANCY_17TH_SITTINGROOM (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_fancy_sitting_room.jpg-story' width='60'>
+\*Scene FANCY_17TH_SITTINGROOM (Color: Black)
+{% endhint %}  
 Narrator: The queen is still sitting on the sofa speaking with her handmaid, when you re-enter the salon.  
 Therese: {Alice Name}? Is something the matter?  
 Narrator: Her gaze falls on the wretched, tear-streaked face of the servant.  
@@ -352,7 +367,10 @@ Therese(smile): You've also shown your compassion today. Well done, {Alice Name}
 \*Therese Opinion +1  
 Alice(smile): Thank you, Madam. I'll take my leave now.  
 Narrator: She smiles and nods as you curtsy and leave the salon.  
-\*Scene ROYAL_PALACE_HALLWAY (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_royal_palace_hallway_day.jpg-story' width='60'>
+\*Scene ROYAL_PALACE_HALLWAY (Color: Black)
+{% endhint %}  
 ### \*Goto cd11_servant_knit  
 # cd11_speak_anne  
 \*Gain SERVANT_FIRED_11  
@@ -384,7 +402,10 @@ Alice*Think: I wonder if Armand and Philippe are done visiting the king?
 Alice*Think: I hate feeling so lost whenever they're not around...  
 Alice*Think: I know, I'll explore the palace a bit more. Who knows, maybe I'll see something interesting.  
 Narrator: You wander along the halls, until you come to what looks like another little salon.  
-\*Scene CREAM_SALON (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_royal_palace_cream_salon.jpg-story' width='60'>
+\*Scene CREAM_SALON (Color: Black)
+{% endhint %}  
 Narrator: A little sob from within stops you in your tracks, and you look in.  
 \>>  
 Anne(cry): ...  
@@ -399,7 +420,7 @@ Alice(sad): Hey, umm... are you okay? What's wrong?
 Narrator: Anne sniffles as a fresh round of tears spill out from the corners of her eyes.  
 Anne(cry): Why did you have to come here?  
 Alice(surprise): I...  
-(cd_11_10_why_coming)  
+# (cd_11_10_why_coming)  
 ## A. I didn't ask to come here, either.  
 ## B. It just happened, but I'm trying to get back home.  
 ## C. I don't know but I'm glad I did.  
@@ -451,7 +472,7 @@ Anne(sad): Have you ever experienced that kind of love?
 Alice*Think(sad): The deluded, unrequited kind?  
 Anne: A love so strong that you would do <i>anything</i> for the person you love?  
 Alice: Umm...  
-(cd_11_11_unrequited_love)  
+# (cd_11_11_unrequited_love)  
 ## A. Not yet, but I hope to one day.  
 ## B. I have, actually.  
 ## C. I don't know. It sounds painful.  
@@ -469,7 +490,7 @@ Narrator: Anne falls silent again, lost in her own thoughts.
 Alice*Think(sad): I'm actually starting to feel sorry for her...  
 Alice*Think(sad): She didn't ask for any of this either. But Armand only sees her as a friend.  
 Alice*Think(sad): Should I try to advise her that it might be better for her to turn her affections elsewhere?  
-(cd_11_12_advise_anne)  
+# (cd_11_12_advise_anne)  
 ## A. Try giving her a gentle hint. (Cost: 15 Diamond ID: plot_cd_11_anne)  
 ## B. Speak with her directly.  
 ## C. Mind your own business.  
@@ -544,7 +565,7 @@ Alice*Think: He doesn't seem to recognize me, though...
 Alice*Think: It's true that I look different dressed like this.  
 Palace_Guard1: Lady {Alice Name}?  
 Alice: Umm...  
-(cd_11_13_rene_conversation)  
+# (cd_11_13_rene_conversation)  
 ## A. What does Rene Mazarin want with me?  
 ## B. Do I really have to go?  
 ## C. Why couldn't he come speak with me here?  
@@ -565,7 +586,10 @@ Palace_Guard1: You'll have to ask him yourself. I'm just trying to do my job, mi
 Alice(sad): Fine, take me to him.  
 \*Stop Music  
 Narrator: You follow the guard as he escorts you to the royal advisor.  
-\*Scene MAZARIN_STUDY (Color: Black Time: 2)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_fireplace_study_secretaire.jpg-story' width='60'>
+\*Scene MAZARIN_STUDY (Color: Black Time: 2)
+{% endhint %}  
 \*Play Music m_melancholy_tension_heartbeat  
 Narrator: He leads you to what appears to be a study with a fireplace. The fireplace is unlit, though, and the room is chilly.  
 Narrator: As you enter the room, you notice with some apprehension that the guard continues standing by the door.  
@@ -575,7 +599,7 @@ Alice: It didn't seem like you gave me any choice.
 Rene: Ah, the guard. An unpleasant but necessary precaution, I'm afraid.  
 Narrator: Another chill runs down your spine at his words.  
 Alice: Lord Mazarin...  
-(cd_11_14_meet_rene)  
+# (cd_11_14_meet_rene)  
 ## A. What is this about, please?  
 ## B. Should I be worried?  
 ## C. I need to go and speak with Armand and Philippe.  
@@ -607,7 +631,7 @@ Rene: What an amazing expression of surprise!
 Rene: You could almost convince me that you're genuinely shocked.  
 Rene: Or perhaps you were just not expecting that I would find out so soon.  
 Alice(surprise): What on earth are you talking about??  
-(cd_11_15_witch_framed)  
+# (cd_11_15_witch_framed)  
 ## A. I'm not a witch!  
 ## B. Witches aren't even real!  
 ## C. Is this a joke?  
@@ -629,7 +653,7 @@ Narrator: In total, it claimed between two to three times as many lives as the S
 Alice*Think(sad): Oh my god, this is bad... I need to find Armand or Philippe, or the queen!  
 Narrator: Quickly, you spin around to face the door, but the guard steps forward and grips your arm tightly!  
 Alice(surprise): ...  
-(cd_11_16_TC_guards_caught)  
+# (cd_11_16_TC_guards_caught)  
 \*Time 7 (Default: C)  
 ## A. Wrench your arm out of his grasp!  
 ## B. Call for help!  
@@ -659,7 +683,7 @@ Rene: He's told me all about how you were discovered sneaking around in her Maje
 Rene: Wearing extremely strange clothes, and how you ran away when you were discovered.  
 Rene: What do you have to say about that?  
 Alice(sad): I... I...  
-(cd_11_18_robert_identify)  
+# (cd_11_18_robert_identify)  
 ## A. He's lying!  
 ## B. I wasn't sneaking around!  
 ## C. I have no idea how I got there!  
@@ -708,7 +732,7 @@ Narrator: You stare gaping as first Armand, then Philippe, draw their swords.
 Armand(angry): You're not arresting her.  
 Philippe(angry): She's under our protection.  
 Alice(sad): Wait!  
-(cd_11_18_be_arrested)  
+# (cd_11_18_be_arrested)  
 ## A. Everybody please calm down!  
 ## B. Mazarin, you need to let me go!  
 ## C. This entire situation is insane!  
@@ -750,4 +774,4 @@ Narrator: You struggle futilely as the guards drag you out of the room.
 Alice(sad): Let go of me!  
 Rene: The trial shall commence in the morning.  
 Rene: May God have pity on your soul, <i><color=red>witch</color>!</i>.  
-End  
+# End  

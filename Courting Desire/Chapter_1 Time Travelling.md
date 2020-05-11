@@ -1,6 +1,9 @@
 # Begin  
 \*Play Music m_gently_romance_butterflies_love_01  
-\*Scene BLUE_GOLD_PRINCESS_ROOM_NIGHT  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_princess_room_night.jpg-story' width='60'>
+\*Scene BLUE_GOLD_PRINCESS_ROOM_NIGHT
+{% endhint %}  
 \*Alice Player  
 \*Alice Naming: What’s your name? | Alice  
 Narrator: Tutorial | Welcome to Courting Desire, {Alice Name}!  
@@ -11,7 +14,7 @@ Narrator: Tutorial | Choose your look!
 \*Alice Hair Charming_Blonde  
 \*Alice Headwear Null  
 \*Role  
-(cd_01_01_choose_face)  
+# (cd_01_01_choose_face)  
 ## A. Face Face_1 (Button: Choose this look.)  
 ## B. Face Face_2 (Button: Choose this look.)  
 ## C. Face Face_3 (Button: Choose this look.)  
@@ -19,7 +22,7 @@ Narrator: Tutorial | Choose your look!
 \***  
 Narrator: Tutorial | You look great! Now let's pick a hairstyle!  
 \*Role  
-(cd_01_02_choose_hair)  
+# (cd_01_02_choose_hair)  
 ## A. Hair Medium_Straight_Hair (Button: Choose this look.)  
 ## B. Hair Honey_Blonde_Hair (Button: Choose this look.)  
 ## C. Hair Charming_Blonde (Button: Choose this look.)  
@@ -27,7 +30,7 @@ Narrator: Tutorial | You look great! Now let's pick a hairstyle!
 \***  
 Alice(smile): My look is totally...  
 \*Model  
-(cd_01_02_confirm_look)  
+# (cd_01_02_confirm_look)  
 ## A. Not me. Let's try something else. *Goto startcustomization  
 ## B. Perfect! Let's begin! *Goto storystart  
 \***  
@@ -48,7 +51,7 @@ Philippe: Let us keep you warm...
 Narrator: One of the men starts kissing your mouth, while the other, your neck...  
 Alice(shy): Mmmm...  
 Narrator: Their kisses turn insistent, as they start stripping your clothes off...  
-(cd_01_03_erotic_dream)  
+# (cd_01_03_erotic_dream)  
 ## A. Ask them who they are.  
 ## B. Say nothing and let them continue...  
 #### A  
@@ -59,23 +62,29 @@ Narrator: Their hands explore every curve of your body as you give in to their k
 Alice(shy): Ohhh...  
 \***  
 \*Play Music m_romance_dinner_for_two_01  
-\*Scene COURTING_DESIRE_INTRO  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_fancy_dressing_room.jpg-story' width='60'>
+\*Scene COURTING_DESIRE_INTRO
+{% endhint %}  
 Narrator: Chapter One | <color=olive>Once Upon A Time In Paris</color>  
 Alice(shy): Wow, that was some dream...  
 Alice(shy): It must be because I'm too excited about visiting the Palais Royale this morning.  
 Alice: Hmm... What should I wear today?  
 Narrator: Tutorial | Pick an outfit to wear in Paris!  
 \*Role  
-(cd_01_04_choose_outfit)  
+# (cd_01_04_choose_outfit)  
 ## A. Outfit Denim_Dress (Button: Choose this look.)  
 ## B. Outfit Crop_Top_and_Jeans (Button: Choose this look.)  
 ## C. Outfit Bleak_Miniskirt (Button: Choose this look.)  
 ## D. Outfit Pink_Suspender_Skirt (Button: Choose this look. Cost: 16 Diamond ID: look_cd_01_skirt)  
 \***  
 Alice(happy): Ready! Better get going so I'm not late!  
-\*Scene PARIS_SKYLINE_MODERN (Color: White)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_modern_paris_street.jpg-story' width='60'>
+\*Scene PARIS_SKYLINE_MODERN (Color: White)
+{% endhint %}  
 \*Condition  
-(cd_01_04_test_01)  
+# (cd_01_04_test_01)  
 ## A. (Condition: Armand Romance < 10)  
 #### A  
 Narrator: Paris...The city of Love.  
@@ -83,11 +92,14 @@ Narrator: Paris...The city of Love.
 Narrator: A magical city... where fairy tales can come true.  
 \*Stop Music  
 \*Play Music m_sprightly_fairy_meeting_long  
-\*Scene ROYAL_PALACE_DAY (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_royal_palace_day.jpg-story' width='60'>
+\*Scene ROYAL_PALACE_DAY (Color: Black)
+{% endhint %}  
 Narrator: It is the summer of 2019... You are a student in Paris on an exchange program.  
 Narrator: You're standing in the middle of the gilded grand hall of the palace with your classmates...  
 \*Condition  
-(cd_01_04_test_02)  
+# (cd_01_04_test_02)  
 ## A. (Condition: Armand Romance < 10)  
 #### A  
 Alice(surprise): Wow!  
@@ -114,7 +126,7 @@ Alice: That's one of the things that I love about France...
 Alice: You have such a rich history!  
 Justine(smile): What else do you love about France?  
 Alice: I love...  
-(cd_01_05_love_about_france)  
+# (cd_01_05_love_about_france)  
 ## A. The French language! It's so romantic.  
 ## B. Umm, the food, duh!  
 ## C. Haha, the French guys, of course...  
@@ -147,7 +159,7 @@ Teacher: Anyone who isn't back here by then, will have to find your own transpor
 Alice(happy): Half an hour to explore on our own!  
 Alice(happy): We passed by some really interesting-looking rooms earlier on, we can check them out!  
 \*Condition  
-(cd_01_05_test_01)  
+# (cd_01_05_test_01)  
 ## A. (Condition: Armand Romance < 10)  
 #### A  
 Narrator: Justine claps her hands in delight.  
@@ -159,17 +171,23 @@ Narrator: She runs quickly out of the room, not waiting to see if you are follow
 Alice(surprise): Hey! Wait up!  
 Alice: How does she run so fast?  
 \*Stop Music  
-\*Scene ROYAL_PALACE_HALLWAY (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_royal_palace_hallway_day.jpg-story' width='60'>
+\*Scene ROYAL_PALACE_HALLWAY (Color: Black)
+{% endhint %}  
 Narrator: You follow Justine down the hallway and through various rooms in the Palace, your footsteps echoing on the marble floor.  
 Justine: Come on {Alice Name}, we need to hurry up if we want to have enough time to see what I want to show you!  
 \>  
 \*Condition  
-(cd_01_05_test_02)  
+# (cd_01_05_test_02)  
 ## A. (Condition: Armand Romance < 10)  
 #### A  
 Alice: Oh, better keep up with Justine, wouldn't want to lose her!  
 \***  
-\*Scene ROYAL_PALACE_PORTRAITROOM (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_royal_palace_portraitroom.jpg-story' width='60'>
+\*Scene ROYAL_PALACE_PORTRAITROOM (Color: Black)
+{% endhint %}  
 \*Play Music m_classical_cheerful_garden  
 Narrator: At the end of the hallway, Justine stops and enters a room on the right.  
 Narrator: You follow her and find yourself in a gallery, where a dozen large paintings are displayed along the walls.  
@@ -188,7 +206,7 @@ Justine(sad): Or sometimes... even <color=red>assassinations</color>.
 Alice(surprise): Oh my gosh... I see.  
 Alice: Wow... Things were quite different back then, huh?  
 \*Condition  
-(cd_01_05_test_03)  
+# (cd_01_05_test_03)  
 ## A. (Condition: Armand Romance < 10)  
 #### A  
 Narrator: The both of you continue walking down the gallery...  
@@ -209,7 +227,7 @@ Alice(surprise): I think I dreamed of them!
 Justine(happy): Really? Well, lucky you! What did you dream about?  
 Alice(shy): I... don't really remember now.  
 \*Condition  
-(cd_01_05_test_04)  
+# (cd_01_05_test_04)  
 ## A. (Condition: Armand Romance < 10)  
 #### A  
 Narrator: Justine sighs happily, as she stares at the painting.  
@@ -224,7 +242,7 @@ Alice: I wonder who they are?
 Alice: Oh wait, there's a description under the painting...  
 \>>  
 \*Condition  
-(cd_01_05_test_05)  
+# (cd_01_05_test_05)  
 ## A. (Condition: Armand Romance < 10)  
 #### A  
 Narrator: You bend slightly closer to read it.  
@@ -241,7 +259,7 @@ Justine: So the handsome blond with those piercing blue eyes should be Philippe.
 Justine: And the gorgeous, dark haired, green eyed one should be Armand.  
 Justine: Which one do you prefer?  
 Alice(shy): I think...  
-(cd_01_06_men_in_the_painting)  
+# (cd_01_06_men_in_the_painting)  
 ## A. The blond one is really handsome.  
 ## B. The dark haired one is hotter.  
 ## C. Both are just as hot, it's impossible to choose one!  
@@ -263,7 +281,7 @@ Narrator: The both of you burst out in laughter.
 Alice: I wonder what it must have been like living in 17th century France.  
 Justine: Well, I wouldn't mind living in medieval France, if the men all looked like these two!  
 Alice: Living in medieval France?  
-(cd_01_08_living_medieval)  
+# (cd_01_08_living_medieval)  
 ## A. I wouldn't mind it either!  
 ## B. I would give anything to experience it!  
 ## C. No point dreaming about something impossible.  
@@ -290,7 +308,10 @@ Justine: Come on!
 Narrator: Justine spins around and runs out of the room, and you find yourself chasing after her again.  
 \*Stop Music  
 \*Play Music m_melancholy_tension_heartbeat  
-\*Scene ROYAL_PALACE_ARTIFACTSROOM (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_royal_palace_artifactsroom.jpg-story' width='60'>
+\*Scene ROYAL_PALACE_ARTIFACTSROOM (Color: Black)
+{% endhint %}  
 Narrator: You follow Justine into another room....  
 Narrator: Filled with fabulous jewelry, delicate porcelain perfume bottles, and intricately painted silk fans.  
 Narrator: The priceless treasures are arranged in display shelves and cabinets, in a gently-lit, slightly dusty room.  
@@ -302,7 +323,7 @@ Alice: "To my beloved Therese..."
 Alice: "Words cannot describe my admiration for your gentle spirit and beauty."  
 Alice: "Please accept this present as a token of my love for you, which shall endure for as long as I shall breathe."  
 Alice(happy): Wow...  
-(cd_01_09_painting_background)  
+# (cd_01_09_painting_background)  
 ## A. This is too romantic beyond words!  
 ## B. This gift must have made the Queen so happy!  
 #### A  
@@ -319,7 +340,7 @@ Justine: Yeah, and hopefully soon!
 Narrator: You walk slowly around the room, completely absorbed in admiring all of the beautiful objects.  
 Narrator: Your gaze falls on an antique emerald ring, which is nestling on a red velvet cushion in a display case...  
 \*Item  
-(cd_01_10_emerald_ring_show)  
+# (cd_01_10_emerald_ring_show)  
 ## A. Emerald_Ring Examine item.  
 #### A  
 \*Emerald_Ring -1  
@@ -349,7 +370,10 @@ Narrator: As your fingers touch it...
 \*Stop Music  
 \*Play Music m_blue_mystery_decline_02  
 \*  
-\*Scene ROYAL_PALACE_ARTIFACTSROOM_1664  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_17th_royal_palace_artifactsroom.jpg-story' width='60'>
+\*Scene ROYAL_PALACE_ARTIFACTSROOM_1664
+{% endhint %}  
 \*+RING_FLASH  
 \*  
 Narrator: There is a sudden burst of white light, blinding you for a second!  
@@ -368,7 +392,7 @@ Narrator: A woman dressed in strange medieval looking clothes is standing in the
 Alice(surprise): That is definitely not Justine.  
 Servant(surprise): Who are you? I've never seen you around in the Palace before.  
 Alice: Who am I?  
-(cd_01_11_meet_the_servant)  
+# (cd_01_11_meet_the_servant)  
 ## A. I'm nobody.  
 ## B. I'm a student.  
 ## C. Who are YOU?  
@@ -396,7 +420,7 @@ Alice(surprise): I'm sorry, did you say, "Her Majesty"?
 \>  
 Servant(surprise): Why do you have such a strange accent, and why are you wearing such strange clothes???  
 Alice: My accent and clothes?  
-(cd_01_12_strange_accent)  
+# (cd_01_12_strange_accent)  
 ## A. Hey, I've been told I have a very good accent.  
 ## B. I'm not wearing strange clothes.  
 #### A  
@@ -453,7 +477,7 @@ Alice*Think: If this ring is really behind this, maybe I should take it with me.
 Narrator: Tutorial | Some choices cost <color=purple>diamonds</color>!  
 Narrator: Tutorial | These can let you access <color=purple>exclusive scenes</color>, unlock special <color=purple>outfits or collectibles</color>, or earn <color=purple>relationship points</color>!  
 Alice*Think: I should...  
-(cd_01_13_buy_the_ring)  
+# (cd_01_13_buy_the_ring)  
 ## A. Take the mysterious ring! (Cost: 15 Diamond ID: item_cd_01_ring) *Goto gain_emeraldring  
 ## B. Leave it behind.  
 #### B  
@@ -467,7 +491,7 @@ Alice(sad): I'll just leave it behind.
 Narrator: You get on your hands and knees, grope under the table...  
 Narrator: And find the ring!  
 \*Item  
-(cd_01_13_DP1_emerald_ring_claim)  
+# (cd_01_13_DP1_emerald_ring_claim)  
 ## A. Emerald_Ring A mysterious emerald ring!  
 #### A  
 Narrator: You have gained the collectible: Emerald Ring!  
@@ -478,7 +502,10 @@ Narrator: You stand back up, and put the ring hastily in your pocket.
 \*Play Music m_mystery_tension_heartbeat_01  
 Narrator: Heart pounding, you run out of the room...  
 \*  
-\*Scene ROYAL_PALACE_HALLWAY (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_royal_palace_hallway_day.jpg-story' width='60'>
+\*Scene ROYAL_PALACE_HALLWAY (Color: Black)
+{% endhint %}  
 \>  
 \*  
 Narrator: But just as you step out into the hallway, you hear the sound of rapidly approaching footsteps!  
@@ -493,7 +520,7 @@ Narrator: The space is just big enough for you to fit yourself!
 Narrator: You quickly shut the doors close...  
 Narrator: Just in time, because from the sound of footsteps, some people have now run into the hallway!  
 Alice*Think(sad): I should...  
-(cd_01_14_hide_in_the_closet)  
+# (cd_01_14_hide_in_the_closet)  
 ## A. Hold your breath!  
 #### A  
 \*Stop Sound  
@@ -540,7 +567,10 @@ Alice*Think: I definitely came from this way!
 Palace_Guard1*Shout(angry): <b>Hey you! Stop right there!</b>  
 Alice*Think(sad): Oh no!  
 \>  
-\*Scene ROYAL_PALACE_DAY (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_royal_palace_day.jpg-story' width='60'>
+\*Scene ROYAL_PALACE_DAY (Color: Black)
+{% endhint %}  
 Narrator: You run even faster... even though you're starting to get a stitch in your side!  
 Narrator: Your muscles are screaming...  
 Palace_Guard1(angry): Stop running!  
@@ -549,7 +579,10 @@ Alice*Think(sad): Almost... at the... entrance...
 \*Play Music m_intense_tension_assembling_02  
 Narrator: You dash through the main entrance of the Palace, and run out onto the streets of Paris!  
 \*  
-\*Scene PARIS_STREET_1664 (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_17th_paris_street.jpg-story' width='60'>
+\*Scene PARIS_STREET_1664 (Color: Black)
+{% endhint %}  
 \*+TIME_TRAVEL  
 \*Camera Right 0  
 \*  
@@ -561,7 +594,7 @@ Narrator: Tutorial | You are about to encounter your first timed choice!
 Narrator: Tutorial | Make your choice before the timer runs out!  
 Alice*Think(sad): Pant... pant...  
 \*Time 7 (Default: C)  
-(cd_01_15_TC_run_away)  
+# (cd_01_15_TC_run_away)  
 ## A. Check if they're still chasing you!  
 ## B. No time to look, just keep running!  
 ## C. Trip and fall!  
@@ -587,7 +620,10 @@ Narrator: You quickly get up, and redoubling your speed, continue running down t
 \*Camera Left 1  
 Alice*Think(sad): An alley! Maybe I can hide in there!  
 Narrator: You dash quickly into the small alley...  
-\*Scene PARIS_ALLEY (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_17th_paris_alley.jpg-story' width='60'>
+\*Scene PARIS_ALLEY (Color: Black)
+{% endhint %}  
 Narrator: And slow to a jog, as you desperately try to catch your breath!  
 Alice(sad): I... can't run... anymore...  
 Narrator: Just then, a door facing the alley opens, and a woman with blond hair steps out with a basket of laundry.  
@@ -600,7 +636,7 @@ Narrator: With wide eyes, she takes in your disheveled appearance.
 Fantine(surprise): Are you alright?  
 \>>  
 Alice: Help!  
-(cd_01_16_meet_fantine)  
+# (cd_01_16_meet_fantine)  
 ## A. I'm being chased and I don't even know why!  
 ## B. Please, I need somewhere to hide!  
 #### A  
@@ -628,7 +664,10 @@ Fantine: Quick! Come in!
 Narrator: She gestures for you to follow her, then steps back quickly through her door.  
 \*Stop Music  
 \*Play Music m_gently_romance_butterflies_love_01  
-\*Scene PARIS_SMALLAPARTMENT_INTERIOR (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_paris_smallapartment_interior.jpg-story' width='60'>
+\*Scene PARIS_SMALLAPARTMENT_INTERIOR (Color: Black)
+{% endhint %}  
 Narrator: You quickly follow behind her and step through the door into the cool sanctuary of her apartment.  
 Narrator: The woman deftly shuts the door behind you, and slams the bolt down.  
 Narrator: The both of you press your ears against the wooden door and listen...  
@@ -653,7 +692,7 @@ Narrator: Fantine looks at you up and down, taking in your appearance...
 Narrator: And does a double take in surprise.  
 Fantine(surprise): My goodness, and why are you wearing such strange clothes??  
 Alice*Think(sad): Not the clothes question again!  
-(cd_01_17_strange_clothes)  
+# (cd_01_17_strange_clothes)  
 ## A. Are my clothes really that strange??  
 ## B. Why do people keep asking me about my clothes??  
 ## C. Where I come from, everybody dresses like this.  
@@ -693,7 +732,7 @@ Alice*Think(sad): I traveled... <i>three hundred over years back in time???</i>
 Alice*Think(sad): How is this even possible??  
 \>  
 Alice*Think: Maybe I'm dreaming...  
-(cd_01_18_dreaming)  
+# (cd_01_18_dreaming)  
 ## A. Can you pinch me please?  
 ## B. I must be dreaming.  
 #### A  
@@ -739,7 +778,7 @@ Narrator: The both of you sit morosely for a few minutes, not knowing what to th
 Narrator: Before Fantine breaks the silence.  
 Fantine: Well... what do you intend to do now?  
 Alice*Think: Good question... What should I do?  
-(cd_01_19_intent_to_do)  
+# (cd_01_19_intent_to_do)  
 ## A. I need to find a way to get back to 2019!  
 ## B. I need to stay in hiding!  
 ## C. This is a great opportunity to explore 1664 France!  
@@ -760,7 +799,10 @@ Fantine: But I think in order to do that, you need a change of clothes.
 Fantine: Hmm...  
 Narrator: Fantine looks you up and down.  
 Fantine: You're about the same size as me... You know what? Come with me.  
-\*Scene PARIS_SMALLAPARTMENT_BEDROOM (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_paris_smallapartment_bedroom.jpg-story' width='60'>
+\*Scene PARIS_SMALLAPARTMENT_BEDROOM (Color: Black)
+{% endhint %}  
 Narrator: You follow Fantine as she leads you up a flight of stairs, and into a small bedroom.  
 Fantine: This is my room.  
 Fantine: You can't go around wearing those clothes. You'll attract too much attention.  
@@ -777,7 +819,7 @@ Narrator: Tutorial | Some special outfits require <color=purple>diamonds</color>
 Narrator: Tutorial | Or in the case of this dress, help you in some situations!  
 Alice: Fantine is right, I need to blend in!  
 \*Model  
-(cd_01_20_fantines_dress)  
+# (cd_01_20_fantines_dress)  
 ## A. Just stick with my own clothes.  
 ## B. Buy the Sea-Green Dress! (Cost: 16 Diamond ID: look_cd_01_fantinesdress)  
 #### A  
@@ -805,7 +847,7 @@ Fantine(smile): Here, let me show you...
 \*Alice Hair Braided_Hair (Tag: Record)  
 Alice: A lovely look for the 17th century.  
 \*Model  
-(cd_01_21_braided_hair)  
+# (cd_01_21_braided_hair)  
 ## A. Stick with the same hairstyle.  
 ## B. Buy this hairstyle! (Cost: 16 Diamond ID: look_cd_01_braidedhair)  
 #### A  
@@ -820,7 +862,10 @@ Fantine: No problem, your own hair is lovely anyway.
 Alice(smile): I love it! Thank you Fantine!  
 Fantine(smile): You are welcome, I'm glad to help.  
 \***  
-\*Scene PARIS_SMALLAPARTMENT_INTERIOR (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_paris_smallapartment_interior.jpg-story' width='60'>
+\*Scene PARIS_SMALLAPARTMENT_INTERIOR (Color: Black)
+{% endhint %}  
 Narrator: The both of you head back downstairs.  
 Narrator: Stopping before the door, you turn around and hold Fantine's hands earnestly.  
 Alice: Thank you for all your help, Fantine.  
@@ -828,7 +873,10 @@ Alice: They would have caught me for sure, if you hadn't hidden me.
 Narrator: Fantine pats your hand.  
 Fantine: No problem. I wish you all the best, {Alice Name}. You take care now!  
 Alice: Thank you, you too!  
-\*Scene PARIS_ALLEY (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_17th_paris_alley.jpg-story' width='60'>
+\*Scene PARIS_ALLEY (Color: Black)
+{% endhint %}  
 Narrator: Waving goodbye to Fantine, you step back out into the alley.  
 Alice: I wonder... Where does this lead to, anyway?  
 Alice: Guess there's only one way to find out.  
@@ -836,7 +884,10 @@ Narrator: You make your way down the narrow, uneven alleyway...
 \*Stop Music  
 \*Play Music street  
 \*  
-\*Scene PARIS_STREET_MARKET (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_paris_street_market.jpg-story' width='60'>
+\*Scene PARIS_STREET_MARKET (Color: Black)
+{% endhint %}  
 \*Camera Left 0  
 \*  
 Narrator: And emerge onto a sunny, wide, cobblestoned street, lined with stalls and bustling with people!  
@@ -889,7 +940,10 @@ Narrator: Suddenly, you feel a coarse hand grip your arm!
 Narrator: You whirl around quickly, and find yourself staring into the swarthy face of a man.  
 Narrator: He has lank, greasy hair, and a crooked nose, and beside him is an equally frightening looking man, also staring at you with a scary expression.  
 Narrator: The man who is grabbing your arm leers at you, and pulls you nearer towards him.  
-\*Scene PARIS_ALLEY (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_17th_paris_alley.jpg-story' width='60'>
+\*Scene PARIS_ALLEY (Color: Black)
+{% endhint %}  
 \*Harrasser1 Name ???  
 Harrasser1: Well well, what do we have here?  
 Narrator: His breath hits your face, stinking of garlic.  
@@ -897,7 +951,7 @@ Narrator: You recoil instinctively, trying to pull your arm away, but his grip i
 \*Harrasser2 Name ???  
 Harrasser2: Hmm... Very pretty.  
 Alice(surprise): Huh?!  
-(cd_01_22_the_harrassers)  
+# (cd_01_22_the_harrassers)  
 ## A. Who are you??  
 ## B. What do you want??  
 #### A  
@@ -944,7 +998,7 @@ Alice(sad): Let go of me!!
 Narrator: The thug laughs menacingly, a gold tooth glinting in the sunlight.  
 Harrasser1: Or what, girlie?  
 Alice*Think(sad): I should...  
-(cd_01_23_grip_your_arms)  
+# (cd_01_23_grip_your_arms)  
 ## A. Try to kick him!  
 ## B. Scream for help!  
 ## C. Cry and beg him to let you go!  
@@ -1016,7 +1070,7 @@ Narrator: His eyes, a mesmerizing emerald green, crinkles up with concern as he 
 Alice(surprise): YOU!  
 Armand: Are you alright, mademoiselle?  
 \*Model  
-(cd_01_24_meet_armand)  
+# (cd_01_24_meet_armand)  
 ## A. I... I recognize you!  
 \***  
 Alice(surprise): You're the man in the painting!  
@@ -1025,4 +1079,4 @@ Narrator: Then, he grins, the smile transforming his handsome face into somethin
 Armand(smile): I know not of this painting that you mention, but...  
 \*Armand Name Armand  
 Armand(smile): I am Armand.  
-End  
+# End  

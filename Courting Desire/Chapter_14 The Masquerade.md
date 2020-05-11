@@ -1,9 +1,15 @@
 # Begin  
-\*Scene COURTING_DESIRE_INTRO  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_fancy_dressing_room.jpg-story' width='60'>
+\*Scene COURTING_DESIRE_INTRO
+{% endhint %}  
 Narrator: Chapter Fourteen | <color=olive>The Masquerade</color>  
 # cd14_donedressing  
 \*Play Music m_romance_sprightly_spanish_rose_01  
-\*Scene BLUE_GOLD_PRINCESS_ROOM_DAY (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_princess_room_day.jpg-story' width='60'>
+\*Scene BLUE_GOLD_PRINCESS_ROOM_DAY (Color: Black)
+{% endhint %}  
 Narrator: It is the day of the Masquerade, and Jeanne has just finished helping you to get dressed for breakfast.  
 \*Alice Outfit Reset  
 Alice(smile): Thank you, Jeanne.  
@@ -13,7 +19,10 @@ Alice(surprise): You mean, like a date?
 Jeanne(smile): Oh well, I just thought that maybe you'd be going with either the Duke or the Prince...  
 Alice(shy): I... I don't know. Nobody's asked me yet...  
 Jeanne(happy): Well, maybe one of them will ask you today. Maybe over breakfast!  
-\*Scene PETITSALON_PALACE (Color: Black Time: 1.5)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_royal_palace_petitsalon.jpg-story' width='60'>
+\*Scene PETITSALON_PALACE (Color: Black Time: 1.5)
+{% endhint %}  
 Narrator: You make your way to the salon where breakfast is being held.  
 Narrator: Both Armand and Philippe are already there...  
 Armand(smile): There you are.  
@@ -31,7 +40,7 @@ Marie(angry): I'm surprised that you're still here.
 Alice(angry): Why wouldn't I be?  
 Marie(angry): Well, you barely escaped being convicted of witchcraft, for one.  
 Alice(angry): Yeah...  
-(cd_14_01_witchcraft)  
+# (cd_14_01_witchcraft)  
 ## A. And the King himself has judged me innocent.  
 ## B. Because of your father's baseless accusations.  
 ## C. You'd be happy if I was.  
@@ -71,7 +80,7 @@ Marie: What's the matter?
 Alice(sad): Nothing... just some food went down the wrong way.  
 Alice*Think(sad): Of course Philippe's her date... <i>they're engaged to be married after all.</i>  
 Alice*Think(sad): I...  
-(cd_14_02_maries_date)  
+# (cd_14_02_maries_date)  
 ## A. Still feel disappointed.  
 ## B. Don't care, I prefer Armand anyway.  
 ## C. I don't need a date.  
@@ -90,7 +99,7 @@ Armand: I wanted to ask you earlier, but what with the happenings in the past fe
 Alice(surprise): Yes?  
 Armand(smile): Will you do me the honor of letting me escort you to the Ball?  
 \*Model  
-(cd_14_03_armand_invitation)  
+# (cd_14_03_armand_invitation)  
 ## A. Actually, I'll just go by myself.  
 ## B. I would love for you to be my escort! (Cost: 18 Diamond ID: plot_cd_14_armand_invite)  
 #### A  
@@ -148,7 +157,7 @@ Narrator: Armand takes your hand and kisses it, before leaving. (Condition: ARMA
 \*Play Music m_gently_lifting_dreams_02  
 Therese: How are you feeling, my dear? Are you ready for the ball tonight?  
 Alice: I'm...  
-(cd_14_04_ready_for_the_ball)  
+# (cd_14_04_ready_for_the_ball)  
 ## A. Really excited about it!  
 ## B. Rather nervous about it.  
 ## C. Feeling a bit apprehensive.  
@@ -167,7 +176,7 @@ Therese: Like how to address people by their correct titles, how to conduct your
 Narrator: Tutorial | The Queen's advice will help you to win over the opinions of the Court later at the Ball!  
 Narrator: Tutorial | The Court's opinion is an important factor in determining the ending of this story!  
 Alice*Think: Oh! It would be useful so I don't embarrass myself later!  
-(cd_14_05_court_etiquette)  
+# (cd_14_05_court_etiquette)  
 ## A. Ask for Therese's advice! (Cost: 20 Diamond ID: plot_cd_14_queen)  
 ## B. Nah, I don't need advice.  
 #### A  
@@ -183,7 +192,7 @@ Therese: As for all the rest of the nobles, the correct way would be <color=blue
 Therese(smile): Someone who isn't a noble but a landholder, you would call <color=blue>Sir</color>.  
 Therese(smile): Would you like me to repeat that?  
 Alice*Think(confuse): Do I...?  
-(cd_14_05_DP1_repeat_one)  
+# (cd_14_05_DP1_repeat_one)  
 ## A. Yes, please repeat one more time!  
 ## B. No, I got it!  
 #### A  
@@ -198,7 +207,7 @@ Therese: And so on down the line of precedence.
 Therese(smile): So Louis and I will start first, followed by Philippe and his partner...  
 Therese: And then Armand would go next, since as a Duke he's the next highest ranking noble.  
 Therese(smile): Would you like me to repeat that?  
-(cd_14_05_DP2_repeat_two)  
+# (cd_14_05_DP2_repeat_two)  
 ## A. Yes, please repeat one more time!  
 ## B. No, I got it!  
 #### A  
@@ -215,7 +224,7 @@ Therese: Hmm... Help me decide the decor, dear.
 Therese(smile): For the decor, I'm hesitating between royal blue and gold, or black, white and silver.  
 Therese(smile): What do you think?  
 Alice: Hmm...  
-(cd_14_06_decide_the_decor)  
+# (cd_14_06_decide_the_decor)  
 ## A. Definitely royal blue and gold.  
 ## B. Black, white and silver can be dramatic.  
 #### A  
@@ -228,7 +237,7 @@ Therese(smile): Good point! We'll go with black, white and silver, then.
 \***  
 Therese: As for the food, should we go for a buffet table of finger foods, or a sit down four meal course?  
 Alice: Hmm...  
-(cd_14_07_decide_the_food)  
+# (cd_14_07_decide_the_food)  
 ## A. Definitely finger food!  
 ## B. A four meal course sounds good.  
 #### A  
@@ -258,13 +267,16 @@ Therese: Good.
 # cd14_go_bedroom  
 \*Stop Music  
 \*Play Music m_gently_classical_white_river_02  
-\*Scene BLUE_GOLD_PRINCESS_ROOM_DAY (Color: Black Time: 1.5)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_princess_room_day.jpg-story' width='60'>
+\*Scene BLUE_GOLD_PRINCESS_ROOM_DAY (Color: Black Time: 1.5)
+{% endhint %}  
 Narrator: That evening, Jeanne helps you to get ready for the Masquerade Ball in your room.  
 Alice(smile): I'm so excited!  
 Jeanne(smile): Of course you are! Masquerade parties are so fun!  
 Jeanne(sad): I wish I could attend one, just once in my life.  
 Alice: You know what, Jeanne?  
-(cd_14_08_parties)  
+# (cd_14_08_parties)  
 ## A. Who knows? Maybe one day you will.  
 ## B. I promise you I'll make that happen.  
 ## C. Servants don't go to Masquerade parties.  
@@ -283,7 +295,7 @@ Alice: Ahh... I suppose I'll need a fancy gown, and a mask?
 Jeanne: Yes, and I have some here for you to try on!  
 Narrator: Tutorial | Pick a dress for the Masquerade party!  
 \*Role  
-(cd_14_09_choose_dress)  
+# (cd_14_09_choose_dress)  
 ## A. Outfit Brown_Gown (Button: Choose this look. Cost: 25 Diamond ID: look_cd_14_clothes01)  
 ## B. Outfit Pink_Couture_Gown (Button: Choose this look. Cost: 29 Diamond ID: look_cd_14_clothes02)  
 ## C. Outfit Current (Button: Choose this look.)  
@@ -307,7 +319,7 @@ Jeanne(happy): You look very pretty, milady.
 \***  
 Jeanne(smile): Would you like me to do your hair as well?  
 \*Role  
-(cd_14_10_choose_hair)  
+# (cd_14_10_choose_hair)  
 ## A. Hair Bunny_Headwear (Button: Choose this look. Cost: 16 Diamond ID: look_cd_14_hair01)  
 ## B. Hair Renaissance_Updo (Button: Choose this look. Cost: 16 Diamond ID: look_cd_14_hair02)  
 ## C. Hair Usual_Hairstyle (Button: Choose this look.)  
@@ -366,12 +378,18 @@ Alice(shy): Let's go.
 ## B. (Condition: BLUE_GOLD_DECOR_14 < 1)  
 #### A  
 \*  
-\*Scene ROYAL_PALACE_BALLROOM_BLUE_GOLD (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_royal_palace_ballroom_blue.jpg-story' width='60'>
+\*Scene ROYAL_PALACE_BALLROOM_BLUE_GOLD (Color: Black)
+{% endhint %}  
 \*Camera Left 0  
 \*  
 #### B  
 \*  
-\*Scene ROYAL_PALACE_BALLROOM_BLACK_WHITE (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_royal_palace_ballroom_black.jpg-story' width='60'>
+\*Scene ROYAL_PALACE_BALLROOM_BLACK_WHITE (Color: Black)
+{% endhint %}  
 \*Camera Left 0  
 \*  
 \***  
@@ -386,7 +404,7 @@ Narrator: An elaborate side table is set up along the length of one wall, laden 
 Narrator: It's filled with beautiful nobles all dressed up in full baroque costumes...  
 Narrator: All of whom are complete strangers to you.  
 Alice(surprise): Ah...  
-(cd_14_11_baroque_costumes)  
+# (cd_14_11_baroque_costumes)  
 ## A. Enter without drawing attention to yourself.  
 ## B. Enter the ballroom confidently.  
 ## C. Hide behind Armand. (Condition: ARMAND_DATE_14 >= 1)  
@@ -480,7 +498,7 @@ Narrator: The young woman flounces away in a angry fit.
 # cd14_armand_stays  
 \>>  
 Alice(angry): Ugh.  
-(cd_14_12_hostile_attitude)  
+# (cd_14_12_hostile_attitude)  
 ## A. I can't stand the both of them!  
 ## B. How long is Philippe going to tolerate this?  
 ## C. Thank you for staying with me.  
@@ -520,7 +538,7 @@ Armand: And this is Madame Marguerite de Lorraine, Duchesse of Orleans.
 Gaspar: Enchante.  
 Narrator: You curtsy as the man kisses your hand.  
 Alice: Enchantee...  
-(cd_14_13_greeting)  
+# (cd_14_13_greeting)  
 ## A. Your Excellence, Madame.  
 ## B. Your Eminence, Mademoiselle.  
 ## C. Ambassador Gaspar, Marguerite.  
@@ -558,7 +576,7 @@ Narrator: Suddenly, musicians start playing music, and you all turn to see the K
 \*Camera Middle 2  
 Narrator: They make their way to the center of the ballroom, and start to dance with each other.  
 Alice(smile): Oh! They look so beautiful!  
-(cd_14_14_dancing)  
+# (cd_14_14_dancing)  
 ## A. Can we join in?  
 ## B. Why is nobody else dancing?  
 ## C. Philippe and Marie will join in next, right?  
@@ -585,7 +603,7 @@ Narrator: And he sweeps you into his arms, and starts twirling you around the ba
 \>>  
 Armand(smile): Are you enjoying yourself?  
 Alice(smile): I am.  
-(cd_14_15_enjoying_yourself)  
+# (cd_14_15_enjoying_yourself)  
 ## A. There's nobody else I'd rather be dancing with.  
 ## B. The entire evening is magical.  
 ## C. If only Philippe could dance with me too.  
@@ -613,7 +631,7 @@ Alice(surprise): Oh! You mean... in the 17th century?
 \>>  
 Narrator: He nods his head.  
 Alice: I...  
-(cd_14_16_stay_here)  
+# (cd_14_16_stay_here)  
 ## A. Think I would be happy to stay here.  
 ## B. Still want to go home to the 21st century.  
 ## C. Don't know.  
@@ -637,7 +655,7 @@ Alice: Well... I may have discovered some reasons to stay, after all.
 Narrator: Armand pulls you in even closer to him.  
 Armand: Oh? Like what reasons?  
 Alice(smile): ...  
-(cd_14_17_stay_reason)  
+# (cd_14_17_stay_reason)  
 ## A. Well... like you.  
 ## B. Like Philippe.  
 ## C. I just like the life here.  
@@ -664,7 +682,10 @@ Alice(shy): Like romance, and adventure...
 Narrator: The music suddenly comes to a stop, and Armand leads you off the dancefloor...  
 Narrator: And to your surprise, through a French window onto a balcony.  
 # cd14_love_symbol  
-\*Scene PALACE_BALCONY_NIGHT (Color: Black Time: 1.5)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_palace_balcony_night.jpg-story' width='60'>
+\*Scene PALACE_BALCONY_NIGHT (Color: Black Time: 1.5)
+{% endhint %}  
 Alice(shy): Why did you bring me here?  
 Armand: I thought we could do with a bit of fresh air.  
 Armand: I also wanted to speak with you in private. I've been doing a lot of thinking.  
@@ -677,7 +698,7 @@ Armand: Yes, like destiny. Maybe this ring brought you here... to me.
 Armand: Will you try it on?  
 Narrator: Blushing, you take the ring from his outstretched palm and slowly slide it onto your ring finger...  
 \*Item  
-(cd_14_18_ring_show)  
+# (cd_14_18_ring_show)  
 ## A. Emerald_Ring It's a perfect fit!  
 \***  
 \>>>  
@@ -686,7 +707,7 @@ Armand(surprise): I can't say I'm surprised. {Alice Name}...
 Armand: I want to give it to you.  
 Armand(smile): Will you accept it as a token of my feelings for you?  
 \*Model  
-(cd_14_19_stay_reason)  
+# (cd_14_19_stay_reason)  
 ## A. Tell him you can't accept such a gift.  
 ## B. Accept Armand's ring! (Cost: 24 Diamond ID: plot_cd_14_armand_ring)  
 #### A  
@@ -728,12 +749,18 @@ Narrator: You nod in agreement, and follow him back into the ballroom.
 ## B. (Condition: BLUE_GOLD_DECOR_14 < 1)  
 #### A  
 \*  
-\*Scene ROYAL_PALACE_BALLROOM_BLUE_GOLD (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_royal_palace_ballroom_blue.jpg-story' width='60'>
+\*Scene ROYAL_PALACE_BALLROOM_BLUE_GOLD (Color: Black)
+{% endhint %}  
 \*Camera Left 0  
 \*  
 #### B  
 \*  
-\*Scene ROYAL_PALACE_BALLROOM_BLACK_WHITE (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_royal_palace_ballroom_black.jpg-story' width='60'>
+\*Scene ROYAL_PALACE_BALLROOM_BLACK_WHITE (Color: Black)
+{% endhint %}  
 \*Camera Left 0  
 \*  
 \***  
@@ -775,7 +802,7 @@ Alice: Oh, Armand is getting some food and drinks. (Condition: ARMAND_DATE_14 >=
 Alice: Oh, I don't have an escort for this evening. (Condition: ARMAND_DATE_14 < 1)  
 Helene: Actually, we were looking for her Majesty. You haven't seen her anywhere, have you?  
 Alice: Her Majesty?  
-(cd_14_20_looking_for_the_queen)  
+# (cd_14_20_looking_for_the_queen)  
 ## A. Isn't she with His Majesty?  
 ## B. Last I saw her, she was dancing.  
 ## C. Perhaps she's resting somewhere nearby?  
@@ -793,7 +820,7 @@ Alice(confuse): Where are your escorts?
 Helene: Oh! He went to get a drink.  
 Genevieve: Mine is speaking with his Eminence, some boring conversation about state affairs or something.  
 Alice: Oh...  
-(cd_14_21_get_rid_of_them)  
+# (cd_14_21_get_rid_of_them)  
 ## A. Then you must go and rescue him!  
 ## B. That reminds me, I need to go find Armand.  
 ## C. Perhaps the both of you can dance together?  
@@ -816,7 +843,7 @@ Alice*Think: Phew! Helene and Genevieve are nice, but they almost ruined the pla
 Narrator: You continue making your way to the door, then you look casually around you.  
 Alice*Think: No one is looking at me...  
 \*Time 7 (Default: C)  
-(cd_14_22_TC_through_the_door)  
+# (cd_14_22_TC_through_the_door)  
 ## A. Open the door and slip through quickly!  
 ## B. Knock on the door!  
 ## C. Hesitate and look around you again!  
@@ -833,11 +860,17 @@ Alice*Think: There's still no one is looking at me...
 Alice*Think(sad): I'd better stop wasting time!  
 Narrator: Quickly, you open the door and slip through it to the other side.  
 \***  
-\*Scene ROYAL_PALACE_HALLWAY (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_royal_palace_hallway_day.jpg-story' width='60'>
+\*Scene ROYAL_PALACE_HALLWAY (Color: Black)
+{% endhint %}  
 Narrator: You find yourself in a corridor, where the Queen's handmaid is patiently waiting for you.  
 Agnes: Lady {Alice Name}, quick, follow me!  
 Narrator: The maid slips through another door on the far end of the corridor, and you follow quickly after her.  
-\*Scene QUEEN_CHANGINGROOM (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_queen_changeroom.jpg-story' width='60'>
+\*Scene QUEEN_CHANGINGROOM (Color: Black)
+{% endhint %}  
 \*Stop Music  
 \*Play Music m_intense_romance_acoustic_symphony_01  
 Narrator: You follow Agnes to another room, where the Queen is waiting for you.  
@@ -878,4 +911,4 @@ Rene(angry): Are you sure you have him under control?
 ### \*Goto cd14_end  
 # cd14_end  
 \*Stop Music  
-End  
+# End  

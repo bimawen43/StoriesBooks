@@ -1,10 +1,16 @@
 # Begin  
-\*Scene COURTING_DESIRE_INTRO  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_fancy_dressing_room.jpg-story' width='60'>
+\*Scene COURTING_DESIRE_INTRO
+{% endhint %}  
 Narrator: Chapter Thirteen | <color=olive>The More The Merrier</color>  
 # cd13_last_witness  
 \*Play Music m_melancholy_tension_heartbeat  
 \*  
-\*Scene KING_ANTECHAMBER (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_king_antechamber_day.jpg-story' width='60'>
+\*Scene KING_ANTECHAMBER (Color: Black)
+{% endhint %}  
 \*Camera Left 0  
 \*  
 \*Camera Right 3  
@@ -46,7 +52,7 @@ Anne: She'd never ridden in a carriage before that morning!
 Anne: And then she talked about <i>driving machines made of metal called cars</i>.  
 Narrator: Anne shuddered dramatically and made the sign of the cross.  
 \*Condition  
-(cd_13_01_CP_anne_goaway)  
+# (cd_13_01_CP_anne_goaway)  
 ## A. (Condition: ANNE_STAYS >= 1)  
 ## B. (Condition: ANNE_GOAWAY >= 1)  
 #### A  
@@ -79,7 +85,7 @@ Louis(surprise): This... it certainly looks like her, yes.
 \>>  
 Louis: Lady {Alice Name}, what do you have to say about this?  
 Alice(sad): Your Majesty...  
-(cd_13_02_explain_painting)  
+# (cd_13_02_explain_painting)  
 ## A. I knew nothing about this until that day.  
 ## B. I've never seen that portrait in my life!  
 #### A  
@@ -116,7 +122,7 @@ Rene: I think it's time the accused answered some questions herself.
 \>>  
 Rene: First of all, HOW did you get in the palace, and into her Majesty's study, three days ago?  
 Alice(sad): I...  
-(cd_13_03_how_to_get_in)  
+# (cd_13_03_how_to_get_in)  
 ## A. I told you, I don't remember! (Condition: FIRST_QUESTION_12 >= 1)  
 ## B. I don't remember! (Condition: DENIED_FIRST_12 >= 1)  
 ## C. I just... appeared there!  
@@ -140,7 +146,7 @@ Rene: If you didn't use <color=red>witchcraft</color> to get in, then <i><b>how 
 Alice(sad): I... I...  
 Rene: Secondly, <i>what were you doing in her Majesty's private study?</i>  
 Alice(sad): I...  
-(cd_13_04_what_were_you_doing)  
+# (cd_13_04_what_were_you_doing)  
 ## A. I was looking for my way out.  
 ## B. I didn't know it was the Queen's study!  
 ## C. Would you believe, looking at a ring?  
@@ -195,7 +201,7 @@ Narrator: Mazarin looks taken aback by your question.
 Alice*Think: Now is the best time to get Armand and Philippe to speak up for me...  
 Alice*Think: And debunk that love spell nonsense!  
 Alice: As for those ridiculous love spell accusations...  
-(cd_13_05_testify)  
+# (cd_13_05_testify)  
 ## A. Ask Armand and Philippe to speak! (Cost: 18 Diamond ID: plot_cd_13_testify)  
 ## B. Just defend yourself.  
 #### A  
@@ -257,7 +263,7 @@ Louis: I've heard the testimony of many people today, concerning the accused.
 Louis: Witchcraft is a serious accusation, and one not to be taken lightly.  
 Louis: Lord Mazarin has called many witnesses today to paint a picture of the accused.  
 \*Condition  
-(cd_13_06_CP_trial_point)  
+# (cd_13_06_CP_trial_point)  
 ## A. (Condition: Alice Trial >= 3)  
 ## B. (Condition: Alice Trial < 3)  
 #### A  
@@ -278,7 +284,7 @@ Narrator: As Therese breaks into a smile, and Philippe rushes forward to kiss hi
 Narrator: You finally let go of the breath which you hadn't even realize you'd been holding.  
 \>>  
 Alice: It's finally over...  
-(cd_13_07_end_trial)  
+# (cd_13_07_end_trial)  
 ## A. Cry with relief!  
 ## B. Just smile like crazy!  
 ## C. Go and hug everyone in the room!  
@@ -341,14 +347,17 @@ Narrator: Your stomach rumbles loudly as a reply.
 Alice(shy): Ooops... excuse me.  
 Philippe(smile): Let's have dinner.  
 # cd13_vent_anger  
-\*Scene ROYAL_PALACE_HALLWAY (Color: Black Time: 2)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_royal_palace_hallway_day.jpg-story' width='60'>
+\*Scene ROYAL_PALACE_HALLWAY (Color: Black Time: 2)
+{% endhint %}  
 \*Stop Music  
 \*Play Music m_classical_gently_earth_prelude_02  
 Narrator: As you head out into the hallway, you see Anne and Marie standing there talking to each other.  
 Narrator: They both glare at you as they see you, their faces flushing.  
 Marie(angry): I can't believe she's getting away scot-free.  
 Alice(angry): Excuse me??  
-(cd_13_08_vent_anger)  
+# (cd_13_08_vent_anger)  
 ## A. Give them both a piece of your mind! (Cost: 15 Diamond ID: plot_cd_13_anger)  
 ## B. Swallow your anger and walk away.  
 #### A  
@@ -371,7 +380,10 @@ Narrator: Their jaws hanging open in shock and their faces red with embarrassmen
 Alice*Think(sad): Froget about them, they're not worth my time!  
 \***  
 # cd13_personal_protection  
-\*Scene BLUE_GOLD_PRINCESS_ROOM_NIGHT (Color: Black Time: 2.5)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_princess_room_night.jpg-story' width='60'>
+\*Scene BLUE_GOLD_PRINCESS_ROOM_NIGHT (Color: Black Time: 2.5)
+{% endhint %}  
 Narrator: After dinner, you head back to your room with both men insisting to walk you.  
 \*Stop Music  
 \*Play Music m_romance_dinner_for_two_02  
@@ -384,7 +396,7 @@ Philippe: First the near drowning, and now this...
 Philippe: I think it's best for you to always be with either myself or Armand from now onward.  
 Armand: Yes, and I think it'll be best if you had someone to guard you at night too.  
 Alice(surprise): At night?  
-(cd_13_09_stay_at_night)  
+# (cd_13_09_stay_at_night)  
 ## A. Is that really necessary?  
 ## B. What are you suggesting...?  
 ## C. Mmm, I like the sound of that...  
@@ -400,7 +412,7 @@ Armand: One of us should stay with you in your chamber at night.
 Alice(shy): ...oh.  
 Philippe: To protect you.  
 Alice: Of course.  
-(cd_13_10_protect_you)  
+# (cd_13_10_protect_you)  
 ## A. I agree, it's best to be safe.  
 ## B. But who will protect me from you?  
 #### A  
@@ -416,7 +428,7 @@ Narrator: Tutorial | Choosing Armand or Philippe to stay with you will lead to a
 Narrator: Tutorial | Choosing the both of them will unlock an <color=purple>extra</color> steamy scene!  
 Alice(smile)*Think: Who do I want to stay with me at night?  
 \*Item  
-(cd_13_11_choose_guard)  
+# (cd_13_11_choose_guard)  
 ## A. ITEM_ARMAND I want Armand to stay! (Cost: 25 Diamond ID: plot_cd_13_armand)  
 ## B. ITEM_PHILIPPE I want Philippe to stay! (Cost: 25 Diamond ID: plot_cd_13_philippe)  
 ## C. ITEM_BOTH I want the both of them! (Cost: 30 Diamond ID: plot_cd_13_armand_n_philippe)  
@@ -464,7 +476,7 @@ Narrator: Suddenly, with a hard tug, he pulls the dress right off you, leaving y
 Alice(surprise): Oh!  
 Armand: Sorry, was that too forceful?  
 Alice: No...  
-(cd_13_11_A_DP1_dress_off)  
+# (cd_13_11_A_DP1_dress_off)  
 ## A. You just caught me by surprise.  
 ## B. I like it forceful.  
 #### A  
@@ -485,7 +497,7 @@ Narrator: As if to prove it, he deftly removes his vest, then his shirt, until h
 Narrator: You can't help but stare at his lean muscular chest, and well chiselled abs.  
 Armand(smile): ...  
 Alice*Think(smile): I should...  
-(cd_13_11_A_DP2_armands_body)  
+# (cd_13_11_A_DP2_armands_body)  
 ## A. Reach out and touch his abs.  
 ## B. Put on your nightgown and go to bed alone.  
 #### A  
@@ -505,7 +517,10 @@ Narrator: He walks over to the armchair in front of the fireplace, and sits down
 Narrator: You climb in bed, feeling safe at the knowledge that there is someone watching over you in your sleep.  
 Alice: Goodnight, Armand.  
 Armand: Goodnight, {Alice Name}.  
-\*Scene BLUE_GOLD_PRINCESS_ROOM_DAY (Color: White Time: 2.5)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_princess_room_day.jpg-story' width='60'>
+\*Scene BLUE_GOLD_PRINCESS_ROOM_DAY (Color: White Time: 2.5)
+{% endhint %}  
 Narrator: You wake up feeling rested and refreshed the next morning.  
 Narrator: As you sit up in bed, you see Armand already up and dressed, and washing up in front of the washbasin in your room.  
 \*Armand Outfit Armand_Courtdress  
@@ -546,7 +561,7 @@ Armand: You're so beautiful.
 Alice(shy): So are you, to be honest.  
 Narrator: He chuckles softly, his eyes dropping to your mouth.  
 Alice: Armand...  
-(cd_13_11_A_DP3_kiss_armand)  
+# (cd_13_11_A_DP3_kiss_armand)  
 ## A. Kiss me!  
 ## B. Kiss me <i><b>hard</b></i> !  
 #### A  
@@ -565,7 +580,7 @@ Alice: Ohhh...
 Armand: I want to taste you.  
 Narrator: His kiss moves lower still, down your neck to your cleavage, teasing and sucking.  
 Alice: Oh... oh my god... Armand...  
-(cd_13_11_A_DP4_flirt_with_armand)  
+# (cd_13_11_A_DP4_flirt_with_armand)  
 ## A. Take me to bed!  
 ## B. Drop to your knees and taste him.  
 #### B  
@@ -605,7 +620,10 @@ Narrator: He laughs and closes his eyes, his breath finally easing into a peacef
 \*Stop Music  
 \*Play Music m_gently_lifting_dreams_01  
 Narrator: You close your eyes too, happy and satisfied, and drift into a peaceful sleep...  
-\*Scene BLUE_GOLD_PRINCESS_ROOM_DAY (Color: White Time: 2.5)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_princess_room_day.jpg-story' width='60'>
+\*Scene BLUE_GOLD_PRINCESS_ROOM_DAY (Color: White Time: 2.5)
+{% endhint %}  
 \>  
 Narrator: You wake up the next morning snuggled up against Armand, your head resting on his shoulder, his arm around you.  
 Armand(smile): Good morning.  
@@ -670,7 +688,7 @@ Narrator: Suddenly, with a hard tug, he pulls the dress right off you, leaving y
 Alice(surprise): Oh!  
 Philippe(smile): Sorry, was that too forceful?  
 Alice: No...  
-(cd_13_11_B_DP1_dress_off)  
+# (cd_13_11_B_DP1_dress_off)  
 ## A. You just caught me by surprise.  
 ## B. I like it forceful.  
 #### A  
@@ -691,7 +709,7 @@ Narrator: As if to prove it, he deftly removes his vest, then his shirt, until h
 Narrator: You can't help but stare at his lean muscular chest, and well chiselled abs.  
 Philippe(smile): ...  
 Alice*Think(smile): I should...  
-(cd_13_11_B_DP2_philippes_body)  
+# (cd_13_11_B_DP2_philippes_body)  
 ## A. Reach out and touch his abs.  
 ## B. Put on your nightgown and go to bed alone.  
 #### A  
@@ -711,7 +729,10 @@ Narrator: He walks over to the armchair in front of the fireplace, and sits down
 Narrator: You climb in bed, feeling safe at the knowledge that there is someone watching over you in your sleep.  
 Alice: Goodnight, Philippe.  
 Philippe: Goodnight, {Alice Name}.  
-\*Scene BLUE_GOLD_PRINCESS_ROOM_DAY (Color: White Time: 2.5)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_princess_room_day.jpg-story' width='60'>
+\*Scene BLUE_GOLD_PRINCESS_ROOM_DAY (Color: White Time: 2.5)
+{% endhint %}  
 Narrator: You wake up feeling rested and refreshed the next morning.  
 Narrator: As you sit up in bed, you see Philippe already up and dressed, and washing up in front of the washbasin in your room.  
 \*Philippe Outfit Philippe_Courtdress  
@@ -753,7 +774,7 @@ Philippe: You're so beautiful. Even more beautiful than in my dreams.
 Alice(shy): So are you, to be honest.  
 Narrator: He chuckles softly, his eyes dropping to your mouth.  
 Alice: Philippe...  
-(cd_13_11_B_DP3_kiss_philippe)  
+# (cd_13_11_B_DP3_kiss_philippe)  
 ## A. Kiss me!  
 ## B. Kiss me <i><b>hard</b></i> !  
 #### A  
@@ -772,7 +793,7 @@ Alice: Ohhh...
 Philippe: I want to taste you.  
 Narrator: His kiss moves lower still, down your neck to your cleavage, teasing and sucking.  
 Alice: Oh... oh my god... Philippe...  
-(cd_13_11_B_DP4_flirt_with_philippe)  
+# (cd_13_11_B_DP4_flirt_with_philippe)  
 ## A. Take me to bed!  
 ## B. Drop to your knees and taste him.  
 #### B  
@@ -812,7 +833,10 @@ Narrator: He laughs and closes his eyes, his breath finally easing into a peacef
 \*Stop Music  
 \*Play Music m_gently_lifting_dreams_01  
 Narrator: You close your eyes too, happy and satisfied, and drift into a peaceful sleep...  
-\*Scene BLUE_GOLD_PRINCESS_ROOM_DAY (Color: White Time: 2.5)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_princess_room_day.jpg-story' width='60'>
+\*Scene BLUE_GOLD_PRINCESS_ROOM_DAY (Color: White Time: 2.5)
+{% endhint %}  
 \>  
 Narrator: You wake up the next morning snuggled up against Philippe, your head resting on his shoulder, his arm around you.  
 Philippe(smile): Hey, you're awake.  
@@ -881,7 +905,7 @@ Narrator: Suddenly, with a hard tug, he pulls the dress right off you, leaving y
 Alice(surprise): Oh!  
 Philippe: Sorry, was that too forceful?  
 Alice: No...  
-(cd_13_11_C_DP1_dress_off)  
+# (cd_13_11_C_DP1_dress_off)  
 ## A. You just caught me by surprise.  
 ## B. I like it forceful.  
 #### A  
@@ -907,7 +931,7 @@ Narrator: You can't help but stare at their lean muscular chests, and well chise
 Philippe(smile): ...  
 Armand(smile): ...  
 Alice*Think(smile): I should...  
-(cd_13_11_C_DP2_guys_body)  
+# (cd_13_11_C_DP2_guys_body)  
 ## A. Reach out and touch Armand's abs.  
 ## B. Slide your hand over Philippe's pecs.  
 ## C. Put on your nightgown and go to bed alone.  
@@ -932,7 +956,10 @@ Philippe(sad): I've never tried sleeping in a chair before, I guess there's alwa
 Narrator: Philippe settles down in the other armchair.  
 Narrator: You climb in bed, feeling safe at the knowledge that there is someone watching over you in your sleep.  
 Alice: Goodnight guys.  
-\*Scene BLUE_GOLD_PRINCESS_ROOM_DAY (Color: White Time: 2.5)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_princess_room_day.jpg-story' width='60'>
+\*Scene BLUE_GOLD_PRINCESS_ROOM_DAY (Color: White Time: 2.5)
+{% endhint %}  
 Narrator: You wake up feeling rested and refreshed the next morning.  
 Narrator: As you sit up in bed, you see the men already up and dressed.  
 Narrator: Armand is washing up in front of the washbasin in your room, and Philippe is buttoning his sleeve.  
@@ -990,7 +1017,7 @@ Armand: Your skin is so soft...
 Narrator: He grazes your neck with his lips, making you shiver involuntarily in delight.  
 \>>>  
 Alice: Armand, Philippe...  
-(cd_13_11_C_DP3_kiss_guys)  
+# (cd_13_11_C_DP3_kiss_guys)  
 ## A. Kiss me!  
 ## B. Kiss me <i><b>hard</b></i> !  
 #### A  
@@ -1010,7 +1037,7 @@ Alice: Ohhh...
 Armand: I want to taste you.  
 Narrator: Armand's kiss moves lower still, down your neck to your cleavage, teasing, nipping, sucking.  
 Alice: Oh... oh my god... Armand...  
-(cd_13_11_C_DP4_flirt_with_guys)  
+# (cd_13_11_C_DP4_flirt_with_guys)  
 ## A. Take me to bed!  
 ## B. Drop to your knees and taste them.  
 #### B  
@@ -1055,7 +1082,10 @@ Narrator: They both laugh and close their eyes, their breaths finally easing int
 \*Stop Music  
 \*Play Music m_gently_lifting_dreams_01  
 Narrator: You close your eyes too, happy and satisfied and sandwiched between them, and drift into a peaceful sleep...  
-\*Scene BLUE_GOLD_PRINCESS_ROOM_DAY (Color: White Time: 2.5)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_princess_room_day.jpg-story' width='60'>
+\*Scene BLUE_GOLD_PRINCESS_ROOM_DAY (Color: White Time: 2.5)
+{% endhint %}  
 \>  
 Narrator: You wake up the next morning snuggled up between Armand and Philippe, your head resting on Philippe's shoulder, Armand's arm around you.  
 Philippe(smile): Good morning.  
@@ -1097,7 +1127,10 @@ Armand: You should rest early.
 Philippe: Have a good rest, Lady {Alice Name}.  
 Narrator: They both bow and leave you alone in your room, and you change into your nightgown and climb into bed.  
 Narrator: Exhausted from the day's events, you fall asleep almost instantly.  
-\*Scene BLUE_GOLD_PRINCESS_ROOM_DAY (Color: White Time: 2.5)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_princess_room_day.jpg-story' width='60'>
+\*Scene BLUE_GOLD_PRINCESS_ROOM_DAY (Color: White Time: 2.5)
+{% endhint %}  
 Narrator: You wake up feeling rested and refreshed the next morning.  
 \*Alice Outfit Linen_Nightgown (Tap: Record)  
 Narrator: There is a soft knock on your door, then Jeanne enters the room.  
@@ -1109,4 +1142,4 @@ Jeanne(smile): Let's get you ready for the day!
 # cd13_get_dressed  
 Jeanne(smile): I've heard about the Masquerade party tonight!  
 Alice(smile): Yes, it's going to be one exciting evening, alright.  
-End  
+# End  

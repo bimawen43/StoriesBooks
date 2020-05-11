@@ -1,9 +1,15 @@
 # Begin  
-\*Scene COURTING_DESIRE_INTRO  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_fancy_dressing_room.jpg-story' width='60'>
+\*Scene COURTING_DESIRE_INTRO
+{% endhint %}  
 Narrator: Chapter Six | <color=olive>More Threats</color>  
 \*Play Music m_rage_tension_restless  
 \*  
-\*Scene KING_ANTECHAMBER (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_king_antechamber_day.jpg-story' width='60'>
+\*Scene KING_ANTECHAMBER (Color: Black)
+{% endhint %}  
 \*Camera Right 0  
 \*  
 Narrator: The two sisters have just cornered you in the King's antechamber!  
@@ -14,7 +20,7 @@ Alice(surprise): Philippe is your fiance?
 Marie(angry): You heard me!  
 \>  
 Alice: Okay...  
-(cd_06_01_the_other_fiance)  
+# (cd_06_01_the_other_fiance)  
 ## A. Is this another fake engagement?  
 ## B. I don't see what that's got to do with me.  
 #### A  
@@ -46,7 +52,7 @@ Marie: <i>Everything</i> about you is wrong.
 \>  
 Marie: And I don't appreciate harlots like you throwing themselves at my fiance.  
 Alice(angry): Excuse me, <i><b>harlot</b></i>?  
-(cd_06_02_harlot)  
+# (cd_06_02_harlot)  
 ## A. I didn't throw myself at him.  
 ## B. Philippe is coming on to <i>me</i>.  
 ## C. Oh, it is <i>on</i>.  
@@ -104,7 +110,10 @@ Narrator: As you run out into the hallway, you hear the sisters laughing at you.
 \*Play Music m_rage_crisis_final_boss_01  
 # cd06_meet_jeanne  
 \*  
-\*Scene PALAIS_ROYALE_FACADE (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_palais_facade_day.jpg-story' width='60'>
+\*Scene PALAIS_ROYALE_FACADE (Color: Black)
+{% endhint %}  
 \*Camera Right 0  
 \*  
 Narrator: You run all the way out of the Royal Palace.  
@@ -116,7 +125,7 @@ Alice*Think(cry): Was she really <i>threatening</i> me?
 Narrator: You wipe away the angry tears that are now spilling from your eyes.  
 Alice*Think(sad): I shouldn't let them get to me.  
 Alice*Think(sad): I just need to...  
-(cd_06_03_need_to_do)  
+# (cd_06_03_need_to_do)  
 ## A. Concentrate on finding my way home.  
 ## B. Help find out who tried to kill Louis!  
 ## C. Win the guys over and make the sisters jealous!  
@@ -145,7 +154,7 @@ Alice(sad): I... I don't know.
 Alice(sad): I just needed to get out of there for a while.  
 Jeanne(surprise): Why? Did something happen? Are you alright?  
 Alice(sad): I'm alright, it's just...  
-(cd_06_04_jeanne_concern)  
+# (cd_06_04_jeanne_concern)  
 ## A. Marie just threatened me too.  
 ## B. I was feeling a bit faint and needed some fresh air.  
 ## C. I was looking for you.  
@@ -184,14 +193,17 @@ Narrator: Just then, you see Philippe walk past!
 Alice*Think(surprise): This is the perfect opportunity to tell him about Marie's threat...  
 Alice*Think: And find out from him first hand about his engagement to her!  
 Alice*Think: I should...  
-(cd_06_05_philippe_speak)  
+# (cd_06_05_philippe_speak)  
 ## A. Speak with Philippe! (Cost: 16 Diamond ID: plot_cd_06_philippe_speak)  
 ## B. Don't speak with him.  
 #### A  
 \*Gain ASK_PHILIPPE  
 Alice: Sorry Jeanne, one moment.  
 Jeanne(smile): Go, go.  
-\*Scene PALACE_GARDEN_PATH (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_palace_garden_path_day.jpg-story' width='60'>
+\*Scene PALACE_GARDEN_PATH (Color: Black)
+{% endhint %}  
 Narrator: You hurriedly catch up with Philippe.  
 Alice: Your Highness!  
 Philippe(surprise): Lady {Alice Name}, is something the matter?  
@@ -203,7 +215,7 @@ Philippe(sad): I'm sorry she said those things to you. Pay her no attention.
 Alice(sad): But I think I've upset your fiancee.  
 Philippe(sad): Don't... call her that.  
 Alice(surprise): But...  
-(cd_06_05_DP1_philippe_fiancee)  
+# (cd_06_05_DP1_philippe_fiancee)  
 ### ## A. You ARE engaged to her, aren't you?  
 ### ## B. You don't want to be engaged to her?  
 #### A  
@@ -234,7 +246,10 @@ Philippe(smile): I hope to see you around more often.
 Alice(shy): Me too.  
 Narrator: Philippe continues on his way, and you make your way back to Jeanne.  
 \*  
-\*Scene PALAIS_ROYALE_FACADE (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_palais_facade_day.jpg-story' width='60'>
+\*Scene PALAIS_ROYALE_FACADE (Color: Black)
+{% endhint %}  
 \*Camera Right 0  
 \*  
 #### B  
@@ -281,7 +296,7 @@ Jeanne: Speak with them, let them get to know you...
 Jeanne: They'll soon realize it's all not true.  
 \>  
 Alice*Think: I can't let these rumors continue, I need to clear my name!  
-(cd_06_06_clear_your_name)  
+# (cd_06_06_clear_your_name)  
 ## A. Clear your name! (Cost: 19 Diamond ID: plot_cd_06_explain)  
 ## B. Just let them gossip.  
 #### A  
@@ -303,7 +318,10 @@ Alice(smile): Let's clear this up once and for all!
 Alice(smile): Lead the way, Jeanne!  
 Jeanne(happy): Yay! Follow me!  
 \>  
-\*Scene PALACE_KITCHEN (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_palace_kitchen_day.jpg-story' width='60'>
+\*Scene PALACE_KITCHEN (Color: Black)
+{% endhint %}  
 Narrator: You follow Jeanne to the Palace kitchen, where many servants are gathered, eating and chatting.  
 Francine: ...and then she said...  
 Francine(surprise): Oh!  
@@ -318,7 +336,7 @@ Alice(smile): Good day! I hope you all don't mind me coming to say hello!
 Beatrice: Oh no, not at all!  
 Narrator: The servants fall silent, as they stare back at you anxiously.  
 Alice*Think: How should I approach this?  
-(cd_06_06_DP1_approach)  
+# (cd_06_06_DP1_approach)  
 ## A. Be kind and gracious!  
 ## B. Be stern and outraged!  
 #### A  
@@ -353,7 +371,10 @@ Narrator: The servants all bow and curtsy, as you turn to leave.
 \*Stop Music  
 \*Play Music m_gently_romance_butterflies_love_01  
 \*  
-\*Scene PALAIS_ROYALE_FACADE (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_palais_facade_day.jpg-story' width='60'>
+\*Scene PALAIS_ROYALE_FACADE (Color: Black)
+{% endhint %}  
 \*Camera Right 0  
 \*  
 Jeanne: That was amazing, milady!  
@@ -394,7 +415,10 @@ Narrator: The servants all cringe and cower, as you spin around and stomp out.
 \*Stop Music  
 \*Play Music m_gently_romance_butterflies_love_01  
 \*  
-\*Scene PALAIS_ROYALE_FACADE (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_palais_facade_day.jpg-story' width='60'>
+\*Scene PALAIS_ROYALE_FACADE (Color: Black)
+{% endhint %}  
 \*Camera Right 0  
 \*  
 Jeanne: Wow, I never knew that you could be so tough, milady!  
@@ -418,7 +442,10 @@ Narrator: She curtsies and heads back into the Palace, leaving you alone once ag
 \*Stop Music  
 \*Play Music m_blue_epilog_sadness  
 \*  
-\*Scene PALACE_GARDEN_PATH (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_palace_garden_path_day.jpg-story' width='60'>
+\*Scene PALACE_GARDEN_PATH (Color: Black)
+{% endhint %}  
 \*Camera Right 0  
 \*  
 Narrator: It doesn't take you long before you manage to find your way to the Royal Garden.  
@@ -435,7 +462,7 @@ Alice*Think: It's like some Korean soap!
 \>  
 Alice*Think(sad): I think I really need to be careful of them.  
 Alice*Think: Perhaps the answer to how I can get back home lies in the mystery of...  
-(cd_06_07_the_answer)  
+# (cd_06_07_the_answer)  
 ## A. The Emerald Ring.  
 ## B. The Painting.  
 ## C. My dream about Armand and Philippe.  
@@ -462,7 +489,7 @@ Alice*Think: There are so many mysteries... where do I even begin?
 Alice*Think: Especially when it comes to Armand and Philippe...  
 \>>  
 Alice*Think(smile): I think I might have feelings for...  
-(cd_06_08_the_feeling)  
+# (cd_06_08_the_feeling)  
 ## A. Armand.  
 ## B. Philippe.  
 ## C. Both!  
@@ -519,7 +546,7 @@ Philippe: Lady {Alice Name}, what a pleasure to see you here in the garden.
 \***  
 Armand: Is everything alright? You weren't in the antechamber when we came out.  
 Alice: I'm fine, I just...  
-(cd_06_09_reason_for_leaving)  
+# (cd_06_09_reason_for_leaving)  
 ## A. Had to get away from Anne and Marie.  
 ## B. Needed some fresh air.  
 #### A  
@@ -592,7 +619,7 @@ Philippe(angry): And to catch the bastard who tried to kill him!
 \>  
 Narrator: Tutorial | Choosing to help them will increase their Romance with you, and unlock a bonus scene!  
 Alice*Think: This must be why I've been brought here!  
-(cd_06_10_help_catch_the_poisoner)  
+# (cd_06_10_help_catch_the_poisoner)  
 ## A. Tell them that you want to help them! (Cost: 23 Diamond ID: plot_cd_06_philippe) *Goto cd06_premium_guys  
 ## B. Wish them good luck.  
 #### B  
@@ -659,7 +686,7 @@ Philippe(smile): According to what I've heard some ladies whispering about him.
 Armand(surprise): Philippe!  
 Narrator: You burst out in laughter.  
 Alice(surprise): Philippe...  
-(cd_06_10_DP1_whisper_about_armand)  
+# (cd_06_10_DP1_whisper_about_armand)  
 ## A. Is that true?  
 ## B. Should I be worried?  
 #### A  
@@ -714,7 +741,10 @@ Alice: Likewise, your Grace.
 \>  
 Narrator: You curtsy, and turn around to head back to the Palace.  
 \*  
-\*Scene PALACE_GARDEN_FOUNTAIN_DAY (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_palace_garden_fountain_day.jpg-story' width='60'>
+\*Scene PALACE_GARDEN_FOUNTAIN_DAY (Color: Black)
+{% endhint %}  
 \*Camera Left 0  
 \*  
 Alice*Think: I do hope that the poisoner will be found soon...  
@@ -747,4 +777,4 @@ Narrator: Within seconds, your head goes under the water.
 Narrator: You stare desperately upwards towards the surface, as you continue sinking.  
 Narrator: Your lungs are now burning, your vision becoming dim, as you start to run out of oxygen...  
 Narrator: And you finally lose consciousness.  
-End  
+# End  

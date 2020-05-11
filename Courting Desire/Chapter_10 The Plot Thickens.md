@@ -1,8 +1,14 @@
 # Begin  
-\*Scene COURTING_DESIRE_INTRO  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_fancy_dressing_room.jpg-story' width='60'>
+\*Scene COURTING_DESIRE_INTRO
+{% endhint %}  
 Narrator: Chapter Ten | <color=olive>The Plot Thickens</color>  
 # cd10_palace_collogue  
-\*Scene PALACE_GARDEN_SEAT (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_royal_palace_garden_seat.jpg-story' width='60'>
+\*Scene PALACE_GARDEN_SEAT (Color: Black)
+{% endhint %}  
 Narrator*Top: Male Voice | <color=#1d62b8>This wretched newcomer will ruin all our plans!</color>  
 \*Play Music m_classical_gently_earth_prelude_01  
 Alice*Think(surprise): Wait! <i><b>Are they talking about me???</b></i>  
@@ -28,7 +34,7 @@ Narrator*Top: Marie | <color=#a42342>But it's my life! I think I should at least
 Narrator: They start walking further away, and their voices start to fade away...  
 Alice*Think: They're on the other side of this tall hedge. If I follow them along this side...  
 Alice*Think: I'll be able to continue listening to them without them knowing!  
-(cd_10_01_follow_and_listen)  
+# (cd_10_01_follow_and_listen)  
 ## A. Follow them and learn more information! (Cost: 20 Diamond ID: plot_cd_10_eavesdrop)  
 ## B. Stay put and stop listening.  
 #### A  
@@ -48,7 +54,10 @@ Narrator: You stand up and motion silently to Armand that you should follow them
 Narrator: He nods in agreement and the both of you start following Rene and Marie, on the other side of the tall hedge.  
 \*  
 \*Stop Music  
-\*Scene PALACE_GARDEN_PATH (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_palace_garden_path_day.jpg-story' width='60'>
+\*Scene PALACE_GARDEN_PATH (Color: Black)
+{% endhint %}  
 \*Camera Left 0  
 \*  
 \*Play Music m_classical_gently_earth_prelude_02  
@@ -70,7 +79,7 @@ Narrator: There is a loud snapping sound as you step on a large twig!
 Narrator*Top: Rene | <color=#1d62b8>What was that?</color>  
 \*Play Music m_extension_forest_audio  
 Alice(surprise): ...  
-(cd_10_01_DP1_TC_snapping_sound)  
+# (cd_10_01_DP1_TC_snapping_sound)  
 \*Time 7 (Default: C)  
 ## A. Stop walking and keep quiet!  
 ## B. Stop walking and hold your breath!  
@@ -136,7 +145,10 @@ Narrator*Top: Rene | <color=#1d62b8>And don't worry, I may have found something.
 Narrator: You have all almost reached the palace by now. Rene and Marie stop talking, and walk towards it.  
 Narrator: You exchange looks with Armand, and the both of you return to your earlier seating area in the garden.  
 \*Stop Music  
-\*Scene PALACE_GARDEN_SEAT (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_royal_palace_garden_seat.jpg-story' width='60'>
+\*Scene PALACE_GARDEN_SEAT (Color: Black)
+{% endhint %}  
 \*Play Music m_gently_lifting_dreams_01  
 \>>R  
 Alice: Wow. That was interesting.  
@@ -149,7 +161,7 @@ Alice: Makes me think she did.
 Alice: What do you think he's planning, though? Why does he want Marie to marry Philippe so badly?  
 Armand(smile): Well, he <b>IS</b> a prince, that makes him more eligible than most of the men in France.  
 Alice(smile): Yes, but...  
-(cd_10_02_renes_plan)  
+# (cd_10_02_renes_plan)  
 ## A. It seems like there's more to it.  
 ## B. It's still creepy being match-made like that.  
 ## C. Maybe I'm reading too much into it.  
@@ -198,7 +210,10 @@ Armand: Shall we head back to the palace?
 Narrator: He offers you his arm again, and you take it and the both of you start heading back.  
 \*Stop Music  
 \*  
-\*Scene PALAIS_ROYALE_FACADE (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_palais_facade_day.jpg-story' width='60'>
+\*Scene PALAIS_ROYALE_FACADE (Color: Black)
+{% endhint %}  
 \*Camera Right 0  
 \*  
 \*Play Music m_classical_cheerful_garden  
@@ -218,7 +233,7 @@ Armand: I... of course. What about {Alice Name}?
 Anne: {Alice Name}, will you be joining us?  
 Narrator: Tutorial | Join them to play a fun 17th century French card game, and prevent Anne and Marie from monopolizing Armand and Philippe all afternoon!  
 Alice*Think: If I don't go, they'll have the entire afternoon alone with Armand and Philippe...  
-(cd_10_03_join_picnic)  
+# (cd_10_03_join_picnic)  
 ## A. Join them for a picnic! (Cost: 24 Diamond ID: plot_cd_10_picnic)  
 ## B. Decline and go take a nap.  
 #### A  
@@ -235,11 +250,20 @@ Alice: Have a nice picnic-
 Anne: Alright then everyone follow me! I've already had the servants set up the spot for our picnic...  
 Narrator: Anne skips forward and takes Armand's arm, and the four of them head off to the picnic... leaving you all alone.  
 Alice: I have three hours until I have to meet the Queen for tea, just enough time for a quick nap...  
-\*Scene BLUE_GOLD_PRINCESS_ROOM_DAY (Color: Black Time: 3)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_princess_room_day.jpg-story' width='60'>
+\*Scene BLUE_GOLD_PRINCESS_ROOM_DAY (Color: Black Time: 3)
+{% endhint %}  
 Narrator: You head back to your room, climb into bed...  
-\*Scene BLACK  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_black.jpg-story' width='60'>
+\*Scene BLACK
+{% endhint %}  
 Narrator: ... and soon fall asleep.  
-\*Scene BLUE_GOLD_PRINCESS_ROOM_DAY (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_princess_room_day.jpg-story' width='60'>
+\*Scene BLUE_GOLD_PRINCESS_ROOM_DAY (Color: Black)
+{% endhint %}  
 Narrator: You wake up a while later.  
 Narrator: It must have been a small nap, because the sun has moved only slightly further along in the sky.  
 Alice(sad): I really miss having my phone to tell the time.  
@@ -258,7 +282,10 @@ Alice(smile): I'll be glad to join.
 Marie: Oh, goody.  
 Anne: Alright then everyone follow me! I've already had the servants set up the spot for our picnic...  
 \*Stop Music  
-\*Scene PALACE_GARDEN_PICNIC (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_royal_palace_garden_picnic.jpg-story' width='60'>
+\*Scene PALACE_GARDEN_PICNIC (Color: Black)
+{% endhint %}  
 \*Play Music m_gently_romance_butterflies_love_02  
 Narrator: You all follow Anne to another section of the garden, where you have never been before.  
 Narrator: A picnic has been set up on the grass, with a large blanket and cushions to lounge on, and a gorgeous silk canopy for shade.  
@@ -288,7 +315,7 @@ Anne: How do you like the salad, Alice?
 Alice(smile): It's really good! Did you make it yourself?  
 Anne(happy): Oh heavens, no! But I instructed the kitchen staff on the ingredients I wanted in the salad.  
 Alice(smile): ...  
-(cd_10_03_DP1_salad)  
+# (cd_10_03_DP1_salad)  
 ## A. Well, it's delicious.  
 ## B. What's in it?  
 ## C. Did you prepare anything yourself?  
@@ -334,12 +361,12 @@ Philippe: Why don't we each draw a card, and the one who draws the smallest card
 Narrator: Philippe shuffles the deck of cards expertly, and places it in the centre of the group.  
 Narrator: Everyone takes turns drawing a card...  
 \*Item  
-(cd_10_03_DP2_draw_card)  
+# (cd_10_03_DP2_draw_card)  
 ## A. ITEM_POKER_BACK Draw a card.  
 \***  
 Alice: Um, I have the Queen of Hearts...  
 \*Item  
-(cd_10_03_DP3_show_card)  
+# (cd_10_03_DP3_show_card)  
 ## A. ITEM_POKER_FACE Show the card.  
 \***  
 Armand: I have the King of Spades.  
@@ -368,7 +395,7 @@ Alice*Think: If I choose Armand, she won't be happy about that...
 \>  
 Alice(smile): I'll partner with...  
 \*Item  
-(cd_10_04_DP3_choose_partner)  
+# (cd_10_04_DP3_choose_partner)  
 ## A. ITEM_ARMAND Armand!  
 ## B. ITEM_PHILIPPE Philippe!  
 #### A  
@@ -449,7 +476,7 @@ Marie: Enough talking!
 Narrator: She looks at you.  
 Marie: Drink or answer a question?  
 Alice: I'll...  
-(cd_10_03_A_DP4_choose_punish)  
+# (cd_10_03_A_DP4_choose_punish)  
 ## A. Drink.  
 ## B. Answer a question.  
 #### A  
@@ -482,7 +509,7 @@ Alice: What was the question again?
 Marie: Is there anybody that you have a romantic interest in?  
 \>  
 Alice: ...  
-(cd_10_03_A_DP5_love_someone)  
+# (cd_10_03_A_DP5_love_someone)  
 ### ## A. Yes.  
 ### ## B. No.  
 #### A  
@@ -587,7 +614,7 @@ Marie: Enough talking!
 Narrator: She looks at you.  
 Marie: Drink or answer a question?  
 Alice: I'll...  
-(cd_10_03_B_DP4_choose_punish)  
+# (cd_10_03_B_DP4_choose_punish)  
 ## A. Drink.  
 ## B. Answer a question.  
 #### A  
@@ -620,7 +647,7 @@ Alice: What was the question again?
 Marie: Is there anybody that you have a romantic interest in?  
 \>  
 Alice: ...  
-(cd_10_03_B_DP5_love_someone)  
+# (cd_10_03_B_DP5_love_someone)  
 ### ## A. Yes.  
 ### ## B. No.  
 #### A  
@@ -677,7 +704,7 @@ Anne(surprise): What are you doing? Just leave that for the servants to clean up
 Alice: Oh, right.  
 Marie: Are you used to cleaning up after yourself?  
 Alice: ...  
-(cd_10_04_servants_work)  
+# (cd_10_04_servants_work)  
 ## A. I am, actually.  
 ## B. Not everybody has a battalion of servants.  
 #### A  
@@ -691,7 +718,10 @@ Armand: Personally, I think sometimes we should all be capable of cleaning up af
 Anne: Oh! I agree.  
 Narrator: Marie shoots Anne a look, but keeps quiet, and you all walk back to the palace together.  
 \*  
-\*Scene PALAIS_ROYALE_FACADE (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_palais_facade_day.jpg-story' width='60'>
+\*Scene PALAIS_ROYALE_FACADE (Color: Black)
+{% endhint %}  
 \*Camera Right 0  
 \*  
 Philippe: Shall we, Armand?  
@@ -706,7 +736,10 @@ Alice: Thanks. See you all at dinner later.
 ### \*Goto cd10_tea_queen_knit  
 # cd10_tea_queen_knit  
 \*Stop Music  
-\*Scene FANCY_17TH_SITTINGROOM (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_fancy_sitting_room.jpg-story' width='60'>
+\*Scene FANCY_17TH_SITTINGROOM (Color: Black)
+{% endhint %}  
 Narrator: You find your way back to the salon without any problem.  
 \*Play Music m_gently_romance_butterflies_love_02  
 Narrator: The Queen is already there, giving instructions to the servant setting the table.  
@@ -742,7 +775,7 @@ Therese(smile): Let's start with Armand and Philippe.
 Therese(smile): I pride myself on my observation skills, and if I'm not wrong...  
 Therese(smile): Both men seem to have developed affections for you.  
 Alice(shy): Oh! Umm...  
-(cd_10_05_affections)  
+# (cd_10_05_affections)  
 ## A. I... I don't know about that.  
 ## B. How can you tell?  
 ## C. Do you really think so?  
@@ -785,7 +818,7 @@ Alice(surprise): ...
 Therese: I see from your expression that you find this shocking.  
 Therese: But arranged marriages are a fact of life here, amongst the nobility. You mustn't judge us.  
 Alice: No, I understand.  
-(cd_10_06_arranged_marriage)  
+# (cd_10_06_arranged_marriage)  
 ## A. So Philippe has no choice?  
 ## B. It's really happening then.  
 ## C. Poor Philippe.  
@@ -819,7 +852,7 @@ Therese: Well, engagements can always be broken, can't they?
 Alice(surprise): {*Joyful Oh!}  
 Alice*Think(surprise): This is my chance to get the Queen to help me!  
 Alice*Think: I should ask the Queen to...  
-(cd_10_12_queen_help)  
+# (cd_10_12_queen_help)  
 ## A. Convince Louis to break the engagement! (Cost: 15 Diamond ID: plot_cd_10_break_engagement)  
 ## B. Matchmake you and Armand! (Cost: 15 Diamond ID: plot_cd_10_matchmake_armand)  
 ## C. Do both of the above! (Cost: 25 Diamond ID: plot_cd_10_both_armand_philippe)  
@@ -888,7 +921,7 @@ Therese: Yes, at this point, let's just hope it'll work out well for Philippe.
 # cd10_end_chapter  
 Therese: Tell me, Lady {Alice Name}... What do you think of Anne and Marie?  
 Alice(surprise): Oh, umm...  
-(cd_10_08_anne_and_marie)  
+# (cd_10_08_anne_and_marie)  
 ## A. I don't like them.  
 ## B. They don't like me.  
 ## C. We seem to be friends now.  
@@ -912,4 +945,4 @@ Alice: Is there a reason that you're asking me all this, Madam?
 Therese: Yes, actually there is. I wonder, {Alice Name}...  
 \>>>R  
 Therese: Can I trust you?  
-End  
+# End  

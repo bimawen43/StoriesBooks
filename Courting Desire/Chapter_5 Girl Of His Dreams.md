@@ -1,9 +1,15 @@
 # Begin  
-\*Scene COURTING_DESIRE_INTRO  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_fancy_dressing_room.jpg-story' width='60'>
+\*Scene COURTING_DESIRE_INTRO
+{% endhint %}  
 Narrator: Chapter Five | <color=olive>Girl Of His Dreams</color>  
 \*Play Music m_intense_romance_acoustic_symphony_01  
 # cd05_explanation  
-\*Scene FANCY_17TH_SITTINGROOM (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_fancy_sitting_room.jpg-story' width='60'>
+\*Scene FANCY_17TH_SITTINGROOM (Color: Black)
+{% endhint %}  
 Narrator: You are all gathered in the salon in the Royal Palace, where Philippe has just unveiled a painting...  
 Narrator: Of a girl that looks exactly like you!  
 Armand(sad): So the reason you painted this is because...  
@@ -50,7 +56,7 @@ Alice*Think: Jeanne said that Philippe can't stand people who suck up to him...
 Alice*Think: And that I shouldn't be afraid to state my opinions.  
 \***  
 Alice: I think...  
-(cd_05_01_opinions_of_the_painting)  
+# (cd_05_01_opinions_of_the_painting)  
 ## A. It's exquisite, perfectly painted!  
 ## B. It's the most beautiful art I've ever seen!  
 ## C. It's not professional, but it's pretty. (Condition: INSIDE_INFO >= 1)  
@@ -90,7 +96,7 @@ Alice(surprise): Huh? You mean, you want to give it to me?
 Philippe(smile): Yes. That is, if you want it.  
 Narrator: Tutorial | Accepting the painting from the Prince will increase <color=purple>Romance</color> with him, as well as raise Court Opinion of you!  
 Alice(smile): I...  
-(cd_05_02_accepted_the_painting)  
+# (cd_05_02_accepted_the_painting)  
 ## A. Would be honored to accept it! (Cost: 18 Diamond ID: item_cd_05_Philippe_painting)  
 ## B. Couldn't possibly accept such a gift.  
 #### A  
@@ -133,7 +139,7 @@ Alice*Think: Maybe it was details that he was uncomfortable sharing with Anne in
 Alice*Think: I wonder if I follow him... will he tell me, if it's just the two of us?  
 Narrator: Tutorial | Following Philippe will let you spend some alone time with him and increase his <color=purple>Relationship</color> with you, as well as learn more about the painting!  
 Alice*Think: Should I follow Philippe?  
-(cd_05_05_follow_philippe)  
+# (cd_05_05_follow_philippe)  
 ## A. Follow Philippe! (Cost: 21 Diamond ID: plot_cd_05_philippe)  
 ## B. Just stay in the salon.  
 #### A  
@@ -165,7 +171,10 @@ Anne(angry): Is she a witch??
 Armand(angry): Anne, please guard your tongue.  
 \***  
 \*  
-\*Scene PALACE_GARDEN_FOUNTAIN_DAY (Color: Black Time: 0.5)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_palace_garden_fountain_day.jpg-story' width='60'>
+\*Scene PALACE_GARDEN_FOUNTAIN_DAY (Color: Black Time: 0.5)
+{% endhint %}  
 \*Camera Left 0  
 \*  
 Narrator: You pick up your pace once you leave the salon...  
@@ -221,7 +230,7 @@ Philippe: Who ARE you? And where are you from?
 Alice*Think: Jeanne said that I should be <b>mysterious</b> and hard to get...  
 \***  
 Alice: ...  
-(cd_05_05_DP2_status)  
+# (cd_05_05_DP2_status)  
 ## A. Insist you're just a normal girl.  
 ## B. Change the subject.  
 ## C. Give a mysterious reply. (Condition: INSIDE_INFO >= 1)  
@@ -275,7 +284,7 @@ Anne: I wouldn't think too much of it, if I were you.
 Alice*Think: And... of course Anne has to give her two cents as well.  
 Anne: There's probably some perfectly good reason for it.  
 Alice: Yeah?  
-(cd_05_06_CP_annes_opinion)  
+# (cd_05_06_CP_annes_opinion)  
 ## A. Like what?  
 ## B. Pity I'm not interested to hear your theories.  
 #### A  
@@ -310,7 +319,10 @@ Alice: Ready.
 ### \*Goto cd05_kingchamber  
 # cd05_kingchamber  
 \*  
-\*Scene KING_ANTECHAMBER (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_king_antechamber_day.jpg-story' width='60'>
+\*Scene KING_ANTECHAMBER (Color: Black)
+{% endhint %}  
 \*Camera Left 0  
 \*  
 \*Camera Right 4  
@@ -358,7 +370,7 @@ Narrator: The room is so beautiful, so lavish...
 Narrator: It really brings home the fact that you are about to meet the King and Queen of France.  
 \>>  
 Alice: Armand...  
-(cd_05_07_do_not_panic)  
+# (cd_05_07_do_not_panic)  
 ## A. Does the King normally take visitors in his chamber?  
 ## B. We won't be disturbing him, will we?  
 #### A  
@@ -386,7 +398,10 @@ Palaceguard2: Your Highness, your Grace, if you please.
 Alice*Think(sad): This is it...!  
 Narrator: The four of you enter the next room...  
 \*  
-\*Scene KING_CHAMBER_DAY (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_king_chamber_day.jpg-story' width='60'>
+\*Scene KING_CHAMBER_DAY (Color: Black)
+{% endhint %}  
 \*Camera Left 0  
 \*  
 \*Camera Right 4  
@@ -520,7 +535,7 @@ Rene: It's my job to watch out for anybody who could potentially cheat or harm t
 Marie: Daddy has a point. He only has his Majesty's well being at heart.  
 \*Camera Right 1  
 Alice*Think(sad): What should I do?  
-(cd_05_08_rene_slander)  
+# (cd_05_08_rene_slander)  
 ## A. Speak up and defend yourself.  
 ## B. Keep quiet.  
 #### A  
@@ -616,7 +631,7 @@ Narrator: Tutorial | Singing for the King will increase his and the Queen's <col
 Narrator: Tutorial | As well as unlock a special scene with Armand or Philippe, and increase Romance with him!  
 Louis: Please! It will be such a pleasant distraction from the pain.  
 \*Item  
-(cd_05_09_sing_for_the_king)  
+# (cd_05_09_sing_for_the_king)  
 ## A. ITEM_PHILIPPE Sing with Philippe. (Cost: 20 Diamond ID: plot_cd_05_Philippe_sing)  
 ## B. ITEM_ARMAND Sing with Armand. (Cost: 20 Diamond ID: plot_cd_05_Armand_sing)  
 ## C. ITEM_NOTHING Insist you can't sing.  
@@ -640,7 +655,10 @@ Therese(happy): I can't wait to hear the duet!
 \*Camera Left 1  
 Narrator: You follow Philippe out to the antechamber.  
 \*  
-\*Scene KING_ANTECHAMBER (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_king_antechamber_day.jpg-story' width='60'>
+\*Scene KING_ANTECHAMBER (Color: Black)
+{% endhint %}  
 \*Camera Right 0  
 \*  
 \>>  
@@ -666,7 +684,7 @@ Narrator: He means in closer to you, and winks...
 \>>>  
 Philippe(smile): This has been the most fun I've ever had teaching someone to sing.  
 Alice(shy): I...  
-(cd_05_09_DP2_exercise_with_philippe)  
+# (cd_05_09_DP2_exercise_with_philippe)  
 ## A. Enjoyed it tremendously too.  
 ## B. Hope that they will like it.  
 #### A  
@@ -681,7 +699,10 @@ Philippe(smile): I'm sure they will love it.
 Philippe(smile): Ready to dazzle them?  
 Alice(smile): Ready.  
 \*  
-\*Scene KING_CHAMBER_DAY (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_king_chamber_day.jpg-story' width='60'>
+\*Scene KING_CHAMBER_DAY (Color: Black)
+{% endhint %}  
 \*Camera Left 0  
 \*  
 \*Camera Right 2  
@@ -736,7 +757,10 @@ Therese(happy): I can't wait to hear the duet!
 \*Camera Left 1  
 Narrator: You follow Armand out to the antechamber.  
 \*  
-\*Scene KING_ANTECHAMBER (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_king_antechamber_day.jpg-story' width='60'>
+\*Scene KING_ANTECHAMBER (Color: Black)
+{% endhint %}  
 \*Camera Right 0  
 \*  
 \>>  
@@ -767,7 +791,7 @@ Alice(smile): Good!
 Narrator: He means in closer to you, and winks...  
 Armand(smile): This has been the most fun I've ever had learning to sing a song.  
 Alice(shy): I...  
-(cd_05_09_DP3_exercise_with_armand)  
+# (cd_05_09_DP3_exercise_with_armand)  
 ## A. Enjoyed it tremendously too.  
 ## B. Hope that they will like it.  
 #### A  
@@ -782,7 +806,10 @@ Armand(smile): I'm sure they will love it.
 Armand(smile): Ready to dazzle them?  
 Alice(smile): Ready.  
 \*  
-\*Scene KING_CHAMBER_DAY (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_king_chamber_day.jpg-story' width='60'>
+\*Scene KING_CHAMBER_DAY (Color: Black)
+{% endhint %}  
 \*Camera Left 0  
 \*  
 \*Camera Right 2  
@@ -849,7 +876,10 @@ Marie: Let's leave the men to converse.
 \>  
 Narrator: You follow the two women's lead and curtsy, and the three of you leave the King's chambers.  
 \*  
-\*Scene KING_ANTECHAMBER (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_king_antechamber_day.jpg-story' width='60'>
+\*Scene KING_ANTECHAMBER (Color: Black)
+{% endhint %}  
 \*Camera Right 0  
 \*  
 \*Camera Left 3  
@@ -867,4 +897,4 @@ Alice(surprise): Excuse me??
 Alice*Think(sad): Why is this happening again???  
 Marie(angry): You heard me!  
 Marie(angry): <b><i>Stay away from my fiance!</i></b>  
-End  
+# End  

@@ -1,9 +1,15 @@
 # Begin  
-\*Scene COURTING_DESIRE_INTRO  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_fancy_dressing_room.jpg-story' width='60'>
+\*Scene COURTING_DESIRE_INTRO
+{% endhint %}  
 Narrator: Chapter Nine | <color=olive>Angels And Witches</color>  
 # cd09_witch_angel  
 \*Play Music m_intense_romance_acoustic_symphony_01  
-\*Scene BLUE_GOLD_PRINCESS_ROOM_NIGHT (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_princess_room_night.jpg-story' width='60'>
+\*Scene BLUE_GOLD_PRINCESS_ROOM_NIGHT (Color: Black)
+{% endhint %}  
 Narrator: Philippe is in your bedroom, standing so close to you that he has you pressed up against the door!  
 Alice(surprise): Philippe, what are you ——  
 Philippe(sad): Are you a witch?  
@@ -16,7 +22,7 @@ Philippe(sad): Why are you so mysterious? <i>Who are you exactly??</i>
 Philippe(sad): Are you a witch? Or maybe you're an angel?  
 \>  
 Alice(sad): I...  
-(cd_09_01_are_you_witch)  
+# (cd_09_01_are_you_witch)  
 ## A. Am definitely not a witch.  
 ## B. Can't explain what's going on either.  
 #### A  
@@ -52,7 +58,7 @@ Narrator: At your question, he frowns and finally takes a step back, letting go 
 Narrator: He runs a hand through his hair in frustration.  
 Philippe(sad): I have no feelings for her.  
 Alice: ...  
-(cd_09_02_no_feelings_for_marie)  
+# (cd_09_02_no_feelings_for_marie)  
 ## A. Really?  
 ## B. She definitely thinks you belong to her.  
 #### A  
@@ -71,7 +77,7 @@ Philippe(sad): It's not as easy as that.
 Philippe: But now that the angel from my dreams is here...  
 Philippe: How am I supposed to be with another?  
 Alice: ...  
-(cd_09_03_angel_from_the_dream)  
+# (cd_09_03_angel_from_the_dream)  
 ## A. Do you really mean that?  
 ## B. Oh you're such a flirt, stop it.  
 ## C. You want to be with me?  
@@ -115,7 +121,7 @@ Philippe(smile): I'm the guy who painted a portrait of you, before he met you.
 Philippe(smile): So who am I to say anything sounds crazy?  
 \>  
 Alice(smile): You're right.  
-(cd_09_04_tell_the_true)  
+# (cd_09_04_tell_the_true)  
 ## A. Tell him everything.  
 ## B. Don't tell him where you're really from.  
 #### A  
@@ -159,7 +165,7 @@ Narrator: He lifts your chin up with his hand, so that you're staring back at hi
 Narrator: His mouth is so close to yours, if you lean forward just a little, you could kiss him...  
 Philippe: {Alice Name}...  
 Alice: ...  
-(cd_09_05_kiss_philippe)  
+# (cd_09_05_kiss_philippe)  
 ## A. Kiss Philippe! (Cost: 16 Diamond ID: plot_cd_09_philippe_kiss)  
 ## B. Gently push him away.  
 #### A  
@@ -203,13 +209,19 @@ Alice: Good night.
 Narrator: You step aside and he walks past you and exits the room. You sigh as you close the door behind him.  
 Alice: What a predicament I've gotten myself in.  
 Alice: I think I should really get some rest now.  
-\*Scene BLACK (Color: Black Time: 3)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_black.jpg-story' width='60'>
+\*Scene BLACK (Color: Black Time: 3)
+{% endhint %}  
 Narrator: But your night is restless.  
 Narrator: You toss and turn in bed, your sleep haunted by dreams of Philippe, and Armand, and Armand and Philippe.  
 Narrator: You are in the middle of a particularly interesting one...  
 \*Stop Music  
 Narrator: Where Armand is kissing you on your neck, and Philippe is kissing you on your thigh, slowly making his way up...  
-\*Scene BLUE_GOLD_PRINCESS_ROOM_DAY (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_princess_room_day.jpg-story' width='60'>
+\*Scene BLUE_GOLD_PRINCESS_ROOM_DAY (Color: Black)
+{% endhint %}  
 \*Play Music m_romance_dinner_for_two_02  
 \*Alice Outfit Linen_Nightgown (Tag: Record)  
 Narrator: When you are woken from your sleep by a soft knock on the door. You rub the sleep from your eyes groggily.  
@@ -224,7 +236,7 @@ Narrator: As if to punctuate your reply, you accidentally yawn.
 \>>  
 Jeanne(surprise): Oh no, what happened?  
 Alice: ...  
-(cd_09_06_morning)  
+# (cd_09_06_morning)  
 ## A. Tell her about the dreams.  
 ## B. Be vague.  
 #### A  
@@ -250,7 +262,7 @@ Jeanne: Wearing a dress in her favorite color will help you to <color=purple>gai
 Jeanne: Will you try it on?  
 Narrator: Tutorial | A gorgeous lavender dress that will enhance your Charm!  
 \*Role  
-(cd_09_07_choose_dress)  
+# (cd_09_07_choose_dress)  
 ## A. Outfit Sweet_Lavender_Dress (Button: Wear the Sweet Lavender Dress! Cost: 25 Diamond ID: look_cd_09_lavender_dress)  
 ## B. Outfit Current (Button: Wear your old dress.)  
 #### A  
@@ -278,7 +290,7 @@ Jeanne(sad): Oh... I'm so sorry to hear that you had such an unpleasant evening.
 Alice(shy): Well, the evening wasn't <i>entirely</i> unpleasant...  
 Jeanne(surprise): Oh, what happened later?  
 Alice: Umm...  
-(cd_09_08_pleasant_thing)  
+# (cd_09_08_pleasant_thing)  
 ## A. Confide in her that Philippe was here.  
 ## B. Just say something vague.  
 ## C. Don't tell her anything, it's too private!  
@@ -329,7 +341,10 @@ Jeanne: Oh, I'm glad to hear that at least.
 Jeanne: Anyway, you should be heading down for breakfast, milady.  
 Alice: You're right. And with any luck, I'll have more pleasant seating companions than last night.  
 \*Stop Music  
-\*Scene PETITSALON_PALACE (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_royal_palace_petitsalon.jpg-story' width='60'>
+\*Scene PETITSALON_PALACE (Color: Black)
+{% endhint %}  
 \*Play Music m_gently_classical_white_river_01  
 Narrator: Jeanne leads you to the salon where breakfast is being held. It's a bright, cheery room, with a small table with seating for six people.  
 Narrator: You note with relief that only Armand and Philippe are there for now. They both stand up as you enter the room.  
@@ -339,7 +354,7 @@ Narrator: You seat yourself between the both of them, and they sit back down.
 Alice*Think: No chance of anybody unpleasant sitting beside me today!  
 Philippe(smile): Did you have a good rest?  
 Alice: ...  
-(cd_09_09_a_good_rest)  
+# (cd_09_09_a_good_rest)  
 ## A. Yes.  
 ## B. It wasn't very restful, but it was at least pleasant.  
 #### A  
@@ -363,7 +378,7 @@ Alice(sad): Not exactly, no.
 Marie(smile): Anne have I have discussed, and we think it would be good for everyone if we were all friends.  
 Marie(smile): Do you think we might start all over?  
 Alice(sad): Oh, er...  
-(cd_09_10_be_friends)  
+# (cd_09_10_be_friends)  
 ## A. I guess?  
 ## B. I agree, we should be friends!  
 ## C. Is this some kind of trick?  
@@ -400,7 +415,7 @@ Alice(sad): Right.
 Marie(smile): I'm having the best dressmaker in Paris make my wedding gown.  
 Marie(smile): Would you like to see the sketch of it?  
 Alice(sad): Er...  
-(cd_09_11_maries_wedding_gown)  
+# (cd_09_11_maries_wedding_gown)  
 ## A. Yeah, sure.  
 ## B. I'm not the best person to ask for fashion advice.  
 ## C. Do I really have to?  
@@ -469,7 +484,7 @@ Therese(smile): And then Armand decided to stay here too. Interesting.
 Alice: Philippe only suggested that I stay here because he was concerned about my safety.  
 Therese(surprise): Really? Why is he concerned about your safety? Are you in danger?  
 Alice*Think: Should I tell her about the pond incident?  
-(cd_09_12_CP_pond_incident)  
+# (cd_09_12_CP_pond_incident)  
 ## A. Confide in the Queen.  
 ## B. Keep it to yourself.  
 ## C. Mention it vaguely.  
@@ -509,7 +524,7 @@ Narrator: The queen glances over to the rest of the group, who are still busy ta
 Therese: I see that Marie is talking about the wedding preparations again.  
 Alice*Think: This is my chance to speak with the Queen!  
 Alice*Think: I should ask her...  
-(cd_09_13_ask_queen_question)  
+# (cd_09_13_ask_queen_question)  
 ## A. How she feels about the engagement.  
 ## B. Why Louis agreed with Rene.  
 ## C. If there is anything that I can do for her.  
@@ -565,7 +580,10 @@ Alice(surprise): Certainly. I'm done eating already, do you want to go now?
 Armand: Yes, let's go.  
 \*Stop Music  
 \*  
-\*Scene PALACE_GARDEN_PATH (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_palace_garden_path_day.jpg-story' width='60'>
+\*Scene PALACE_GARDEN_PATH (Color: Black)
+{% endhint %}  
 \*Camera Right 0  
 \*  
 \*Play Music m_gently_romance_heavenly  
@@ -586,7 +604,7 @@ Narrator: You dig in the folds of your gown and bring out the emerald ring.
 Narrator: He reaches in his pocket and takes out the emerald ring.  
 \***  
 \*Item  
-(cd_09_14_ring_view)  
+# (cd_09_14_ring_view)  
 ## A. Emerald_Ring The emerald gleams and winks in the sunlight.  
 #### A  
 \*Emerald_Ring -1  
@@ -594,7 +612,7 @@ Narrator: Armand grows quiet, as if in deep thought.
 \***  
 Armand(sad): ...  
 Alice: ...  
-(cd_09_15_be_quiet)  
+# (cd_09_15_be_quiet)  
 ## A. Ask him what he's thinking.  
 ## B. Give him space and keep quiet.  
 #### A  
@@ -607,7 +625,7 @@ Narrator: Then he turns back to you.
 \>>  
 Armand: I've mentioned before that this ring used to belong to my mother.  
 Alice: Yes, you said that it was her...  
-(cd_09_16_history_of_the_ring)  
+# (cd_09_16_history_of_the_ring)  
 ## A. Wedding ring.  
 ## B. Engagement ring.  
 ## C. Dowry.  
@@ -636,7 +654,7 @@ Narrator: You take Armand's outstretched arm, and the both of you continue walki
 Alice*Think: I don't really know anything about Armand's family, or his childhood...  
 Narrator: Tutorial | Get Armand to open up to you to learn about his childhood, and increase your <color=purple>Romance</color> with him!  
 Alice: Armand...  
-(plot_cd_09_armand_family)  
+# (plot_cd_09_armand_family)  
 ## A. What was your family like? (Cost: 18 Diamond ID: plot_cd_09_armand_family)  
 ## B. Never mind.  
 #### A  
@@ -650,7 +668,7 @@ Armand: Oh! What do you want to know?
 \*Stop Music  
 \*Play Music m_romance_beauty_love  
 Alice*Think: What should I ask him?  
-(cd_09_17_DP1_ask_armand)  
+# (cd_09_17_DP1_ask_armand)  
 ## A. Tell me about your mother. (Condition: ASKED_A_9 < 1)  
 ## B. Tell me about your father. (Condition: ASKED_B_9 < 1)  
 ## C. Were you an only child? (Condition: ASKED_C_9 < 1)  
@@ -701,7 +719,7 @@ Narrator: Armand suddenly stops walking again, and turns to you, his expression 
 \>>  
 Armand: Do you believe in Fate?  
 Alice: ...  
-(cd_09_18_believe_in_fate)  
+# (cd_09_18_believe_in_fate)  
 ## A. Yes, I do.  
 ## B. No, I don't.  
 ## C. I don't know.  
@@ -729,7 +747,10 @@ Alice(sad): I don't know what to think of it either.
 \>  
 Narrator: He sighs, and looks away.  
 Armand: Let's take a seat here.  
-\*Scene PALACE_GARDEN_SEAT (Color: Black)  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_royal_palace_garden_seat.jpg-story' width='60'>
+\*Scene PALACE_GARDEN_SEAT (Color: Black)
+{% endhint %}  
 Narrator: Armand gently guides you to a little shaded nook, off the path and hidden behind a tall hedge.  
 Narrator: He sits down... and suddenly pulls you to sit on his lap!  
 Alice(surprise): {*Joyful <b>Oh!!</b>}  
@@ -738,7 +759,7 @@ Narrator: His dazzling gold-flecked green eyes transfixed on your lips...
 \>>  
 Armand: {Alice Name}...  
 Alice: ...  
-(cd_09_19_kiss_armand)  
+# (cd_09_19_kiss_armand)  
 ## A. Stay on his lap and kiss him! (Cost: 16 Diamond ID: plot_cd_09_armand_kiss)  
 ## B. Push him away and sit on the bench.  
 #### A  
@@ -771,7 +792,7 @@ Armand(sad): I'm sorry, that was much too forward of me.
 Armand: {Alice Name}, I have to confess... seeing you with Philippe...  
 Armand(sad): Is making me feel very strange.  
 Alice(sad): Armand...  
-(cd_09_20_feel_strange)  
+# (cd_09_20_feel_strange)  
 ## A. What do you mean?  
 ## B. Are you jealous?  
 ## C. I feel very confused too.  
@@ -811,4 +832,4 @@ Narrator: They sound agitated...
 Narrator*Top: Male Voice | This wretched newcomer will ruin all our plans!  
 \>>  
 Alice*Think(surprise): Wait! <i><b>Are they talking about me???</b></i>  
-End  
+# End  
