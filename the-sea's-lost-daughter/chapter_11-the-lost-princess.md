@@ -1,0 +1,786 @@
+# Begin  
+\*  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_witch_house_ransacked.jpg-story' width='60'>
+\*Scene WITCH_HOUSE_RANSACKED
+{% endhint %}  
+\*Camera Right 0  
+\*  
+\*Play Music m_rage_tension_dark  
+Amara(sad): You wanted to know why the Deep Sea Clan was searching for you? Sending soldiers?  
+Amara(sad): It's because their king, King Avos, thinks you're his daughter, the long lost princess.  
+\>>  
+Layla(surprise)*Think: A lost mermaid princess?! Me?!  
+# (sld_11_01_mermaid_princess)  
+## A. That's not possible.  
+## B. Do you think it's true?  
+## C. I'm a mermaid <i>and</i> a princess?! Awesome!  
+#### A  
+Layla(sad): How can I be a princess? That's absurd. Like something out of a fairytale.  
+Amara: You mean like falling into the ocean and discovering you're a mermaid?  
+Layla: ...Point taken.  
+#### B  
+Narrator: Amara studies your face, concern written on her features.  
+Amara(sad): I'm not sure. The sample they showed me was old and faded.  
+Amara(sad): It was familiar... Similar to yours, but I'm not confident.  
+#### C  
+Amara(smile): Oh, sure... You're living the charmed princess life.  
+Narrator: Amara gestures around the room at her destroyed house.  
+Amara: On the run from soldiers is a far cry from palace luxuries.  
+\***  
+\>  
+Narrator: You sit down, your mind racing with so many thoughts for what this could mean.  
+Layla: Can you tell me more about this king and this 'lost princess?'  
+Amara: Hmmm... I don't know much about it. I try to stay out of politics.  
+Amara: But when it happened, it was all people could talk about. Some say he murdered her.  
+Amara: Others thought the queen had a secret lover and ran off to be with him.  
+Layla(sad): What do you think happened?  
+Narrator: The sea witch shrugs, studying your face critically.  
+Amara(smile): Maybe the princess has been hiding on land all this time.  
+\>>  
+Layla(surprise)*Think: Then my mother... Was she a {*Joyful queen?!}  
+\>  
+Layla(surprise): You said people thought the queen ran off...  
+# (sld_11_02_the_queen)  
+## A. Where is the queen now?  
+## B. What happened to her?  
+\***  
+Amara(sad): No one knows. She's just as lost as the princess...  
+Amara: Although King Avos never showed much interest in finding his wife.  
+Amara: ...Which is why so many people think she was having an affair.  
+\*Stop Music  
+\*Play Music m_suspense_fear_intense_many_02  
+\>>>  
+Layla(sad)*Think: Could this really be my family? Is any of it familiar?  
+\>  
+Narrator: You drop your head into your hands, thinking back to everything you've learned about your family recently.  
+Layla(sad)*Think: I think there was a clue in...  
+# (sld_11_03_the_clue)  
+## A. The spell Mom put on me. *Goto merm11_clue_spell  
+## B. Her memory box. *Goto merm11_clue_box  
+\***  
+# merm11_clue_spell  
+\*Condition  
+# (sld_11_04_grandma_flashback)  
+## A. (Condition: GRANDMA_FLASHBACK >= 1)  
+## B. (Condition: GRANDMA_FLASHBACK = 0)  
+#### A  
+Narrator: You remember the images your grandma showed you... The words spoken during the ritual...  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_beach_sky_night_meteors.jpg-story' width='60'>
+\*Scene OCEAN_NIGHT_METEORS (Color: White Time: 0.5)
+{% endhint %}  
+\*+MAGIC_CIRCLE_STDBY  
+Dorothea(surprise): Let the will of her mother's heart strengthen our magic...  
+\*+MAGIC_CIRCLE_START  
+Dorothea(surprise): And cast this child into a new form!  
+\*+MAGIC_CIRCLE_STDBY  
+\*-MAGIC_CIRCLE_START  
+Narrator: The wind whips around them harder, the candle flames dancing wildly.  
+Dorothea(angry): Drazara Beliril Avos to {Layla Name} Sky Dawson!  
+\*+FLASHBACK_ANIMATION  
+\*  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_witch_house_ransacked.jpg-story' width='60'>
+\*Scene WITCH_HOUSE_RANSACKED (Color: White)
+{% endhint %}  
+\*Camera Right 0  
+\*  
+\>>>  
+Layla(surprise): {*Attention Avos!}  
+\>  
+Amara: Hmm..? What are you saying?  
+Narrator: You gasp, your heart pounding, barely able to believe it.  
+Layla(surprise): Drazara Beliril Avos. Was that the princess' name?  
+Amara(surprise): ...Yes. Princess Drazara Avos. Beliril was her mother's name.  
+Layla(surprise): The queen... Skyla Beliril.  
+Message: Clue Found | You learned something important!  
+### \*Goto merm11_discovery  
+#### B  
+Layla(sad)*Think: Nothing Grandma told me ever mentioned a king or a princess...  
+Message: Missing Clue | You missed out on a clue to your heritage.  
+Layla(sad)*Think: Maybe if I had seen the full memory through her magic, I would know more.  
+Layla(angry)*Think: There's got to be something else... What about the memory box?  
+### \*Goto merm11_clue_box  
+\***  
+# merm11_clue_box  
+\*Stop Music  
+\*Play Music illusion4  
+Narrator: You think about the things inside the memory box.  
+Layla(sad)*Think: There was the necklace, the flowers, the letters...  
+Narrator: Suddenly, you remember the gleaming shell and the words carved into its surface...  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_memory_box.jpg-story' width='60'>
+\*Scene MEMORY_BOX (Color: White Time: 3)
+{% endhint %}  
+Narrator: You lift the shell in your hands.  
+\*Item  
+## A. Seashell_Legend Etched into the opalescent surface are words.  
+\***  
+Narrator: The Shell | <i>Skyla Beliril and Leden Avos</i>  
+Narrator: The Shell | <i>May the home we build together last for eternity.</i>  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_magic_sense_objects.jpg-story' width='60'>
+\*Scene BG_MAGIC_SENSE_OBJECTS
+{% endhint %}  
+Layla(surprise): Leden Avos... Is that... my father?  
+Grandma: It is. That was given to your mother at her engagement ceremony.  
+\*  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_witch_house_ransacked.jpg-story' width='60'>
+\*Scene WITCH_HOUSE_RANSACKED (Color: White Time: 3)
+{% endhint %}  
+\*Camera Right 0  
+\*  
+\>>>  
+Layla(surprise): {*Attention Avos!}  
+\>  
+Amara: Hmm..? What are you saying?  
+Narrator: You gasp, your heart pounding, barely able to believe it.  
+Layla(surprise): Skyla Beliril and Leden Avos.  
+Layla(surprise): The king and queen. Those are their names, right?  
+Narrator: Amara stares at you a moment in shock.  
+Amara(surprise): ...Yes. Queen Skyla Beliril and King Leden Avos.  
+Message: Clue Found | You learned something important!  
+### \*Goto merm11_discovery  
+# merm11_discovery  
+\*Stop Music  
+\*Play Music m_melancholy_tension_heartbeat  
+Layla(surprise): Then it's true... I really am the lost princess of the Deep Sea Clan.  
+Layla(surprise): This is...  
+# (sld_11_05_lost_princess)  
+## A. Amazing!  
+## B. Terrifying!  
+#### A  
+Layla(smile): I'm... I'm a {*Joyful princess}.  
+Layla(sad): And the man looking for me is my... father.  
+#### B  
+Layla(sad): I hoped it was a misunderstanding, that they'd stop when they learned the truth.  
+Layla(sad): But they really are looking for <b>me.</b>  
+Layla(sad): My... <b>father</b>... is looking for me.  
+\***  
+\*Camera Left 3  
+Narrator: Amara takes your hand, guiding you to sit down with a gentle touch.  
+\>>  
+Amara(sad): For years, the King poured all of his clan's resources into finding the princess.  
+Amara(sad): And he's still searching after all this time.  
+Layla(sad)*Think: My father...  
+# (sld_11_06_about_father)  
+## A. He must have loved me so much.  
+## B. But he made my mother miserable!  
+## C. I don't know what to think.  
+#### A  
+Layla: I never realized there might be someone out there looking for me.  
+Layla(sad): No one told me the truth about my father until recently.  
+Layla(sad): And everything I've heard about him has been terrible.  
+Narrator: The small, warm glow in your chest dims significantly.  
+#### B  
+Layla(angry): Mom was terrified of him. She hid me away because of him.  
+Layla(angry): I don't care how long he's been searching for me.  
+Layla(sad): It doesn't change how I feel about him.  
+#### C  
+Layla(angry): Why does it feel like I never have all the information?!  
+Layla: My mom was convinced my father was a monster.  
+Layla(sad): But surely he cared for me... right?  
+\***  
+\>  
+Narrator: You look down at your tail, at the sea witch's destroyed home...  
+Layla: My life just keeps getting crazier...  
+Layla: Now on top of everything, I'm the Deep Sea Clan's lost princess?  
+\*Stop Music  
+\*Play Music suspicion  
+Tai(angry)*Shout: You're <i>what?!</i>  
+\*Camera Right 2  
+Zale(surprise): {Layla Name}...?  
+Layla(surprise): We just figured it out... Why they're looking for me.  
+Zale(sad): This can't be possible... can it?  
+Narrator: He turns to Amara, who nods.  
+Amara(sad): I don't know for certain, but--  
+Layla(sad): I'm certain.  
+\*Condition  
+## A. (Condition: GRANDMA_FLASHBACK >= 1)  
+## B. (Condition: GRANDMA_FLASHBACK = 0)  
+#### A  
+Layla: My grandma showed me her memories through magic.  
+Layla: And before they turned me human, my name was Drazara Avos.  
+#### B  
+Layla: Grandma gave me a box of my mother's keepsakes.  
+Layla: One of them was a shell carved with her name and her fiance's...  
+Layla: Leden Avos.  
+\***  
+\*Stop Music  
+Narrator: The room goes deathly quiet.  
+Narrator: Both Tai and Zale are staring at you - one angry, the other deeply confused.  
+\*Play Music m_rage_tension_dark  
+\>>  
+Tai(angry): So she's a Deep Sea mer... This whole time we've been helping...  
+Zale(sad): She didn't know. She <i>just</i> found out about it.  
+\>>>  
+Tai(angry): You don't know that. She could be playing us both.  
+Zale(angry): What? She's not a <i>spy</i>!  
+Tai(angry): Didn't you tell me she seemed awfully familiar with the Shadow...  
+Zale(surprise): Well, yeah, but she--  
+Layla(angry): <i>She</i>...  
+# (sld_11_07_tai_query)  
+## A. ...is standing right here!  
+## B. ...is not a spy!  
+#### A  
+Narrator: Zale looks sheepish, rubbing the back of his neck.  
+Zale(sad): Sorry, {Layla Name}... I'm just a little shocked.  
+#### B  
+Zale(sad): We know that, {Layla Name}. Tai was just...  
+Tai(angry): ...  
+Narrator: Tai says nothing, glaring at you.  
+\***  
+\>  
+Amara(sad): Why don't we sleep on it. It's very late, and we all need rest.  
+Tai(sad): Yes, of course, ma'am. You've been through quite the ordeal.  
+Narrator: The sea witch waves him off dismissively.  
+Amara(smile): I've been through worse. My house may never recover, though...  
+Tai: You're free to stay with my family, Amara, until we sort things out.  
+Zale(smile): Right. So we can talk about this at Tai's house.  
+Tai(angry): ...No. Amara is free to stay with me.  
+Tai(angry): But I won't endanger my family by having her with us.  
+Zale(surprise): Tai! Where is she supposed to go?!  
+Layla(sad): I could always go home... It's probably safer on land--  
+Zale: No. That's not a good idea.  
+Layla(surprise): But why?  
+Amara(sad): For one thing, I don't have a transformation potion ready for you...  
+Amara(sad): They destroyed my workshop, my tools, my ingredients...  
+Layla(sad): Oh... Good point.  
+\*Stop Music  
+\*Play Music soft  
+Narrator: Amara turns to Zale, nodding.  
+Amara: You and {Layla Name} can stay here. They didn't touch my room upstairs.  
+Narrator: Amara drifts toward Zale and puts a hand on his arm, giving the muscles a squeeze.  
+Amara(smile): I'm sure you're more than capable of defending her yourself.  
+Zale(smile): Heh. Thank you, Amara. That's very generous of you.  
+Amara(smile): No it's not. I want you on guard in case those bastards come back.  
+Narrator: Zale starts a laugh, grinning and shaking his head.  
+Zale(smile): Right. I'll be sure to keep a look out.  
+Narrator: As Tai and the sea witch prepare to leave, you catch Amara glancing around her home with sadness.  
+\>>  
+Layla(sad): Amara...  
+# (sld_11_08_sadness_amara)  
+## A. I'm so sorry this happened.  
+## B. Is there anything I can do to help?  
+#### A  
+Narrator: She give you a small, sad smile, shaking her head.  
+Amara(smile): Wasn't your fault. And it's not so bad...  
+#### B  
+Amara(smile): A kind offer, but it's not necessary.  
+\***  
+Amara: They didn't hurt me, just my things. I can get new things.  
+Amara(sad): May have to sell some stuff to rebuild, though.  
+Amara(surprise): Oh! Actually... Maybe you could help.  
+Layla(surprise): What is it? I can try to clean some of this up...  
+Amara(smile): No, no... Upstairs in my room is a trunk of old clothes.  
+Amara(smile): If you see anything you like, I'll sell it to you.  
+Layla(surprise): Oh! I can certainly take a look...  
+\>  
+\*Stop Music  
+\*Play Music oceandance1  
+Narrator: That settled, Amara nods at you and Zale both, then floats out the door.  
+\>>  
+Tai: ...  
+\>  
+Narrator: Tai gives Zale a look you don't really understand, then follows the sea witch.  
+Zale(sad): Ugh...  
+Narrator: Zale sighs, retreating into the house and flopping against a column.  
+\>>  
+Zale(sad): I hate fighting with him.  
+Layla(sad): I'm sorry...  
+Zale: Don't. I stand by what I said. I would have meant it even if we weren't... You know.  
+Layla(smile): ...  
+# (sld_11_09_zale_stand_by)  
+## A. Friends?  
+## B. Into each other?  
+#### A  
+Zale(smile): I think Tai would call it 'getting too close.'  
+Zale: He's not a bad guy. Just... cautious. He has to look out for his family.  
+Narrator: A silence falls over you both as you think about what just happened.  
+#### B  
+Zale(shy): <i>Very</i> into each other... At least... I am.  
+Narrator: He smiles at you, and it makes your cheeks warm with a blush.  
+\***  
+### \*Goto merm11_bedroom  
+# merm11_bedroom  
+\>  
+Zale(shy): So, uh... Did you want to check out the dresses upstairs?  
+Layla(smile): Sure. The bed's up there too, and we both need rest.  
+Narrator: As the two of you swim up into the bedroom area, it suddenly hits you.  
+Layla(surprise)*Think: ...Wait. There's probably only one bed, isn't there?  
+\*Stop Music  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_witch_house_bedroom.jpg-story' width='60'>
+\*Scene WITCH_HOUSE_BEDROOM (Color: Black)
+{% endhint %}  
+\*Play Music m_romance_beauty_love02  
+Narrator: The bedroom is tidy. Amara was right... None of her attackers had touched this room.  
+Narrator: And dominating the room was a bed. One bed.  
+Layla(shy)*Think: So does that mean... We'd have to... I mean...  
+Zale: Think I found the chest she was talking about.  
+Narrator: He opens the lid and stunning fabric in a dozen hues floats out as some trapped bubbles escape.  
+Layla(surprise): Woah...  
+Zale(smile): Amara's got good taste. She used to live in the capital, so she's got lots of fancy things.  
+Narrator: You drift to the box of dresses, pulling a few out to look at them.  
+Layla(surprise): The capital... of your clan? Do you have a King, too?  
+Zale(happy): Ha! No king. We vote for our leaders. There's a council. It's a whole thing.  
+Narrator: You lift out a gauzy purple skirt, curious to try it on.  
+Layla(shy): Um, could you... turn away, so I can try this on?  
+Zale(smile): Of course. And promise I won't peek.  
+Layla(angry): You'd better not!  
+Narrator: He turns, covering his eyes with one hand for good measure, and you quickly shimmy into the gown.  
+Narrator: The gauzy fabric floats around your tail like magic. As you turn to look in the mirror...  
+\*Layla Outfit Prem_Poseidons_Kiss (Tag: Record)  
+Layla(surprise): Oh, wow... Zale, look!  
+# (sld_11_10_show_gown)  
+## A. Isn't it beautiful?  
+## B. This might be a little too <i>revealing</i>...  
+#### A  
+Narrator: Zale raises his eyebrows when he sees you.  
+\>>  
+Zale(surprise): Yeah! That looks... ahem. It's uh... It's great on you!  
+Narrator: You spin in a circle, petting the soft fabric as it floats around you.  
+#### B  
+Narrator: Zale turns around and his eyes drift over the gown you're wearing.  
+\>>  
+Zale(shy): It's... wow. Does it make you feel uncomfortable, or...?  
+Layla(shy): I don't usually show this much skin... I'm not sure it looks good on me.  
+Zale(smile): No way. You are <i>gorgeous.</i>  
+\***  
+\>  
+Layla(smile): Hmmm...  
+\*Model  
+# (sld_11_11_pay_gown)  
+## A. Put it back...  
+## B. Buy the dress! (Cost: 25 Diamond ID: look_sld_11_poseidons_kiss)  
+#### A  
+Layla(sad): I think... I'm going to pass. Turn around again?  
+Narrator: Zale does as ordered. You change back into what you had on before.  
+\*Layla Outfit Reset  
+#### B  
+\*Gain POSEIDONS_KISS_11  
+Layla(happy): Okay, yes. I'm convinced. I have to get it.  
+Zale(happy): You get to look hot and Amara gets some funds to help her out.  
+Layla(smile): Right? It's a win/win.  
+Narrator: You carefully fold the other garments and place them back inside the trunk.  
+Narrator: When you turn back, you notice Zale staring at you.  
+Layla(surprise): What is it?  
+Zale(shy): It's, uh... Nothing. Just... That dress...  
+Layla(surprise): Yeah? What about it?  
+Zale(shy): ...It looks <i>really</i> good on you.  
+Layla(shy): Oh! Um... Thank you...  
+\***  
+\*Stop Music  
+Narrator: With the dress sorted, there are no more distractions. You sit on the edge of the bed, nervous.  
+\*Play Music m_intense_sprightly_connection  
+\>>  
+Layla(shy): Uhh... so...  
+Zale(smile): Don't worry, you can have the bed to yourself.  
+Layla: ...Oh. Well that was easy. I thought we'd have to have a whole awkward discussion.  
+\>  
+Narrator: Zale presses a hand to his chest and gasps, mock offended.  
+Zale(surprise): Excuse me? I am a gentleman!  
+Narrator: You chuckle at his joke and he smiles at you.  
+Zale(sad): Hey... I want you to know... What Tai said...  
+Narrator: He sighs, joining you on the end of the bed.  
+\>>  
+Zale: I don't care who your parents are or who's after you.  
+Zale: I promised I'd help you as best I can... And I'm going to.  
+Layla(sad): Zale...  
+# (sld_11_12_zales_promise)  
+## A. That means a lot. Thank you.  
+## B. But it's dangerous. You could get hurt.  
+#### A  
+Layla(sad): I couldn't make it through this without you. I don't know anything about this world...  
+Layla(sad): I'd be completely lost.  
+Narrator: Zale bumps your shoulder with his, smiling a little.  
+Zale(smile): I'm not going anywhere. We'll figure this out, alright?  
+\>  
+#### B  
+Zale(happy): Pfft!  
+Narrator: He makes a show of flexing.  
+Zale(happy): I'm a trained steadfast warrior, {Layla Name}.  
+Zale(happy): I can handle this. Don't you worry.  
+Layla(smile): Oh... swoon. My hero.  
+\>  
+\***  
+\*Condition  
+# (sld_11_13_zale_flirts)  
+## A. (Condition: Zale FLIRT >= 4)  
+## B. (Condition: Zale FLIRT < 4)  
+#### A  
+### \*Goto merm11_zale_romance  
+#### B  
+Zale(smile): I'll go find a cozy spot to bed down for the night. Take care, alright?  
+Narrator: With a flick of his tail, he heads for the doorway leading downstairs.  
+Narrator: Tutorial | This is your chance to hook up with Zale!  
+Layla(surprise): Wait a second...  
+### \*Goto merm11_zale_prem  
+\***  
+# merm11_zale_romance  
+\*Stop Music  
+\*Play Music m_gently_romance_heavenly  
+\>>  
+Zale: The truth is... I'm pretty invested in making sure you make it out of this alive.  
+Layla(smile): Yeah? Me too. Glad we agree.  
+Zale(shy): No, I mean... You matter to me. I care about you <i>so much.</i>  
+Narrator: He stumbles over his words but looks at you with touching sincerity.  
+\>>>  
+Zale: I... {Layla Name}... I think I'm falling for you.  
+Layla(surprise): Zale...!  
+\>>  
+Zale(smile): The whole time you were away, I couldn't stop thinking about you.  
+Zale(shy): I know I can come across as a flirt, but... I have feelings for you, {Layla Name}.  
+Zale: Do you think... there's a possibility... that I have a chance with you?  
+Layla(surprise): Oh!  
+# (sld_11_14_CP_have_a_chance)  
+## A. Yes, you <i>definitely</i> have a chance!  
+## B. I'm sorry... I don't feel that way.  
+#### A  
+\*Gain ZALE_ROMANCE  
+Zale(surprise): Really?  
+Layla(happy): Of course really! Did you think all that flirting was for nothing?  
+Narrator: Zale grins and sheepishly ducks his head.  
+Zale(smile): Well yeah, but there's flirting, and then there's... feelings.  
+Narrator: He puts an arm around you, his big hand cradling your head as he presses your forehead to his.  
+Zale: You have no idea what you do to me...  
+Zale(smile): Or how much I want you...  
+\>  
+#### B  
+\*Gain ZALE_REJECT  
+\>  
+Zale(sad): Oh...  
+Narrator: He droops for a moment, then grins at you again.  
+Zale(smile): I get it. Sometimes flirting is just flirting.  
+Layla(sad): I'm sorry...  
+Zale(smile): Hey, don't be. I had to take a shot. I don't regret anything.  
+Zale(smile): And you're free to flirt with me anytime you like, you know.  
+Narrator: He throws you a wink and you laugh.  
+Layla(smile): Oh is that so?  
+\***  
+Narrator:  Tutorial | This is your chance to hook up with Zale!  
+Layla(shy): Zale...  
+### \*Goto merm11_zale_prem  
+# merm11_zale_prem  
+Zale(happy): How do you say?  
+\*Model  
+# (sld_11_15_hookup_with_zale)  
+## A. Say goodnight.  
+## B. Invite him to sleep with you. (Cost: 21 Diamond ID: plot_sld_11_zale) *Goto prem_zale_hookup  
+#### A  
+\*Condition  
+### ## A. (Condition: Zale FLIRT >= 4)  
+### ## B. (Condition: Zale FLIRT < 4)  
+#### A  
+Layla(smile): We should probably get some rest...  
+Zale(smile): Right, right. It's late.  
+Narrator: He gives you a warm smile, his eyes soft.  
+Zale(smile): Goodnight, {Layla Name}.  
+Layla(smile): Goodnight.  
+Narrator: With a flick of his tail, he glides through the water and disappears downstairs.  
+#### B  
+Layla(smile): Goodnight, Zale.  
+Zale(smile): Haha... Goodnight, {Layla Name}.  
+\***  
+\***  
+# merm11_prem_reject  
+\*Stop Music  
+\*Play Music sad2  
+Narrator: You swish your tail under the weighted blanket, relaxing into the mermaid bed as your hair floats in the water around you.  
+\*Condition  
+## A. (Condition: SAM_ROMANCE >= 1)  
+#### A  
+Layla(sad)*Think: I miss Sam...  
+Narrator: You hug yourself, wishing Sam could be there with you.  
+\***  
+Narrator: Alone in the unfamiliar place, you struggle to sleep.  
+### \*Goto merm11_after_hookup  
+# prem_zale_hookup  
+\*Gain HOOKED_UP_WITH_ZALE_11  
+\*Stop Music  
+\*Play Music m_romance_sexy_love_late_nights_03  
+\>>  
+Zale(surprise): Sleep with you? You mean...  
+Narrator: His gaze flickers down your body and he bites his lip, then clears his throat.  
+Zale(shy): Um... I mean...  
+\>>>  
+Layla(shy): Yes, Zale... I... I want you.  
+\>>  
+Narrator: Zale's gaze goes hot with lust as he flicks his tail, swimming close. His arms come around you, pulling you flush against his bare chest.  
+Narrator: He kisses you passionately, groaning into your mouth as he holds you close.  
+Zale(surprise): {Layla Name}... Wow...  
+\*Condition  
+## A. (Condition: POSEIDONS_KISS_11 >= 1)  
+## B. (Condition: POSEIDONS_KISS_11 < 1)  
+#### A  
+Narrator: His hand slides down the front of your new dress, toying with the gold chains there, making them jingly lightly against his fingers.  
+Zale(smile): Have I told you how absolutely <i>stunning</i> you are in this?  
+Narrator: He can't take his eyes off of you, and you can't help but smile.  
+Layla(smile): Something tells me you'd prefer to see me out of it instead...  
+#### B  
+Narrator: Zale tucks a lock of your hair behind your ear, smiling down at you.  
+Zale(smile): You're so beautiful...  
+\***  
+Narrator: He helps maneuver you onto the bed, his strong tail flicking as his arms hold onto the headboard above you.  
+\>  
+Layla(smile): Zale...  
+# (sld_11_15_DP1_flicking)  
+## A. I've never done this as a mermaid...  
+## B. I <i>want</i> you.  
+#### A  
+Narrator: Zale kisses you gently, then strokes your cheek with his thumb.  
+Zale(smile): It's not so different... Just hold me and let me show you...  
+#### B  
+Zale(smile): I want you, too... You have no idea...  
+Layla(smile): I think I might have <i>some</i> idea...  
+Narrator: You angle your hips forward, feeling exactly how much he wants you.  
+Zale(surprise): Nng... {Layla Name}... That's not even fair...  
+\***  
+Narrator: He slides his hand from the small of your back to your hips, his thumb teasing your skin.  
+Narrator: You kiss each other, tangling together as moonlight streams through the windows.  
+\>>  
+Zale(smile): You're so beautiful..  
+Layla(smile): And you're so--  
+Layla(surprise): --Oh!  
+Narrator: Pleasure bursts through you as the two of you begin moving as one. You hold onto his shoulders.  
+Layla(surprise): Zale...  
+Narrator: He kisses your neck, the scruff on his face scraping your skin as he breathes against your throat.  
+Zale(surprise): {Layla Name}... You... Mmm...  
+Layla(surprise): Ooh!  
+Narrator: Soon you're seeing stars, the whole room fading as you lose yourself in his embrace.  
+\>  
+### \*Goto merm11_after_hookup  
+# merm11_after_hookup  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_witch_house_bedroom.jpg-story' width='60'>
+\*Scene WITCH_HOUSE_BEDROOM (Color: Black Time: 3)
+{% endhint %}  
+\*Stop Music  
+\*Play Music m_blue_mystery_decline_02  
+Narrator: You toss and turn, unable to sleep. So much is weighing on your mind.  
+Layla(sad)*Think: I'm a princess... And my father will do anything to find me...  
+Layla(angry)*Think: Even hurt and threaten those who stand in his way...  
+Narrator: You get up from the bed as carefully and quietly as you can.  
+\*Condition  
+## A. (Condition: HOOKED_UP_WITH_ZALE_11 >= 1)  
+#### A  
+Narrator: Cuddled in the blanket beside you, Zale rests peacefully. You bend down and kiss his cheek before you leave.  
+\***  
+\*  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_witch_house_ransacked.jpg-story' width='60'>
+\*Scene WITCH_HOUSE_RANSACKED
+{% endhint %}  
+\*Camera Left 0  
+\*  
+Layla(sad)*Think: If I can't sleep... I might as well clean some of this up.  
+Narrator: Working quietly, you try to put things back where they were. Righting overturned furniture, putting objects back on their shelves.  
+Narrator: As you work, your mind wanders, worrying about everything that has happened.  
+\>>  
+Layla*Think: I'm a princess. That still doesn't feel <i>real</i> somehow...  
+Layla(sad)*Think: I've been a mermaid again for less than a day and I really just want to go back home...  
+Layla(angry)*Think: Zale wouldn't even consider it an option.  
+Narrator: You swim close to the ground, gathering together broken pieces of a large vase from the floor.  
+Layla(sad)*Think: I want to go home because...  
+# (sld_11_16_want_to_go_back_home)  
+## A. I miss Sam.  
+## B. It's safer there.  
+## C. I could learn more from Grandma.  
+#### A  
+Layla(sad)*Think: I wish I could talk to Sam... He would know just what to say...  
+Layla(sad)*Think: The way we left things... I really want to talk to him again soon.  
+#### B  
+Layla(sad)*Think: Wouldn't I be safer if I stayed on land? The King can't find me there...  
+Layla(sad)*Think: Even if I can't transform... Staying close to land would be safer, wouldn't it?  
+#### C  
+Layla(sad)*Think: Grandma told me everything she knows, didn't she?  
+Layla(sad)*Think: Maybe she didn't know I was a princess... Or she would have told me, right?  
+\***  
+\>  
+\*Stop Music  
+Narrator: As you move to straighten some things near the witch's main workspace, you find a couple of vials that are still undamaged.  
+\*Play Music m_blue_epilog_sadness  
+Layla(surprise)*Think: Oh! These look like potions! I wonder what they do...  
+Narrator: The labels are in another language, but one has an image of a figure shouting, with another figure hearing them from a distance.  
+Narrator: The other depicts a figure whose body appears split down the middle - one half is mer, the other human.  
+Layla(surprise)*Think: This must be it! A transformation potion like I took last time!  
+Layla(happy)*Think: With this, I can go back home to land!  
+Narrator: You slip the potion into your pocket, excited.  
+Layla*Think: Hmmm... Should I take the other one, too?  
+\*Item  
+# (sld_11_17_take_the_potions)  
+## A. Both_Potions Keep both potions! (Cost: 18 Diamond ID: item_sld_11_potions)  
+## B. Transformation_Potions Only take the transformation one.  
+#### A  
+\*Gain GAIN_CALL_FOR_HELP_POTION_11  
+Layla*Think: Better safe than sorry. You never know when this could be useful...  
+Narrator: You take both potions, securing them both in your pocket.  
+#### B  
+Layla(sad)*Think: Yeah... I'm not even sure what this other one does...  
+Narrator: You leave the second potion behind, taking only the one with the transformation label  
+\***  
+Layla(happy)*Think: Now there's nothing stopping me from going back. I'll just leave a note for Zale...  
+Narrator: You glance around until you find what looks like a noteboard and a pen.  
+\*Letter bg_note  
+Letter \n \n \n \n \n \n \n Zale, I found a transformation potion!  
+Letter What luck! I can make it back to land on my own.  
+Letter I remember the way.  
+Letter I'll see you in another week! <i><3</i>  
+Narrator: And with that you hurry quickly out the door.  
+### \*Goto merm11_meeting_sam  
+# merm11_meeting_sam  
+\*  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_3_city_cliff_house_underwater.jpg-story' width='60'>
+\*Scene: CLIFF_HOUSE_UNDERWATER (Color: Black)
+{% endhint %}  
+\*Camera Middle 0  
+\*  
+\*Camera Right 2.5  
+Narrator: You waste no time swimming out of the witch's house, headed for land.  
+\*Stop Music  
+\*  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_3_city_beach_house_night.jpg-story' width='60'>
+\*Scene OUTSIDE_BEACH_HOUSE_NIGHT (Color: White Time: 5)
+{% endhint %}  
+\*Camera Left 0  
+\*  
+Narrator: It's nearly daybreak as you peek your head up tentatively above the water. You swim into shallow water, scanning the beach for danger...  
+\*Play Music m_gently_snug_romance_dancing_star_01  
+\>>  
+Sam(surprise): {Layla Name}?!  
+Layla(surprise): Sam?! What are you doing here?  
+Narrator: Sam kicks off his shoes and runs into the water, dropping to his knees to wrap you in a hug.  
+Sam(sad): I couldn't sleep... I was so worried about everything, and wondering if I'd ever see you again...  
+\*Condition  
+## A. (Condition: DID_CHASE_AFTER_SAM_PREM >= 1)  
+#### A  
+Layla(sad): Sam! I promised I'd come back...  
+Narrator: Sam squeezes you tight, then pulls back to look at you.  
+Sam(sad): Did something happen? Why are you back so soon?  
+\***  
+Layla(smile)*Think: I should...  
+# (sld_11_18_meet_sam_again)  
+## A. Kiss him. (Cost: 14 Diamond ID: plot_sld_11_sam) *Goto prem_kiss_sam_reunion  
+## B. Promise him it's okay.  
+#### B  
+\>  
+Layla(smile): Sam... It's okay! Hey. I'm here now. Hopefully I'll be able to stay for a while.  
+### \*Goto merm11_soldiers_arrive  
+\***  
+# prem_kiss_sam_reunion  
+\*Stop Music  
+\*Play Music m_romance_beauty_love  
+Narrator: You gaze at his face in the moonlight for a moment, then press your lips to his. He gasps into your mouth, then kisses you back.  
+\*Sam FLIRT +1  
+Sam(surprise): {Layla Name}... Wow...  
+Narrator: As you pull away, his eyes drop to your mouth. He cups the back of your head, pulling you close and kissing you again, deeper and more passionately.  
+Narrator: The waves crash around your waists, spraying you with the salty sea. You can taste it on his lips as he kisses you tenderly again and again.  
+Sam(sad): I'm so sorry for not accepting you right away. I missed you so much the moment you left...  
+Layla(surprise): Shh.. Sam...  
+# (sld_11_18_DP1_sam_apology)  
+## A. It's okay. Just kiss me more.  
+## B. It hurt at the time, but I'm okay now.  
+#### A  
+Sam(smile): Yeah?  
+Narrator: His hands fall to your hips as he kisses you again.  
+Sam(smile): I'm so, so glad to see you again...  
+#### B  
+Layla(sad): I won't lie... It stung to know your first instinct was to run away.  
+Sam(sad): I'm so... so sorry.  
+Narrator: He hugs you close, apologizing earnestly.  
+Layla(sad): It's okay. I know it was probably a surprise.  
+Narrator: He tilts your head up with a knuckle at your chin, his voice low and soft.  
+Sam: Hey. It caught me off guard, but... You're {Layla Name}. You're beautiful.  
+Layla(shy): Even if I...  
+Narrator: You swish your tail in the water, letting it brush against him. Your scales glitter in the moonlight.  
+Sam(smile): Look at you. You're something from a fairy tale. You're amazing.  
+Narrator: He smiles at you, fond and gentle, and you can't help but blush at his affection.  
+\***  
+Narrator: Sam leans in, his kiss hot and insistent as you twine your arms around his neck.  
+\>  
+Layla(shy): Sam...  
+Sam(smile): Just tell me you being here means I get to keep you?  
+Sam(shy): I.. I mean... For a while anyway...  
+Layla(smile): Don't worry. I'm not going anywhere. You get to keep me for a while.  
+### \*Goto merm11_soldiers_arrive  
+# merm11_soldiers_arrive  
+\*Stop Music  
+Narrator*Top: ??? | I think not.  
+\*Play Music m_sadness_ambient_namaste02  
+Sam(surprise): Who is that?!  
+Narrator: Three deep sea soldiers break through the surface, surrounding you in the shallow waters.  
+Soldier(angry): Drazara, by order of King Avos, you are commanded to come with us.  
+Soldier(angry): Come quietly. We don't want to hurt you.  
+Sam(surprise): Drazara?  
+Layla(surprise): Please...!  
+# (sld_11_21_soldiers_arrive)  
+## A. What do you want with me?  
+## B. How did you find me?  
+#### A  
+Soldier: We're under orders to bring you back to the palace.  
+Layla(angry): And if I refuse?  
+Soldier(angry): Refusal is not an option.  
+#### B  
+Soldier: We've had lookouts watching for you. You're a hard person to track down.  
+Layla(sad): A lot of good that does me now...  
+\***  
+Narrator: From the shadows, a figure swept into view.  
+Caden(sad): Thank you, men. I can take it from here.  
+Soldier(angry): Ha! And let you get all the credit for our hard work? I don't think so.  
+\>>  
+Caden(angry): ...  
+\>  
+Sam(surprise): Isn't he the guy from the shop... One of your rescuers...  
+Narrator: Caden glares at the soldiers, then swims up to you, keeping his voice quiet.  
+\*Condition  
+## A. (Condition: CADEN_CAUSE >= 1) *Goto merm11_caden_friendly  
+## B. (Condition: CHOSE_CADEN_FLIRT >= 1) *Goto merm11_caden_friendly  
+## C. (Condition: Caden FLIRT >= 2) *Goto merm11_caden_friendly  
+\***  
+### \*Goto merm11_end  
+# merm11_caden_friendly  
+\*Stop Music  
+\*Play Music sad2  
+\>>  
+Caden(sad): I'm sorry.  
+Layla(surprise): Caden...  
+# (sld_11_20_CP_difficult_caden)  
+## A. You're sorry? For what?  
+## B. Can't you stop them!?  
+\***  
+Caden(sad): I...  
+Narrator: He inclines his head toward you, speaking softly.  
+Caden(sad): I've been misdirecting them for a while, trying to give you more time...  
+Caden(sad): It's out of my hands now.  
+Layla(surprise): Misdirecting them?  
+Layla(surprise)*Think: Has Caden been protecting me all this time?  
+\>  
+### \*Goto merm11_end  
+# merm11_end  
+Caden: Just go quietly... They're under orders not to hurt you.  
+Layla(surprise): But...!  
+Narrator: One of the soldiers nudges his weapon between you and Caden.  
+Soldier(angry): You will come with us, or we will be forced to hurt you regardless of our orders.  
+Caden(angry): ...That won't be necessary.  
+Narrator: Caden puts a hand on your arm, and another on Sam's.  
+\>>>  
+Sam(surprise): Woah, that's a strong grip...  
+\>>  
+Caden(angry): You can have all the credit you like for their capture.  
+Caden(angry): But I'm ensuring they both reach the King in one piece.  
+Layla(surprise): Both?! You mean--  
+Caden: The human is coming as well.  
+Layla(surprise): You're taking Sam?! But--!  
+Sam(surprise): {Layla Name}... What's going on?!  
+\>  
+Soldier(angry)*Shout: Get a move on!  
+Narrator: Caden's strong arms pull you deeper into the water, the soldiers and their weapons following right behind.  
+Layla(surprise): No! You can't do this! Sam can't breathe underwater!  
+Sam(surprise): {*Attention Aah!}  
+Narrator: You look over just as Sam's face dips beneath the surface of the waves.  
+Layla(surprise)*Shout: No!  
+# End  

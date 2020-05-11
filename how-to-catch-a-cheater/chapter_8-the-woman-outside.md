@@ -1,0 +1,769 @@
+# Begin  
+\*Play Music  m_gently_melancholy_sadness_fortress_europe_01  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_snowy_franklin_dusk.jpg-story' width='60'>
+\*Scene EXT_SNOWY_FRANKLIN_DUSK (Color: Black)
+{% endhint %}  
+Narrator: In front of you stands the man who broke your heart into a million pieces, your ex.  
+\*+shade1  
+Rosie(terror)*Shout: B-Ben?  
+\*-shade1  
+Narrator: Ben's wearing a fancy suit, similar to the one he wore on your wedding day.  
+Narrator: It's like he stepped right out of the nightmare that's been haunting you for years.  
+Ben(happy): It's been so long.  
+Rosie(sad)*Think: Not long enough.  
+Narrator: You feel sick to your stomach and dizzy as if all the blood suddenly drained from your face.  
+\*Play Music m_sadness_suspense_gently_every_step  
+\*Condition  
+## A. (Condition: PREMIUM_OUTFIT_7 >= 1)  
+#### A  
+Ben(smile): You look... great.  
+Narrator: Ben looks down at your body. If there ever was a time to look good, it would be in front of your ex.  
+Rosie(sad)*Think: Wow... I'm glad I decided to wear this today.  
+Rosie: Thanks...  
+\***  
+Narrator: Ben notices you looking at his outfit, reading your face as if it was a written question.  
+\>>  
+Ben(smile): Oh, I'm heading to the annual Christmas dinner at the office. Where are you going?  
+Rosie(sad): T-The Christmas Market.  
+Ben(happy): I remember how much you love that. My fiancée loves it too.  
+Rosie(terror)*Think: Fiancée? He's engaged?  
+\>  
+Narrator: You feel Ben's words draining all the strength out of you, making you weak.  
+\>>  
+Rosie(sad)*Think: I should just tell him to get the hell out of my sight.  
+Rosie(sad)*Think: He ruined me! Why can't I muster the strength?  
+Ben(angry): And who is this?  
+\>  
+Narrator: Ben nods towards Matt, who's observing the situation. He senses your distress.  
+Narrator: He looks you in the eyes, raising his eyebrows slightly as if he's asking you to confirm that this is Ben.  
+Narrator: The one you told him about in Whitepine, the one you were supposed to marry.  
+Narrator: You nod subtly, clearing your throat nervously.  
+Narrator: Matt steps up next to you, and you feel him reach for your hand. You immediately know what he's trying to do.  
+Narrator: He wants you to use him, to let him help you feel strong in front of Ben.  
+Narrator: Matt's pinky brushes against yours.  
+Rosie(surprise)*Think: Matt wants me to take his hand. Maybe he wants to pretend he's my boyfriend?  
+# (htcac_08_01_pretend_boyfriend)  
+## A. Take Matt's hand. (Cost: 19 Diamond ID: plot_htcac_08_matt_boyfriend) *Goto htcac08_take_matts_hand  
+## B. Don't take it. *Goto htcac08_no_take_matts_hand  
+\***  
+# htcac08_take_matts_hand  
+\*Play Music m_gently_romance_butterflies_love_01  
+\*Gain TAKE_MATTS_HAND_8  
+Narrator: This time, you let your pinky brush against his, and he takes the hint.  
+Narrator: You feel his steady hand grab yours, entangling his finger into yours, making you draw in a long breath.  
+Matt(smile): I'm <b>her boyfriend</b>. Matthew Dalton.  
+Narrator: Ben lowers his eyes, and they land on your hands. For a few seconds, he looks stricken.  
+Narrator: Then, he squints his eyes as Matt takes a step forward, now standing next to you.  
+\>>>  
+Ben(surprise): Mattew Dalton... I've read about you in Forbes! You work at Silverstein Corp.  
+\>  
+Narrator: You feel yourself stand taller and grow more confident with Matt backing you up.  
+Narrator: It's almost as if he's transferring his authoritarian air and his fearlessness through the link in your hands.  
+\>>  
+Rosie(smile): {*Joyful He's the COO.}  
+Matt: I'm sorry, I don't think I caught your name. Who is this again, honey?  
+\>  
+Narrator: Matt asks, knowing the answer. Ben seems to deflate a bit, probably intimidated by Matt.  
+Ben(sad): I'm... uh...  
+Rosie*Think:: I should say...  
+# (htcac_08_01_DP1_introduce_ben)  
+## A. He's no one.  
+## B. Somebody that I used to know.  
+#### A  
+\>>  
+Rosie(angry)*Think:: He is no one to me, and I won't let him hold any power over me anymore!  
+Rosie(confused): He's no one. Not anymore. Let's get going.  
+\>  
+Narrator: You decide not to dignify him with a title and turn around to leave, still holding Matt's hand.  
+Ben(surprise): B-But...  
+#### B  
+Rosie*Think: He was someone special to me once, but not anymore.  
+Rosie(angry)*Think: And I don't have to pretend he still has a place in my heart...  
+Rosie(angry)*Think: ... when he's the one who broke it.  
+Rosie(angry)*Think: Now I'm letting go. He won't hold any power over me anymore!  
+\>>>  
+Rosie(smile): Just somebody that I used to know. Let's get going.  
+\>  
+Narrator: You decide not to dignify him with a title and turn around to leave, still holding Matt's hand.  
+Ben(sad): B-But...  
+\***  
+Narrator: Ben stutters and winches inwardly as embarrassment coils around him.  
+Message: Impact | You left Ben speechless and grew closer to Matt!  
+Narrator: Grandpa Ted, who's been watching from the sidelines, snickers before he follows you and Matt.  
+\*Play Music m_gently_melancholy_rage_one_step_closer_02  
+Ted(happy): That was quite a show! It could've been a scene from <i>"Days of Our Lives"</i>.  
+Narrator: You feel ten times lighter as you all share a laugh, passing a liquor store.  
+Ted(smile): Oh, I'm running low on brandy. I'll catch up in a second, okay?  
+Matt(happy): Alright, Grandpa.  
+Narrator: You and Matt continue down the street while Grandpa Ted visits the liquor store.  
+\>>  
+Rosie(shy): Matt, thank you——  
+Matt(smile): No need to thank me; he had douchebag written all over him.  
+\>>>  
+Rosie(smile): You don't even know what happened or what he did.  
+Matt(smile): No, but I'm pretty good at reading people.  
+\>>  
+Rosie(smile): I guess you have to be to help run a company with almost 50,000 employees.  
+Matt(smile): Exactly.  
+\>  
+Narrator: As you slowly stroll down the street, you look down, noticing Matt is still holding your hand.  
+Narrator: You look back to make sure Ben isn't watching anymore before reluctantly losing your grip on his hand.  
+\>>  
+Rosie(shy): He's not looking anymore.  
+Matt(shy): Oh.  
+\>  
+Narrator: Matt releases your hand, and you instantly feel cold again.  
+Rosie(sad): I can't believe he's engaged again already...  
+Matt(confuse): How long ago is it since you broke up?  
+Rosie(sad): A little over two years. Two and a half years next March.  
+Rosie(sad): Ugh... listen to me keeping track. I sound pathetic.  
+Matt(sad): No, you don't, {Rosie Name}. I've never known heartbreak like yours.  
+Matt: But the little I have known was very painful, so I can't even imagine how you feel.  
+Rosie: I feel...  
+# (htcac_08_01_DP2_heartbreak)  
+## A. Kind of sad.  
+## B. Kind of relieved.  
+#### A  
+Rosie(sad): Still kind of sad. I guess the wound is still too open.  
+Matt: You'll get through it.  
+#### B  
+Rosie(smile): Kind of relieved. I mean, I did dodge a bullet with him...  
+Rosie(sad): ... Even though it felt like it hit me, really bad.  
+Matt(smile): It probably did, but it went right through. I'm sure the wound will eventually heal.  
+Matt(smile): And that you'll pull through.  
+\***  
+Matt(smile): If there's something I've learned over the last few weeks with you, it's that you're... hard-nosed.  
+\>>  
+Rosie(confuse): Hard-nosed? Did you just compliment me, Mr. Dalton?  
+Matt(smile): I wouldn't say compliment; it was more like a minor, flattering remark.  
+Rosie(happy): I'll take it.  
+Rosie(smile): Anyway, the look on his face when you took my hand was so satisfying to watch.  
+Rosie(happy): I wish I had sneak-snapped it.  
+\*Matt ROMANCE +1  
+Matt(happy): Well, I'm glad I could assist you this time.  
+Rosie(shy): I could get used to it...  
+\>  
+Narrator: You immediately realize what you said could be misinterpreted, and Matt just did.  
+Rosie(surprise): I-I mean I could get used to you assisting me, not you and I, us, holding hands or——  
+Rosie(sad): ... I'm not doing a very good job at explaining myself, am I?  
+Matt(happy): No, but I enjoy watching you try very much.  
+Narrator: You playfully bump into him with your shoulder, warmth dancing through your veins.  
+### \*Goto htcac08_christmas_market  
+# htcac08_no_take_matts_hand  
+\*Play Music m_blue_epilog_sadness  
+Narrator: You can't get yourself to drag Matt into this and refuse his hand.  
+Rosie(sad): He's my boss.  
+Narrator: You notice Ben releasing a small breath, looking relieved before a small, but obviously smug, smile appears on his lips.  
+Rosie(sad)*Think: He thinks I haven't moved on like him, and he clearly enjoys it.  
+Narrator: Then, Ben squints his eyes, looking at Matt.  
+Ben(surprise): Hey, you're Mattew Dalton, aren't you? I've read about you in Forbes! You work at Silverstein Corp.  
+Matt: I do.  
+Narrator: Ben laughs, clapping his hands together a single time.  
+Ben(happy): For a moment there I thought you two... silly of me.  
+Ben(smile): I mean, that would be quite a "leap in league," that's for sure.  
+Rosie(angry)*Think:: That son of a——  
+Narrator: Matt huffs, smiling in disbelief to the ground for a second before he looks up, meeting Ben's eyes.  
+Matt(confused): You're right about that...  
+Rosie(sad): ...  
+\>>  
+Matt: ... Ms. Winter is way out of my league. Whoever wins her heart someday better count himself lucky.  
+\>>>  
+Rosie(surprise): ...!  
+\>>  
+Ben(sad): Right...  
+\>  
+Narrator: Matt's eyes are sending Ben a clear message; he isn't going to feed into Ben's toxic masculinity, and it's time for him to leave.  
+Ben: O-Okay, well, it was good to see you again, {Rosie Name}. I should get going.  
+Narrator: Ben turns around to leave, not looking back. You watch him as he goes, feeling defeated.  
+\>>  
+Rosie(sad): Sigh...  
+Matt: Wow, what douchebag. Why didn't you take my hand? I was ready to play the protective boyfriend.  
+Rosie(sad): I know, and I appreciate it so much, but this is my mess, I can't drag my boss into it.  
+Rosie(sad): I mean, what if he told someone that he met you, told them we were together...  
+Rosie(sad): ... And then Ashley somehow found out?  
+\>>>  
+Rosie: She'd think you were cheating on her.  
+\>>  
+Matt(sad): Right... I'm sorry, though.  
+Rosie(shy): But thanks, Matt. I can't believe you stood up for me like that anyway.  
+Matt: Of course. No one is talking about you like that in front of me.  
+\>  
+Narrator: You feel warmth dance through your veins, and a smile stretching the corners of your mouth.  
+Matt(smile): I mean... as your boss it's my job to make sure you're safe, at least when you're with me.  
+Rosie(smile): Well, I appreciate it.  
+### \*Goto htcac08_christmas_market  
+# htcac08_christmas_market  
+Narrator: You continue slowly down the street towards the Christmas Market.  
+Narrator: Grandpa Ted calls from behind you, carrying a bag with a bottle of brandy inside.  
+\>>  
+Ted(smile): I got my brandy. I'm ready for the Christmas Market now. Are you joining us, {Rosie Name}?  
+Rosie: Oh, no, I don't want to impose.  
+\>>>  
+Matt(smile): Nonsense, you were going there anyway, weren't you?  
+\>>  
+Rosie(smile): Well, yes but——  
+Matt(smile): Is it too weird to go with your boss and his grandpa?  
+Rosie(smile)*Think:: Is it?  
+# (htcac_08_02_christmas_market)  
+## A. Not at all. I'd love to.  
+## B. A bit unusual, maybe.  
+#### A  
+Rosie(shy): Oh, no, not at all.  
+\*Matt ROMANCE +1  
+Matt(smile): Then join us.  
+Matt(shy): I'd... I mean, we would love to share the experience with you since your mom couldn't be here.  
+Rosie(shy): Well, okay, then. I'd like that.  
+Narrator: For a moment, Matt's eyes seem to light up like a star atop a Christmas tree.  
+#### B  
+Rosie(happy): Maybe a bit unusual, but I like your company.  
+Matt(smile): So, you'll join us?  
+Rosie(smile): Sure, why not? Thank you.  
+\***  
+\>  
+Matt(happy): Let's go then.  
+Narrator: You head towards the market place where a giant lit-up Christmas tree and a Ferris wheel can be seen above the rooftops.  
+# htcac08_in_market  
+\*  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_winter_market_night.jpg-story' width='60'>
+\*Scene EXT_WINTER_MARKET_NIGHT (Color: Black Time: 3)
+{% endhint %}  
+\*Camera Left 0  
+\*  
+\*Camera Right 2  
+\*Play Music m_cheerful_city  
+Narrator: The marketplace seems wrapped in a golden glow like a blanket of light.  
+Narrator: There are stalls of every kind.  
+Narrator: Some sell delicious Christmas treats like roasted chestnuts or gingerbread that diffuse mouth-watering scents you wish you could bottle up...  
+Narrator: ... And bring home to your mom.  
+Narrator: And others sell homemade Christmas ornaments, knitted socks, and decorations.  
+\*Camera Left 2  
+Narrator: Each stall is decorated with lights and garlands made of pine, and right next to the stalls is the humble ice-skating rink-  
+Narrator: That holds a place in your heart where lots of good memories are stored.  
+\*Camera Right 1  
+Rosie(smile): ...  
+Matt(smile): Memories?  
+Rosie(shy): Yeah. No place like home, am I right?  
+Matt(smile): Yeah... it's good to be back.  
+\>>  
+Rosie(happy): I still can't believe you used to live here, and that you worked for my dad once.  
+Matt(smile): It's a small world.  
+Rosie(shy): It's kind of embarrassing, but <b>I remember you</b>, and I might've had a small crush on you.  
+Rosie(happy): Short-lived, since I only saw you that one time, but still, I remember...  
+# (htcac_08_03_childhood)  
+## A. Spying on you.  
+## B. Writing you a love letter.  
+#### A  
+\>>>  
+Rosie(shy): ...Spying on you that day.  
+Matt(happy): I know. I think I caught you a few times. You were sitting in an apple tree, was it?  
+\>>  
+Rosie(happy): Pear tree, but yup, that was apparently my not-so-secret hiding place.  
+#### B  
+Rosie(shy): ...Writing you <b>a love letter</b>. I managed to sneak it into your bag.  
+\>>>  
+Matt(surprise): Oh, that was from you?  
+\>>  
+Matt(happy): Makes sense why the Rosie from my class kept denying giving it to me then.  
+\***  
+\>  
+Narrator: You share a laugh as you walk around, admiring each of the stalls.  
+Narrator: You pass a stall that sells mulled wine, eggnog, and hot chocolate.  
+Ted(happy): Oh, this is just the stall for me. I'll have a glass of mulled wine.  
+Narrator: Grandpa Ted sits down in one of the few chairs available, warming his hands over a fire pit.  
+Ted(smile): I think I'll sit here for a while and enjoy my drink, you kids go have fun.  
+Matt(smile): Are you sure, Pops?  
+Ted: Yes, yes. My knee could use a break.  
+Matt(smile): Alright, then. Would you like something to drink too, {Rosie Name}?  
+Rosie(smile): Oh, yes!  
+\*Item  
+# (htcac_08_04_drinks)  
+## A. ITEM_EGGNOG Choose it.  
+## B. ITEM_MULLED_WINE Choose it.  
+## C. ITEM_HOT_CHOCOLATE Choose it.  
+#### A  
+\*Gain EGGNOG_8  
+Rosie(happy): I can never say no to Eggnog. It's basically liquid Christmas.  
+Matt(smile): That's kind of my weakness too. I'll get us two.  
+#### B  
+\*Gain MULLED_WINE_8  
+Rosie(happy): Who says no to a glass of mulled wine? It's basically liquid Christmas.  
+Matt(smile): I'm personally more of an Eggnog kind of guy, but let me go get us the drinks.  
+#### C  
+\*Gain HOT_CHOCOLATE_8  
+Rosie(happy): Is that a candy cane in that hot chocolate? I'm getting that for sure. It's basically liquid Christmas.  
+Matt(smile): I'm personally more of an Eggnog kind of guy, but let me get us the drinks.  
+\***  
+Narrator: You and Matt slowly stroll down the street, sipping on your warm drinks.  
+Matt(confuse): So, are you ever going to tell me what happened between you and Ben?  
+Narrator: You notice your throat feeling tight when you think about it. You know it means you're not quite ready yet.  
+Rosie(smile): I think I will, and maybe someday soon, but I'm not quite there yet.  
+Matt(smile): Alright, no pressure. I just thought you'd feel like venting about him.  
+Narrator: Matt nudges you playfully. It's easy to see he's already got a strong opinion about him.  
+Rosie(smile)*Think: Venting about Ben?  
+# (htcac_08_05_venting_about_ex)  
+## A. Not to my boss.  
+## B. Not to my crush.  
+#### A  
+Rosie(happy): I mean, yes, he's been a jerk to me, but that doesn't mean I should be venting to my boss.  
+Matt(shy): Then don't see me as your boss. I mean, when we're not at work, like now.  
+\>>>  
+Rosie(smile): So, I should see you as a friend?  
+Matt(smile): Well... yeah.  
+\>>  
+Narrator: You smile to yourself.  
+#### B  
+\>>>  
+Rosie(shy): No... It's weird venting about your ex to your cr——  
+Rosie(surprise): Friend!  
+\>>  
+Narrator: Matt glances at you sideways, looking surprised at first.  
+Narrator: But then he sips his drink while clearly trying to suppress a smile.  
+Rosie(sad)*Think: Smooth... I think he caught that.  
+\*Matt ROMANCE +1  
+Matt(smile): I guess there's nothing wrong with considering each other as friends when we're not at work.  
+\***  
+Rosie(smile)*Think: I'm really making progress with Matt.  
+Rosie(surprise): Oh my God!  
+\>  
+Narrator: You run towards a stall that sells antiquities, your eyes locked to one specific item.  
+Rosie(surprise): My Grandma had one of these! I was obsessed with it.  
+\*Item  
+## A. ITEM_ANTIQUE_JEWELERYBOX Look at it.  
+\***  
+Rosie(shy): I accidentally dropped it when I was a kid because I was always fiddling with it.  
+Matt(smile): It's beautiful.  
+Rosie(smile): These jewelry boxes were expensive back then, I wonder what it costs today being antique and all.  
+Narrator: You look at the price tag and almost choke.  
+\>>  
+Rosie(surprise): Whoa! No wonder Grandma was mad at me...  
+\>  
+Narrator: You put the box down carefully, smiling at the vendor before walking away.  
+\*Camera Left 1.5  
+Narrator: A contagious laugh pulls your attention towards the big ice skating rink in the center of the market.  
+Narrator: A woman and her husband are lying on the ice, laughing after taking a tumble.  
+\*Camera Right 1.5  
+Rosie(smile)*Think: I wonder if I could convince Matt to go ice skating with me?  
+Rosie(smile)*Think: Just like in all the romantic movies.  
+Narrator: Convince Matt to go ice skating with you and get your flirt on with a romantic bonus scene!  
+# (htcac_08_06_skating)  
+## A. Go ice skating with Matt. (Cost: 22 Diamond ID: plot_htcac_08_matt_skating) *Goto htcac08_ice_skating  
+## B. Go back home. *Goto htcac08_back_home  
+\***  
+# htcac08_ice_skating  
+\*Play Music m_party2  
+\*Gain GO_ICE_SKATING_8  
+Rosie(smile): That looks fun.  
+Matt: Fun? It looks scary.  
+Rosie(happy): Scary? Don't tell me you're an ice-skating virgin, Matt?  
+Matt(confuse): I'm not. I just haven't skated since I was a kid. I wouldn't know what to do anymore.  
+\>>  
+Rosie(shy): Well, it's been a while for me too. We could refresh our memories together if you want?  
+Matt(confuse): I'm not sure it's a good idea...  
+\>  
+Rosie(smile)*Think:: I should...  
+# (htcac_08_06_DP1_matt_scared)  
+## A. Challenge him.  
+## B. Tease him.  
+## C. Reassure him.  
+#### A  
+\*Gain CHALLENGE_MATT_8  
+Rosie(confused): Aw... Okay, I guess Matt Dalton must admit defeat then.  
+Matt(confused): Hold on, admit defeat? No way. Let's go.  
+Narrator: Matt trudges towards the ice skating rink fearlessly.  
+Rosie(smile)*Think:: Child's play...  
+#### B  
+\*Gain TEASE_MATT_8  
+Rosie(confused): Aw... So the great, intimidating Matt Dalton is intimidated by some frozen water?  
+Matt(confused): Hold on, I never said I was intimidated.  
+Rosie(happy): Oh, sorry. Afraid then.  
+Matt(happy): Hell no, let's go!  
+Narrator: Matt trudges towards the ice skating rink fearlessly.  
+Rosie(happy)*Think: Child's play...  
+#### C  
+\*Gain REASSURE_MATT_8  
+\>>>  
+Rosie(shy): I promise I won't let you fall.  
+Matt(smile): Hmm... Do you promise?  
+Rosie(happy): {*Joyful I'll do my best.}  
+\>  
+Matt(smile): Okay, then, I'm choosing to trust you.  
+Rosie(smile): Let's go then.  
+Narrator: You walk towards the ice-skating rink together, feeling butterflies starting to build already.  
+\***  
+\*Camera Middle 1  
+Matt(smile): I guess we need some skates first. What's your size?  
+Rosie(smile): I'm a 6.5.  
+Matt(smile): These then.  
+\*Item  
+# (htcac_08_06_DP2_show_skates)  
+## A. ITEM_ICE_SKATES Take them.  
+\***  
+Rosie(happy): Perfect! Thanks.  
+Narrator: Matt finds a pair for himself too. You put them on and make sure they're properly tied.  
+Narrator: You make your way to the entrance. Matt looks slightly pale despite being under hundreds of warm-colored string lights.  
+Rosie(shy): Here...  
+Narrator: You extend your hand to him.  
+Matt(smile): ...  
+\*Camera Left 1  
+Narrator: He looks at it, then his eyes move up to meet yours.  
+Rosie(happy): Come on, take my hand.  
+Narrator: He puts his hand in yours, and you slowly take a step out onto the ice.  
+\>>  
+Matt(surprise): Whoa!  
+Rosie(happy): Easy, I've got you. Let's try and go further out. We'll go slow, don't worry.  
+\>  
+Narrator: You slowly skate forward, following the sides of the ice skating rink for a few rounds.  
+\>>  
+Matt(happy): Ah, I think it's coming back to me now!  
+\>  
+Narrator: Matt's confidence seems to skyrocket in just a few minutes, and he's picking up the speed.  
+Rosie(surprise): Whoa! Matt, slow down!  
+Narrator: You try to keep up with Matt, who's still got a tight grip on your hand, but then...  
+Narrator: Your right skate encounters a bump in the ice, sending you flying forward, dragging Matt with you as you're going down.  
+\*+shade1  
+Rosie(terror)*Shout: ARH!  
+\*-shade1  
+Matt(surprise): ...!  
+Narrator: You touch down on the ice and slide a few meters. Matt's dragging behind you, your hands still locked together.  
+Narrator: You finally come to a halt, up against the railing, but it isn't until you turn from your stomach onto your side-  
+Narrator: That you see Matt's face is right next to yours.  
+Matt(smile): You just had to go and ruin it, didn't you?  
+Rosie(surprise): Me?!  
+# (htcac_08_06_DP3_fall_on_the_ice)  
+## A. You went too fast!  
+## B. There was a bump in the ice!  
+#### A  
+Rosie(happy): You were the one going way too fast!  
+Matt(happy): Yeah, sure, blame it on me, why don't you?!  
+#### B  
+Rosie(happy): There was a bump in the ice! I stood no chance!  
+Matt(happy): Right, right, blame the ice, why don't you?  
+\***  
+Narrator: You laugh as you try to get up, Matt supporting you to your feet.  
+\>>  
+Matt(smile): Are you okay, though?  
+Rosie(smile)*Think: I should...  
+# (htcac_08_06_DP4_matts_care)  
+## A. Flirt with him.  
+## B. Make a joke.  
+#### A  
+Rosie(shy): Being here... with you... is more than okay.  
+\*Matt ROMANCE +1  
+Matt(shy): ...  
+Narrator: Matt bites his lip as if tasting your words and the feelings that carry them.  
+#### B  
+Rosie(happy): You mean besides my bruised ego and loss of dignity? Yeah, I'm good.  
+Narrator: Matt chuckles, dusting some ice from one of his sleeves.  
+\***  
+Rosie(smile): I can't feel my fingers, though.  
+Matt(smile): Oh?  
+\>  
+Narrator: Matt takes your hands in his folding them around yours and lifting them to his mouth.  
+Narrator: He blows his warm breath in between the gaps while not removing his eyes from yours.  
+Rosie(shy)*Think: Mhm...  
+Narrator: Your fingers tingle from the warmth... or is it from his touch?  
+Narrator: The intimacy of this gesture flows through you. It drowns out the noise and slows down all movement around you.  
+Narrator: Right here, it's just the two of you, hand in hand.  
+\>>  
+Rosie(shy)*Think: I want to...  
+# (htcac_08_06_DP5_hold_hands)  
+## A. Thank him.  
+## B. Compliment him.  
+## C. Gaze at him.  
+#### A  
+Rosie(shy): Uh... Thank you, that helped.  
+Matt(smile): Good.  
+#### B  
+Rosie(shy): I like your hands. They're so warm.  
+Matt(smile): Thanks. My Grandma once told me my mom always had warm hands too.  
+Matt(smile): It's nice to hear stuff like that since I never really knew her myself.  
+Rosie(smile): I can imagine.  
+#### C  
+Narrator: You hold your gaze, not wanting to interrupt this moment by speaking.  
+Narrator: It seems like Matt feels the same way; he's not saying a word either.  
+\***  
+Narrator: You exit the ice-skating rink and put the skates back on the shelf.  
+\*Camera Right 2  
+\>>  
+Matt(smile): I should probably get back to my Grandpa.  
+Rosie(smile): Yeah, and I should get back to my Mom.  
+\>>>  
+Matt(shy): I-uh... It was nice running into you here. I feel like I know you a lot better now.  
+Rosie(smile): Me too, me too. I guess I'll see you on Monday?  
+\>  
+Matt(smile): 8 O'clock sharp, Ms. Winter.  
+Narrator: Matt says, faux-sternly.  
+Rosie(happy): Tell Ted I said goodbye.  
+Matt(happy): Will do!  
+Narrator: He winks at you before he turns around, and walks away.  
+Message: Impact! | You bonded with Matt. Your relationship is stronger now.  
+Rosie(smile)*Think: What an eventful day. I had such a lovely time with Matt and Ted.  
+Narrator: You walk back home to your mom with a smile on your lips.  
+### \*Goto htcac08_back_home_to_mom  
+# htcac08_back_home  
+Rosie(smile): Anyway, I should get back to my mom.  
+Matt(smile): And I should get back to my Grandpa.  
+Rosie(shy): It was a lot of fun running into you today, Matt. Thank you for letting me join you and Ted.  
+Matt(smile): Of course. It was a pleasure, and I'm sure my grandpa agrees.  
+Narrator: You tuck some hair behind your ear.  
+\>>  
+Matt(shy): I kinda feel like I got to know you a bit better too.  
+Rosie(smile): Me too. I guess I'll see you on Monday?  
+\>  
+Matt(smile): 8 O'clock sharp, Ms. Winter.  
+Narrator: Matt says, faux-sternly.  
+Rosie(happy): Tell Ted I said goodbye.  
+Matt(happy): Will do!  
+Narrator: He winks at you before he turns around, and walks away.  
+Rosie(smile)*Think: What an eventful day. I had a lovely time with Matt and Ted.  
+Narrator: You walk back home to your mom with a smile on your lips.  
+### \*Goto htcac08_back_home_to_mom  
+# htcac08_back_home_to_mom  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_girls_bedroom_day.jpg-story' width='60'>
+\*Scene INT_ROSIES_BEDROOM_DAY (Color: Black Time: 3)
+{% endhint %}  
+\*Play Music m_gently_romance_butterflies_love_01  
+\*Rosie Outfit Belted_Pink_Jacket (Tag: Record)  
+Narrator: After spending a nice weekend with your Mom, while also spending some time with Matt-  
+Narrator: You get ready for work, feeling the stress you left town with has disappeared.  
+Rosie(smile)*Think: I feel a lot better after my trip to Franklin.  
+Rosie(smile)*Think: Maybe my outfit should highlight that today?  
+\*Model  
+## A. I don't want it.  
+## B. I like this Belted Pink Jacket! (Cost: 16 Diamond ID: look_htcac_08_pink_jacket)  
+#### A  
+\*Rosie Outfit Reset  
+Rosie(smile)*Think: I think I'll wear this today. It's okay too.  
+#### B  
+\*Gain PREMIUM_OUTFIT_8  
+Rosie(happy)*Think: This outfit makes me look forward to spring! It's flawless!  
+Message: Impact | The outfit gives you an extra boost of confidence.  
+\***  
+\*Condition  
+## A. (Condition: ADOPT_DOG = 1)  
+## B. (Condition: NO_DOG < 1)  
+#### A  
+Rosie(happy): Be good, {Puppy Name}. Watch over the apartment for us, okay?  
+Puppy(happy): Wraf!  
+Rosie(smile): I'll be home soon.  
+#### B  
+Rosie(smile)*Think: Time to go to work.  
+\***  
+Narrator: You lock the door behind you and head for Silverstein Corp.  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_assistant_president_desk_office.jpg-story' width='60'>
+\*Scene INT_PRESIDENT_ASSISTANT_DESK_OFFICE (Color: White Time: 3)
+{% endhint %}  
+Rosie(smile)*Think: Alright, I should start by...  
+# (htcac_08_07_new_days_work)  
+## A. Checking Matt's schedule.  
+## B. Making myself a cop of coffee.  
+## C. Decluttering my desk.  
+#### A  
+Rosie(smile)*Think: Just in case he's got an early meeting or something.  
+Narrator: You check Matt's schedule on your work phone calendar.  
+Rosie*Think: We've got a quiet day today. I can see he's only added a lunch meeting with me.  
+#### B  
+Rosie(smile)*Think: I know I can't really function properly without my morning coffee anyway.  
+Narrator: You walk out to the coffee machine, and return shortly after with the life-giving elixir.  
+Rosie(smile)*Think: Alright. I'm all set.  
+#### C  
+Rosie(smile)*Think: A cluttered space is a cluttered mind, and I can't work with that.  
+Narrator: You clean your desk, and put Friday's coffee mug in the dishwasher out in the kitchen.  
+Rosie(smile)*Think: Alright. I'm all set.  
+\***  
+Brisa(smile): Knock knock.  
+Rosie(happy): Hey, Brisa.  
+Brisa(happy): Hey, {Rosie Name}.  
+\*Condition  
+## A. (Condition: PREMIUM_OUTFIT_8 >= 1)  
+## B. (Condition: PREMIUM_OUTFIT_8 < 1)  
+#### A  
+Brisa(happy): Wow, look at you. That weekend in Franklin did you good, huh? You're glowing!  
+Rosie(happy): It really did. Thanks, Brisa.  
+\>>>  
+Brisa(happy): Anything exciting to report?  
+Rosie(shy): A lot, actually.  
+Brisa(happy): Oh, maybe you can tell me at lunch today then?  
+#### B  
+\>>  
+Brisa(smile): How was your weekend in Franklin?  
+Rosie(smile): Eventful. I've got a lot to tell you.  
+Brisa(smile): Oh, really? Maybe at lunch then?  
+\***  
+\>  
+Rosie: Oh, I wish I could, but I can see Matt has scheduled lunch with me.  
+Brisa(smile): Oh, maybe we can grab a drink at Lou's soon then?  
+Rosie(happy): Definitely!  
+Brisa(smile): Great! Anyway, I came to tell you that Mr. Silverstein wants to see you and Mr. Dalton in his office.  
+Rosie: Now?  
+Brisa(smile): Yup.  
+Rosie(smile): Okay, thanks, Brisa. I'll talk to you later.  
+Narrator: You head to Mr. Silverstein's office, unsure what he'd like to talk to you and Matt about.  
+\*  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_corp_president_desk_office.jpg-story' width='60'>
+\*Scene INT_MR_SILVERSTEIN_OFFICE_DAY (Color: Black)
+{% endhint %}  
+\*Camera Right 0  
+\*  
+Narrator: As you enter Mr. Silverstein's office, you see, Matt is already there waiting.  
+Silverstein(smile): Ah, Ms. Winter, come in.  
+Rosie(smile): Mr. Silverstein. Mr. Dalton.  
+Narrator: You nod at them both, and close the door behind you.  
+\*Condition  
+## A. (Condition: GO_ICE_SKATING_8 >= 1)  
+#### A  
+Matt(smile): ...  
+Narrator: Matt's eyes hold yours a bit longer than usual, and his smile shows he's genuinely happy to see you.  
+Narrator: And despite being at work, he's not trying to hide it this time.  
+Rosie(shy)*Think: I think our ice skating adventure is to thank for the way he looks at me right now.  
+\***  
+Silverstein: You're probably both wondering why you're here.  
+Silverstein(smile): And I know you've got things to do so I'll make it short.  
+Silverstein(happy): I'd like to invite you both to my annual Winter Formal at my house in The Hamptons this Saturday.  
+Silverstein(smile): I know it might be with a bit of a short notice, but, to be honest, I completely forgot it was this weekend.  
+\>>  
+Rosie(surprise)*Think: A Winter Formal in The Hamptons? That sounds...  
+# (htcac_08_08_winter_formal)  
+## A. Exciting!  
+## B. Scary!  
+## C. Interesting!  
+#### A  
+\*Gain WINTER_EXCITING_8  
+Rosie(smile)*Think: I've never been to a Winter Formal before... And I've never been in The Hamptons either.  
+Rosie(smile)*Think: And it's a perfect opportunity to spend some out-of-the-office time with Matt.  
+#### B  
+\*Gain WINTER_SCARY_8  
+Rosie(sad)*Think: I've never been to a Winter Formal before... And I've never been in The Hamptons either.  
+Rosie(sad)*Think: I'll probably feel misplaced...  
+Rosie(sad)*Think: But it's a good opportunity to spend some out-of-the-office time with Matt.  
+#### C  
+\*Gain WINTER_INTETESTING_8  
+Rosie*Think: I've never been to a Winter Formal before... And I've never been in The Hamptons either.  
+Rosie*Think: I'm not sure how it will go...  
+Rosie*Think: ... But it's a good opportunity to spend some out-of-the-office time with Matt.  
+\***  
+Rosie*Think: I guess this is what Mr. Silverstein meant when he said he'd help me...  
+Rosie*Think: ... When we talked at the Charity Gala.  
+Matt(smile): Thank you very much, sir. It's an honor.  
+Rosie(smile): It truly is. Thank you, Mr. Silverstein, for inviting me as well.  
+\>>  
+Silverstein(smile): I'm glad you think so. If anything, we've got great food and plenty of wine.  
+Silverstein(smile): I'll also have rooms ready for you, so you don't have to worry about getting home.  
+Matt(surprise): Oh, wow, are you s—  
+\>>>  
+Silverstein(smile): Of course! I'll see you there, yes?  
+\>  
+Rosie(smile): Yes, sir.  
+Matt(smile): Indeed.  
+Narrator: Mr. Silverstein smiles at you before walking back to his desk.  
+Matt(smile): I think that's our cue.  
+Narrator: Matt whispers. He opens the door for you, gestures you to walk out first, and then follows you.  
+\*  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_desk_office_reception.jpg-story' width='60'>
+\*Scene INT_SILVERSTEIN_TOP_FLOOR_DAY (Color: Black)
+{% endhint %}  
+\*Camera Right 0  
+\*  
+Rosie(smile): A Winter Formal, huh? You've done this before, right?  
+Matt(smile): Not really, actually. I think this might be because Mr. Silverstein is considering making me the next CEO.  
+Rosie*Think: I wonder when he'll tell me the truth...  
+Rosie*Think: ... That he is in fact set to be the next CEO if he marries Ashley.  
+Rosie*Think: Let me probe him a little.  
+\>>  
+Rosie(smile): Why would he invite me then? I'm just your assistant.  
+Matt(smile): Maybe he wants us to talk business and thinks I'll need you there?  
+Matt(happy): Or maybe he just likes you? That wouldn't surprise me.  
+Rosie(shy): Thank you, Mr. Dalton.  
+\>  
+Matt(smile): Anyway, I'll see you at lunch. I've reserved a table at Restaurant Duchess.  
+Rosie(smile): Yes, I'll see you there at noon.  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_fancy_restaurant.jpg-story' width='60'>
+\*Scene INT_FANCY_RESTAURANT (Color: Black)
+{% endhint %}  
+Narrator: A few hours later, you meet up at Restaurant Duchess.  
+Narrator: The waiter has reserved your usual table for you, right by the windows.  
+\>>R  
+\*Condition  
+## A. (Condition: PREMIUM_OUTFIT_8 >= 1)  
+#### A  
+Matt(smile): You look nice today. If you hadn't been my assistant, I think you should consider being a stylist.  
+Rosie(shy): Really? Thanks, Matt.  
+\***  
+Narrator: An ominous-sounding rumble roars through the streets of New York City. The sky, that was clear and blue before, has started to darken.  
+Rosie(surprise): Wow, it suddenly started to pour, huh? We barely made it inside.  
+Matt: Yeah, I hate to admit it, but I prefer the snow over rain too.  
+Rosie(smile): Probably won't be long before it reaches New York.  
+Matt(smile): No, and speaking of snow... How was the rest of your weekend in Franklin?  
+Rosie(smile): It was great. My mom and I spent a lot of time...  
+# (htcac_08_09_weekend_in_franklin)  
+## A. Cleaning.  
+## B. Playing cards.  
+## C. Watching Christmas movies.  
+#### A  
+Rosie(smile): ... Cleaning.  
+Matt(smile): Yeah, that does sound... great.  
+Narrator: Matt teases, taking a sip of his water.  
+Rosie(happy): Believe it or not, but cleaning and decluttering is really relaxing for me.  
+Rosie(smile): And mom can't do much herself these days.  
+Matt(smile): Right, she's sick. You mentioned that.  
+Rosie(sad): Yeah... And since my dad isn't around to help anymore...  
+Matt: I get it. It's kind of the same with my Grandpa these days.  
+Rosie(smile): He's lucky to have you.  
+Matt(smile): Thank you, {Rosie Name}. And so is your mother to have you.  
+#### B  
+Rosie(smile): ... Playing cards.  
+Matt(smile): That sounds relaxing.  
+Rosie(happy): It was. We used to play a lot when my dad was alive.  
+#### C  
+Rosie(smile): ... Watching Christmas movies. Netflix has got a ton out already.  
+Matt(smile): I've noticed. I've heard they're very cheesy, though.  
+Rosie(happy): They are. But Christmas movies are kind of our thing.  
+Rosie(smile): We always made plans to watch them together when I was a kid...  
+Rosie(smile): But it always ended up just being mom and me watching them.  
+Rosie(happy): Dad would always fall asleep on the couch.  
+\***  
+Matt(smile): Speaking of your dad... I never got to tell you this because the douche showed up...  
+\>>>R  
+Matt(smile): And then I forgot it, but you need to know.  
+Rosie(smile): What do I need to know?  
+\>>R  
+Narrator: Matt pulls the golden coin he fiddled with in Whitepine up from his pocket.  
+Matt(shy): Your dad gave me this the day I helped him paint the chicken coop. He told me it was rare.  
+Rosie(surprise): He did?  
+Matt(smile): Here...  
+Narrator: Matt hands you the coin. It's warm from being in Matt's hand.  
+Matt: Your dad inspired me to start collecting coins. He told me about his own collection too.  
+Matt(smile): That combined with some wise words about working hard to get where you want to be in life...  
+Matt(smile): ... Actually plays a big part in us being here right now and me being where I am in my career.  
+Matt: I didn't know your dad very well, unfortunately, but that day, he taught me so much about hard work.  
+Matt(sad): He was a great man. I wish I could've thanked him.  
+Rosie(sad): Are you being serious right now?  
+Matt: Of course! I would never lie about this.  
+Narrator: You feel a lump the size of a lemon forming in your throat, and tears start to press on.  
+Narrator: But they're not the sad kind, they are the happy, proud ones. You give the coin back to Matt.  
+Rosie(shy): Thank you for telling me that. I'm not surprised that he'd do that. He was an amazing dad.  
+\>>>R  
+Matt(smile): He and your mother raised a good kid too.  
+\>>R  
+Rosie(shy): Thanks, Matt. It means a lot to hear this.  
+Rosie(smile): So, why did you and your grandparents move to Murfreesboro?  
+Matt: Well, because my great grandfather died, and he left his farm to my grandpa.  
+Matt(smile): It was his childhood home, and he's always wanted to grow old there too.  
+Rosie(smile): Makes sense.  
+\*Play Music m_illusion1  
+Narrator: Something outside the window catches your attention from the corner of your eye.  
+Narrator: You turn to see a hooded figure of a woman standing on the other side of the road, staring at you.  
+Rosie(sad): That's creepy. It looks like she's staring at us, doesn't it?  
+Narrator: Matt follows your eyes to the woman, and then almost jumps out of his chair, as if he just saw a ghost.  
+\>R  
+Matt(terror): No...  
+Narrator: He flies up from the chair, and bolts out of the door, almost tackling a waiter on his way.  
+Rosie(surprise): Matt!  
+# End  

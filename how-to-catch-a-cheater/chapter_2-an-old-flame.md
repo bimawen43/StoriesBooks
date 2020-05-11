@@ -1,0 +1,826 @@
+# Begin  
+\*  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_edifice_top_office.jpg-story' width='60'>
+\*Scene INT_MATTS_OFFICE_DAY
+{% endhint %}  
+\*Camera Left 0  
+\*Play Music m_melancholy_sadness_gently_a_mystical_experience_01  
+\*  
+Rosie*Think(surprise): Matt?!  
+Narrator: It suddenly makes sense why Matt had looked familiar the night you met.  
+Narrator: Now that he's wearing his usual suit and tie, you recognize him from the tabloids.  
+Narrator: From TV and social media. Matthew Dalton, New York's most eligible bachelor.  
+\>>  
+Silverstein(surprise): You two know each other?  
+\>  
+Rosie(sad)*Think: I have to downplay knowing him.  
+Rosie(sad)*Think: If he thinks Matt and I know each other too well...  
+Rosie(sad)*Think: ... He might not want to hire me in fear of Matt getting suspicious.  
+Rosie(sad)*Think: What lie should I use?  
+# (htcac_02_01_tell_lie)  
+## A. I don't know him.  
+## B. I forgot his name.  
+#### A  
+Rosie: There's something familiar about you, but I— I don't quite remember you, sir.  
+\*Camera Right 1  
+Matt(sad): ...  
+Narrator: Matt's face darkens. Your words clearly disappointed him.  
+Matt: Well, in that case, let me introduce myself... again. I'm Matthew Dalton.  
+Matt: We met at Lou's bar about a month ago.  
+#### B  
+Rosie(confuse): Oh, uhm... yes, we met in a bar a while ago. J-Jake?  
+\*Camera Right 1  
+Matt(sad): ...  
+Narrator: Matt's face darkens. Your words clearly disappointed him.  
+Matt: Not exactly. I'm Matthew Dalton.  
+\***  
+\*Camera Left 2  
+Rosie(sad)*Think: I hate having to do this when I truly enjoyed the time I spent with Matt.  
+Rosie(sad): Oh, I remember. My apologies... Mr. Dalton.  
+\*Play Sound s_phonering  
+Narrator: Matt's phone rings, and he pulls it up from his pocket again.  
+Narrator*Top: Matt | Excuse me.  
+Narrator: He walks away and answers it.  
+\*Stop Music  
+\*Play Music m_suspense_melancholy_ob1_01  
+Silverstein(angry): You didn't tell me you knew him. How much does he know about you?  
+Rosie: I don't know him. We met once.  
+Rosie: And don't worry, we never even talked about our jobs. He doesn't know what I do.  
+Silverstein: Hm. Did you... hook up?  
+### \*Goto htcac02_advantage (Condition: KISS_MATT >= 1)  
+### \*Goto htcac02_noadvantage (Condition: KISS_MATT = 0)  
+# htcac02_advantage  
+Rosie(sad): We kissed, but nothing else.  
+Silverstein: That might actually give us an advantage.  
+Rosie(confuse): How?  
+Silverstein(smile): You've caught him before, now do it again.  
+### \*Goto htcac02_work_with_matt  
+# htcac02_noadvantage  
+Rosie: No, we didn't do anything.  
+Silverstein: Shame. That could've given us an advantage.  
+### \*Goto htcac02_work_with_matt  
+# htcac02_work_with_matt  
+\*Camera Right 2  
+Narrator: Matt returns, having finished his call.  
+Matt: Sorry about that, Mr. Silverstein.  
+\*Camera Left 2  
+Silverstein(smile): Don't be. I could never fault you for being hard-working, Mr. Dalton.  
+Silverstein: I'm going to leave you two to it.  
+Narrator: Mr. Silverstein exits Matt's office, leaving you in ice-cold silence with your new boss.  
+\*Play Music m_suspense_melancholy_aurora_currents_01  
+Rosie: Okay, uhm... This is a bit awkward.  
+Matt: We'll make it work. Ms. Winter was it?  
+Rosie: Yes, Winter.  
+Matt: That explains a lot.  
+Narrator: You hear Matt mumble under his breath.  
+\>>  
+Rosie(sad): Look, I'm sorry, Ma— Mr. Dalton.  
+Rosie(smile): I honestly had a good time with you that night.  
+Narrator: Matt avoids your eyes, his whole demeanor turning cold.  
+Matt: It's in the past. Let me show you to your desk, Ms. Winter.  
+Rosie(sad)*Think: Wow, he's so cold and different now. It's like he's a completely different person.  
+\>  
+# htcac02_new_colleague  
+\*Play Music m_gently_snug_away_in_a_manger_01  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_assistant_president_desk_office.jpg-story' width='60'>
+\*Scene INT_PRESIDENT_ASSISTANT_DESK_OFFICE (Color: Black)
+{% endhint %}  
+Matt: Have you met Ms. Cortez?  
+Rosie(smile): Briefly, yes.  
+Matt: Good. Ms. Cortez, will you make sure Ms. Winter gets settled?  
+Brisa(smile): Of course, sir.  
+Narrator: Matt nods. Your eyes latch onto his for a few seconds before he turns around and walks away...  
+Narrator: ... Leaving nothing but freezing air between you.  
+Rosie*Think: I have to let it go and focus on the job.  
+Rosie*Think: Whatever I felt that night with him has to die now.  
+Rosie*Think: But, hopefully, it will allow something new to be born.  
+\>>  
+Brisa(smile): So, you're Mr. Dalton's new assistant, huh?  
+Rosie(smile): I guess I am. {Rosie Name} Winter.  
+Brisa(happy): Brisa Cortez.  
+Brisa(smile): I bet there were a lot of girls interested in this job. How many of them are still alive?  
+Rosie*Think: I should...  
+# (htcac_02_02_brisa_joke)  
+## A. Play along.  
+## B. Kill the joke.  
+#### A  
+Rosie(happy): You're looking at the answer.  
+\>  
+Narrator: You wink at Brisa, who giggles briefly before composing herself.  
+Narrator: She looks around to make sure you're alone.  
+Brisa(happy): I thought so. You're lucky, you know?  
+#### B  
+Rosie(smile): All of them, I hope. The real question is, how long will I be?  
+\>  
+Narrator: Brisa smiles but looks around to make sure you're alone.  
+\***  
+Brisa(smile): Mr. Dalton is quite easy on the eyes, am I right?  
+Rosie: Matt is...  
+# (htcac_02_03_matt_look)  
+## A. Dreamy.  
+## B. Intimidating.  
+#### A  
+Rosie(shy): Well, yeah... Mr. Dalton is dreamy.  
+#### B  
+Rosie: I was thinking more like seriously intimidating.  
+\***  
+Brisa(surprise): ...  
+Rosie(sad): Oh, no... he's standing right behind me, isn't he?  
+# htcac02_wrangle  
+\*Stop Music  
+\*Play Music m_sadness_suspense_gently_every_step  
+Narrator: Brisa nods, pursing her lips together into a thin line and switches her focus back to her computer swiftly.  
+Narrator: You reluctantly turn around to face Matt.  
+Narrator: His expression is a mixture of amusement and seriousness.  
+\>>  
+Matt: I forgot to give you this.  
+\*Item  
+## A. ITEM_PHONE Take it.  
+#### A  
+Matt: This phone contains everything you'll need. All the important contacts and my schedule.  
+\***  
+Matt: Little piece of advice, don't lose it.  
+Rosie: I won't. I'm not completely incompetent... sir.  
+Matt: We'll see about that.  
+Rosie(angry): What is that supposed to mean?  
+Matt: It means I'm not getting my hopes up...  
+Matt(angry): ... Because you're supposed to be the one remembering things for me.  
+Matt(angry): Yet you couldn't even remember my name.  
+Brisa(surprise): Oop.  
+Rosie(angry): Oh, and you remember everything from that night?  
+Matt: Yes, in fact, I do.  
+Matt(angry): I remember you being this obnoxiously outspoken too.  
+Matt: But that's probably something you should reconsider if you want to stay here.  
+Rosie(angry): Why? Can't handle the truth?  
+\>  
+Narrator: Matt steps closer to you, close enough for you to smell his spicy cologne. His face is serious and unreadable.  
+Matt: And what truth is that?  
+Rosie*Think(angry): I should...  
+# (htcac_02_04_the_true)  
+## A. Deliver the final blow.  
+## B. Retreat respectfully.  
+#### A  
+\*Gain FINAL_BLOW  
+Rosie: That you're not that memorable.  
+Brisa(surprise): ...!  
+Matt: ...  
+Narrator: Matt looks at you from top to bottom before a small smile tugs at one of the corners of his mouth.  
+Narrator: He leans in closer to you and whispers...  
+\>>>  
+Matt(smile): Well, maybe I should've given you more to remember me by then. My bad.  
+Rosie*Think(surprise): Dang!  
+\>  
+#### B  
+\*Gain RETREAT_RESPECTFULLY  
+Rosie(sad)*Think: I have to put my ego aside for this job...  
+Rosie(sad): Nothing...  
+Matt(angry): Didn't think so.  
+\***  
+# htcac02_comfort  
+\*Stop Music  
+\*Play Music m_gently_snug_lullaby_01  
+Narrator: He turns around and walks away.  
+\*Condition  
+## A. (Condition: FINAL_BLOW >= 1)  
+## B. (Condition: RETREAT_RESPECTFULLY >= 1)  
+#### A  
+\>>  
+Brisa(smile): That was... impressive! I can't believe you went against Mr. Dalton like that.  
+Narrator: You run a hand up your arm, noticing the goosebumps his last words conjured.  
+Rosie: Well, he deserved it.  
+#### B  
+\>>  
+Brisa: I think it was wise of you to back down. Mr. Dalton is pretty ruthless.  
+Brisa: He's fired girls for way less than what you did before.  
+Rosie(sad): Yeah, I figured. I need this job.  
+\***  
+Brisa(smile): This is it. Your very own office. It's got such a great view.  
+Rosie(smile): I guess we'll be seeing each other a lot then.  
+Brisa(happy): Yes. About time I got some company up here.  
+Brisa(smile): Are you hungry? I could show you the cafeteria?  
+Rosie*Think(smile): I'm going to be here for a while, so I might as well make friends.  
+# (htcac_02_05_eat_something)  
+## A. I can always eat. (Cost: 16 Diamond ID: plot_htcac_02n_brisa)  
+## B. I'm not really hungry.  
+#### A  
+\*Gain PREMIUM_LUNCH_2  
+Rosie(happy): Honestly, I'm always hungry.  
+Brisa(happy): A fellow foodie, huh? That's perfect.  
+Brisa(smile): Follow me then. You'll love the cafeteria. The food is really high quality.  
+\>  
+Narrator: You follow Brisa to the elevator. She moves elegantly across the floor.  
+### \*Goto htcac02_eat_with_brisa  
+#### B  
+Rosie(smile): I'm not really hungry. I guess Mr. Dalton kinda scared my appetite away. Thanks though.  
+Brisa(smile): Alright, no worries. I'll see you around, okay?  
+Rosie(smile): See you around, Brisa.  
+\>  
+Narrator: Brisa leaves you to get settled into your new private office.  
+Rosie(sad)*Think: Okay, I should spend some time looking through Matt's schedule.  
+Narrator: You notice Matt's got a meeting soon.  
+Rosie(smile)*Think: I should probably go ask him if he needs my help for that.  
+\*Stop Music  
+\*Play Music m_melancholy_sadness_gently_a_mystical_experience_01  
+\*  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_edifice_top_office.jpg-story' width='60'>
+\*Scene INT_MATTS_OFFICE_DAY (Color: Black)
+{% endhint %}  
+\*Camera Left 0  
+\*  
+Narrator: You knock on his door before entering.  
+Matt: Yes, Ms. Winter?  
+Rosie: I noticed you have a meeting soon, sir. Would you like me to attend it with you?  
+Matt: No.  
+Rosie: Oh, okay.  
+### \*Goto htcac02_relation  
+\***  
+# htcac02_eat_with_brisa  
+\*Play Music m_sadness_suspense_gently_every_step  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_silverstein_cafeteria_day.jpg-story' width='60'>
+\*Scene INT_SILVERSTEIN_CAFETERIA_DAY (Color: Black)
+{% endhint %}  
+Brisa(smile): Alright, this is it.  
+Rosie(smile): It's so light and bright in here.  
+Brisa(smile): Yeah, Ashley's got great style.  
+Rosie: Ashley?  
+Brisa(smile): Oh, sorry, Mr. Silverstein's daughter, Ashley Silverstein.  
+Brisa(smile): Everything is newly renovated, and Ashley pretty much decided on everything.  
+Narrator: You and Brisa pick what you want from the menu and find a free table.  
+\>>R  
+Brisa(smile): Speak of the devil, here she comes.  
+Narrator: A long-legged, redheaded stunner struts in with the confidence of a model.  
+Ashley: ...  
+Rosie(smile): She's really pretty.  
+Brisa(smile): She's as smart as she's beautiful too.  
+Rosie(smile): Sounds like a dangerous combination.  
+Brisa(smile): She is a force to be reckoned with, that's for sure. She always gets what she wants.  
+Brisa(sad): A little word of advice... don't cross her. I got a bad feeling about her.  
+Rosie: Oh? Okay. Thanks for the advice.  
+Brisa(smile): Tea is being spilled and sipped a lot in Silverstein Corp.  
+Brisa(smile): There are lots of both flattering and unflattering stories about Ashley.  
+Rosie*Think(smile): I prefer...  
+# (htcac_02_05_DP1_talking_about_tea)  
+## A. Drinking tea.  
+## B. Spilling tea.  
+#### A  
+\*Gain DRINK_TEA  
+Rosie(smile): Honestly, I prefer drinking my tea. I'm "anTea" and all about posetiviTea, you know what I mean?  
+Brisa(smile): Oh, that's... refreshing. I'll try to contain myself when I'm with you then.  
+Brisa(happy): I like my tea piping hot!  
+#### B  
+\*Gain SIP_TEA  
+Narrator: You lean in close to Brisa, shielding your mouth with a palm and whisper:  
+Rosie(smile): I prefer my tea spilled.  
+Brisa(happy): That makes two of us!  
+\***  
+Brisa(smile): Speaking of tea, I couldn't help but notice that you and Mr. Dalton seem to know each other?  
+Rosie(smile): We do. We met at my best friend's bar about a month ago. We kinda hit it off, I guess.  
+Brisa(surprise): You hooked up with Mr. Dalton?!  
+Narrator: You notice a few curious heads whip in your direction, one of them being Ashley's.  
+Ashley(angry): ...  
+Rosie(surprise): No! No... We didn't hook up, and could you keep your voice down?  
+Rosie(smile): I'd prefer not being wrongfully labeled as "the girl who slept with her boss" on my first day.  
+Brisa(shy): Sorry... my mouth doesn't always consult with my head before speaking.  
+Narrator: Ashley storms out of the cafeteria while darting eyes that could kill your way.  
+Brisa(sad): Oh, no... I think Ashley heard. I'm sorry, {Rosie Name}.  
+Rosie(smile): It's okay. I can handle her.  
+Brisa: I wouldn't be too sure about that. She's been interested in Mr. Dalton forever.  
+Brisa(sad): Oh, my God, I probably just cost you your job.  
+Brisa(sad): She's going to tell Mr. Silverstein for sure! I'm so stupid!  
+Rosie*Think: Mr. Silverstein won't fire me, that's for sure. I should tell Brisa...  
+# (htcac_02_05_DP2_ashley_jealous)  
+## A. Not to worry.  
+## B. To be more careful.  
+#### A  
+\*Gain NO_WORRIES_BRISA  
+Rosie(smile): Don't worry, Brisa. Mr. Silverstein hired me for Mr. Dalton. I doubt he'd fire me on the same day.  
+Brisa(sad): I hope not.  
+Rosie(smile): Seriously, don't worry. You're way too hard on yourself.  
+Message: Impact | Brisa will remember this.  
+Brisa(smile): No, you're just being way too nice to me.  
+\>R  
+#### B  
+\*Gain CAREFUL_BRISA  
+Rosie: I don't think I'll get hired and fired on the same day, but you should be more careful.  
+Message: Impact | Brisa will remember this.  
+Brisa(sad): I know.  
+\>R  
+\***  
+\*  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_edifice_top_office.jpg-story' width='60'>
+\*Scene INT_MATTS_OFFICE_DAY (Color: Black)
+{% endhint %}  
+\*Camera Left 0  
+\*  
+\*Play Music m_sprightly_gently_boardroom_theme  
+Narrator: After your lunch break, you bring Matt his food as stated in the notes.  
+Rosie: Uhm, I brought you your lunch... Mr. Dalton.  
+Matt: I see you didn't check my schedule. I have a meeting here in 15 minutes.  
+Rosie: Oh...  
+Matt: And I could really have used my assistant for this.  
+### \*Goto htcac02_relation  
+# htcac02_relation  
+Matt: I'll make sure to record the meeting so that you can take notes from it later.  
+Rosie: Why can't I just be here for the meeting?  
+Matt: Because I doubt you're ready for that.  
+Rosie(smile): For what? Taking notes?  
+\>>  
+Matt(angry): There's more to it than that, Ms. Winter.  
+Matt(angry): I'm meeting a very important partner of Silverstein Corp. We need to land this deal.  
+Matt: And your big mouth seems to have no off button. It's a stream of never-ending questions.  
+Rosie(angry): Well, excuse me for being new here. What's your excuse for being rude?  
+Matt: I'm not rude, I'm direct. There's too much work to be done to waste time on formalities.  
+Rosie(smile): Well, then put me to work, I promise I'll be useful.  
+Matt: Hmm...  
+\>  
+Rosie*Think: If I can convince Matt to let me stay for the meeting ...  
+Rosie*Think: I'd not only get a bit of alone time with him ...  
+Rosie*Think: I could also prove that I'm a good fit for this job.  
+Rosie*Think: I kinda need a boost, we got off to a bad start.  
+# (htcac_02_08_stay_with_matt)  
+## A. Convince Matt to let you stay. (Cost: 18 Diamond ID: plot_htcac_02_matt) *Goto htcac02_premium_meeting  
+## B. Go back to your desk.  
+#### B  
+\*Gain GO_BACK_TO_DESK  
+Rosie: But if you're more comfortable having me leave then I'll respect that.  
+Matt: I think it's better if you resume other tasks this time.  
+Rosie(sad): Okay. I'll just go back to my desk then.  
+Rosie: Is there anything else you need me for?  
+Matt: No. Thank you, Ms. Winter.  
+\***  
+\*Stop Music  
+\*Play Music m_sadness_suspense_gently_every_step  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_assistant_president_desk_office.jpg-story' width='60'>
+\*Scene INT_PRESIDENT_ASSISTANT_DESK_OFFICE (Color: Black)
+{% endhint %}  
+Rosie: Sigh...  
+Brisa(smile): He's already making you sigh at it's only your first day?  
+Rosie(sad): I don't understand, Brisa.  
+Rosie(sad): When I met him, he was kind, approachable but now... he's a different person.  
+Brisa: I wish I knew what you meant. I've only ever seen this side of him.  
+Rosie(sad): ...  
+Brisa(smile): But hey, if you saw that other side of him back then ...  
+Brisa(smile): Then maybe it's because he could be himself with you?  
+Brisa(smile): And if that's the case, then you'll probably see it again sometime.  
+Rosie: Hmm...  
+# (htcac_02_09_CP_other_side_of_matt)  
+## A. I don't think so.  
+## B. I think you're right.  
+## C. It's hard to say.  
+#### A  
+Rosie(sad): I don't think so. He's completely shut me out. I'm nothing but his assistant now.  
+Brisa(smile): Have a little faith, {Rosie Name}, and just keep being yourself.  
+Brisa(smile): Right now, he's probably just establishing boundaries.  
+Rosie(smile): You're right. I shouldn't let the first day discourage me.  
+Brisa(smile): Exactly. All first days are tough, right?  
+Rosie(smile): Right.  
+### \*Goto htcac02_end_the_day  
+#### B  
+Rosie(smile): I think you're right, or I hope you are.  
+Brisa(smile): Just give him some time. Right now, he's probably just establishing boundaries.  
+Rosie(smile): Yeah, that's probably it. Thanks, Brisa.  
+Brisa(happy): Anytime!  
+### \*Goto htcac02_end_the_day  
+#### C  
+Rosie: It's hard to say, I honestly don't recognize him.  
+Brisa(smile): I wouldn't worry too much. He's the COO and he needs to establish boundaries.  
+Brisa(smile): Especially with you if you're a bit of a flame from the past.  
+Rosie: I think you might be right about that. Maybe I shouldn't take it personally.  
+Brisa(smile): I don't think so. Just keep being yourself.  
+Rosie(smile): Thanks, Brisa.  
+Brisa(happy): Anytime!  
+### \*Goto htcac02_end_the_day  
+\***  
+# htcac02_premium_meeting  
+\*Gain PREMIUM_MEETING2  
+\*Stop Music  
+\*Play Music m_romance_sexy_gently_jazzeton_01  
+Rosie(smile): Come on, Mr. Dalton, I can handle taking notes and keeping quiet.  
+Matt: Fine. You can stay then. Mr. Watson could be here any minute now.  
+Rosie(smile): Thank you.  
+Narrator: You walk around the office a bit, looking around as you wait for Mr. Watson.  
+Rosie: You know, I thought you looked familiar when we first met, but I couldn't place you.  
+\*Matt ROMANCE +1  
+Matt: It's not often I have time to go out dressed like that, so I don't blame you.  
+Rosie*Think(smile): I should...  
+# (htcac_02_08_DP1_cool_matt)  
+## A. Ask why.  
+## B. Tease him.  
+#### A  
+\*Gain ASK_MATT_WHY  
+Rosie(smile): Why don't you? You looked pretty comfortable.  
+Matt: Isn't it obvious?  
+Narrator: Matt gestures to every corner of the office in one swift motion of his hand.  
+Rosie: So, I'm not the only one with an addiction? You're a workaholic?  
+Narrator: Matt huffs, memories from the night you met flashes through his mind.  
+Matt(smile): I guess I am.  
+#### B  
+\*Gain SLUMMING  
+Rosie(smile): So, dressing up as a regular guy and slumming is your thing?  
+Narrator: Matt huffs.  
+Matt(smile): I think I would need to do it at least one more time to decide that.  
+Matt: It was the first time in years.  
+Rosie(surprise): In years?  
+Matt: You don't become the COO of a company by going out and relaxing every night.  
+Rosie: So, you're a workaholic?  
+Rosie(smile):  You could've told me you had an addiction too when we met. I felt so alone.  
+Narrator: Matt scoffs, memories from the night you met flashes through his mind.  
+Matt(smile): I guess I am.  
+\***  
+Matt: But you have to know that I'm going to treat that night as if it never happened.  
+Matt: As if we didn't meet. I have to if we're to work together and you should too. I'm your boss now.  
+Rosie*Think: I obviously need Matt to fall for me, I need to seduce him.  
+Rosie*Think: There are two ways to handle this.  
+Rosie*Think: I could agree with him and become something he can't have.  
+Rosie*Think: Or I could disagree with him and make him want to build on what we already have?  
+Rosie*Think: Which tactic should I use?  
+# (htcac_02_08_DP2_the_tactic)  
+## A. A forbidden romance.  
+## B. An ignited flame.  
+#### A  
+\*Gain FORBIDDEN_LOVE  
+Rosie*Think(smile): Every man wants what he can't have.  
+Rosie(smile): I understand. I think that's for the best too. We have to draw a strict line.  
+Matt: Exactly.  
+#### B  
+\*Gain IGNITED_FLAME  
+Rosie(smile): I'm sorry, but I have to disagree, I don't think that's the way to go.  
+Matt: What do you suggest then?  
+Rosie: I think a good working relationship is built on a good personal one.  
+Rosie(smile): We already connected and had a good time together, why not use that and keep building on it?  
+Rosie(smile): In a professional way, of course.  
+Matt: Hmm. Maybe you're right. I guess we can try that.  
+\***  
+\*Stop Music  
+\*Play Music m_gently_modern_blue_moon_01  
+\*Camera Right 2  
+Narrator: A few minutes later, an elderly gentleman arrives, and we all sit down in Matt's luxurious lounge chairs.  
+Narrator: They go over everything and you fight to keep up with the notes, but as you promised Matt, you can handle it.  
+Narrator: Tutorial | Get as many points as you can to impress Matt in this mini pressure test. Remember <color=purple>what he says</color>.  
+Narrator*Top: <color=olive>Tutorial</color> | Timed choices coming up!  
+Matt: We should <color=purple>buy 11 Pawnee St</color>, <color=purple>demolish 842 Lilac Ave</color>, <color=purple>renovate 89 Creek Street</color>.  
+Rosie*Think(surprise): Which one should we buy?  
+\*Time 7 (Default: C)  
+# (htcac_02_08_DP3_TC_first_question)  
+## A. 23 Amherst Ave.  
+## B. 11 Pawnee St.  
+## C. 2 James Street  
+#### A  
+Narrator*Top: <color=olive>Careful</color> | That was incorrect.  
+Rosie(sad)*Think: No, that wasn't right. I keep it blank then.  
+#### B  
+Narrator*Top: <color=olive>Good Job</color> | That was correct!  
+\*MINI_GAME +1  
+Rosie*Think(smile): 11 Pawnee St. That's right.  
+#### C  
+Narrator*Top: <color=olive>Careful</color> | That was incorrect.  
+Rosie(sad)*Think: No, that wasn't right. Moving on to the next.  
+\***  
+Rosie*Think(surprise): Which one should we demolish?  
+\*Time 7 (Default: A)  
+# (htcac_02_08_DP4_TC_second_question)  
+## A. 829 Smith Store St.  
+## B. 413 Sunset Ave.  
+## C. 842 Lilac Ave.  
+#### A  
+Narrator*Top: <color=olive>Careful</color> | That was incorrect.  
+Rosie(sad)*Think: Oh, no...  
+#### B  
+Narrator*Top: <color=olive>Careful</color> | That was incorrect.  
+Rosie(sad)*Think: Shoot... Get it together, {Rosie Name}!  
+#### C  
+Narrator*Top: <color=olive>Good Job</color> | That was correct!  
+\*MINI_GAME +1  
+Rosie*Think(smile): 842 Lilac Ave. Got ya!  
+\***  
+Rosie*Think(surprise): Which one should we renovate?  
+\*Time 7 (Default: C)  
+# (htcac_02_08_DP5_TC_third_question)  
+## A. 89 Creek Street.  
+## B. 637 Proctor Dr.  
+## C. 67 Creekside Dr.  
+#### A  
+Narrator*Top: <color=olive>Good Job</color> | That was correct!  
+\*MINI_GAME +1  
+Rosie*Think(smile): 89 Creek Street, I'm 100% sure.  
+#### B  
+Narrator*Top: <color=olive>Careful</color> | That was incorrect.  
+Rosie(sad)*Think: Oops. That's wasn't right.  
+#### C  
+Narrator*Top: <color=olive>Careful</color> | That was incorrect.  
+Rosie(sad)*Think: Crap... I don't think that was is.  
+\***  
+### \*Goto htcac02_nailed_it (Condition: MINI_GAME = 3)  
+### \*Goto htcac02_most_right (Condition: MINI_GAME = 2)  
+### \*Goto htcac02_few_right (Condition: MINI_GAME = 1)  
+### \*Goto htcac02_none_right (Condition: MINI_GAME = 0)  
+# htcac02_nailed_it  
+\*Gain NAILED_IT  
+Matt: Did you get that, Ms. Winter?  
+Rosie(smile): Yes. I got everything, sir.  
+Message: Nailed it | You got all the answers right!  
+Narrator: Matt nods approvingly, looking a bit surprised. He smiles briefly at you before looking away as if reprimanding himself.  
+### \*Goto htcac02_end_meeting  
+# htcac02_most_right  
+\*Gain MOST_RIGHT  
+Matt: Did you get that, Ms. Winter?  
+Rosie(smile): I got two of them, but I'm a bit unsure about the last one.  
+Message: Good Job | You got 2/3 answers right!  
+Matt(smile): Alright, we'll go over that one later.  
+Narrator: Matt nods approvingly.  
+### \*Goto htcac02_end_meeting  
+# htcac02_few_right  
+\*Gain FEW_RIGHT  
+Matt: Did you get that, Ms. Winter?  
+Rosie(sad): Uhm, I think I got one of them.  
+Message: Not your best | You got 1/3 answers right.  
+Matt: Okay... We'll go over the others later then.  
+Narrator: Matt gives you a disapproving glare before returning his focus to Mr. Watson.  
+### \*Goto htcac02_end_meeting  
+# htcac02_none_right  
+\*Gain NONE_RIGHT  
+Matt: Did you get that, Ms. Winter?  
+Rosie(sad): *Gulp* uhm... No, sir.  
+Matt: None of them?  
+Rosie(sad): No. I'm sorry, I couldn't keep up.  
+Message: Embarrassing | You got none of them right.  
+Matt(angry): Okay. We'll go over that later then.  
+Narrator: Matt gives you a disapproving glare before returning his focus to Mr. Watson.  
+Rosie(sad)*Think: Shoot, I really messed up.  
+### \*Goto htcac02_end_meeting  
+# htcac02_end_meeting  
+\*Stop Music  
+\*Play Music m_gently_melancholy_rage_one_step_closer_02  
+Narrator: Twenty minutes later, the meeting is coming to an end and Matt elegantly rounds everything up.  
+Matt(smile): Good. I guess that's all then. Mr. Watson, I'm glad you had time to talk to us today.  
+Watson(smile): Of course, I'm glad I had time too. Your new assistant is quite a pretty one.  
+Narrator: You smile politely at Mr. Watson as his eyes trail down your legs longingly.  
+Narrator: Matt glances at you sideways, noticing Mr. Watson eyeing you.  
+Matt(smile): Well, thank you for your time. Say hi to the Mrs. from Mr. Silverstein and me.  
+Narrator: Matt says, getting up from his chair. He gestures Mr. Watson to follow suit, which he does.  
+Narrator: After shaking hands and closing the deal, Mr. Watson leaves the office.  
+\*Condition  
+# (htcac_02_08_DP6_CP_impress_matt)  
+## A. (Condition: NAILED_IT = 1)  
+## B. (Condition: MOST_RIGHT = 1)  
+## C. (Condition: FEW_RIGHT = 1)  
+## D. (Condition: NONE_RIGHT = 1)  
+#### A  
+Matt: I have to admit, you proved me wrong today, Ms. Winter. You were able to keep up.  
+Rosie(smile): As I told you earlier, I'm not completely incompetent.  
+Matt(smile): Maybe not.  
+Message: Impact | You impressed Matt today.  
+Narrator: You catch a small but genuine smile on Matt's lips and a touch of mischief in his eyes.  
+Rosie*Think(smile): I think I managed to turn this day around and get one step closer to Matt.  
+### \*Goto htcac02_end_the_day  
+#### B  
+Matt: I have to admit, you proved me wrong today, Ms. Winter. You were pretty much able to keep up.  
+Rosie(smile): As I told you earlier, I'm not completely incompetent, but there is still room for improvement.  
+Matt(smile): Well, I think you did well for the first day.  
+Rosie(smile): Thank you, sir.  
+Message: Impact | You impressed Matt today.  
+Narrator: You catch a small but genuine smile on Matt's lips and a touch of mischief in his eyes.  
+Rosie*Think(smile): I think I managed to turn this day around and get one step closer to Matt.  
+### \*Goto htcac02_end_the_day  
+#### C  
+Matt: You did well today, Ms. Winter. There is still room for improvement, but I'd say it was satisfactory.  
+Rosie(smile): Thank you, sir. I'll try harder the next time.  
+Narrator: You catch a small but genuine smile on Matt's lips. This meeting did wonders for your day.  
+Rosie*Think(smile): I think I managed to turn this day around and get one step closer to Matt.  
+### \*Goto htcac02_end_the_day  
+#### D  
+Matt(angry): I told you that you weren't ready for this meeting.  
+Rosie(sad): I'm sorry, Mr. Dalton, I promise I'll do better next time.  
+Matt: I hope so. I'll cut you some slack this time, but only because it's your first day.  
+Rosie(sad): You shouldn't make excuses for me. I messed up and I admit it.  
+Matt: Hm. I can respect that.  
+Narrator: You catch a small but genuine smile on Matt's lips. Although not perfect, this meeting did wonders for your day.  
+Rosie*Think(smile): I think I managed to turn this day around and get one step closer to Matt after all.  
+### \*Goto htcac02_end_the_day  
+\***  
+# htcac02_end_the_day  
+\*Stop Music  
+\*Play Music m_gently_rage_romance_lullaby_02  
+\*  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_modern_streets_rain.jpg-story' width='60'>
+\*Scene EXT_NEW_YORK_CITY_STREETS_RAIN (Color: Black)
+{% endhint %}  
+\*Dog_Box -1  
+\*  
+\*Condition  
+## A. (Condition: PREMIUM_MEETING2 = 1)  
+## B. (Condition: GO_BACK_TO_DESK = 1)  
+#### A  
+Narrator: The rest of the day went by fast, thanks to the successful meeting.  
+Narrator: With new hope and the ice melting between you and Matt, you feel warm, even in the rain.  
+Rosie*Think(smile): Nothing can drown my mood tonight!  
+#### B  
+Narrator: The day progressed slowly while the air was cold between you and Matt.  
+Rosie(sad)*Think: Today was rough... And all this rain isn't making it any better.  
+Rosie: I have to do better tomorrow.  
+\***  
+# htcac02_find_puppy  
+Narrator: On your way home, you pass by a wet cardboard box, standing next to a bench.  
+Narrator: From the corner of your eye, you think you see it moving.  
+\*Play Sound s_pup_04  
+Rosie*Think(surprise): It moved! Something is inside.  
+\*Item  
+# (htcac_02_09_cardbroad_box)  
+## A. ITEM_Dog_Box Open it!  
+\***  
+\*+MEET_PUPPY_ANIMATION  
+Rosie*Think(surprise): Oh, my goodness! A puppy! Wait, there's a note in the box.  
+Narrator: The note simply read: "Free dog."  
+Rosie*Think(angry): Who leaves a little puppy out here in the rain like this?!  
+Puppy(sad): nnn...nnn...nnn...  
+Rosie(sad)*Think: A very wet and cold puppy. Aw, poor thing.  
+Rosie*Think(smile): I've always wanted a dog. I could adopt him?  
+\*Play Sound s_pup_01  
+Puppy: Waf - Waf  
+# (htcac_02_10_pay_dog)  
+## A. Adopt the puppy and take him home. (Cost: 29 Diamond ID: plot_htcac_02_puppy)  
+## B. Call a shelter to come get the puppy.  
+#### A  
+\*Gain ADOPT_DOG  
+Rosie(smile): There's no way I'm not taking you home with me, little guy.  
+Puppy(happy): Waf!  
+Narrator: You lift the puppy into your arms and wrap him in your jacket. He's shaking.  
+Rosie: Don't worry. I'll get you warmed up. We're home soon.  
+### \*Goto htcac02_home_puppy  
+#### B  
+\*Gain NO_DOG  
+Rosie(sad): I'm sorry little guy, I don't think it's a good time for me to get a dog right now.  
+Rosie(smile): But don't worry, I'm not leaving you in that box.  
+Narrator: You pull out your phone and find the nearest animal shelter.  
+Narrator: You call them and tell them about the puppy. They promise they'll come and get him.  
+Rosie(smile): They'll be here for you soon. Why don't you take my jacket while we wait?  
+Narrator: You lift the puppy into your arms and wrap him in your jacket. Shortly after, they arrive from the animal shelter.  
+Rosie*Think(smile): Poor pup. I hope he finds a good home.  
+### \*Goto htcac02_home  
+\***  
+# htcac02_home_puppy  
+\*Stop Music  
+\*Play Music m_sprightly_gently_boardroom_theme  
+\*  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_apartment_livingroom_night.jpg-story' width='60'>
+\*Scene INT_APARTMENT_LIVINGROOM_NIGHT (Color: Black)
+{% endhint %}  
+\*+LIGHT_RIGHT  
+\*Camera Right 0  
+\*  
+Rosie(smile): Here you go, a blanket right in front of the fireplace, just for you.  
+Rosie(smile): I got you some puppy food from my neighbor too. She just adopted a puppy too.  
+Rosie(smile): We'll get you some more tomorrow, and some toys...  
+Rosie(smile): ... After I make sure whoever left that note meant it, so I can adopt you.  
+\*Play Sound s_pup_03  
+Puppy(happy): Arf!  
+Rosie(smile): You need a name, don't you?  
+Puppy(surprise): nnn...?  
+\*Puppy Naming: What's the puppy's name? | Puppy  
+Rosie(happy): {Puppy Name}! It's perfect! You really look like a {Puppy Name}.  
+# (htcac_02_10_DP1_play_with_dog)  
+## A. Scratch his ear.  
+## B. Belly rub.  
+#### A  
+\*Gain EAR_SWEET_SPOT  
+Rosie(smile): You also look like you love being scratched right here.  
+\*Play Sound s_pup_03  
+Puppy(happy): Arf!  
+Narrator: You scratch the {Puppy Name}'s ear, kicking off his scratch reflex.  
+Rosie(happy): So that's your sweet spot, huh?  
+#### B  
+\*Gain BELLY_SWEET_SPOT  
+Rosie(smile): And I bet you love a good belly rub, don't you?  
+\*Play Sound s_pup_03  
+Puppy(happy): Waf!  
+Narrator: You rub the {Puppy Name}'s belly, kicking off his scratch reflex.  
+Rosie(happy): So that's your sweet spot, huh?  
+\***  
+Narrator: You settle down next to the fireplace with {Puppy Name}, who's already fast asleep up against you.  
+Narrator: You grab your purse, wanting to look through Matt's schedule for tomorrow on the phone he gave you.  
+Rosie*Think(surprise): Where's the phone?  
+Narrator: You suddenly remember putting it to charge on your and Brisa's desk.  
+Rosie(sad)*Think: Oh, crap! I forgot it at the office!  
+Rosie(sad)*Think: I can't show up for work tomorrow unprepared. I have to go get it.  
+Rosie*Think: At least {Puppy Name} is asleep. He'll be fine.  
+Narrator: You sneak out of the door, trying not to wake up the puppy.  
+### \*Goto htcac02_chase  
+# htcac02_home  
+\*Stop Music  
+\*Play Music m_gently_melancholy_sadness_fortress_europe_01  
+\*  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_apartment_livingroom_night.jpg-story' width='60'>
+\*Scene INT_ROSIES_APARTMENT_NIGHT (Color: Black)
+{% endhint %}  
+\*Camera Left 0  
+\*  
+Narrator: You immediately get out of your wet clothes and light the fireplace.  
+Rosie*Think: Home sweet home. What a day.  
+\*+LIGHT_LEFT  
+Rosie*Think(smile): I need a cup of something hot to warm me up.  
+# (htcac_02_11_CP_something_hot)  
+## A. Tea.  
+## B. Coffee.  
+## C. Soup.  
+#### A  
+Rosie*Think(smile): A nice cup of tea should do the trick.  
+#### B  
+Rosie*Think(smile): A warm cup of coffee should do the trick.  
+#### C  
+Rosie*Think(smile): A warm cup of soup should do the trick.  
+\***  
+\*Camera Right 2  
+\*+LIGHT_RIGHT  
+Narrator: You sit down on the couch with your drink and grab your bag, wanting to look through Matt's schedule for tomorrow on the phone he gave you.  
+Rosie*Think(surprise): Where's the phone?  
+Narrator: You suddenly remember putting it in the charger on you and Brisa's desk.  
+Rosie(sad)*Think: Oh, crap! I forgot it at the office!  
+Rosie(sad)*Think: I can't show up for work tomorrow unprepared. I have to go get it.  
+Rosie(sad)*Think: Ugh... I hate that I have to go back out in this weather.  
+Rosie: But the quicker I get there, the quicker I can get back home again.  
+### \*Goto htcac02_chase  
+# htcac02_chase  
+\*Stop Music  
+\*Play Music m_sadness_mystery_fear_towards_us_01  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_modern_streets_rain.jpg-story' width='60'>
+\*Scene EXT_NEW_YORK_CITY_STREETS_RAIN(Color: Black)
+{% endhint %}  
+Narrator: You head towards Silverstein Corp. Which is around 20 blocks away from your apartment.  
+Rosie(sad): Ugh... Why didn't I call a cab?  
+Rosie*Think: If I cut through Central Park, I could save a lot of time.  
+Rosie*Think: But people usually advise against going through it at night.  
+Rosie*Think: I'm mostly worried about...  
+# (htcac_02_12_cut_through_the_park)  
+## A. Getting lost.  
+## B. Getting mugged.  
+## C. Encountering a killer.  
+#### A  
+Rosie*Think: ...Getting lost. It's dark in there. I could trip over something and break my leg.  
+Rosie(sad): I'll take the chance. I don't have time to catch a cold.  
+#### B  
+Rosie*Think: ... Getting mugged.  
+Rosie*Think: I have so many important things in my purse like the picture of Mom in my wallet.  
+Rosie(sad): I'll take the chance. I don't have time to catch a cold.  
+#### C  
+Rosie(sad)*Think: ... Encountering a killer.  
+Rosie(sad)*Think: After all, it's the perfect place to commit crimes, shielded by the trees and the darkness.  
+Rosie(sad)*Think: I'll take the chance. I don't have time to catch a cold.  
+\***  
+Rosie*Think: I'll stick to the lit pathways.  
+\*  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_central_park_bridge_night.jpg-story' width='60'>
+\*Scene EXT_CENTRAL_PARK_BRIDGE_NIGHT (Color: Black)
+{% endhint %}  
+\*Camera Left 0  
+\*  
+Narrator: The rain is keeping people indoors tonight, and the park seems completely deserted.  
+Rosie*Think: So far, so good.  
+Narrator: You approach a dimly lit bridge.  
+\*Play Music m_tension_suspense_fear_apprehensive_at_best_02  
+Narrator: You see two suspicious-looking men have taken cover from the rain underneath it.  
+Narrator: They're loud, smoking, and you notice what appears to be bottles of beer in their hands. They spot you.  
+Stranger1(smile): Hey, Shorty, Want a beer?  
+Stranger2(smile): Or a boyfriend?  
+Narrator: The guys start to catcall you, laughing and riling each other up.  
+Rosie(sad)*Think: I have a bad feeling about this, but it's the way to Silverstein Corp.  
+# (htcac_02_13_the_strangers)  
+## A. Hurry past them.  
+## B. Walk confidently.  
+#### A  
+Rosie(sad)*Think: This was a bad idea.  
+Rosie*Think: I should just hurry past them and get out of here.  
+Narrator: You hurry past them, thinking the worst is behind you, but you're wrong.  
+#### B  
+Rosie*Think(sad): I'm not going to let their catcalling intimidate me.  
+Narrator: You walk confidently past them, not giving them any attention, and as you walk out of the bridge-tunnel.  
+Narrator: You think the worst is behind you, but you're wrong.  
+\***  
+\>>  
+Stranger1(smile): Aw, come back, we won't bite.  
+Stranger2(happy): Unless you want us to! Come on, baby.  
+\>  
+Narrator: You think you hear one of them whisper "let's get her" and so you pick up your pace, looking over your shoulder.  
+Narrator: Sure enough, they've started to follow you, taking long fast strides.  
+\>>  
+Rosie*Think(surprise): This isn't happening!  
+\>  
+Narrator: You walk as fast as you can, afraid that if you start running, so will they, but they're gaining on you.  
+Rosie*Think(angry): Screw this! I'm getting out of here.  
+Narrator: You start running, not taking any chances, but then you hear their footsteps turning into running as well.  
+\>>>  
+Stranger1(angry): {*Shake Get her!}  
+\>  
+Narrator: You hear one of them yell as they start sprinting. They're closing in on you!  
+Rosie(terror): {*Shake AAARH!}  
+# End  

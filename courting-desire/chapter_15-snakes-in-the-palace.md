@@ -1,150 +1,116 @@
-# Chapter\_15 Snakes In The Palace
-
-## Begin
-
+# Begin  
 {% hint style="info" %}
-![](https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_fancy_dressing_room.jpg-story) \*Scene COURTING\_DESIRE\_INTRO
-{% endhint %}
-
-Narrator: Chapter Fifteen \| Snakes In The Palace
-
-#### \*Goto premiumbranch \(Condition: BECOME\_SPY &gt;= 1\)
-
-#### \*Goto nonpremiumbranch \(Condition: BECOME\_SPY &lt; 1\)
-
-## premiumbranch
-
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_fancy_dressing_room.jpg-story' width='60'>
+\*Scene COURTING_DESIRE_INTRO
+{% endhint %}  
+Narrator: Chapter Fifteen | <color=olive>Snakes In The Palace</color>  
+### \*Goto premiumbranch (Condition: BECOME_SPY >= 1)  
+### \*Goto nonpremiumbranch (Condition: BECOME_SPY < 1)  
+# premiumbranch  
 {% hint style="info" %}
-![](https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_queen_changeroom.jpg-story) \*Scene QUEEN\_CHANGINGROOM \(Color: Black\)
-{% endhint %}
-
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_queen_changeroom.jpg-story' width='60'>
+\*Scene QUEEN_CHANGINGROOM (Color: Black)
+{% endhint %}  
 Narrator: You've snuck out of the Masquerade party, and at the moment you're in a changing room having a secret rendezvous with the Queen...  
 Narrator: Who has just dropped a bombshell on you.  
-&gt;&gt;&gt;  
+\>>>  
 Therese: I want you to impersonate Marie and infiltrate the party!  
-&gt;&gt;  
-Alice\(surprise\): You want me to do what??
-
-### A. But we look nothing alike!
-
-### B. But what if someone suspects I'm not her?
-
-### C. This is so exciting!
-
-**A**
-
+\>>  
+Alice(surprise): You want me to do <i>what??</i>  
+## A. But we look nothing alike!  
+## B. But what if someone suspects I'm not her?  
+## C. This is so exciting!  
+#### A  
 Therese: That's why this Masquerade is the perfect opportunity.  
 Therese: With her dress and her mask, and Agnes doing your hair to look like hers...  
-Therese: Nobody will guess that you're not her.
-
-**B**
-
+Therese: Nobody will guess that you're not her.  
+#### B  
 Therese: Then you will excuse yourself and leave immediately, before that person can do anything.  
 Therese: They can suspect all they want, but that's all they'll be able to do.  
-Therese\(smile\): But don't worry dear, I'm confident that no one will suspect anything.
-
-**C**
-
+Therese(smile): But don't worry dear, I'm confident that no one will suspect anything.  
+#### C  
 Therese: Yes, but don't forget it's also dangerous, so you have to be extremely careful.  
 Alice: Yes, of course.  
-\*\*\*  
-Alice\(surprise\): How did you manage to get hold of Marie's dress and mask?  
-Therese\(smile\): I arranged for a sleeping draught to be slipped into her drink earlier in the evening.  
-Alice\(surprise\): You did not.  
-Therese\(smile\): Even as we speak, Marie is sleeping it off in her chamber.  
+\***  
+Alice(surprise): How did you manage to get hold of Marie's dress and mask?  
+Therese(smile): I arranged for a sleeping draught to be slipped into her drink earlier in the evening.  
+Alice(surprise): You did <i>not.</i>  
+Therese(smile): Even as we speak, Marie is sleeping it off in her chamber.  
 Narrator: You both stare at each other, until you can't hold it in and start giggling.  
 Narrator: The queen is smiling too, and then the both of you are giggling like crazy.  
 Narrator: You wipe away tears from laughing too hard.  
-Alice\(smile\): Sorry, the mental image was just too funny.  
-Therese\(smile\): No need to apologize, it really is very funny.  
+Alice(smile): Sorry, the mental image was just too funny.  
+Therese(smile): No need to apologize, it really is very funny.  
 Alice: Okay, so what should I do when I'm back in the ballroom as Marie?  
 Alice: Is there anyone in particular that I should speak with?  
 Therese: Yes. I think you would find out the most information by speaking with the person I suspect the most.  
-Alice\(sad\): You mean...  
-&gt;&gt;&gt;  
+Alice(sad): You mean...  
+\>>>  
 Therese: Yes. Rene Mazarin.  
-&gt;&gt;  
+\>>  
 Narrator: You break out in a cold sweat even upon hearing his name.  
-Alice\(sad\): Your Majesty...
-
-### A. I don't think I can do it.
-
-### B. Do I really have to speak with him?
-
-### C. I'm scared, but I'll try my best.
-
-**A**
-
+Alice(sad): Your Majesty...  
+## A. I don't think I can do it.  
+## B. Do I really have to speak with him?  
+## C. I'm scared, but I'll try my best.  
+#### A  
 Therese: I understand why you'd feel that. And I'll never force you to do something you don't want to do.  
-Therese: But just know that if you decide to do it, I'll be right there in the ballroom watching over you.
-
-**B**
-
+Therese: But just know that if you decide to do it, I'll be right there in the ballroom watching over you.  
+#### B  
 Therese: No, you definitely don't have to do anything that you don't want to.  
-Therese: But just know that if you decide to do it, I'll be right there in the ballroom watching over you.
-
-**C**
-
+Therese: But just know that if you decide to do it, I'll be right there in the ballroom watching over you.  
+#### C  
 Narrator: The Queen throws her arms around you.  
 Therese: You're so brave and strong.  
 Therese: And I want you to know that I'll be right there in the ballroom watching over you.  
-\*_\*  
+\***  
 Therese: And I'll never let him hurt you.  
-Alice\(sad\): ...  
+Alice(sad): ...  
 Alice: Okay, I feel better knowing that.  
-Therese\(smile\): Okay, I have to get back before Louis and other people start wondering where I am.  
-&gt;  
-Therese\(smile\): I'll leave you to get dressed and ready.  
-Alice\(smile\): Yes, your Majesty.  
+Therese(smile): Okay, I have to get back before Louis and other people start wondering where I am.  
+\>  
+Therese(smile): I'll leave you to get dressed and ready.  
+Alice(smile): Yes, your Majesty.  
 Narrator: The queen leaves the room and Agnes helps you to change into Marie's gown, and you put on her mask.  
-\_Alice Outfit Marie\_Masquerade  
-Alice\(surprise\): Wow. I'm already looking a lot like her.  
+\*Alice Outfit Marie_Masquerade  
+Alice(surprise): Wow. I'm already looking a lot like her.  
 Agnes: Just wait till I do your hair, milady. Nobody will be able to tell you're not her.  
 Narrator: You sit down and let the queen's handmaid transform your hair into Marie's...  
-\*Alice Hair Marie\_Hair  
+\*Alice Hair Marie_Hair  
 Narrator: And the transformation is complete.  
-Alice_Think: Wow... the queen was right.  
-Alice_Think: With Marie's dress and mask on, it's almost impossible to tell that I'm not her.  
+Alice*Think: Wow... the queen was right.  
+Alice*Think: With Marie's dress and mask on, it's almost impossible to tell that I'm not her.  
 Alice: Thank you for your help, Agnes.  
 Agnes: My pleasure, milady!  
 Agnes: I'll be staying here, to help you to change back into your own gown afterwards.  
 Alice: Okay!  
-\*Scene BALLROOM\_BLUE\_GOLD \(Color: Black\) \(Condition: BLUE\_GOLD\_DECOR &gt;= 1\)  
-\*Scene BALLROOM\_BLACK\_WHITE \(Color: Black\) \(Condition: BLUE\_GOLD\_DECOR &lt; 1\)  
+\*Scene BALLROOM_BLUE_GOLD (Color: Black) (Condition: BLUE_GOLD_DECOR >= 1)  
+\*Scene BALLROOM_BLACK_WHITE (Color: Black) (Condition: BLUE_GOLD_DECOR < 1)  
 Narrator: You head back to the ballroom, feeling slightly anxious...  
 Narrator: But it turns out that you had nothing to worry about.  
 Anne: There you are, Marie! I was looking all over for you. Where did you go?  
-&gt;&gt;  
-Alice: I...
-
-### A. I had to go powder my nose.
-
-### B. I was looking for Philippe.
-
-### C. Why were you looking for me?
-
-**A**
-
+\>>  
+Alice: I...  
+## A. I had to go powder my nose.  
+## B. I was looking for Philippe.  
+## C. Why were you looking for me?  
+#### A  
 Anne: For so long?  
 Narrator: You put on Marie's usual impatient expression.  
 Alice: Why, is there something important?  
-Anne: Oh, nothing. Just that our father was looking for you.
-
-**B**
-
+Anne: Oh, nothing. Just that our father was looking for you.  
+#### B  
 Anne: Maybe he's hiding from you.  
 Narrator: You put on Marie's usual impatient expression.  
 Alice: Ha ha. Why, is there something important?  
-Anne: Oh, nothing. Just that our father was looking for you.
-
-**C**
-
+Anne: Oh, nothing. Just that our father was looking for you.  
+#### C  
 Anne: Oh, it was actually our father who was looking for you.  
-\*_\*  
+\***  
 Alice: Oh, okay.  
 Narrator: You immediately feel a stab of anxiety in your chest, but manage to keep your face blank.  
 Marie: Did he say why he wanted to speak with me?  
-Anne\(sad\): No, but he didn't seem to be in a good mood though.  
+Anne(sad): No, but he didn't seem to be in a good mood though.  
 Narrator: The feeling of anxiety gets worse, making your mouth go dry and your heartbeat pick up.  
 Alice: Where is he?  
 Anne: Last I saw him he was somewhere over on the other side of the room.  
@@ -152,117 +118,89 @@ Alice: Okay I'll go look for him. Thanks Anne.
 Anne: Huh? Are you feeling okay?  
 Alice: Yeah, why?  
 Anne: Just that... you just thanked me...  
-Alice_Think\(sad\): Oh... I have to remember that Marie is more rude!  
-Alice\*Think\(sad\): If I'm too polite people will get suspicious!  
-Alice: Yeah well...
-
-### A. Don't get used to it.
-
-### B. Are you done talking?
-
-### C. Gasp! Are you saying I'm usually very rude?
-
-**A**
-
-Anne: Ah, see. That's more like you.
-
-**B**
-
-Anne: Ah, see. That's more like you.
-
-**C**
-
+Alice*Think(sad): Oh... I have to remember that Marie is more rude!  
+Alice*Think(sad): If I'm too polite people will get suspicious!  
+Alice: Yeah well...  
+## A. Don't get used to it.  
+## B. Are you done talking?  
+## C. Gasp! Are you saying I'm usually very rude?  
+#### A  
+Anne: Ah, see. That's more like you.  
+#### B  
+Anne: Ah, see. That's more like you.  
+#### C  
 Anne: Well, I mean, you usually are...  
-\*_\*  
+\***  
 Narrator: You roll your eyes at her and walk away as haughtily as you're able to do.  
-Alice_Think\(sad\): That was close! Okay, remember to act like how Marie would act...  
-&gt;  
+Alice*Think(sad): That was close! Okay, remember to act like how Marie would act...  
+\>  
 \*Camera right 1  
 Narrator: You slowly make your way to the other side of the ballroom.  
 Narrator: You see the Queen sitting beside the King, in conversation with him...  
 Narrator: And Rene Mazarin standing against the wall on the far side, just as Anne said he would be.  
-\*Rene Outfit Rene\_Mask  
-Rene\(angry\): ...  
+\*Rene Outfit Rene_Mask  
+Rene(angry): ...  
 Narrator: His entire posture is stiff and tense, and you realize that...  
-Alice_Think\(surprise\): He really does seem to be in a bad mood.  
-Alice_Think\(sad\): Oh my god... I have to go up to him and pretend I'm his daughter.  
-Alice_Think\(sad\): The last time I saw him, he was trying to get me condemned for witchcraft!  
+Alice*Think(surprise): He really does seem to be in a bad mood.  
+Alice*Think(sad): Oh my god... I have to go up to him and pretend I'm his daughter.  
+Alice*Think(sad): The last time I saw him, he was trying to get me condemned for witchcraft!  
 Narrator: You start to feel really sick with dread...  
 Narrator: But you turn and catch the Queen's eyes, and she nods slightly at you, reassuring you.  
-Therese\(smile\): ...  
+Therese(smile): ...  
 Narrator: And you make yourself walk right up to him, even though your heart is pounding like mad in your chest.  
 Narrator: He turns to look at you, and for a moment, you imagine what will happen if he realizes that you're not his daughter...  
 Narrator: And you break out in a cold sweat.  
 Rene: Hmph. There you are. I suppose your sister told you I was looking for you.  
-Alice_Think: Yes! He doesn't realize a thing! The plan is actually working!  
+Alice*Think: Yes! He doesn't realize a thing! The plan is actually working!  
 Alice: Yup. Is something the matter, Father?  
-&gt;&gt;  
+\>>  
 Narrator: Mazarin looks around him, then lowers his voice.  
 Rene: How are you getting along in winning Philippe's affection?  
-Alice\*Think\(surprise\): Philippe?  
+Alice*Think(surprise): Philippe?  
 Narrator: Quickly, you hide your surprise and put on Marie's usual haughty, bitchy demeanor.  
-Alice: I...
-
-### A. I have everything under control.
-
-### B. I'm working on it.
-
-### C. Why do you ask?
-
-**A**
-
-Rene: Do you really? Because it doesn't look that way to me.
-
-**B**
-
-Rene: That's obviously not good enough.
-
-**C**
-
+Alice: I...  
+## A. I have everything under control.  
+## B. I'm working on it.  
+## C. Why do you ask?  
+#### A  
+Rene: Do you really? Because it doesn't look that way to me.  
+#### B  
+Rene: That's obviously not good enough.  
+#### C  
 Alice: Don't you trust me?  
 Rene: I don't think you understand the gravity of it.  
-\*\*\*  
+\***  
 Alice: What do you mean, Father?  
-Rene\(angry\): It seems to me like he still has eyes for that nobody newcomer.  
-Narrator: You flush slightly as you realize the nobody newcomer he's referring to is you.  
-Rene\(angry\): Are you listening, Marie?  
-&gt;&gt;&gt;  
-Rene\(angry\): You absolutely must gain control of the situation, and succeed with our plan.  
-Rene\(angry\): Do whatever you must... including sleeping with him if you have to.  
-&gt;&gt;  
+Rene(angry): It seems to me like he still has eyes for that nobody newcomer.  
+Narrator: You flush slightly as you realize the <i>nobody newcomer</i> he's referring to is you.  
+Rene(angry): Are you listening, Marie?  
+\>>>  
+Rene(angry): You absolutely must gain control of the situation, and succeed with our plan.  
+Rene(angry): Do whatever you must... including sleeping with him if you have to.  
+\>>  
 Narrator: Your mouth drops open in shock, and you struggle to regain your composure.  
 Alice: That's a bit... extreme, isn't it?  
-Rene\(angry\): No, it isn't.  
-Rene: Have you slept with him yet?  
-Alice: I...
-
-### A. Not yet.
-
-### B. Eww, Father!
-
-**A**
-
-Rene\(angry\): And why not?  
-Alice: I... I'm working on it!
-
-**B**
-
+Rene(angry): No, it isn't.  
+Rene: <i>Have</i> you slept with him yet?  
+Alice: I...  
+## A. Not yet.  
+## B. Eww, Father!  
+#### A  
+Rene(angry): And why not?  
+Alice: I... I'm working on it!  
+#### B  
 Alice: Stop asking me that!  
-\*_\*  
-Rene\(angry\): Well, it's important. Win him over quickly.  
-Rene\(angry\): Otherwise all of what I've done would have been in vain!  
+\***  
+Rene(angry): Well, it's important. Win him over quickly.  
+Rene(angry): Otherwise all of what I've done would have been in vain!  
 Narrator: He stops short, as if checking himself.  
-Alice\(surprise\): All of what you've done? What did you do?  
+Alice(surprise): <i>All of what you've done?</i> What did you do?  
 Rene: Never you mind.  
-Alice_Think: This must be what Queen Therese needs me to find out!  
-Alice\*Think: I need to get him to talk!
-
-### A. Get him to tell you what he did! \(Cost 18 Diamond\)
-
-### B. Just let it slide.
-
-**A**
-
+Alice*Think: This must be what Queen Therese needs me to find out!  
+Alice*Think: I need to get him to talk!  
+## A. Get him to tell you what he did! (Cost 18 Diamond)  
+## B. Just let it slide.  
+#### A  
 \*Gain RENECONFESSION  
 Alice: Father, I can't believe you're hiding something from me. First of all, this concerns me.  
 Alice: You just told me that I should do whatever it takes, including sleeping with him!  
@@ -275,61 +213,58 @@ Narrator: And for a moment you feel a trickle of fear at the thought that he mig
 Rene: Fine, you really want to to know what I did?  
 Narrator: You nod wordlessly.  
 Narrator: He leans in closer to you, dropping his voice to a whisper.  
-&gt;&gt;&gt;  
-Message: Snake In The Palace \| You got Rene Mazarin to confess to poisoning the king!  
-Rene: **I was the one who poisoned the food.**&lt;/i&gt;  
-&gt;&gt;  
-Alice\(surprise\): Oh my god! But why-  
+\>>>  
+Message: Snake In The Palace | You got Rene Mazarin to confess to poisoning the king!  
+Rene: <b><i>I was the one who poisoned the food.</b></i>  
+\>>  
+Alice(surprise): Oh my god! But why-  
 Rene: So you can become queen, you stupid girl, why do you think?  
-Alice\(surprise\): But why-  
-Rene: Are you really that slow? And then we just have to get rid of Philippe, then we'll be in **complete control.**&lt;/i&gt;  
+Alice(surprise): But why-  
+Rene: Are you really that slow? And then we just have to get rid of Philippe, then we'll be in <b><i>complete control.</b></i>  
 Alice: I see.  
 Rene: Now do you see what's at stake here?  
 Alice: You didn't succeed though. Louis is recovering.  
 Narrator: Mazarin chuckles, a dark and foreboding sound that sends chills down your spine.  
-Rene: Who's to say he won't suddenly take a turn for the worse?  
-Alice\(surprise\): Do you mean you're going to **try again?**&lt;/i&gt;  
+Rene: Who's to say he won't <i>suddenly take a turn for the worse?</i>  
+Alice(surprise): Do you mean you're going to <b><i>try again?</b></i>  
 Rene: That's none of your business.  
 Rene: Just do your part and make sure Philippe marries you.  
 Alice: But we're already engaged to be married, so why are you so worried?  
-Rene\(angry\): Because engagements can be called off, you stupid girl!  
-Rene\(angry\): So if you want to be Queen, you'd better make sure you win over Philippe!  
+Rene(angry): Because engagements can be <i>called off</i>, you stupid girl!  
+Rene(angry): So if you want to be Queen, you'd better make sure you win over Philippe!  
 Narrator: And with that, Mazarin storms off, leaving you standing there with this enormous revelation.  
-Message: Mission Accomplished \| Congratulations, you succeeded in your spying mission!  
-Alice_Think: I can't believe it, I actually managed to find out what happened!  
-Alice_Think: And not only that, I even found out that Mazarin is planning to finish off what he started!  
-Alice\*Think: I need to tell the Queen what I've discovered immediately!
-
-**B**
-
-Alice_Think: I'd better not push him if he doesn't want to tell... he might get suspicious.  
+Message: Mission Accomplished | Congratulations, you succeeded in your spying mission!  
+Alice*Think: I can't believe it, I actually managed to find out what happened!  
+Alice*Think: And not only that, I even found out that Mazarin is planning to finish off what he started!  
+Alice*Think: I need to tell the Queen what I've discovered immediately!  
+#### B  
+Alice*Think: I'd better not push him if he doesn't want to tell... he might get suspicious.  
 Rene: Anyway, just do your part and make sure Philippe marries you.  
 Alice: But we're already engaged to be married, so why are you so worried?  
-Rene\(angry\): Because engagements can be called off, you stupid girl!  
-Rene\(angry\): So if you want to be Queen, you'd better make sure you win over Philippe!  
+Rene(angry): Because engagements can be <i>called off</i>, you stupid girl!  
+Rene(angry): So if you want to be Queen, you'd better make sure you win over Philippe!  
 Narrator: And with that, Mazarin storms off, leaving you standing there in shock.  
-Alice_Think: Wow, Mazarin is really dead set on having Marie marry Philippe.  
-Alice_Think: And that line he said about how "otherwise all of what I've done would have been in vain".  
-Alice_Think: As in, orchestrating the engagement of his daughter to Philippe...  
-Alice_Think: Or something more sinister than that?  
-Alice_Think: I'd better tell the Queen about all this!  
-\*\*\*  
-&gt;
-
+Alice*Think: Wow, Mazarin is really dead set on having Marie marry Philippe.  
+Alice*Think: And that line he said about how <i>"otherwise all of what I've done would have been in vain".</i>  
+Alice*Think: As in, orchestrating the engagement of his daughter to Philippe...  
+Alice*Think: Or something more sinister than that?  
+Alice*Think: I'd better tell the Queen about all this!  
+\***  
+\>  
 {% hint style="info" %}
-![](https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_queen_changeroom.jpg-story) \*Scene QUEEN\_CHANGINGROOM \(Color: Black\)
-{% endhint %}
-
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_queen_changeroom.jpg-story' width='60'>
+\*Scene QUEEN_CHANGINGROOM (Color: Black)
+{% endhint %}  
 Narrator: You hurry back to the changing room, but only the queen's handmaid is there.  
 Alice: Agnes, do you know if her Majesty will be returnng here? I have to speak with her urgently.  
 Agnes: I only know that her Majesty is tending to his Majesty, milady.  
-Alice\(sad\): Oh, I see.  
+Alice(sad): Oh, I see.  
 Agnes: Let me assist you in changing back into your own attire.  
 Narrator: Agnes helps you to change quickly back into your own gown, then she fixes your hair.  
-\*Alice Outfit Silver_Couture\_Gown_&_Gold\_Mask \(Condition: SILVERGOWN &gt;= 1\)  
-\*Alice Outfit Pink\_Bow\_Gown_&\_White\_Mask \(Condition: SILVERGOWN &lt; 1\)  
-\*Alice Hair Renaissance\_Updo \(Condition: MASQUERADEHAIR &gt;= 1\)  
-\*Alice Hair Usual\_Hairstyle \(Condition: MASQUERADEHAIR &lt; 1\)  
+\*Alice Outfit Silver_Couture_Gown_&_Gold_Mask (Condition: SILVERGOWN >= 1)  
+\*Alice Outfit Pink_Bow_Gown_&_White_Mask (Condition: SILVERGOWN < 1)  
+\*Alice Hair Renaissance_Updo (Condition: MASQUERADEHAIR >= 1)  
+\*Alice Hair Usual_Hairstyle (Condition: MASQUERADEHAIR < 1)  
 Alice: Thank you Agnes. It's good to look like myself once more.  
 Agnes: You're welcome, milady!  
 Narrator: Agnes gathers up Marie's gown and mask.  
@@ -337,371 +272,303 @@ Agnes: And now, I have to go put these back on Lady Marie, before she wakes up.
 Narrator: You catch Agnes' eyes. The handmaid looks like she's repressing a smile.  
 Alice: Be careful, Agnes.  
 Agnes: I will, milady. Don't worry about me.  
-\*Scene BALLROOM\_BLUE\_GOLD \(Color: Black\) \(Condition: BLUE\_GOLD\_DECOR &gt;= 1\)  
-\*Scene BALLROOM\_BLACK\_WHITE \(Color: Black\) \(Condition: BLUE\_GOLD\_DECOR &lt; 1\)  
-Narrator: You hurry back to the ballroom, where the party is still going on at full force.
-
-#### \*Goto ballroom\_knit
-
-## nonpremiumbranch
-
-\*Scene BALLROOM\_BLUE\_GOLD \(Color: Black\) \(Condition: BLUE\_GOLD\_DECOR &gt;= 1\)  
-\*Scene BALLROOM\_BLACK\_WHITE \(Color: Black\) \(Condition: BLUE\_GOLD\_DECOR &lt; 1\)  
+\*Scene BALLROOM_BLUE_GOLD (Color: Black) (Condition: BLUE_GOLD_DECOR >= 1)  
+\*Scene BALLROOM_BLACK_WHITE (Color: Black) (Condition: BLUE_GOLD_DECOR < 1)  
+Narrator: You hurry back to the ballroom, where the party is still going on at full force.  
+### \*Goto ballroom_knit  
+# nonpremiumbranch  
+\*Scene BALLROOM_BLUE_GOLD (Color: Black) (Condition: BLUE_GOLD_DECOR >= 1)  
+\*Scene BALLROOM_BLACK_WHITE (Color: Black) (Condition: BLUE_GOLD_DECOR < 1)  
 \*Camera right 0  
 Narrator: You're standing behind a thick velvet curtain in the ballroom at the Masquerade party...  
 Narrator: Close enough to listen in on Marie and Rene Mazarin's conversation...  
-&gt;&gt;  
-Rene\(angry\): Are you sure you have him under control?  
-Alice_Think: "Him"? Who are they talking about?  
+\>>  
+Rene(angry): Are you sure you have him under control?  
+Alice*Think: "Him"? Who are they talking about?  
 Marie: Of course.  
-Rene\(angry\): Really? Because it doesn't look that way to me.  
+Rene(angry): Really? Because it doesn't look that way to me.  
 Narrator: Marie flushes an angry red.  
-Marie\(angry\): Philippe is mine. He came here tonight with me, didn't he?  
-Alice_Think\(surprise\): They're talking about Philippe!  
+Marie(angry): Philippe is mine. He came here tonight with me, didn't he?  
+Alice*Think(surprise): They're talking about Philippe!  
 Rene: Hmm. And where is he now?  
-Marie\(surprise\): I... I can't possibly have him trailing after me all the time.  
+Marie(surprise): I... I can't possibly have him trailing after me all the time.  
 Rene: Nobody expects that. But it seems to me like he still has eyes for that nobody newcomer.  
-Alice_Think\(angry\): "Nobody newcomer", huh? Rude.  
+Alice*Think(angry): <i>"Nobody newcomer"</i>, huh? Rude.  
 Narrator: Marie draws herself up haughtily.  
-Marie\(angry\): That little nobody is not a threat. Never has been, never will be.  
+Marie(angry): That little nobody is not a threat. Never has been, never will be.  
 Rene: You stupid girl. If you were a little less arrogant, you'd see that she's a very real threat.  
-Marie\(angry\): I-  
-Rene\(angry\): You absolutely must succeed to gain control of the situation.  
-Rene\(angry\): Do whatever you must... including sleeping with him if you have to.  
-Alice_Think\(surprise\): !!!  
+Marie(angry): I-  
+Rene(angry): You absolutely must succeed to gain control of the situation.  
+Rene(angry): Do whatever you must... including sleeping with him if you have to.  
+Alice*Think(surprise): !!!  
 Narrator: You cover your mouth with your hand in shock.  
-Marie\(surprise\): Eww, I can't believe you just said that.  
-Rene: Have you slept with him yet?  
+Marie(surprise): Eww, I can't believe you just said that.  
+Rene: <i>Have</i> you slept with him yet?  
 Marie: Eww, Father! Stop asking me that!  
-Rene\(angry\): Well, it's important. Win him over quickly.  
-Rene\(angry\): Otherwise all of what I've done would have been in vain!  
+Rene(angry): Well, it's important. Win him over quickly.  
+Rene(angry): Otherwise all of what I've done would have been in vain!  
 Narrator: He stops short, as if checking himself, and glances around him carefully.  
 Narrator: You quickly draw yourself back further behind the curtain.  
-Alice_Think: He almost saw me! Maybe I should leave...  
-Alice_Think: But it seems like he's about to say something extremely important...
-
-### A. Stay hidden and continue listening! \(Cost 18 Diamond\)
-
-### B. Slip away quietly.
-
-**A**
-
+Alice*Think: He almost saw me! Maybe I should leave...  
+Alice*Think: But it seems like he's about to say something extremely important...  
+## A. Stay hidden and continue listening! (Cost 18 Diamond)  
+## B. Slip away quietly.  
+#### A  
 \*Gain RENECONFESSION  
-Marie\(surprise\): Otherwise, all of what you've done would have been in vain?  
-Marie\(surprise\): What did you do? Is there something you haven't told me?  
+Marie(surprise): Otherwise, all of what you've done would have been in vain?  
+Marie(surprise): What did you do? Is there something you haven't told me?  
 Rene: You don't understand. The less you know, the more you're protected if things... don't work out as planned.  
 Marie: What's that? Don't tell me you're not confident of our plan?  
 Rene: ...  
 Rene: Fine, you really want to to know what I did?  
 Narrator: He leans in closer to Marie, dropping his voice to a whisper.  
 Narrator: You lean in closer too, straining your ears to listen...  
-&gt;&gt;&gt;  
-Message: Snake In The Palace \| Rene Mazarin confessed to poisoning the king!  
-Rene: **I was the one who poisoned the food.**&lt;/i&gt;  
-&gt;&gt;  
-Alice_Think\(sad\): Oh my god!!&lt;/b&gt;  
-Marie\(surprise\): Oh my god! But why-  
+\>>>  
+Message: Snake In The Palace | Rene Mazarin confessed to poisoning the king!  
+Rene: <b><i>I was the one who poisoned the food.</b></i>  
+\>>  
+Alice*Think(sad): <i><b>Oh my god!!</i></b>  
+Marie(surprise): Oh my god! But why-  
 Rene: So you can become queen, you stupid girl, why do you think?  
-Marie\(surprise\): But why-  
-Rene: Are you really that slow? And then we just have to get rid of Philippe, then we'll be in **complete control.**&lt;/i&gt;  
-Alice_Think\(surprise\): They plan to get rid of Philippe too!  
+Marie(surprise): But why-  
+Rene: Are you really that slow? And then we just have to get rid of Philippe, then we'll be in <b><i>complete control.</b></i>  
+Alice*Think(surprise): They plan to get rid of Philippe too!  
 Narrator: You clench your fists, shock and anger coursing through you.  
-Alice_Think\(angry\): These people are really evil!  
+Alice*Think(angry): These people are really evil!  
 Marie: ... I see.  
 Narrator: Marie smiles slowly.  
-Marie\(smile\): That's really clever.  
+Marie(smile): That's really clever.  
 Rene: Now do you see what's at stake here?  
 Marie: You didn't succeed though. Louis is recovering.  
 Narrator: Mazarin chuckles, a dark and foreboding sound.  
 Rene: Who's to say he won't suddenly take a turn for the worse?  
-Alice_Think\(sad\): Oh my god...&lt;/b&gt;  
-Marie\(surprise\): Do you mean you're going to **try again?**&lt;/i&gt;  
+Alice*Think(sad): <i><b>Oh my god...</i></b>  
+Marie(surprise): Do you mean you're going to <b><i>try again?</b></i>  
 Rene: That's none of your business. Just do your part and make sure Philippe marries you.  
 Marie: But we're ALREADY engaged to be married, so why are you so worried?  
-Rene\(angry\): Because engagements can be called off, you stupid girl!  
-Rene\(angry\): So if you want to be Queen, you'd better make sure you win over Philippe!  
+Rene(angry): Because engagements can be called off, you stupid girl!  
+Rene(angry): So if you want to be Queen, you'd better make sure you win over Philippe!  
 Narrator: And with that, Mazarin storms off, leaving Marie standing there with her fists clenched.  
-Marie\(angry\): "Stupid girl", huh? I'll show him. Philippe will marry no one but me!  
+Marie(angry): "Stupid girl", huh? I'll show him. Philippe will marry no one but me!  
 Narrator: Marie stalks off as well angrily.  
-Alice_Think: I can't believe it, I actually managed to find out what happened!  
-Alice_Think: And not only that, I even found out that Mazarin is planning to finish off what he started!  
-Alice\*Think: I need to tell the Queen what I've discovered immediately!
-
-**B**
-
-Alice_Think: I'd better leave before someone catches me eavesdropping.  
+Alice*Think: I can't believe it, I actually managed to find out what happened!  
+Alice*Think: And not only that, I even found out that Mazarin is planning to finish off what he started!  
+Alice*Think: I need to tell the Queen what I've discovered immediately!  
+#### B  
+Alice*Think: I'd better leave before someone catches me eavesdropping.  
 Narrator: Quietly, you slip away along the walls, back to the other side of the ballroom.  
-\_Camera left 1  
-Alice_Think: Wow, Mazarin is really dead set on having Marie marry Philippe.  
-Alice_Think: And that line he said about how "otherwise all of what I've done would have been in vain".  
-Alice_Think: As in orchestrating the engagement of his daughter to Philippe...  
-Alice_Think: Or something more sinister than that?  
-Alice_Think: I'd better tell the Queen about all this!  
-\*\*_  
+\*Camera left 1  
+Alice*Think: Wow, Mazarin is really dead set on having Marie marry Philippe.  
+Alice*Think: And that line he said about how <i>"otherwise all of what I've done would have been in vain".</i>  
+Alice*Think: As in orchestrating the engagement of his daughter to Philippe...  
+Alice*Think: Or something more sinister than that?  
+Alice*Think: I'd better tell the Queen about all this!  
+\***  
 Narrator: You look around the ballroom, and finally manage to spot the Queen...  
 Narrator: But she's by the King's side in the Ballroom, tending to him.  
-Alice\*Think: I guess I'll have to wait for my chance to speak to her and tell her what I've found out.
-
-#### \*Goto ballroom\_knit
-
-## ballroom\_knit
-
-&gt;  
+Alice*Think: I guess I'll have to wait for my chance to speak to her and tell her what I've found out.  
+### \*Goto ballroom_knit  
+# ballroom_knit  
+\>  
 Philippe: {Alice Name}.  
-Alice\(surprise\): Oh! You scared me. Did you have to sneak up on me like that?  
-&gt;&gt;  
-Philippe\(surprise\): Sorry, I didn't mean to.  
-Philippe\(surprise\): Are you alright? You seem a bit jumpy.  
-Alice: I'm fine.
-
-### A. I'm not jumpy.
-
-### B. You just caught me off guard, that's all.
-
-### C. I'm surprised you're not by Marie's side.
-
-\*\*\*  
-Philippe\(sad\): Are you angry with me?
-
-### A. I'm not angry with you.
-
-### B. Okay, maybe just a little bit.
-
-### C. Of course I'm angry with you!
-
-**A**
-
+Alice(surprise): Oh! You scared me. Did you have to sneak up on me like that?  
+\>>  
+Philippe(surprise): Sorry, I didn't mean to.  
+Philippe(surprise): Are you alright? You seem a bit jumpy.  
+Alice: I'm fine.  
+## A. I'm not jumpy.  
+## B. You just caught me off guard, that's all.  
+## C. I'm surprised you're not by Marie's side.  
+\***  
+Philippe(sad): Are you angry with me?  
+## A. I'm not angry with you.  
+## B. Okay, maybe just a little bit.  
+## C. Of course I'm angry with you!  
+#### A  
 Philippe: Really? Because I'd totally understand if you were.  
 Alice: You had no choice but to escort Marie tonight. You're still officially engaged, after all.  
-Philippe\(sad\): I would have set too many tongues wagging if I didn't.  
+Philippe(sad): I would have set too many tongues wagging if I didn't.  
 Alice: It's okay Philippe, I get it.  
-Philippe: But... I really wanted to come with you tonight.
-
-**B**
-
-Philippe\(sad\): I mean, I totally understand why.  
-Philippe\(sad\): I had no choice but to escort Marie tonight. We're still officially engaged, after all.  
-Philippe\(sad\): I would have set too many tongues wagging if I didn't.  
+Philippe: But... I really wanted to come with you tonight.  
+#### B  
+Philippe(sad): I mean, I totally understand why.  
+Philippe(sad): I had no choice but to escort Marie tonight. We're still officially engaged, after all.  
+Philippe(sad): I would have set too many tongues wagging if I didn't.  
 Alice: Yeah, I get it.  
-Philippe: But... I really wanted to come with you tonight.
-
-**C**
-
-Alice\(sad\): You've barely spoken a single word to me since yesterday!  
-Philippe\(sad\): {Alice Name}, I had no choice but to escort Marie tonight.  
-Philippe\(sad\): I'm still officially engaged to her, after all.  
-Philippe\(sad\): I would have set too many tongues wagging if I didn't.  
-Alice\(angry\): Fine, but seeing the way she treats you, ordering you around... it's really making me angry!  
-Alice\(angry\): I mean, how can you take it?  
+Philippe: But... I really wanted to come with you tonight.  
+#### C  
+Alice(sad): You've barely spoken a single word to me since yesterday!  
+Philippe(sad): {Alice Name}, I had no choice but to escort Marie tonight.  
+Philippe(sad): I'm still officially engaged to her, after all.  
+Philippe(sad): I would have set too many tongues wagging if I didn't.  
+Alice(angry): Fine, but seeing the way she treats you, ordering you around... it's really making me angry!  
+Alice(angry): I mean, how can you take it?  
 Philippe: I "take it" by keeping my thoughts focused on the future.  
 Pwhilippe: Anyway, I wanted to let you know that I really wanted to come with you this evening.  
-\*_\*  
-Alice\(sad\): Oh really.  
-Philippe\(sad\): Really. Please, {Alice Name}... let me make it up to you.  
-&gt;  
-Narrator: Tutorial \| Dancing with Philippe with increase Romance with him, as well as raise the Court's opinion of you!  
-Philippe: Will you dance with me?_ Model
-
-### A. Dance with Philippe! \(Cost 18 Diamond\)
-
-### B. Don't dance with him.
-
-**A**
-
-\*Gain MASK\_DANCE\_PHILIPPE  
-Alice\(smile\): I thought you'd never ask.  
+\***  
+Alice(sad): Oh really.  
+Philippe(sad): Really. Please, {Alice Name}... let me make it up to you.  
+\>  
+Narrator: Tutorial | Dancing with Philippe with increase Romance with him, as well as raise the Court's opinion of you!  
+Philippe: Will you dance with me? *Model  
+## A. Dance with Philippe! (Cost 18 Diamond)  
+## B. Don't dance with him.  
+#### A  
+\*Gain MASK_DANCE_PHILIPPE  
+Alice(smile): I thought you'd never ask.  
 \*Philippe Romance +1  
 Narrator: Philippe smiles and holds out his hand to you, and you take it.  
 Narrator: He pulls you into his arms, and the two of you start twirling across the dancefloor.  
 Narrator: He leans in close to you and whispers...  
-Philippe\(smile\): For a moment, I was afraid that you weren't going to dance with me.  
-Alice\(smile\): Good. Maybe you should be kept on your toes.  
-Philippe\(smile\): I do need someone to keep me on my toes.  
+Philippe(smile): For a moment, I was afraid that you weren't going to dance with me.  
+Alice(smile): Good. Maybe you should be kept on your toes.  
+Philippe(smile): I do need someone to keep me on my toes.  
 Narrator: As the both of you dance, you notice that everyone in the ballroom is watching the both of you.  
 Narrator: A few of the nobles have even stopped dancing themselves to gawp at you.  
 \*Court Opinion +1  
-Message: Good Impression \| You raised your standing in Court by dancing with the Prince!  
-Alice\(shy\): Everyone's looking at us.  
-Philippe\(smile\): Do you mind them looking?  
-Alice\(shy\): No, but... I wonder what they're whispering about?  
+Message: Good Impression | You raised your standing in Court by dancing with the Prince!  
+Alice(shy): Everyone's looking at us.  
+Philippe(smile): Do you mind them looking?  
+Alice(shy): No, but... I wonder what they're whispering about?  
 Narrator: Philippe grins wickedly.  
-Philippe\(smile\): Probably about what a good looking couple we make.  
+Philippe(smile): Probably about what a good looking couple we make.  
 Narrator: You giggle and shake your head.  
 Alice: Philippe, we're not a couple.  
-Philippe\(smile\): Not yet...  
-Narrator: You blush at the implication of his words, and change the subject.
-
-**B**
-
+Philippe(smile): Not <i>yet</i>...  
+Narrator: You blush at the implication of his words, and change the subject.  
+#### B  
 Alice: Perhaps it's not a good idea, since you're Marie's escort for tonight.  
-Philippe\(sad\): Perhaps you're right.  
+Philippe(sad): Perhaps you're right.  
 Philippe: But we can still have a conversation, can we not?  
-Alice\(smile\): Of course.  
-\*_\*  
-&gt;&gt;  
+Alice(smile): Of course.  
+\***  
+\>>  
 Alice: So... has Marie been keeping you on a tight leash tonight?  
-Philippe\(sad\): Don't even joke about it. You have no idea.  
-Philippe\(sad\): She was so clingy I could hardly breathe.  
-Philippe: Luckily, she suddenly said she was tired and went to lie down for a while. \(Condition: BECOME\_SPY &gt;= 1\)  
-Alice_Think: That must have been the sleeping draught starting to work. \(Condition: BECOME\_SPY &gt;= 1\)  
-Philippe: I finally managed to get away by citing the need to answer nature's call. \(Condition: BECOME\_SPY &lt; 1\)  
+Philippe(sad): Don't even joke about it. You have no idea.  
+Philippe(sad): She was so clingy I could hardly breathe.  
+Philippe: Luckily, she suddenly said she was tired and went to lie down for a while. (Condition: BECOME_SPY >= 1)  
+Alice*Think: That must have been the sleeping draught starting to work. (Condition: BECOME_SPY >= 1)  
+Philippe: I finally managed to get away by citing the need to answer nature's call. (Condition: BECOME_SPY < 1)  
 Alice: Ah. Is that why you're a free man now?  
 Philippe: I AM a free man.  
-Alice: Marie is going to have a fit when she sees us dancing together. \(Condition: MASK\_DANCE\_PHILIPPE &gt;= 1\)  
-Alice: Marie is going to have a fit when she sees us talking to each other. \(Condition: MASK\_DANCE\_PHILIPPE &lt; 1\)  
+Alice: Marie is going to have a fit when she sees us dancing together. (Condition: MASK_DANCE_PHILIPPE >= 1)  
+Alice: Marie is going to have a fit when she sees us talking to each other. (Condition: MASK_DANCE_PHILIPPE < 1)  
 Philippe: Let her. I'm going to set this situation straight once and for all, very soon.  
-Alice\(surprise\): Oh!
-
-### A. I'm glad to hear that.
-
-### B. Well, it's about time.
-
-### C. What do you mean?
-
-\*\*\*  
+Alice(surprise): Oh!  
+## A. I'm glad to hear that.  
+## B. Well, it's about time.  
+## C. What do you mean?  
+\***  
 Narrator: Philippe grimaces, a serious expression on his face.  
 Philippe: I'm going to call off the engagement.  
 Philippe: I kept telling myself to wait for Louis to get better before I speak with him about this.  
-Philippe\(smile\): And he's getting better now, so... it's time.  
-Alice: Philippe...
-
-### A. Are you sure?
-
-### B. I'm glad to hear that.
-
-### C. You're making the right decision.
-
-**A**
-
-Philippe: Yes, I'm sure. In fact I've never been more sure of anything else in my life.
-
-**B**
-
-Alice\*Think: Oh thank god! And not a moment too soon!
-
-**C**
-
+Philippe(smile): And he's getting better now, so... it's time.  
+Alice: Philippe...  
+## A. Are you sure?  
+## B. I'm glad to hear that.  
+## C. You're making the right decision.  
+#### A  
+Philippe: Yes, I'm sure. In fact I've never been more sure of anything else in my life.  
+#### B  
+Alice*Think: Oh thank god! And not a moment too soon!  
+#### C  
 Philippe: Oh, I think so too.  
-\*\*\*  
-Narrator: The music comes to an end, and Philippe draws you to the side of the room, speaking earnestly. \(Condition: MASK\_DANCE\_PHILIPPE &gt;= 1\)  
-Narrator: Philippe draws you to the side of the room, speaking earnestly. \(Condition: MASK\_DANCE\_PHILIPPE &lt; 1\)  
+\***  
+Narrator: The music comes to an end, and Philippe draws you to the side of the room, speaking earnestly. (Condition: MASK_DANCE_PHILIPPE >= 1)  
+Narrator: Philippe draws you to the side of the room, speaking earnestly. (Condition: MASK_DANCE_PHILIPPE < 1)  
 Philippe: {Alice Name}...  
 Narrator: The serious way in which he says your name makes your heart skip a beat.  
 Alice: Yes?  
 Philippe: I need to know exactly how you feel for me.  
 Philippe: And... for Armand.  
-Alice\(sad\): Philippe...
-
-### A. Remind him he's still engaged.
-
-### B. Tell him you'll answer him later.
-
-### C. Tell him you need time to think.
-
-**A**
-
-Alice\(sad\): Don't forget that you're still engaged.  
-Alice\(sad\): A man who's still engaged to one woman isn't in the position to ask these questions of another woman.  
-Philippe\(sad\): You're right, of course.
-
-**B**
-
-Alice\(sad\): A man who's still engaged to one woman isn't in the position to ask these questions of another woman.  
-Philippe\(sad\): You're right, of course.  
-Alice: I'll answer you later.
-
-**C**
-
-Alice\(sad\): I'm afraid that I'll need time to think.  
-Alice\(sad\): This entire situation is too complicated right now.  
-Philippe\(sad\): You're right, of course.  
-\*_\*  
+Alice(sad): Philippe...  
+## A. Remind him he's still engaged.  
+## B. Tell him you'll answer him later.  
+## C. Tell him you need time to think.  
+#### A  
+Alice(sad): Don't forget that you're still engaged.  
+Alice(sad): A man who's still engaged to one woman isn't in the position to ask these questions of another woman.  
+Philippe(sad): You're right, of course.  
+#### B  
+Alice(sad): A man who's still engaged to one woman isn't in the position to ask these questions of another woman.  
+Philippe(sad): You're right, of course.  
+Alice: I'll answer you later.  
+#### C  
+Alice(sad): I'm afraid that I'll need time to think.  
+Alice(sad): This entire situation is too complicated right now.  
+Philippe(sad): You're right, of course.  
+\***  
 Philippe: Then I'll ask you again once I've broken off the engagement.  
-Alice\(smile\): You may do that.  
+Alice(smile): You may do that.  
 Narrator: You think again about what Mazarin said earlier on.  
 Alice: Philippe, seriously though...  
 Alice: You really need to try and break off the engagement to Marie as quickly as possible.  
 Alice: Because she's not a good person. And neither is her father.  
 Narrator: Philippe throws his head back and laughs.  
 Philippe: I already know exactly what kind of person she's like, in fact what her entire family are like.  
-Alice_Think\(sad\): Oh... you don't know the half of it.  
+Alice*Think(sad): Oh... you don't know the half of it.  
 Philippe: And that's exactly why I'm going to make sure that the engagement is broken off.  
 Philippe: Come with me, {Alice Name}.  
-Alice\(surprise\): Go with you? Where?  
+Alice(surprise): Go with you? Where?  
 Narrator: He shakes his head mysteriously.  
-&gt;  
-Philippe: Back to what started it all.
-
-#### \*Goto alice\_room \(Condition: PHILIPPE\_PAINTING &gt;= 1\)
-
-#### \*Goto philippe\_room \(Condition: PHILIPPE\_PAINTING &lt; 1\)
-
-## alice\_room
-
+\>  
+Philippe: Back to what started it all.  
+### \*Goto alice_room (Condition: PHILIPPE_PAINTING >= 1)  
+### \*Goto philippe_room (Condition: PHILIPPE_PAINTING < 1)  
+# alice_room  
 {% hint style="info" %}
-![](https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_princess_room_night.jpg-story) \*Scene BLUE\_GOLD\_PRINCESS\_ROOM\_NIGHT \(Color: black\)
-{% endhint %}
-
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_medieval_princess_room_night.jpg-story' width='60'>
+\*Scene BLUE_GOLD_PRINCESS_ROOM_NIGHT (Color: black)
+{% endhint %}  
 Narrator: Philippe and you sneak off quietly from the Masquerade party, and you follow him as he leads you back to...  
-&gt;&gt;  
-Alice\(surprise\): My own room?  
+\>>  
+Alice(surprise): My own room?  
 Philippe: {Alice Name}, may I see the portrait of you that I painted, again?  
-Alice\(surprise\): Of course.  
-Narrator: You retrieve the painting and place it on the writing table, propping it against the wall.
-
-#### \*Goto painting\_knit
-
-## philippe\_room
-
-\*Scene PHILIPPE\_ROOM\_NIGHT \(Color: black\)  
+Alice(surprise): Of course.  
+Narrator: You retrieve the painting and place it on the writing table, propping it against the wall.  
+### \*Goto painting_knit  
+# philippe_room  
+\*Scene PHILIPPE_ROOM_NIGHT (Color: black)  
 Narrator: Philippe and you sneak off quietly from the Masquerade party, and you follow him as he leads you back to...  
-&gt;&gt;  
-Alice\(surprise\): Is this your room?  
+\>>  
+Alice(surprise): Is this your room?  
 Narrator: The bedroom which Philippe has brought you to is gorgeously and expensively furnished, but still distinctly masculine.  
 Narrator: A sword in its scabbard is carefully placed on an oak writing table...  
 Narrator: And a vest which you recognize as belonging to Philippe is draped carelessly over an armchair.  
 Philippe: Yes, it's my room.  
 Narrator: Philippe strides over to an armoire and retrieves something from it...  
 Narrator: Which he places carefully on the writing table, propping it against the wall.  
-Alice: Oh, the painting of me.
-
-#### \*Goto painting\_knit
-
-## painting\_knit
-
+Alice: Oh, the painting of me.  
+### \*Goto painting_knit  
+# painting_knit  
 Narrator: The two of you stand in front of his painting of you, in the moonlight.  
 Narrator: The resemblance of the woman in the painting to you is just as striking now as it was when you first saw it.  
 Narrator: Philippe stares at it for some time without speaking, then he turns to you, removing his mask.  
-\*Philippe Outfit Philippe\_Masquerade\_nomask  
+\*Philippe Outfit Philippe_Masquerade_nomask  
 Philippe: {Alice Name}, I'm more certain than ever that it was you who haunted my dreams.  
 Philippe: Not only that, but you've been more than I could have ever dreamed of.  
 Narrator: You remove your mask as well.  
-\*Alice Outfit Silver\_Couture\_Gown\_nomask \(Condition: SILVERGOWN &gt;= 1\)  
-\*Alice Outfit Pink\_Bow\_Gown\_nomask \(Condition: SILVERGOWN &lt; 1\)  
-Alice\(shy\): Philippe...  
+\*Alice Outfit Silver_Couture_Gown_nomask (Condition: SILVERGOWN >= 1)  
+\*Alice Outfit Pink_Bow_Gown_nomask (Condition: SILVERGOWN < 1)  
+Alice(shy): Philippe...  
 Philippe: I may not know how or why this happened, but I'm glad that it did.  
 Narrator: He takes a step towards you, closing the distance between the two of you.  
 Narrator: Gazing into your eyes, he gently strokes your cheek with the back of his hand.  
-Philippe: {Alice Name}... \*Model
-
-### A. Kiss Philippe! \(Cost 18 Diamond\) \*Goto kiss\_philippe
-
-### B. Take his hand gently. \*Goto holdhand
-
-\*\*\*
-
-## kiss\_philippe
-
+Philippe: {Alice Name}... *Model  
+## A. Kiss Philippe! (Cost 18 Diamond) *Goto kiss_philippe  
+## B. Take his hand gently. *Goto holdhand  
+\***  
+# kiss_philippe  
 \*Gain PHILIPPEKISS15  
 Narrator: Raising yourself on the tip of your toes, you lean forward and kiss him full on the lips!  
 Narrator: Philippe immediately reciprocates, cupping your face with both of his hands as he kisses you back passionately.  
-&gt;&gt;&gt;  
+\>>>  
 \*Philippe Romance +1  
 Philippe: {Alice Name}... you drive me crazy.  
 Alice: Well then it's only fair, since you drive me crazy too.  
-Philippe\(smile\): In a good or bad way?  
-Alice\(smile\): I've yet to decide.  
-Philippe\(smile\): Then let me see if I can help you make up your mind.  
+Philippe(smile): In a good or bad way?  
+Alice(smile): I've yet to decide.  
+Philippe(smile): Then let me see if I can help you make up your mind.  
 Narrator: Philippe resumes kissing you hard, his mouth almost bruising your lips with his passion.  
 Narrator: You sigh and wrap your arms around his neck, relishing the taste of him.  
 Narrator: Once again, he has you with your back up against a wall, and you moan as he pins you against the hard wall with his even harder body.  
@@ -709,27 +576,18 @@ Narrator: His lips trail along the curve of your cheekbone, the dip below your e
 Narrator: As you close your eyes and throw your head backward in pleasure from his relentless kiss.  
 Alice: Mmm...  
 \*Philippe Romance +1  
-Philippe\(smile\): How about now? Have you decided yet?
-
-### A. Maybe...
-
-### B. Not yet...
-
-### C. Try harder...
-
-**A**
-
-Philippe\(smile\): You don't sound convinced... let me see if this will convince you...
-
-**B**
-
-Alice\(smile\): Maybe if you keep this up though...  
-Philippe\(smile\): Mmm, with pleasure...
-
-**C**
-
-Philippe\(smile\): Mmm, with pleasure...  
-\*\*\*  
+Philippe(smile): How about now? Have you decided yet?  
+## A. Maybe...  
+## B. Not yet...  
+## C. Try harder...  
+#### A  
+Philippe(smile): You don't sound convinced... let me see if this will convince you...  
+#### B  
+Alice(smile): Maybe if you keep this up though...  
+Philippe(smile): Mmm, with pleasure...  
+#### C  
+Philippe(smile): Mmm, with pleasure...  
+\***  
 Narrator: He murmurs into your neck, sending a shiver down your spine.  
 Philippe: Your skin tastes delicious.  
 Narrator: Slowly, his mouth slides lower and lower, until he's kissing your cleavage, the heat of his lips making you gasp in pleasure.  
@@ -741,33 +599,25 @@ Narrator: Leaping and skittering with the same fevered excitement as yours.
 Narrator: Your head is spinning as his right hand slowly moves down your hip, grabbing your thigh and forcing you to wrap your leg around him...  
 Narrator: And you feel a heat growing in your lower tummy, as he grinds himself against you.  
 Philippe: How about now?  
-Alice: Oh Philippe, yes...
-
-#### \*Goto marie\_enters
-
-## holdhand
-
-&gt;&gt;  
+Alice: Oh Philippe, yes...  
+### \*Goto marie_enters  
+# holdhand  
+\>>  
 Narrator: You gently cup his hand on your cheek with your left hand, while staring up back at him.  
 Alice: I don't know why this happened either, but I'm glad that I'm here too.  
-Alice\(sad\): I just wish that things weren't so... complicated.  
-Philippe\(sad\): I know, me too.  
+Alice(sad): I just wish that things weren't so... complicated.  
+Philippe(sad): I know, me too.  
 Philippe: But they won't be for much longer, I promise.  
 Philippe: Louis is getting better, I'm going to settle this nonsense with Marie once and for all...  
 Philippe: We'll find out who tried to poison Louis and take care of him...  
-Philippe: And then we'll be free to do whatever we want.
-
-#### \*Goto marie\_enters
-
-## marie\_enters
-
-&gt;  
+Philippe: And then we'll be free to do whatever we want.  
+### \*Goto marie_enters  
+# marie_enters  
+\>  
 Narrator: Suddenly, the door bangs open, and a horrified shriek makes the both of you jump apart!  
-\*Marie Outfit Marie\_Masquerade\_nomask  
-Marie\*Shout\(angry\): You... you harlot!  
-&gt;&gt;  
-Philippe\(surprise\): Marie? What are you doing here?  
-Marie\(angry\): I could ask the both of you the same question!
-
-## End
-
+\*Marie Outfit Marie_Masquerade_nomask  
+Marie*Shout(angry): You... you harlot!  
+\>>  
+Philippe(surprise): Marie? What are you doing here?  
+Marie(angry): I could ask the both of you the same question!  
+# End  

@@ -1,0 +1,689 @@
+# Begin  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_black.jpg-story' width='60'>
+\*Scene BLACK
+{% endhint %}  
+Narrator: Chapter Nine | <color=brown>The Monster's Secret</color>  
+# ws09_bens_call  
+\*  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_invehicle_suburb_day.jpg-story' width='60'>
+\*Scene INSIDE_CAR_SUBURB_DAYLIGHT
+{% endhint %}  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_burger_fastfood_day.jpg-story' width='60'>
+\*Scene BURGER
+{% endhint %}  
+\*  
+Narrator: You heard screeching and sirens over the phone. Then the call ends abruptly.  
+\*Play Sound ringing  
+Narrator: To your relief, Benjamin calls you back!  
+\*Stop Sound  
+\*Show Phone  
+\*Call From Benjamin (Scene: SUBURBAN_STREET)  
+\*Play Music pity  
+Danielle(sad): Ben, are you all right? What happened?  
+Benjamin(smile): Don't worry. Just a fender bender.  
+Danielle(smile): All right, then. Be safe.  
+Benjamin(smile): I heard cheers! Did Alan win?  
+Danielle(smile): Yes, he won. But he's a little bit disappointed that you aren't here.  
+Benjamin(happy): Well, I'll apologize to him for that. But right now, can you do me a favor?  
+Danielle(surprise): What?  
+Benjamin(sad): Can you come here all by yourself? Right now!  
+Danielle(surprise): What's the matter?  
+Benjamin(smile): I made an important discovery, it's about...  
+Narrator: Suddenly, you hear a strong static, as if Benjamin's phone doesn't get a good signal.  
+Danielle(surprise): Are you alright, Ben?  
+Benjamin(smile): My phone is running low. I'm on an abandoned highway north of town.  
+Benjamin(smile): Come here! It's too complicated to explain on the phone.  
+Benjamin(serious): Besides, don't tell anyone else. I just want to see you alone.  
+Danielle(surprise): ...  
+# (ws_09_01_meet_ben)  
+## A. OK, I'm coming soon. (Cost: 20 Diamond ID: plot_ws_09_benjamin) *Goto ws09_abandoned_highway  
+## B. Sorry, I can't leave now. *Goto ws09_have_fun  
+\***  
+# ws09_abandoned_highway  
+\*Hide Phone  
+Danielle*Think: Why do I feel like there is something odd about Ben...  
+Narrator: You quickly pass through the bustling crowd and head toward the door.  
+Narrator: Just around the corner from the door, you see Alan coming toward you with champagne.  
+Alan(smile): My princess, are you going to disappear at midnight just like Cinderella?  
+Danielle(smile): No, it's just that Ben...  
+\>>  
+Danielle*Think(sad): Damn! Why did I mention Ben?  
+Narrator: You bite your lip in frustration after noticing your slip of the tongue.  
+Alan(surprise): Ben? So he's absent from my celebration because he's busy with a secret mission?  
+Danielle*Think: Hmmm... What should I do...  
+# (ws_09_01_DP1_tell_alan)  
+## A. Lie to him.  
+## B. Tell him the truth.  
+#### A  
+Danielle(smile): Yes, he wanted to surprise you, but his car broke down on the way.  
+Alan(surprise): That's terrible! Does he need any help?  
+\>  
+Danielle(happy): Don't worry, I think the tow truck is on the way.  
+Danielle(smile): By the way, I need to pick him up right now.  
+#### B  
+Danielle(smile): Ben's car broke down and he's waiting for me on the highway north of town.  
+Alan(surprise): That's strange. The highway up north has been abandoned for ages. Why did he go there?  
+\>  
+Danielle(smile): I'm not sure, but he sounds quite anxious. I'm sorry... I'll need to leave early...  
+\***  
+Alan(sad): It's a pity. I was looking forward to singing with you.  
+Danielle(happy): Wouldn't it be better if we do that next time? Just two of us?  
+Alan(happy): Fine! Pinky promise!  
+Danielle(smile): It's a deal! See you tomorrow!  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_suburban_street_night.jpg-story' width='60'>
+\*Scene SUBURBAN_STREET
+{% endhint %}  
+\*Stop Music  
+\*Play Music farewell  
+Narrator: You're almost out of town. As the lights become dimmer, the buildings on both sides of the road become quite sparse.  
+Danielle*Think(sad): This place sure does look bleak...  
+\*Play Sound s_vampire  
+\>>  
+Danielle(surprise)*Shout: Ah!  
+\>  
+Narrator: Suddenly you hear the strange roar of a dinosaur from behind the dim woods. You scream and take a few steps back.  
+Benjamin(smile): It's me!  
+Narrator: Benjamin sticks his head out from behind a tree.  
+Danielle(angry): My God! You frightened me!  
+Benjamin(smile): I'm sorry! But will you let me tell you about my discovery before you get mad?  
+Narrator: Benjamin smiles smugly, which makes you roll your eyes.  
+Danielle(happy): Fine, great detective. I'm all ears.  
+\>>  
+Benjamin(smile): I think that snail mail is too slow, so I drove to the laboratory this afternoon...  
+Danielle(surprise): What did you find?  
+Benjamin(smile): It will surprise you! The resutls said that the blood on the baseball bat came from two sources.  
+Benjamin(smile): One is Alan. And the other is from a human... partially.  
+Danielle(surprise): ...  
+# (ws_09_01_DP2_human_blood)  
+## A. Partially? What do you mean?  
+## B. Human? But even the shot couldn't hurt it!  
+#### A  
+Benjamin(angry): It means, whatever the monster is now, it used to be human. Somehow, it mutated.  
+Danielle(surprise): Mutated? Did they tell you how it happened?  
+Benjamin(sad): I'm sorry they didn't...  
+#### B  
+Danielle(surprise): I touched him! He has bristles!  
+Danielle(surprise): This can't possibly be the result of natural evolution of humans, right?!  
+Benjamin(sad): Naturally. Genetic mutation wouldn't explain why it has those mysterious green eyes, either.  
+Benjamin(sad): And why it's so strong.  
+\***  
+\*Stop Music  
+\*Play Music tenderness  
+Narrator: You grab your hair as you try to sort out your thoughts.  
+Danielle(sad): Well then, assuming we aren't filming the next SpiderMan or Hulk, could all of this be a coincidence?  
+Benjamin(angry): That's what I wanted to talk about next...  
+Benjamin(angry): The researchers told me this wasn't the first time they found a mutated blood sample.  
+Benjamin(sad): They ever found the people who died in the Forbidden Forest had a similar mutation.  
+Benjamin(sad): The only difference was the extent of their mutation.  
+\>>  
+Danielle(surprise): My God...  
+# (ws_09_01_DP3_mutation)  
+## A. Didn't they report this to the police?  
+## B. What's the hell in the Forbidden Forest?  
+#### A  
+Benjamin(sad): They tried to, but the data was destroyed before the police could intervene!  
+Narrator: Thinking of something, you and Benjamin exchange a look.  
+Danielle(angry): This doesn't seem like an accident to me! What if... someone is trying to cover up the truth?  
+\>  
+Benjamin(sad): Then this person must be more influential than we initially thought.  
+#### B  
+Danielle(angry): People don't mutate for no reason!  
+Danielle(sad): Maybe this is the real reason why the Forbidden Forest is blocked off!  
+Benjamin(angry): Yes, that's what I wanted to say...  
+\>  
+Benjamin(angry): This is a conspiracy! A giant conspiracy that shrouds the entire town!  
+\***  
+Narrator: Benjamin pauses as fear and anger alternate on his face.  
+Benjamin(sad): Actually, I'm even suspecting that someone wants to kill me because of this!  
+Danielle(surprise): What?!  
+Benjamin(sad): I inspected my tires. It wasn't an accident that they fell off!  
+Danielle(angry): Damn! Those people are crazy!  
+\>>  
+Danielle(surprise): But... How did they know that we got the monster's blood?  
+Narrator: You look at Benjamin and see a hesitant expression flashing across his face...  
+Benjamin(sad): I... I suspect that there's a mole among us!  
+Danielle(surprise): That's impossible...  
+# (ws_09_01_DP4_a_mole)  
+## A. I don't believe Joe would betray us.  
+## B. I don't believe Alan would betray us.  
+## C. I believe in my friends.  
+#### A  
+Benjamin(angry): Then it must be Alan...  
+Benjamin(angry): Don't you think the timing of his appearance in the Forbidden Forest was suspicious?  
+Danielle(sad): But he saved us!  
+Benjamin(angry): That could have been a trick to get close to us. As Sherlock Holmes would say...  
+\>  
+Benjamin(sad): "when you have eliminated the impossible,whatever remains,however improbable..."  
+Benjamin(sad): "Must be the truth."  
+Narrator: You are silent for a moment and shake your head.  
+Danielle(sad): Ben, I don't want to judge him until I confirm it with my own eyes...  
+#### B  
+Benjamin(sad): So you're suspecting Joe?  
+Danielle(surprise): Joe?! But if he wanted to stop us, why would he be taking all those risks with us?  
+Benjamin(sad): That's what I'm confused about too...  
+\>  
+Danielle(sad): Maybe we shouldn't suspect anyone... they're nice guys...  
+#### C  
+Benjamin(sad): But...  
+Danielle(sad): Ben, trust is difficult to establish but so easy to destroy.  
+\>  
+Danielle(smile): I don't want to suspect my friends because of a <i>set up</i> car crash that we have no evidence for!  
+\***  
+Benjamin(sad): Okay then... I'll respect your decision. Maybe I'm just being too suspicious...  
+Narrator: Benjamin shrugs and looks a little dejected. You walk over and hug him warmly.  
+Danielle(smile): Either way, thank you so much...  
+Benjamin(smile): Don't mention it. I just wanted to make you happy.  
+Danielle(smile): ...  
+# (ws_09_01_DP5_thank_ben)  
+## A. Did you do this for me?  
+## B. You should be more careful.  
+#### A  
+Benjamin(shy): Of course... Gavin too, you know.  
+Danielle(smile): At least you chose to ask me and not anyone else to come here. That's enough for me.  
+\*Benjamin LOVE +1  
+Benjamin(happy): So you'll keep quiet about the mole thing, right?  
+#### B  
+Danielle(happy): Keep me around until your next operation, okay?  
+\*Benjamin LOVE +1  
+Benjamin(smile): In exchange, you'll keep quiet about the mole thing, right?  
+\***  
+\*  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_cottage_courtyard_night.jpg-story' width='60'>
+\*Scene OLD_HOUSE_YARD_NIGHT
+{% endhint %}  
+\*Camera Left 0  
+\*  
+Narrator: The moment you and Benjamin enter your yard, you see Joe  waiting there, concerned.  
+Danielle(surprise): What are you doing here, Joe?  
+Joe(smile): I came after you when I saw you suddenly leaving the party.  
+Joe(surprise): You guys look so mysterious. Did you discover something new?  
+Narrator: You see Benjamin hesitate before he nods at you.  
+Danielle(smile): I'm sorry for making you worry. We got the blood results back. It will definitely surprises you!  
+Benjamin(smile): Come inside. Don't say anything here.  
+\*  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_pastoralism_livingroom_stairway_night.jpg-story' width='60'>
+\*Scene DRAWING_ROOM_OLD_HOUSE_NIGHT
+{% endhint %}  
+\*Camera Right 0  
+\*  
+Narrator: The three of you sit down. You open the report and tell Joe what you've found.  
+### \*Goto ws09_grant_concern  
+# ws09_have_fun  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_burger_fastfood_day.jpg-story' width='60'>
+\*Scene BURGER
+{% endhint %}  
+\*Hide Phone  
+\*Stop Music  
+\*Play Music barn  
+\>>  
+Joe(surprise): Who was that?  
+Danielle(smile): It's Ben. He told me... he had a big discovery.  
+Danielle(sad): But he seems a little strange today...  
+Joe(smile): Maybe we can wait till he comes back and ask him what happened.  
+Joe(smile): Now, just have fun!  
+\>  
+Narrator: Joe takes your hand into the cheering crowd, and you two dance together.  
+Narrator: The two of you spend time together until the party is over and you say goodbye to Alan.  
+\*  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_cottage_courtyard_night.jpg-story' width='60'>
+\*Scene OLD_HOUSE_YARD_NIGHT
+{% endhint %}  
+\*Camera Left 0  
+\*  
+\*Play Sound forest2  
+Narrator: The moment you and Joe enter your yard, a figure jumps out from nowhere!  
+\*Stop Sound  
+\>>  
+Danielle(surprise): Holy crap!  
+Benjamin(smile): It's me.  
+\>  
+Danielle(angry): You scared the hell out of me!  
+Narrator: Suddenly you notice blood stains and messy strips of cloth wrapped around his arm!  
+Danielle(surprise): Wait, you're hurt!  
+Narrator: You try to check his wounds, but Benjamin avoids you deftly.  
+Benjamin(smile): Just a flesh wound. Before you get worried, you need to hear this.  
+Joe(smile): Come inside. Don't say anything here.  
+\*  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_pastoralism_livingroom_stairway_night.jpg-story' width='60'>
+\*Scene DRAWING_ROOM_OLD_HOUSE_NIGHT
+{% endhint %}  
+\*Camera Right 0  
+\*  
+\*Play Music farewell  
+Narrator: The three of you sit down and Ben pulls a file out of his jacket.  
+\>>  
+Danielle(smile): Now, tell me, what did you find?  
+Benjamin(smile): I think snail mail is too slow. So I drove to the laboratory this afternoon...  
+Benjamin(smile): Because I knew you wanted the results sooner.  
+Danielle(surprise): Did you do it for me?  
+Benjamin(smile): Well, you've been through a lot. I wanted to make you happy.  
+Benjamin(angry): Besides, no one in Spring Paradise is trustworthy. Except you two, of course.  
+Benjamin(angry): I didn't want to trust anyone else with this blood sample.  
+Joe(smile): You were right to be careful. What did you find?  
+Narrator: Benjamin opens the report and flips a few pages.  
+Benjamin(smile): Here.  
+Benjamin(angry): The result says that the blood on the baseball bat came from two sources.  
+Benjamin(angry): One is Alan. And the other is...  
+Benjamin(happy): Drumroll, please!  
+Danielle(smile): Come on, Ben. Don't keep us waiting.  
+Benjamin(angry): The other came from a human...  
+Danielle(surprise): What? But...  
+# (ws_09_02_CP_the_monster)  
+## A. Even the gun couldn't hurt it!  
+## B. But it has long bristles!  
+#### A  
+Danielle(surprise): What kind of person is bullet-proof?  
+Benjamin(suad): Maybe Superman?  
+#### B  
+Danielle(surprise): I've touched it. It had bristles!  
+Joe(sad): Maybe it's a man ape.  
+\***  
+\>  
+Benjamin(smile): Don't worry. I'm not finished.  
+Benjamin(smile): The laboratory said it came from a human... partially.  
+\*Stop Music  
+\*Play Music suspicion  
+Danielle(surprise): Partially? What do you mean?  
+Benjamin(angry): It means, whatever the monster is now, it used to be  human. Somehow, it mutated.  
+Benjamin(angry): The researchers told me they've never seen this kind of mutation before.  
+\>>>  
+Danielle(surprise): Mutation! Well, that would explain why it has those mysterious green eyes.  
+Danielle(surprise): And why it's so strong?  
+\>  
+Joe(angry): Did they say why the mutation happened?  
+Benjamin(sad): No. They were wondering that, too.  
+Danielle(angry): Human beings don't just mutate for no reason.  
+Danielle(angry): Maybe that's why the Forbidden Forest is blocked off!  
+# ws09_grant_concern  
+Narrator*Top: man's voice | Hey, guys, what are you doing?  
+Narrator: Suddenly, you feel someone pat your shoulder. You turn around and see Grant.  
+\*Camera Middle 1  
+Danielle(surprise): Uncle Grant?  
+Narrator: You jump up and stand in front of him to block his view.  
+\*Play Sound s_page_turning  
+Narrator: From behind, you hear the crackle of paper as Joe and Benjamin try to hide the report.  
+Grant(surprise): I'm sorry. Did I scare you? I found the door unlocked, so I invited myself in.  
+Grant(angry): What are you guys doing?  
+Danielle(smile): Sorry, Uncle Grant. I'm still getting used to the burglary protection system.  
+Grant(smile): It's okay. We'll protect you. We're the real burglary protection system.  
+Grant: It's late. You should get some sleep, kids.  
+Benjamin(smile): Oh, right, I should head home.  
+Narrator: Benjamin leaps up, grabbing his bag. You catch a glimpse of the report through the seam of the zipper.  
+Grant(smile): Joe, walk with Ben.  
+Narrator: Grant nods at Joe. Joe looks at Grant, confused, and leaves with Benjamin.  
+\*Camera Left 1  
+Danielle(smile): Uncle Grant, do you have something to tell me?  
+Grant(sad): {Danielle Name}, did the police give you any news about your mom?  
+Danielle: No. But Mom texted me. She's safe.  
+\>>  
+Grant(surprise): What? Really?  
+Narrator: Grant looks astonished and confused. But then the expression on his face changes into joy.  
+Grant(smile): That's great! What a relief!  
+Danielle(surprise): What?  
+Grant(smile): Maybe I was paranoid, but Clare did come to me before she went missing.  
+Danielle: For what?  
+Grant: Clare looked frightened, and also angry.  
+Grant(sad): She told me she'd been investigating how her father and brother died.  
+Grant(sad): She said she found out an extraordinary secret.  
+Grant: She said she wanted to do something very dangerous. But she was hesitant.  
+\>>>  
+Grant(sad): She was worried about you.  
+Grant(sad): I tried to talk her out of it. But it looks like I didn't succeed.  
+Grant(sad): When she went missing, I thought she might have done something dangerous and gotten into trouble.  
+Danielle(surprise): Why didn't you tell me... or the police?  
+\>>  
+Grant: Clare doesn't trust the police. And I didn't want to get you involved. You're just a kid.  
+Grant(smile): But if Clare is safe and sound after all, maybe I was just being paranoid.  
+Grant(smile): Where's your mom? When is she coming back?  
+Danielle(sad): I don't know. She didn't tell me. She said she couldn't contact me.  
+Grant(surprise): What?!  
+Grant(angry): No! Something's wrong... Why can't she contact us?  
+Grant(angry): Is she in a situation that doesn't allow it, or is someone limiting her...  
+Grant(sad): Anyway, {Danielle Name}, I'll keep looking for Clare. And you should stay out of this.  
+Danielle(surprise): Why? I can help. She's my mom!  
+Narrator: You hear Joe's footsteps. Grant stands up.  
+Grant: {Danielle Name}, leave this to me. This is not what you should be worrying about.  
+Narrator: Grant walks to the door and pats Joe's shoulder as he walks past him.  
+\>  
+Grant: Stay at home, and be safe, kids.  
+Danielle(smile): Good night, Uncle Grant.  
+\*Camera Right 2  
+\*Stop Music  
+\*Play Music pity  
+Narrator: You sit by the table, holding the cup and thinking.  
+Joe: {Danielle Name}, what's wrong? What did Dad tell you?  
+Danielle(sad): Nothing. I'm just agitated.  
+Joe(smile): Maybe you could talk about it with me.  
+Joe(smile): You might feel better if you have someone to share your burden with.  
+Joe(smile): Want to talk?  
+\*Model  
+# (ws_09_03_talk_with_joe)  
+## A. No, thanks.  
+## B. Yes. I really need someone to talk to. (Cost: 22 Diamond ID: plot_ws_06_joe) *Goto ws09_talk_with_joe  
+#### A  
+Danielle(smile): Thank you. But so much has happened recently. I have a lot on my mind.  
+Danielle(smile): Forcing myself to talk about it will just keep me thinking about it.  
+Danielle(smile): Don't worry, I can handle this on my own.  
+Joe(smile): All right.  
+Joe(smile): Good night. And sweet dreams.  
+Narrator: After a parting hug, you make your way up to your room and fall asleep.  
+\*Stop Music  
+### \*Goto ws09_mavis_joins_you  
+\***  
+# ws09_talk_with_joe  
+\*Stop Music  
+\*Play Music moment  
+Narrator: You sigh, and Joe sits down next to you.  
+Joe(smile): Seems you have a lot to say. May I have a cup of tea?  
+Danielle: Of course.  
+Narrator: You sip your tea, trying to clear your mind. Joe watches you, concerned.  
+Danielle(sad): I've been having nightmares these days.  
+Joe: I understand. Can you tell me more?  
+Narrator: You sigh again.  
+\>>  
+Danielle(sad): I dreamed about going back to New York. When I came back home, Mom made me dinner.  
+Danielle(sad): All of her specialty dishes. All my favorites.  
+Narrator: You stare at the window, recalling your dream. Your eyes blur with tears.  
+Danielle(sad): I sat with my mom and ate. But when I looked up, she was gone.  
+Narrator: You hear your voice trembling. Joe lays a hand on your arm.  
+Joe: {Danielle Name}, it's okay. It's just a dream.  
+Joe(sad): But you seem really frightened.  
+Danielle(sad): I thought Mom might have gone to the kitchen, so I pushed open the kitchen door.  
+Danielle(sad): But then I found myself standing in the Forbidden Forest.  
+Danielle(sad): I saw Mom lying in the grass. She was bleeding. She asked me to save her.  
+Narrator: You take a deep breath and hold Joe's hand tight, trying to calm down.  
+Danielle(sad): Two shadows dragged her away...  
+\>>>  
+Joe(surprise): You mean...  
+Danielle(sad): Yes, just like that night...  
+Danielle(sad): Two burglars broke into my house. Mom was wounded and I couldn't do anything...  
+Danielle(sad): I tried to save her, but I couldn't move. I just stood there, watching her disappear.  
+Joe(sad): {Danielle Name}, are you all right?  
+Danielle(sad): Um...  
+Joe(sad): Don't push yourself too hard. You know you don't need to put up a front with me.  
+\>  
+Danielle: I know. Thank you.  
+Narrator: As you look down, you realize you're holding Joe's hand. Joe also looks down.  
+Narrator: Both of you stare at your hands. Neither of you speak for a while.  
+Danielle: I should...  
+# (ws_09_03_DP1_holding_hands)  
+## A. Take my hand back.  
+## B. Keep holding Joe's hand.  
+#### A  
+Narrator: You take your hand back and rub your face.  
+Narrator: You hear Joe let out a soft sigh. But when you lift your head, he gives you a big smile.  
+#### B  
+Narrator: Your thumb accidentally scratches the back of Joe's hand. Joe does the same to you. Your fingers caress each other.  
+Narrator: You meet Joe's eyes, and both of you burst into laughter.  
+Joe(smile): ...  
+\***  
+Joe(smile): Anyway, it was just a dream. I think it's just because you miss her so much.  
+Danielle: Let's talk about something else.  
+Joe(smile): May I ask you a question?  
+Danielle(smile): Of course.  
+\*Stop Music  
+\*Play Music romance  
+Joe(smile): In Spring Paradise, is there anyone you have feelings for?  
+Danielle(smile): ...  
+# (ws_09_03_DP2_love_interest)  
+## A. Actually, there is one.  
+## B. Um... Why are you asking me this?  
+#### A  
+Danielle(smile): Maybe there's someone I have a crush on.  
+Joe(smile): Does this person feel the same?  
+Danielle(happy): I think so. A girl's sixth sense can never be wrong.  
+Narrator: You smile at Joe. He scratches his neck, shy.  
+Joe(shy): What do you think will become of you two?  
+Danielle(happy): Oh Joe, please. I think the best thing in a relationship is ambiguity.  
+Danielle(happy): I don't want to plan too far ahead.  
+#### B  
+Narrator: Joe scratches his neck, blushing.  
+Joe(shy): Well... I just... wanted to ask.  
+Danielle(happy): Well, no. There isn't, for now.  
+Danielle(happy): But if I ever develop a crush on someone, you'll be the first to know.  
+\***  
+Joe: Can I ask you another question?  
+Joe: It's not about me. It's about a friend of mine.  
+Danielle: Well, tell me about it.  
+\>>  
+Joe: He has a crush on this girl, but he doesn't know what to do.  
+Joe: So could you tell me, what's the best way to impress a girl?  
+Danielle(happy): Let me ask you something first.  
+Joe: Go ahead.  
+Danielle(happy): Are you talking about yourself?  
+Narrator: Joe blushes.  
+\*Joe LOVE +1  
+Joe(shy): Never mind. Want to talk about the exam next week instead?  
+Danielle(happy): All right.  
+Narrator: You put another piece of sugar in your tea and drink. You peek at Joe. Somehow, he looks disappointed.  
+Danielle(happy): About impressing a girl...  
+Narrator: You deliberately prolong the last syllable. Joe stiffens on hearing it.  
+Joe(surprise): What?  
+Danielle: If you have feelings for someone, you should...  
+# (ws_09_03_DP3_next_move)  
+## A. Ask her out.  
+## B. Flirt with her.  
+## C. Show her you care about her/for her.  
+#### A  
+Danielle(happy): Just walk up to this girl and ask her out.  
+Joe: What if she doesn't like me?  
+Danielle: Girls love cool guys. I mean the ones who always go after what they want.  
+Danielle: Besides, it's no big deal if she rejects you.  
+Danielle(smile): But don't worry. I don't think any girl would reject a  guy as handsome as you.  
+#### B  
+Danielle(smile): Girls like sweet nothings.  
+Narrator: Joe frowns, embarrassed.  
+Joe(sad): Well... I'm really bad at that.  
+Danielle(smile): Hey, it's not that complicated. Just tell her how you feel. Sometimes it's really mushy, but it works.  
+Danielle: Just remember, don't overdo it. Otherwise, you'll only make things worse.  
+#### C  
+Danielle(smile): If you make a girl think she's special, she'll feel good.  
+Danielle(smile): So you need to show her you care about her.  
+Joe(smile): I think I can do that.  
+Danielle(happy): Yes, I think so. But remember, don't be too nice to her.  
+Danielle(happy): Or everything you do will be taken for granted.  
+\***  
+Joe(surprise): It's so hard.  
+Joe(sad): Can I take notes?  
+Danielle(happy): You don't have to do that. Just do what you feel is right.  
+Narrator: Joe takes another sip, thinking.  
+Danielle: Don't worry, you're already good enough.  
+Danielle: When a girl gets to know you, she'll definitely fall in love with you.  
+\>>  
+Danielle: But Joe, I'm worried...  
+Joe: What?  
+Danielle: Will you always stay by my side, forever?  
+Danielle(smile): You mean a lot to me. I don't know what I'm going to do without you.  
+\*Joe LOVE +1  
+Joe(smile): Don't worry, {Danielle Name}. I'll always be there for you, whenever you need me.  
+Narrator: Joe takes a glance at his watch and stands up.  
+Joe(smile): It's late. You should sleep.  
+Narrator: Joe walks up to you and holds you tight.  
+Joe: Don't worry, dreams aren't real. I'll stay by your side and help you find your mom.  
+\>  
+Joe(smile): Don't be afraid, all right?  
+Narrator: He holds you so tight. You feel the warmth of his chest. You let out a breath of relief and put your hands around his waist.  
+Danielle(smile): I know. Thank you.  
+\*Stop Music  
+Narrator: Somehow, after talking with Joe, you feel relaxed and relieved.  
+Narrator: For the first time in a long time, you finally get a good night's sleep.  
+# ws09_mavis_joins_you  
+\*  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_town_senior_highschool.jpg-story' width='60'>
+\*Scene TOWN_HIGH_SCHOOL
+{% endhint %}  
+\*Camera Right 0  
+\>  
+\*  
+\*Play Music ponder  
+Narrator: During lunch break, you and your friends gather on the lawn.  
+Benjamin(smile): This morning, I kept thinking about the blood report.  
+Benjamin(happy): Based on the report, the monster is very likely to be a mutated human...  
+Benjamin(sad): That's why it'is hostile to the people of the town and attack them.  
+Danielle(surprise): Ben, what are you trying to say? Make it straight!  
+Benjamin(happy): Come on, guys! The Forbidden Forest and genetic mutation...  
+Benjamin(smile): Doesn't that make you think of something?  
+Narrator: Benjamin looks up at you expectantly and you rack your brains...  
+Danielle(smile): So you mean... mean...  
+Joe(smile): Someone in this town could be conducting genetic experiments! The Forbidden Forest might be a cover-up.  
+Danielle(angry): Hey, Joe! You stole the words out of my mouth.  
+Joe(smile): Nevermind! I just thought of a line from a movie.  
+Danielle(sad): Well, that's the same feeling to me...But we have no proof.  
+Danielle(sad): Is there anyone you suspect, Ben?  
+Benjamin(smile): Very regrettably, no. But I'm ready to look for more information...  
+Narrator*Top: Mavis | Hey, guys, look what I brought you!  
+Narrator: You look back and see Mavis carrying a huge backpack. She looks excited, though she's trying hard to suppress it.  
+Danielle(surprise): What happened? It looks like you found buried treasure.  
+\>>  
+Mavis(happy): For you, this might actually be treasure. Believe me, you'll love me when you see it.  
+Narrator: She opens her backpack, you see a heavy pile of newspapers inside.  
+Danielle(surprise): Is this <i>Spring Paradise Monthly</i>?  
+Mavis(surprise): That's amazing... you've heard of it, haven't you?  
+Benjamin(surprise): What the hell is that? The latest newspaper?  
+\>  
+Mavis(smile): No, they're newspapers from the 60's to the 80's.  
+Narrator: Mavis pats her backpack proudly.  
+Danielle(surprise): ...  
+# (ws_09_04_old_newspaper)  
+## A. Where did you find all these antiques?  
+## B. Wow, those are just what I need.  
+#### A  
+Mavis(smile): At the town archives.  
+Benjamin(surprise): What? How did that cranky old man let you take them out?  
+#### B  
+Narrator: You hug Mavis tightly and feel her chest beating as furiously as yours.  
+Danielle(smile): Let me guess, you found those in the town archives?  
+Mavis(happy): I have to say, a bit of adventuring feels good.  
+Benjamin(surprise): But how did that cranky old man let you take them out?  
+\***  
+Mavis(angry): Hey, Byron is not that bad.  
+Benjamin(angry): One time, when I went to the archives and touched one of those old pieces of trash, he almost hit me!  
+Joe(smile): They're important historical documents. But yeah, Byron has a bad temper.  
+Mavis(happy): Okay, I admit it. I smuggled them out.  
+\*Mavis NERVE +2  
+Mavis(smile): I knew {Danielle Name} might need them.  
+\*Danielle NERVE +2  
+Danielle(happy): You've done me a huge favor! Now we can search for clues from the newspapers.  
+Narrator: You look at the large stack of old newspapers.  
+Narrator: The papers are brittle and yellow from old age. They smell mouldy up close.  
+Benjamin(sad): Oh, Jesus, so many words! I already feel dizzy.  
+Danielle(happy): Well, each of us can read a small section and we'll be finished in no time!  
+Benjamin(sad): That looks like more than a small section.  
+Narrator: Each of you takes a few dozen newspapers and reads through, trying to find something useful.  
+Narrator: Time flies. The stack of newspapers next to you gets thinner and thinner. You stretch your body, tired.  
+Danielle(surprise): Look at this!  
+\*Item  
+# (ws_09_05_newspaper_claim)  
+## A. Old_Newspaper An old newspaper about the town  
+\***  
+\*Letter bg_letter_4  
+Letter \n \n \n \n \n \n \n After days of treatment, James, who was found beside the forest, came out of his coma. \n Among all the people found beside the forest, he was the only one that survived.  
+Letter Many residents of the town visited him to show their concern. However, when the police questioned him, he said that he had forgotten everything. \n He left town yesterday afternoon. \n Doctor Bentley was the only one to see him off.  
+Letter when asked about the whereabouts of James, Doctor Bentley refused to comment, and it wasn't long before she resigned from her position at the pharmaceutical company. \n  
+\>>  
+Danielle(surprise): Look, it's a 1982 newspaper. But it says "mysterious forest", not the Forbidden Forest.  
+Joe(smile): There is only one forest in town. It must mean the Forbidden Forest.  
+Danielle(sad): But in 1982, it was still an ordinary forest.  
+Danielle(angry): And... look here, it says "A lot of people were being attacked in the Forbidden Forest back then."  
+Danielle(sad): But Doctor Bentley saved a person called James before she left the pharma company.  
+Joe(smile): Pharma company... Genetic mutation... Survivor of the Forbidden Forest...  
+Joe(smile): Everything's falling into place! This is the information we've been looking for!  
+Danielle(sad): But it's been almost 40 years. We don't know if they're still alive.  
+\>  
+Benjamin(smile): ...Maybe I can find out.  
+Danielle(surprise): How?  
+Benjamin(smile): Bentley. Such a unique name. My neighbor has the same surname.  
+Danielle(smile): She's your neighbor? That's great! Let's go and visit her!  
+Narrator: Benjamin frowns with reluctance.  
+Danielle(surprise): What's wrong?  
+Benjamin(sad): Don't make fun of me, ok? But I always thought she was... a witch that likes to eat children!  
+\>>>  
+Danielle(surprise): What? Witch?!  
+\>  
+# ws09_points_count  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_black.jpg-story' width='60'>
+\*Scene BLACK (Time: 2.5)
+{% endhint %}  
+Narrator: <color=purple>Spring Paradise</color> | Chapter Nine Completed.  
+\*Condition  
+## A. (Condition: Danielle NERVE >= 75)  
+## B. (Condition: Danielle NERVE >= 50)  
+## C. (Condition: Danielle NERVE >= 25)  
+## D. (Condition: Danielle NERVE < 25)  
+#### A  
+Danielle(happy): <color=blue>Nerve [{Danielle NERVE}/100]</color>  
+#### B  
+Danielle(smile): <color=blue>Nerve [{Danielle NERVE}/100]</color>  
+#### C  
+Danielle(sad): <color=blue>Nerve [{Danielle NERVE}/100]</color>  
+#### D  
+Danielle(angry): <color=blue>Nerve [{Danielle NERVE}/100]</color>  
+\***  
+\*Condition  
+## A. (Condition: Joe NERVE >= 75)  
+## B. (Condition: Joe NERVE >= 50)  
+## C. (Condition: Joe NERVE >= 25)  
+## D. (Condition: Joe NERVE < 25)  
+#### A  
+Joe(happy): <color=blue>Nerve [{Joe NERVE}/100]</color>  
+#### B  
+Joe(smile): <color=blue>Nerve [{Joe NERVE}/100]</color>  
+#### C  
+Joe(sad): <color=blue>Nerve [{Joe NERVE}/100]</color>  
+#### D  
+Joe(angry): <color=blue>Nerve [{Joe NERVE}/100]</color>  
+\***  
+\*Condition  
+## A. (Condition: Mavis NERVE >= 75)  
+## B. (Condition: Mavis NERVE >= 50)  
+## C. (Condition: Mavis NERVE >= 25)  
+## D. (Condition: Mavis NERVE < 25)  
+#### A  
+Mavis(happy): <color=blue>Nerve [{Mavis NERVE}/100]</color>  
+#### B  
+Mavis(smile): <color=blue>Nerve [{Mavis NERVE}/100]</color>  
+#### C  
+Mavis(sad): <color=blue>Nerve [{Mavis NERVE}/100]</color>  
+#### D  
+Mavis(angry): <color=blue>Nerve [{Mavis NERVE}/100]</color>  
+\***  
+\*Condition  
+## A. (Condition: Benjamin NERVE >= 75)  
+## B. (Condition: Benjamin NERVE >= 50)  
+## C. (Condition: Benjamin NERVE >= 25)  
+## D. (Condition: Benjamin NERVE < 25)  
+#### A  
+Benjamin(happy): <color=blue>Nerve [{Benjamin NERVE}/100]</color>  
+#### B  
+Benjamin(smile): <color=blue>Nerve [{Benjamin NERVE}/100]</color>  
+#### C  
+Benjamin(sad): <color=blue>Nerve [{Benjamin NERVE}/100]</color>  
+#### D  
+Benjamin(angry): <color=blue>Nerve [{Benjamin NERVE}/100]</color>  
+\***  
+\*Condition  
+## A. (Condition: Alan NERVE >= 75)  
+## B. (Condition: Alan NERVE >= 50)  
+## C. (Condition: Alan NERVE >= 25)  
+## D. (Condition: Alan NERVE < 25)  
+#### A  
+Alan(happy): <color=blue>Nerve [{Alan NERVE}/100]</color>  
+#### B  
+Alan(smile): <color=blue>Nerve [{Alan NERVE}/100]</color>  
+#### C  
+Alan(sad): <color=blue>Nerve [{Alan NERVE}/100]</color>  
+#### D  
+Alan(angry): <color=blue>Nerve [{Alan NERVE}/100]</color>  
+\***  
+# End  

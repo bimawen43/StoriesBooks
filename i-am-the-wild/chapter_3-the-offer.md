@@ -1,0 +1,651 @@
+# Begin  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_black.jpg-story' width='60'>
+\*Scene BLACK
+{% endhint %}  
+Narrator: Chapter Three | <color=olive>The Offer</color>  
+\*Play Music tension2  
+# iatw03_the_offer  
+\*  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_castle_style_room_night.jpg-story' width='60'>
+\*Scene CASTLE_ROOM_INT_NIGHT
+{% endhint %}  
+\*Camera Right 0  
+\*  
+Narrator: Your head pounds and you can feel your shoulders aching.  
+\*+blur  
+\*Play Sound s_breaths  
+Narrator: You feel your head pressing against the old, dusty couch in the castle room.  
+\*-blur  
+Narrator: Your forehead is beaded with sweat. You can feel the presence of the Night brothers around you.  
+Narrator: Their voices whisper. You strain your ears to listen.  
+Eve*Think(surprise): I must have passed out!  
+Eve*Think(surprise): What should I do?  
+# (iatw_03_01_wake_up)  
+## A. Pretend to be asleep and listen to them! (Cost: 18 Diamond ID: plot_iatw_03n_eavesdrop)  
+## B. Sit up.  
+#### A  
+\*Stop Music  
+\*Play Music m_blue_mystery_decline_02  
+Sabastian(angry): She's a mundane. She'll never fit into this world.  
+Sabastian(angry): It's not worth the risk.  
+Eve*Think(surprise): That sounds like Sabastian. His voice is so... deep... commanding.  
+Derek(happy): She's exactly what we need. Did you see who wrote her letter of recommendation?  
+Elijah(happy): Sabastian, brother, do you wish to tell Richard Dwarvas that his protégée isn't good enough for us?  
+Sabastian(angry): Even if she weren't, we are out of time. He'll be expecting us by week's end.  
+\>>  
+Eve*Think(surprise): He? Who's he?  
+Narrator: You fidget on your side, getting comfortable but pretending to still be unconscious.  
+Liam(angry): I agree with Sabastian. She is ill-tempered and ill-suited for this world.  
+Derek(happy): You're one to call someone out for being hot-tempered, Liam.  
+Narrator: You can hear Derek laugh haughtily.  
+Derek(happy): And if any of you have a better idea, now's the time to give it voice.  
+Narrator: The room falls silent.  
+Derek(happy): We need her. You know we do.  
+\>  
+Matilda: Boys. We all know she's special. She found the ad. Phoned me herself.  
+Matilda: She couldn't have done that if there was something special about her.  
+Narrator: You can hear Matilda quietly step closer to you.  
+Matilda(happy): The four of you need to pipe down. I think the poor girl is waking up.  
+Narrator: The jig is up.  
+\*  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_castle_style_room_night_light.jpg-story' width='60'>
+\*Scene CASTLE_ROOM_INT_NIGHT_LIGHT (Colour: White)
+{% endhint %}  
+\*Camera Right 0  
+\*  
+#### B  
+\*  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_castle_style_room_night_light.jpg-story' width='60'>
+\*Scene CASTLE_ROOM_INT_NIGHT_LIGHT (Colour: White)
+{% endhint %}  
+\*Camera Right 0  
+\*  
+Eve(surprise): Hello?  
+\***  
+# iatw03_sit_knit  
+\*Stop Music  
+\*Play Music m_gently_melancholy_deck_the_halls_01  
+Narrator: You slowly lift yourself up and sit back onto the soft fabric of the couch.  
+Narrator: Your eyes open as Derek and Elijah rush over to you.  
+Elijah(surprise): {Eve Name}! You're up.  
+Narrator: You see Matilda's face first as she lightly dabs a warm towel on your forehead.  
+Narrator: Slowly rising off the couch, you get a better sense of your surroundings.  
+Narrator: Liam broods off in the corner, thumbing through some scrolls on the desk.  
+Narrator: Sabastian stares off into the fire, as if he's studying it for answers.  
+Elijah(sad): Are you okay?  
+Liam(angry): What the hell happened to you?  
+Elijah(sad): Maybe we were too rough on you in the interview.  
+Sabastian: Or a panic attack.  
+Sabastian: How you stormed out of that interview, I assume you were filled with anxiety.  
+Eve(angry): I wasn't.  
+Eve(angry): It was a fainting spell.  
+Eve(sad): They seem to happen out of nowhere. This... raging pain shoots through my whole body.  
+Eve(sad): My heartbeat rapidly increases, I can't breathe...  
+Matilda(sad): That's awful. It sounds --  
+Sabastian: -- like a panic attack. Which I said earlier.  
+Eve(angry): It's not a panic attack.  
+Elijah: Sabastian, if she says they're not, then we must listen.  
+Elijah(sad): After all, she'd know her body better than we could.  
+Derek(happy): That's true.  
+Sabastian: Whatever.  
+Eve(sad): I've had them my whole life. They're nothing new.  
+Eve(smile): I'm fine, really. I just want to go home.  
+Narrator: You press your feet into the stone floor to stand up, but Matilda cautions you, holding your shoulders.  
+\>>>  
+Matilda(sad): Easy there, {Eve Name}. You need to rest.  
+Eve(smile): I'm fine, really.  
+Narrator: Brushing the dust off your clothes, you rise to your feet.  
+Narrator: But before you turn and leave, you face the brothers.  
+Eve*Think(sad): What should I say before I leave?  
+# (iatw_03_02_before_go_home)  
+## A. Thank you for the opportunity.  
+## B. You're all a bunch of weirdos.  
+## C. Goodbye.  
+#### A  
+\>>  
+Eve(smile): I appreciate you taking the time to interview me.  
+Eve(sad): But this... clearly isn't the right fit for me.  
+\*Sabastian REL +1  
+Sabastian(smile): Clearly.  
+Liam(angry): That was clear to us from the start.  
+Derek(happy): Now now, brothers. The hostility is unnecessary.  
+Elijah(happy): Our interviews are anything but easy, {Eve Name}. Please don't feel embarrassed.  
+Eve(sad): I'll try not to.  
+Derek(happy): We will be in touch soon. Have a good night.  
+Narrator: And with that, you turn and leave The Night Firm, returning home.  
+#### B  
+\>>  
+Elijah(angry): Excuse me?  
+\*Sabastian REL -1  
+Sabastian(angry): Said the girl that just passed out for no reason.  
+Derek(happy): Now now, brothers. There's no need for that.  
+Elijah(happy): To someone like her we surely come across as... strange.  
+Narrator: Sabastian grinds his teeth in frustration.  
+Sabastian(angry): Still doesn't need to say that...  
+Derek(happy): Perhaps, but she has expressed her truth. There's merit in that.  
+Elijah(happy): Thank you for spending your time with us, {Eve Name}.  
+Derek(happy): We will be in touch soon. Have a good night.  
+#### C  
+Narrator: With your head hung low, you shuffle off out the door, returning to your apartment.  
+\***  
+\>  
+# iatw03_back_home  
+\*Stop Music  
+\*Play Music m_melancholy_gently_present_standard_01  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_outside_apartment_ext_night.jpg-story' width='60'>
+\*Scene OUTSIDE_APARTMENT_EXT_NIGHT
+{% endhint %}  
+Narrator: After a short and uneventful subway ride, you jam your key into the front door and step back into your apartment.  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_apartment_corridor_night.jpg-story' width='60'>
+\*Scene APARTMENT_CORRIDOR_NIGHT
+{% endhint %}  
+Narrator: The moment you step in, your foot crunches on a letter. You look down.  
+\*Play Sound s_paper  
+Narrator: Pressed under your shoe is a red letter from your landlord. You slowly pick it up.  
+Eve*Think(sad): God. They're finally evicting me for not paying rent.  
+Eve*Think(sad): I guess I should be happy they waited this long.  
+Eve(angry): Except that landlord refuses to leave me alone.  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_clutter_bedroom_night.jpg-story' width='60'>
+\*Scene BEDROOM_CLUTTER_INT_NIGHT
+{% endhint %}  
+Narrator: You toss the red envelope on your table and plop onto the bed.  
+Narrator: You take a deep breath and sigh in defeat.  
+Eve*Think(sad): What am I going to do? As horrible as that interview went, I need money.  
+Eve*Think(sad): I can't keep doing this.  
+Eve*Think(confuse): And what on Earth was going on with those people? The Night brothers?  
+Eve*Think(confuse): Why does their building have some random castle room?  
+Eve*Think(surprise): I swear, it felt like I was transported when I stepped in there. So weird.  
+Eve*Think(smile): It's like a drug, being around them. They're so... mysterious.  
+Eve*Think(smile): Every answer felt like another question.  
+Narrator: Your thoughts are cut off by a knock on your front door.  
+\*Play Sound s_knock_door  
+\>>  
+Eve(confuse): Who could that be at this time of night?  
+Narrator: You slowly rise to your feet and walk towards the door.  
+Eve*Think: It must be my landlord. He heard me come home.  
+Eve*Think(sad): He's just going to yell at me to get out.  
+Eve*Think(sad): After the day I've had, I'm not going to hear it!  
+\>>>  
+Eve*Think(angry): I'm going to give him a piece of my mind!  
+\>  
+Narrator: You swing the front door open.  
+\*Stop Music  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_apartment_corridor_night.jpg-story' width='60'>
+\*Scene APARTMENT_CORRIDOR_NIGHT
+{% endhint %}  
+\*Play Sound s_open_door  
+Eve(angry): You can shove it up your butt if you think I'm going to --  
+\*Play Music m_romance_modern_intense_mystery_city_jewels  
+Sabastian(happy): Hello, {Eve Name}.  
+Eve*Think(surprise): {*Joyful Oh my God! It's Sabastian!}  
+Narrator: You suddenly freeze. You can see a pissy expression on his god-life face.  
+Narrator: For a brief moment, you're staring at him with eyes wide open and a dropped jaw, regretting your angry tone.  
+Sabastian(happy): I see your outburst in our office wasn't a one-off.  
+Eve(shy): I thought you were someone else.  
+Eve*Think: What's he doing here?  
+# (iatw_03_03_sabastian_visit)  
+## A. Good to see you.  
+## B. What do you want?  
+## C. Go away.  
+#### A  
+\*Stop Music  
+\*Play Music m_romance_sexy_species_01  
+Eve(smile): You're looking as handsome as ever.  
+\*Sabastian REL +1  
+Sabastian(smile): Thank you. I wasn't sure you'd want to see me for the third time in one night.  
+Eve(happy): I'll take any chance to lay eyes on what you've got going on I can get, Sabastian.  
+Eve(shy): As long as you don't mind my eyes wandering all over you as we speak.  
+Sabastian(happy): Your eyes are not alone in their wandering, {Eve Name}.  
+Sabastian(happy): I can promise you that.  
+#### B  
+\*Stop Music  
+\*Play Music m_rage_mystery_suspense_sonos_01  
+Eve(angry): You here to watch me embarass myself again?  
+Sabastian: Of course not.  
+Sabastian(smile): That was a very human display of emotions you had back there, that's for sure.  
+Eve: An embarrassment for the ages, unfortunately.  
+#### C  
+\*Stop Music  
+\*Play Music m_rage_mystery_suspense_sonos_01  
+Narrator: Sabastian furrows his burrow, exhaling deeply in frustration.  
+Sabastian: You think I'd be used to your prickly demeanor by now.  
+Sabastian(angry): But you have an impressive level of sarcasm for a human, don't you?  
+Eve(confuse): For a human? As opposed to what, Sabastian?  
+Narrator: Sabastian only smirks at your question, as if you should already know the answer by now.  
+\***  
+\>>  
+Eve(confuse): Wait, how do you even know where I live?  
+Eve(surprise): I never put my address on the job application.  
+Sabastian: {Eve Name}, you will soon realize that we have resources beyond your imagination.  
+Sabastian(happy): Finding your address only took us a few moments.  
+Eve(angry): Well that's not creepy, huh?  
+Sabastian(smile): All I can promise is that we will never use it for nefarious purposes.  
+Eve: Anyway, what are you doing here? I thought I'd never see you again.  
+\>  
+\*Stop Music  
+\*Play Music m_mystery_snug_sprightly_good_starts  
+Narrator: Sabastian hands you an envelope.  
+Sabastian: I was sent here to give you this.  
+Eve(confuse): What is it?  
+Narrator: You take the envelope.  
+\*Item  
+## A. Envelope ...  
+\***  
+Narrator: As you do, your fingers touch, and that sense of an earthquake rocking your insides overwhelms you.  
+Narrator: Despite his attitude, his insults, and demeaning tone, you can't help but feel an attraction.  
+Narrator: His beautiful eyes you get lost in. The way his body must feel pressed against that suit.  
+Narrator: Pressed against your body.  
+Sabastian: It's a job offer.  
+Narrator: He shuffles his stance, ignoring whatever energy is going on between you both.  
+Eve(surprise): ...  
+# (iatw_03_04_the_job_offer)  
+## A. That's great!  
+## B. Are you serious?  
+## C. No thanks.  
+#### A  
+Eve(surprise): Oh my gosh! I can't believe it!  
+Eve(confuse): But I have to ask... why are you offering me this job?  
+Eve(confuse): I mean after that job interview...  
+#### B  
+Eve(confuse): After that interview, why would I work for you? Why would you want me to?  
+Eve(confuse): But I have to ask... why are you offering me this job?  
+Eve(sad): I mean after that terrible job interview...  
+#### C  
+Eve(sad): I appreciate it, but I don't think I'm a right fit for it, really.  
+Sabastian(happy): Doesn't matter. You can refuse if you wish, but we are still offering you the job.  
+Eve(confuse): But... why are you offering it to me?  
+Eve(confuse): I mean after that horrible job interview...  
+\***  
+Eve(sad): I was sure I wasn't getting it.  
+Narrator: Sabastian shrugs, avoiding your eyes.  
+Sabastian: It wasn't my decision.  
+Eve(sad): Oh...  
+Sabastian: It was a group decision by all of the brothers.  
+Sabastian(smile): And our grandmother Matilda, of course.  
+\*Stop Music  
+\*Play Music m_intense_modern_wrong  
+Narrator: You unwrap the envelope and read it.  
+Eve: "The Night Firm would like to offer {Eve Name} Oliver the job of Manager of Operations."  
+Eve: "To begin immediately."  
+Eve: "It is a full-time, live in position, with generous compensation and benefits."  
+Eve: "We await your decision.  
+Narrator: On the other side of the paper is a rundown of the salary and benefits.  
+Narrator: The salary number nearly makes your jaw drop.  
+Narrator: It's more money than you've ever had. More money than you'd need. More than what anyone would need.  
+\>>>  
+Eve*Think(surprise): {*Joyful Oh my gosh. This is so much money!}  
+Eve*Think(surprise): This would pay off all of my debt. Get me out of this dump of an apartment.  
+Eve*Think(surprise): This would fix everything in my life right now!  
+\>>  
+Eve: ...  
+# (iatw_03_05_so_much_money)  
+## A. I accept the job.  
+## B. I can't accept so much generosity.  
+#### A  
+Sabastian(happy): That is good to hear.  
+Sabastian(smile): We were hoping you'd make your decision quickly.  
+Sabastian(smile): I'm afraid we don't have the luxury of time right now when it comes to work.  
+#### B  
+Eve(surprise): It's too generous. Too much, really.  
+Narrator: Sabastian smirks to himself at your modest comment.  
+Sabastian(smile): Generous?!  
+Sabastian: Lovely girl, if you knew the resources and reach the Night Firm had...  
+Sabastian: You wouldn't be so hasty to assume that salary is generous.  
+Eve(confuse): Sounds like all that money has replaced any modesty huh?  
+Sabastian(smile): My brothers and I never had any, unfortunately.  
+Narrator: He flashes his stupidly perfect smile at you.  
+Sabastian: Just take the job.  
+Sabastian: Looking at the state of your apartment, it's clear our position would be an improvement.  
+Eve*Think(sad): I guess I can't deny that...  
+Sabastian: Look. You need us. We... unfortunately, need you too.  
+Sabastian(smile): Take the leap. Accept the position.  
+Eve(sad): Ugh. Fine.  
+Sabastian(happy): Good.  
+\***  
+\>  
+Sabastian: I'll let my brothers know to begin the hiring process immediately.  
+\*Stop Music  
+Eve(smile): Sounds good.  
+\*Play Music m_romance_melancholy_portrait_time_01  
+Sabastian(sad): Look... that's not the only reason why I decided to come here.  
+Eve(surprise): What else do you want?  
+Narrator: Sabastian fidgets again, a strange nervousness that is uncharacteristic of him.  
+Sabastian(shy): I came to apologize, {Eve Name}.  
+Sabastian(shy): Apologize for my behavior during the interview.  
+Sabastian: After speaking to my brothers and well... thinking about it...  
+Sabastian: I realize I may have been too harsh in my assessment of you.  
+Sabastian(shy): I just... we need help. Now more than ever.  
+Sabastian: And we need your help in more ways than you could understand right now.  
+Sabastian: I'm just looking out for my brothers. I hope you can understand that.  
+Eve(sad): Oh. I do.  
+Eve*Think: He seems so honest. He actually feels bad!  
+Eve: ...  
+# (iatw_03_06_sabastian_feels_bad)  
+## A. Want to come inside? (Cost: 20 Diamond ID: plot_iatw_03_Sabastian)  
+## B. Thanks.  
+## C. I don't accept your apology.  
+#### A  
+Eve(smile): Seems like you have a lot on your mind.  
+Sabastian(happy): Sure.  
+Narrator: You step aside, inviting Sabastian in.  
+Narrator: He smiles, stepping past you and walking into your apartment.  
+Narrator: As he passes, you can smell his cologne, a perfect balance of pine and evergreen.  
+Narrator: Your knees feel weak, but your attention snaps to the present as you close the door.  
+\*Stop Music  
+\*Play Music m_romance_sexy_love_late_nights_01  
+\*  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_clutter_apartment_night.jpg-story' width='60'>
+\*Scene APARTMENT_CLUTTER_INT_NIGHT
+{% endhint %}  
+\*Camera Right 0  
+\*  
+Narrator: You both have a seat on either side of the couch.  
+Narrator: Despite Sabastian's suit, he sits on your tiny, dirty couch with comfort.  
+Narrator: For a moment, you stare at this beautiful man, like he's a diamond in the rough.  
+Narrator: A strange emotion overtakes you that you can't initially label.  
+Narrator: But it feels like Sabastian is supposed to be here with you. And that he's aware of this.  
+Narrator: Your shoulders relax.  
+Sabastian(smile): Your new home will be much different than this, that's for sure.  
+Eve(happy): Better?  
+Sabastian(happy): Significantly.  
+Eve(smile): Good.  
+Sabastian: Who's room is that?  
+\*Stop Music  
+Narrator: Sabastian points off to Adam's door, untouched and abandoned for years.  
+\*Camera Left 2  
+\*Play Music m_sadness_melancholy_gently_casual_desire  
+\*Camera Right 2  
+Eve(sad): It used to belong to my brother, Adam.  
+Sabastian(surprise): Used?  
+Narrator: Your head hangs low, a sadness washing over your face that Sabastian notices.  
+Sabastian(sad): Oh. I'm sorry.  
+Sabastian: How?  
+Eve(sad): Cancer was going to take him, but he went into remission.  
+Eve(cry): Suicide.  
+Sabastian(sad): Oh. I'm so sorry.  
+Narrator: His hand falls onto yours, his soft skin caressing yours.  
+\*Stop Music  
+\*Play Music m_gently_melancholy_deck_the_halls_01  
+Narrator: Before you realize it, his hand is wrapped around yours.  
+Narrator: You look up and lock eyes with him. His face connects with yours.  
+Narrator: The pain you feel for your brother's death, he more than recognizes.  
+Narrator: He understands, almost as if he can relate.  
+\>>  
+Sabastian(sad): Losing a loved one. It makes you lose yourself.  
+Sabastian(sad): Makes you question everything you thought you knew.  
+Sabastian(sad): And all you feel... is lost.  
+Narrator: Your fingers wrap around his.  
+Narrator: His thumb gently caresses your palm, the physical feeling soothes your soul in a way you never knew.  
+Sabastian(smile): But something tells me you're going to be okay.  
+Eve(confuse): Why's that?  
+Sabastian: I don't know. But when I look at you...  
+Sabastian(smile): I see a warrior. Someone with courage to face anything.  
+Sabastian: And I...  
+Narrator: His face inches closer to yours. The air in your lungs escapes you.  
+Narrator: All you can do at this moment is just stare into his eyes.  
+Sabastian(smile): I'm just can't help but feel something... special.  
+\>  
+### \*Goto iatw03_heat_up (Condition: Sabastian REL >= 2)  
+### \*Goto iatw03_heat_down  
+#### B  
+Eve(smile): Really. I appreciate you saying that.  
+Sabastian(happy): Of course.  
+### \*Goto iatw03_final_knit  
+#### C  
+Eve(angry): You were mean, abrasive, and horrible.  
+Eve(sad): I get that you feel bad, but I'm not ready to accept it quite yet.  
+\*Sabastian REL -1  
+Sabastian(sad): I understand.  
+### \*Goto iatw03_final_knit  
+\***  
+# iatw03_heat_down  
+Narrator: His face pulls away from yours.  
+Narrator: He turns towards the door like he was underwater and finally coming up for air.  
+Sabastian(smile): Maybe hiring you is the best thing for us.  
+Eve(surprise): Really? What changed your mind?  
+Narrator: He turns forward, a small smile creeping on his face.  
+Sabastian(smile): I don't know. Nothing, I guess.  
+Sabastian(happy): All I know is... I'm happy you're with us now.  
+Eve(smile): Thanks. Me too.  
+### \*Goto iatw03_heat_knit  
+# iatw03_heat_up  
+\*Stop Music  
+\*Play Music m_romance_sexy_species_01  
+Eve(shy): I'm glad you're here.  
+Sabastian(smile): What are we doing?  
+Eve(happy): ...  
+# (iatw_03_06_DP1_flirt_with_sabastian)  
+## A. Just hanging out.  
+## B. Getting to know each other.  
+## C. I think you already know.  
+#### A  
+Eve(smile): You know. As friends do.  
+Sabastian(smile): Oh, so we're friends now?  
+#### B  
+Eve(smile): We're coworkers now, after all.  
+Sabastian: just coworkers?  
+Eve(happy): For now.  
+#### C  
+Sabastian(happy): I do. I just wanted to hear you say it.  
+\***  
+\>>  
+Narrator: He scoots closer to you, your knees touching.  
+Narrator: You angle your body, both of you now facing each other as the couch squeaks.  
+Sabastian: It's hot in here.  
+Eve(shy): ...  
+# (iatw_03_06_DP2_it_is_hot)  
+## A. The AC is broken.  
+## B. Because you're here.  
+## C. Then take your suit off.  
+#### A  
+Sabastian(smile): An issue you'll never have again after this job, I promise you.  
+#### B  
+Sabastian(smile): What, you're calling me hot?  
+Eve(smile): You think I'm a liar?  
+Sabastian(happy): I think you are what you say.  
+Narrator: A small giggle falls out of your mouth. He smirks again.  
+Narrator: His hand cradles your jawline as he pulls your face close to his.  
+Narrator: His breath tickles your lips.  
+#### C  
+Narrator: He chuckles from his gut, a grin melting you.  
+Sabastian: It has a lot of buttons.  
+Eve(smile): I'm sure I could figure them out.  
+Sabastian: I have all the confidence you could, and a strong desire to find out.  
+Sabastian: But I'm here to offer you the job. Nothing more.  
+Sabastian(smile): For now, at least.  
+Eve(smile): Well you better hope I'll accept whatever else you offer, Sabastian.  
+Sabastian(happy): What comes next will be even more enticing than the job, {Eve Name}.  
+Sabastian(smile): I promise you that.  
+Narrator: He leans back into the seat, allowing the heat of the moment to conclude.  
+Narrator: You finally feel the air hit your lungs again. You can breathe again.  
+\***  
+\>  
+# iatw03_heat_knit  
+\*Stop Music  
+\*Play Music m_romance_sexy_love_late_nights_01  
+Narrator: Sabastian shoots his arm out, checking the time on his watch.  
+Sabastian: I should get going. My brothers will be expecting me.  
+Narrator: Every fiber in your body burns for him to stay, but you can't quite find the words to ask him.  
+Narrator: As you stand up with him, your bodies are close.  
+Narrator: You feel the warmth of his body through his suit.  
+Narrator: You can't help it. Your hand lands onto his chest, his warmth nearly searing your fingertips.  
+Narrator: Your hand presses, his rock-hard chest nearly feels like granite.  
+Narrator: You can't help but wonder how the rest of his body feels, like he's carved from marble.  
+\>>>  
+Eve(shy): I...  
+Narrator: Stumbling for words, you pretend to adjust his tie.  
+Narrator: It's the only excuse you can think of for touching him.  
+\>>  
+Eve(happy): Your tie was off. There you go.  
+Narrator: He laughs a bit too hard at your comment. He clearly saw through it.  
+Sabastian(smile): Thank you.  
+Narrator: Your mind explodes with everything you could do with him right now if you wanted.  
+Narrator: Your eyes take a gander back at the sofa before locking with his, begging him to take the hint.  
+Narrator: He smirks again as you gaze into each other's eyes. The same thing must be going through his head.  
+Narrator: But rationale must have stopped his desires for you as he quickly turns away from you, clearing his throat.  
+Narrator: Sabastian steps out into the hallway, turning back to you.  
+\>  
+### \*Goto iatw03_final_knit  
+# iatw03_final_knit  
+\*Stop Music  
+\*Play Music m_gently_snug_romance_dancing_star_01  
+Narrator: Adjusting his suit, Sabastian prepares to leave.  
+Sabastian: Alright. So the job begins immediately.  
+Sabastian: I'll let the brothers know you've accepted the position.  
+Sabastian(smile): I'll call.  
+Eve(surprise): What about my stuff? I mean... I have an entire apartment worth of things.  
+Eve: I need to pack up. Move. Coordinate everything with my horrible landlord...  
+Narrator: Sabastian smirks, waving off all of your listed duties.  
+Sabastian: You don't need to worry about any of that.  
+Sabastian(smile): Our people will take care of your landlord.  
+Sabastian(smile): We'll hire movers for you that will take care of everything.  
+Sabastian: For now, just get dressed and head downstairs.  
+Sabastian: We'll wait for your arrival shortly.  
+Sabastian(smile): As I said... the job begins immediately.  
+Eve(surprise): What?! Like right now?  
+Sabastian(happy): Of course. See you soon, {Eve Name}.  
+Narrator: Sabastian winks and smiles before sauntering off.  
+Narrator: You watch him leave, but your jaw remains on the floor.  
+Narrator: Mostly because, in this moment, everything about your life is changing.  
+Narrator: But also because of the beautiful shape of his back as he walks off.  
+Narrator: You finally close your front door.  
+Narrator: Gazing at your apartment, you take a beautifully confusing sigh of relief and stress.  
+Eve*Think(surprise): I need to leave, like, now!  
+Eve*Think(happy): My financial stresses are gone! I can finally leave this disgusting apartment!  
+Eve*Think(confuse): I just... have no idea where I'm headed.  
+Eve*Think(surprise): But I need to get dressed! Sabastian said I need to get downstairs and wait ASAP!  
+Narrator: You rush off to your bedroom.  
+\*Stop Music  
+\*Play Music m_gently_mystery_modern_night_drive  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_clutter_bedroom_night.jpg-story' width='60'>
+\*Scene BEDROOM_CLUTTER_INT_NIGHT
+{% endhint %}  
+Narrator: Sprinting into your bedroom you slam open your dresser.  
+Narrator: On display are all of your clothes, in their pathetic doable glory.  
+\>>  
+Eve*Think: Well it sounds like I got the job!  
+Eve*Think: Now I just need to look the part.  
+Eve*Think(smile): Hmm. What would a Manager of Operations for a law firm wear?  
+\>  
+\*Role  
+# (iatw_03_07_choose_outfit)  
+## A. Outfit Colorful_Dress (Button: Choose this look. Cost: 16 Diamond ID: look_iatw_03_clothes01)  
+## B. Outfit Professional_Skirt (Button: Choose this look. Cost: 19 Diamond ID: look_iatw_03_clothes02)  
+## C. Outfit Current (Button: Choose this look.)  
+\***  
+\*Condition  
+## A. (Condition: Eve Outfit = Colorful_Dress)  
+## B. (Condition: Eve Outfit = Professional_Skirt)  
+## C. (Condition: 0 = 0)  
+#### A  
+Eve*Think(happy): Looking professional is a waste. I should just look great!  
+Eve*Think(happy): After all, they're working with me. They might as well get used to me!  
+Narrator: You grab your favorite dress and slip it on.  
+#### B  
+Eve*Think(happy): I should look my best. This job is important!  
+Eve*Think(happy): And the brothers sure look professional. I should be the same!  
+Narrator: You reach for a white blouse and pencil skirt and quickly get dressed.  
+#### C  
+Eve*Think: I should wear something casual!  
+Eve*Think: The brothers could use some relaxation, after all.  
+Eve*Think: They don't seem very easy-going. Maybe I can help with that!  
+Narrator: You throw on the outfit.  
+\***  
+Eve*Think(happy): This looks great!  
+Eve*Think: Okay. I need to head downstairs!  
+Eve*Think: Sabastian said to just wait down there for whatever's next.  
+Eve*Think(smile): I have no idea what to expect, but I shouldn't keep them waiting any longer!  
+Narrator: With one last glance in the mirror, you run out of your apartment and head downstairs.  
+\*Stop Music  
+\*Play Music m_intense_sprightly_connection  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_outside_apartment_ext_night.jpg-story' width='60'>
+\*Scene OUTSIDE_APARTMENT_EXT_NIGHT
+{% endhint %}  
+Narrator: Stepping into the quiet, dark streets of the city, you slowly walk out of your apartment complex.  
+Narrator: The sky swirls a cloud along the star-filled night.  
+Narrator: A full moon sends beams of moonlight onto every silver surface of the skyline.  
+Narrator: A few pedestrians walk past you, most of them couples hand-in-hand.  
+Narrator: They laugh and hold each other lovingly, off to their homes to end romantic nights.  
+Eve*Think(confuse): What did Sabastian want me to wait here for?  
+Eve*Think(sad): Should I call him? I don't even have his number.  
+Eve*Think: I can't believe he's paying for movers to move everything. Am I headed back to their office?  
+Eve*Think(surprise): This is crazy! I wonder if --  
+Narrator: Suddenly, a limo slowly pulls up.  
+\*Play Sound s_stopcar  
+Narrator: It slowly parks, the passenger door right in front of you.  
+Narrator: You step back, expecting the passenger door to shoot open so some fancy person can step out.  
+Narrator: But it doesn't. Nothing happens. You hear the limo shift gears into the park as the car gets comfortable.  
+Narrator: For a silent moment it just hums, as if waiting for your next move.  
+Eve*Think(surprise): {*Joyful Is this limo for me?}  
+Eve*Think: I should...  
+# (iatw_03_08_the_limo)  
+## A. Get in.  
+## B. Knock on the window.  
+## C. Yell.  
+#### A  
+Eve*Think(happy): Whatever. Sabastian must have sent it!  
+#### B  
+Narrator: You lightly tap on the tinted glass.  
+Eve(confuse): Hello? Is anyone in there?  
+Narrator: Nothing but silence.  
+Eve: Whatever.  
+#### C  
+Eve(confuse): Hello?! Driver! Are you here for me?  
+Narrator: Nothing but silence.  
+Eve: Whatever.  
+\***  
+\*+LENGTHEN_CARS  
+\>>>  
+Sabastian(smile): Hello again.  
+\>>  
+Eve*Think(smile): I've never been in a limo before! This is crazy.  
+Narrator: Your hand nearly shaking, you timidly reach for the limo door and open it.  
+Narrator: You step into the limo, closing the door behind you.  
+\>  
+\*Stop Music  
+\*Play Music m_romance_sexy_lusciousness_01  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_limo_int_night.jpg-story' width='60'>
+\*Scene LIMO_INT_NIGHT
+{% endhint %}  
+\>>R  
+Narrator: You slide along the smooth, black leather of the seats, landing on the edge of the seat.  
+Narrator: A fragrant scent of lavender hits your nostrils as soon as you step in.  
+Narrator: Your exposed skin tickles to the air, the limo seemingly set to a perfect temperature of comfort.  
+Narrator: Small, colorful lights illuminate the inside of the beautiful interior of the limo.  
+Narrator: Close to you is an open bottle of champagne, bathing in a silver vase of ice.  
+Narrator: Two champagne glasses sit next to it, shimmering the lights in their reflection.  
+Eve*Think(surprise): Is this how the Night brothers travel?  
+Narrator: The divider between you and the driver slowly draws down, revealing someone.  
+Narrator: A perky head pops into view, startling you.  
+\*Lily Name ???  
+Lily: Hi!  
+Lily(happy): You must be {Eve Name}! So happy to finally meet you.  
+\*Lily Name Lily  
+Lily(smile): I'm Lily.  
+Eve(smile): Oh! Hi.  
+Eve(surprise): Are you... a driver?  
+Lily: I'm a lot of things. But one of these things is a driver, yes.  
+Lily(smile): Your driver.  
+Eve(confuse): I have a driver now?  
+Lily(happy): Oh honey. You have a lot of things now.  
+Lily(smile): Now buckle up. You won't be alone for this little ride.  
+Eve(surprise): I won't? Who's coming with me?  
+Narrator: As if on cue, the limo door swings open as Sabastian glides into the seat close to you.  
+Sabastian(smile): Lily. Let's head home.  
+Lily(happy): 'Ay 'ay, captain!  
+Narrator: Lily slides up the divider as the limo zooms off.  
+Sabastian: Like Lily said, {Eve Name}. Buckle up.  
+Sabastian(smile): You're in for <color=red>one HELL of a ride</color>.  
+# End  

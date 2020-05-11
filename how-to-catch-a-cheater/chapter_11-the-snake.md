@@ -1,0 +1,588 @@
+# Begin  
+\*Play Music  m_tension_suspense_fear_apprehensive_at_best_02  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_assistant_president_desk_office.jpg-story' width='60'>
+\*Scene INT_PRESIDENT_ASSISTANT_DESK_OFFICE
+{% endhint %}  
+Rosie(terror)*Shout: Arg!  
+Brisa(terror)*Shout: Oh, my God! A Snake!  
+Narrator: Before you even get to think about moving out of harm's way, the snake lurches towards you and sinks its fangs into your flesh.  
+Narrator: You stumble backward, falling to the floor, and knocking over a few things on your way down.  
+Rosie(sad): Ugh...  
+Brisa(terror)*Shout: Help! Help!  
+Narrator: Matt rushes in after hearing your screams. He sees you sitting on the floor. You already feel the poison working.  
+Matt(terror): What happened?  
+Rosie(sad): someone put a snake in my drawer.  
+Brisa(sad): It bit her.  
+Silverstein(surprise): What is going on?  
+Narrator: Mr. Silverstein whips his head in the direction of the drawer, hearing the snake rattling furiously.  
+Brisa(sad): There's a rattlesnake in {Rosie Name}'s drawer. It bit her, sir.  
+Silverstein(surprise)*Shout: My God!  
+Narrator: Matt puts a hand on your forehead.  
+\>>  
+Matt(sad): You're burning up.  
+Matt(angry): I need to get her to the hospital. Ms. Cortez, call my chauffeur, have him ready by the entrance.  
+Brisa(sad): Yes, sir.  
+Matt(angry): Mr. Silverstein, we need to capture the snake and figure out exactly what kind it is.  
+Matt(angry): And after that, we need to figure out who put it in {Rosie Name}'s drawer.  
+Silverstein(angry): I'll call for help immediately, and I'll personally check the security footage.  
+\>  
+Narrator: Matt quickly nods before he scoops you into his arms and carries you to the elevator.  
+\*  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_silverstein_looby.jpg-story' width='60'>
+\*Scene INT_SILVERSTEIN_LOOBY (Color: Black 1)
+{% endhint %}  
+\>>  
+\*  
+Matt(sad): How are you feeling?  
+Rosie(sad): I feel...  
+## A. Dizzy  
+## B. Hot  
+## C. Nauseous  
+#### A  
+Rosie(sad): ... Dizzy, mostly. Everything is spinning.  
+Matt(sad): I got you. I won't let you fall.  
+#### B  
+Rosie(sad): ... Hot, mostly. It's as if I'm melting.  
+Matt(sad): Don't worry, I'll get you to the hospital as fast as I can.  
+#### C  
+Rosie(sad): ... Nauseous, mostly. It comes in waves. I'll let you know if I need to be sick.  
+Rosie(sad): I don't want to throw up on you or in your car.  
+Matt(sad): It's not important. What's important is that we get you some help, okay? I've got you.  
+\***  
+\>  
+Narrator: You lean your head against Matt's jaw, holding tightly around his neck. He barely seems out of breath from carrying you.  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_inside_car_day.jpg-story' width='60'>
+\*Scene INT_MATTS_CAR_DAY (Color: Black 1)
+{% endhint %}  
+\>>R  
+Narrator: Matt puts you into the car and tells Michael to step on it to get you to the nearest hospital.  
+Matt(sad): Let me look at your arm.  
+Narrator: You show it to him. It's already swelled up and started to bruise with drops of dried blood, showing where its fangs made two small puncture wounds.  
+Matt(angry): We're going to find who did this, {Rosie Name}.  
+Matt(surprise): {Rosie Name}?  
+Rosie(sad): Mhm...  
+Matt(sad): Try to stay awake, okay? We're almost there.  
+Narrator: Matt takes your hand in his, caressing it softly. You sense his worry and give his hand a reassuring squeeze.  
+\>R  
+\*Stop Music  
+\*Play Music  m_intense_mystery_suspense_bittersweet_02  
+\*Scene INT_EMERGENCY_ROOM_DAY (Color: Black 1)  
+\*Play Music  m_intense_mystery_suspense_bittersweet_02  
+\*Rosie Outfit Hospital_Gown (Tag: Record)  
+Narrator: Matt carries you inside the emergency room, calling for help, and you're immediately escorted to a sterile-smelling room.  
+Doctor(sad): Do you know what type of snake bit her yet, Mr. Dalton?  
+Matt(sad): No, only that it was some type of rattlesnake.  
+Doctor(sad): Ms. Winter, do you recall it's coloration? Was it mostly dark-colored or light?  
+Rosie(sad): I think it was mostly...  
+## A. Dark-colored.  
+## B. Light-colored.  
+#### A  
+\*Gain DARKCOLORED_11  
+Rosie(sad): Dark-colored, but I'm not sure.  
+#### B  
+\*Gain LIGHTCOLOR_11  
+Rosie(sad): I'm pretty sure it was mostly light-colored.  
+\***  
+Doctor: Alright. Whatever snake did this to you was a nasty one. It gave you a heavy dose of venom.  
+Rosie(sad): I-I can't really see much, doctor.  
+Doctor(sad): Is your vision blurry?  
+Rosie(sad): Yes...  
+Doctor(sad): We'll administer antivenom shortly.  
+Matt(sad): I'll give you space to work. I'll be right outside, {Rosie Name}.  
+Rosie(sad)*Think: Matt...  
+## A. Ask him to stay. (Cost: 20 Diamond ID: plot_htcac_11_matt_stay)  
+## B. Let him leave.  
+#### A  
+### \*Goto htcac11_matt_stay  
+#### B  
+Rosie(sad)*Think: I'll let him go. He probably needs to process this as well.  
+Matt(sad): By the way, when you get discharged, you're moving in with me. It's safer.  
+Rosie(surprise): But' But'  
+Matt(sad): It's necessary, {Rosie Name}.  
+Rosie(sad): Okay' I guess you're right.  
+Matt(sad): I'll go talk to Mr. Silverstein, see what they found out about the snake and the security footage.  
+Matt(sad): But I'll come back and check on you later.  
+Narrator: Matt looks over his shoulder, smiling wistfully at you before he leaves.  
+Rosie(sad)*Think: 'The bite is harmless, but the poison kills. Stay away from him.'  
+Rosie(sad)*Think: There's no doubt in my mind that the person who wrote that on my wall planted the snake too.  
+Narrator: About half an hour later, you've been bandaged, given a tetanus injection and antivenom.  
+Narrator: You feel a bit better, and eventually, you doze off to sleep.  
+### \*Goto htcac11_merge_ER  
+\***  
+# htcac11_matt_stay  
+\*Gain MATT_STAY_HOSPITAL_11  
+\*Play Music  m_gently_rage_romance_lullaby_02  
+Narrator: You grab his hand as he turns to leave.  
+\>>  
+Rosie(sad): Please, stay. I don't want to be alone right now.  
+\>  
+Narrator: Matt looks at the doctor.  
+Matt(sad): Is it okay if I stay with her?  
+Doctor: Of course.  
+Narrator: Matt sits down in a chair next to the bed.  
+Doctor: I'll give you a tetanus injection now, okay, {Rosie Name}? It may sting a little.  
+Narrator: You nod, squeezing Matt's hand tightly.  
+\>>  
+Matt(sad): You've got this.  
+Rosie(sad): Ouch...  
+Doctor(smile): There. Not as bad as the snake bite, though, right?  
+Rosie(sad): It was worse. It's always worse when you expect it.  
+Narrator: The doctor smiles, and after inserting an IV into your hand, she starts bandaging your arm.  
+Doctor(smile): I think we're done here for now. We'll give you some time to rest.  
+Matt(sad): How long will she have to stay here?  
+Doctor(sad): At least 24 hours, but it generally depends on how she responds to the antivenom.  
+Matt(sad): Okay. Thanks, doctor.  
+Doctor(smile): Come get me as soon as you find out what snake it was or if she gets worse, okay?  
+Matt(sad): I will.  
+Narrator: She leaves the two of you alone. Matt removes a strand of hair from your face.  
+\>>>  
+Rosie(sad): Thank you for staying with me, Matt.  
+Rosie(sad): That was a...  
+## A. Scary experience.  
+## B. Intense experience.  
+#### A  
+Rosie(sad): ... Scary experience.  
+Matt(sad): Snakes are scary creatures.  
+#### B  
+Rosie(sad): ... Intense experience.  
+Matt(sad): Yeah, it's not often we hear about snake bites in this part of the states.  
+\***  
+Rosie(sad): The snake biting me wasn't even the worst part. It was the fact that someone put it in my drawer.  
+Matt(angry): You're right. It's time we take this seriously. You could've been killed.  
+Rosie(sad): Do you really think someone is trying to kill me?  
+Matt(confuse): It's hard to say. If they wanted you dead, I don't think a snake bite is the best way to go.  
+Matt(sad): I think they're trying to scare you.  
+\>  
+Narrator: You're reminded about the writing on the wall in your apartment.  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_girls_bedroom_graffiti.jpg-story' width='60'>
+\*Scene INT_ROSIES_BEDROOM_GRAFFITI (Color: White 2)
+{% endhint %}  
+\*Wait 2  
+\*Scene INT_EMERGENCY_ROOM_DAY (Color: White 2)  
+Rosie(sad): <i>'The bite is harmless, but the poison kills. Stay away from him.'</i>  
+Matt(sad): What?  
+Rosie(sad): That's what the person wrote on my wall.  
+Rosie(angry): The person who broke into my apartment must be the same who planted the snake.  
+Rosie(sad): And for some reason, they don't want me near you.  
+Rosie(sad): Maybe I should...  
+## A. Do what they want.  
+## B. Lay low for a while.  
+#### A  
+Rosie(sad): Maybe it's time I listen and do what they want.  
+Matt(sad): And stay away from me?  
+#### B  
+Rosie(sad): Maybe I should lay low for a while...  
+Matt(sad): You mean, you want to quit?  
+\***  
+Rosie(sad): I don't know what else to do.  
+Narrator: Matt squeezes your hand.  
+\>>  
+Matt(sad): No. We're not letting them win. I don't...  
+Narrator: Matt stops mid-sentence and sighs...  
+Matt(angry): I'm not going to let anyone hurt you because of me.  
+Matt(sad): And... you're far too important to me for me to just let you go.  
+\*Stop Music  
+Rosie(shy)*Think: Did he really just say that?  
+Matt(surprise): I-I mean...  
+Matt(sad): You're a valuable asset to Silverstein Corp.  
+\*Play Music  m_gently_snug_lullaby_01  
+Rosie(smile)*Think: <i>'Valuable asset.'</i> Cute.  
+Rosie(smile): I... I like the work I do for you too.  
+Rosie(smile)*Think: I actually do. Being his assistant is far from as terrible as I feared it would be.  
+Matt(sad): You know what we're going to do?  
+Rosie(sad): About what?  
+Matt(confuse): About everything until we find who did this to you.  
+Rosie(surprise): No, what do you have in mind?  
+Matt(sad): You're moving in...  
+Matt(smile): With me. I'll keep you safe.  
+Rosie(sad): I think that's a...  
+## A. Good idea.  
+## B. Bad idea.  
+#### A  
+Rosie(smile): ... Good idea, actually. It might even lure the culprit out from its hiding place.  
+Matt(confuse): Exactly. They'll hate to see you do the exact opposite of what they want.  
+#### B  
+Rosie(sad): ... Bad idea. It'll only piss them off.  
+Matt(sad): That's exactly what I want. Maybe it'll even lure them out from their hiding place.  
+Rosie(confuse): Hmm... and that way we could catch them?  
+Matt(smile): Hopefully.  
+\***  
+Rosie(sad): But... I can't stay with you <i>forever</i>, Matt.  
+Rosie(sad): What if they put a hit on me as soon as you leave me out of your sight?  
+Matt(sad): I'll hire a security guard for you for when I can't be with you.  
+Matt(smile): And my apartment is probably the safest place you can be right now.  
+Rosie(sad): Sounds a bit extreme, but I guess it's necessary.  
+Rosie(smile): Okay, let's go it. Thank you.  
+Matt(sad): Of course, I feel guilty as hell. These things are happening because of me.  
+\>>>  
+Rosie(angry): Don't! It's not your fault, Matt. You're not the bad guy.  
+\>>  
+Narrator: Matt sighs before nodding a single time, pressing the bridge of his nose.  
+Rosie(sad)*Think: I should...  
+## A. Caress his cheek.  
+## B. Reassure him.  
+## C. Give him space.  
+#### A  
+Rosie(sad): Mat...  
+Narrator: You stroke your knuckles along his jaw. He looks up to meet your eyes.  
+Rosie(smile): It'll be alright.  
+Matt(shy): ...  
+#### B  
+Rosie(smile): I feel safe with you, and I know everything will be fine, Matt, you'll see, too.  
+Matt(sad): Yeah...  
+Matt(smile): You're right. We'll work things out.  
+#### C  
+Rosie(sad)*Think: I should probably give him some space to process this.  
+\***  
+Matt(sad): How are you feeling now? Can you feel the antivenom working?  
+Rosie(sad): I feel a bit better, just tired, and sore.  
+Matt(sad): Okay, good.  
+Matt(confuse): I'll go talk to Mr. Silverstein, see what they found out about the snake and the security footage.  
+Matt(sad): I'll come back and check on you later.  
+Narrator: Matt looks over his shoulder, smiling softly at you before he leaves.  
+Rosie(shy)*Think: I'm glad he stayed with me.  
+\>  
+Narrator: After Matt leaves, it doesn't take long for you to doze off to sleep.  
+### \*Goto htcac11_merge_ER  
+# htcac11_merge_ER  
+\*Stop Music  
+\*Lou Outfit Lou_Winter_Casual  
+\*Brisa Outfit Brisa_Winter_Casual  
+\>  
+Narrator: Later that afternoon, Lou and Brisa come to visit you.  
+\*Play Music  m_gently_snug_melancholy_light_thought_var_01  
+Brisa(sad): How is your arm?  
+Rosie(sad): Swollen... the doctor said I needed more antivenom than expected, and I had some trouble breathing.  
+Rosie(sad): They want to keep me here an extra day for observation.  
+\>>>  
+Lou(angry): When they find the bitch who did this, she's gonna regret ever leaving her mom's vajajay.  
+\>>  
+Brisa(sad): Who do you think did this?  
+Lou(sad): Yeah, who are your suspects?  
+Rosie(confuse): Uhm...  
+## A. The mystery woman  
+## B. Ashley  
+## C. Mr. Silverstein  
+#### A  
+\*Condition  
+### ## A. (Condition: INVITE_SHEILA_OVER_9 >= 1)  
+### ## B. (Condition: LEAVE_IT_BE_9 >= 1)  
+#### A  
+Rosie(sad): Well, I'm definitely suspecting that mystery woman your sister told me about, Lou.  
+Lou(confuse): Chrissy Moretz. She has a motive too. I mean, she has a <i>history</i> with Matt.  
+Rosie(confuse): Yeah, and for some reason, if she really is alive, she had some kind of reason for disappearing.  
+Brisa(surprise): Do you think she could be warning you about Matt?  
+Lou(confuse): Or they had a relationship, and she's merely jealous?  
+Rosie(sad): Or she's just mentally unstable and trying to kill me for the hell of it.  
+Brisa(sad): Gulp...  
+\>>>  
+Lou(angry): Let her try!  
+\>>  
+#### B  
+\*Gain SUSPECT_CHRISSY_11  
+Rosie(sad): Well, definitely that mystery woman I saw at the restaurant with Matt.  
+Rosie(sad): There's just something off about that whole situation.  
+Brisa(sad): I wish we knew more about her.  
+Lou(confuse): I don't have to know anything about her to kick her ass.  
+\>>>  
+Lou(angry): Seriously, let her try to hurt you. I dare her.  
+\>>  
+\***  
+#### B  
+\*Gain SUSPECT_ASHELY_11  
+Rosie(confuse): My prime suspect is definitely Ashley Silverstein.  
+Rosie(angry): She's had issues with me from the very start, and she clings to Matt like freaking Velcro.  
+Brisa(confuse): She's got a motive; that's for sure.  
+\>>>  
+Lou(angry): Seriously, let her try to hurt you. I dare her. I'll shove her expensive pearls up her...  
+\>>  
+#### C  
+\*Gain SUSPECT_SILVERSTEIN_11  
+Rosie(confuse): Honestly, I have a bad feeling about Mr. Silverstein.  
+Brisa(surprise): What? Really? But why?  
+Rosie(sad): I can't really explain it, there's just something about him.  
+Lou(confuse): Maybe he fears you're genuinely falling for Matt...  
+Brisa(confuse): Yeah, and then he's trying to scare you into remembering your place.  
+Rosie(sad): Could be.  
+Lou(angry): Seriously, let him try to hurt you. I dare him. I'll shove his expensive tie up his...  
+\***  
+Brisa(shy): Easy, Lou. I'm sure {Rosie Name} has got a plan already.  
+Rosie(sad): I do.  
+Rosie(Smile): Matt wants me to stay with him until they find who did this. His apartment is safer than mine too.  
+Lou(sad): I think you're right.  
+Brisa(sad): Why is it safer than your apartment?  
+Rosie(sad): I was about to tell you about it this morning, Brisa.  
+\>  
+Narrator: You fill Brisa in on what happened in your apartment, and tell her about the message written on the wall.  
+Brisa(surprise): Oh, God! That's horrifying!  
+Rosie(sad): Yeah... I'm kind of glad I'll be out of there, to be honest.  
+Brisa(sad): So are we...  
+Lou(sad): We just wish we could be of more help.  
+Rosie(smile): Guys, it's okay. I'll be fine.  
+Brisa(smile): You will if you take this.  
+Narrator: Brisa pulls a can of pepper spray up from her bag.  
+Brisa(sad): Here, please take it. It'll give us some peace of mind to know you're extra safe.  
+Narrator: Psst! Take the pepper spray and gain an advantage later on in the story.  
+\*Item  
+## A. ITEM_PEPPERSPRAY Accept it (Cost: 10 Diamond ID: )  
+## B. Back I'll be fine without it.  
+#### A  
+\*Gain PEPPERSPRAY_11  
+Rosie(smile): Alright. Thanks, girls.  
+Message: Item Acquired | You gained a pepper spray!  
+#### B  
+Rosie(smile): Guys, honestly, I'm fine. I don't need a pepper spray when I'll be living with Matt for a while.  
+Brisa(sad): Okay... if you're sure.  
+Rosie(smile): It's okay, honestly.  
+\***  
+\*Stop Music  
+\*Play Sound  s_knock_door  
+Narrator: Someone knocks on your door, and you see Matt peeping his head inside.  
+\>>  
+Matt(smile): Hey, {Rosie Name}...  
+Matt(smile): Ms. Cortez, Ms. Adams.  
+Brisa(smile): Mr. Dalton.  
+Lou(smile): We'll leave you two alone.  
+Rosie(shy): Thanks for checking in with me, guys.  
+Brisa(smile): See you soon. Feel better.  
+Narrator: As they walk towards the door, Lou stops in front of Matt.  
+\>>>  
+Lou(confuse): Don't let anyone hurt her, got it?  
+Matt(sad): Never.  
+\>  
+Narrator: Lou nods, leaving you alone with Matt.  
+Matt(smile): Your best friend is very protective of you.  
+Rosie(smile): Yeah, she's a wolf.  
+Narrator: Matt's eyes fall to your swollen limb.  
+\>>  
+Matt(sad): How are you? Do you feel better?  
+Rosie(smile): Yeah, but they're going to keep me here for an extra day for observation.  
+Rosie(sad): Any news on the security footage.  
+Matt(sad): Yeah, and I'm afraid it's bad news. It's all been erased somehow.  
+Rosie(surprise): Erased?! But how?  
+Matt(sad): It can only be done manually from the security room.  
+Matt(confuse): Someone must've gained access to it, deleted the footage, and turned off all the cameras.  
+Rosie(sad): ...  
+## A. Witnesses?  
+## B. Fingerprints?  
+#### A  
+Rosie(sad): No witnesses? What about the security guards, where were they?  
+Matt(sad): They were doing their rounds.  
+Matt(confuse): They thought it was a technical error when they returned to find black screens.  
+#### B  
+Rosie(sad): What about fingerprints then? There must be something?  
+Matt(sad): They're still looking, but they think the culprit wore gloves.  
+\***  
+Matt(sad): I'm sorry, {Rosie Name}. For now, we don't have much to go on.  
+\*Play Music  m_soft1  
+\>  
+Narrator: You feel your stomach sinking and throat closing up slightly.  
+Matt(sad): We found out what snake it was, though, and I already told your doctor.  
+Rosie(surprise): Which one was it then.  
+Matt(confuse): <b>Western Diamondback rattlesnake</b>.  
+Rosie(sad): ...  
+## A. Yikes!  
+## B. Poor thing.  
+#### A  
+Rosie(sad): It was the most terrifying creature I've ever come face to face with.  
+Matt(sad): It was an aggressive one, but they got it, and they're taking it south where they'll let it go.  
+#### B  
+Rosie(sad): Poor thing. It must've been terrified. They didn't hurt it, right?  
+Matt(smile): No, don't worry. They're taking it south where they'll let it go.  
+Rosie(smile): Good.  
+\***  
+\*Stop Music  
+Narrator: Your time at the hospital goes by slowly, but you're gradually getting your strength back, and after another day has passed, you're ready to move out.  
+\*Play Music  m_light1  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_3_city_luxury_apartment_day.jpg-story' width='60'>
+\*Scene INT_MATTS_APARTMENT_DAY
+{% endhint %}  
+\*Camera Left 0  
+\*Rosie Outfit Reset  
+Narrator: Matt has given you time off from work, and you've been spending the last few days, cooped up inside, doing absolutely nothing.  
+\>>  
+Matt(smile): Hey.  
+Rosie(sad): Thank goodness you're home.  
+Matt(surprise): Why? What happened?  
+Rosie(sad): Nothing... I'm just bored out of my mind! I can't take it anymore!  
+Rosie(sad): I want to go back to work. I want to move back into my own apartment.  
+\*Condition  
+## A. (Condition: ADOPT_DOG >= 1)  
+## B. (Condition: NO_DOG >= 1)  
+#### A  
+Rosie(sad): I miss my life and my independence... and my dog.  
+#### B  
+Rosie(sad): I miss my life and my independence.  
+\***  
+Matt(smile): I understand.  
+Matt(sad): Are you sure you're ready to go back to work already? You've been something pretty traumatizing.  
+Rosie(sad): Well...  
+## A. I'm fine.  
+## B. I need distractions.  
+## C. I can't hide forever.  
+#### A  
+Rosie(smile): Honestly, I'm fine, Matt. My arm is just a little bruised.  
+#### B  
+Rosie(sad): Honestly, I think it would help me more if I could distract myself with some work.  
+#### C  
+Rosie(smile): I can't hide forever. Where the point in that?  
+\***  
+Rosie(sad): Sitting in here, hiding from the world does nothing for me, especially when you're never home.  
+\>>>  
+Matt(sad): Okay, then, I'll respect your wishes.  
+Rosie(smile): Thank you!  
+\>>  
+Matt(confuse): But only if you let the security guard I hired watch over you just a little while longer.  
+Rosie(smile): Deal.  
+Matt(smile): Okay. You can go back to work tomorrow then, and if you want, you can move back home too.  
+Rosie(smile): Great. Thanks.  
+Rosie(shy): I'm still bored, though... Can... we do something together?  
+Matt(smile): Hmm... I've been thinking about visiting this antique shop.  
+Rosie(shy): Oh, you're going to look for coins for your collection?  
+Matt(smile): Yeah. Do you want to come with me?  
+Rosie(smile)*Think: Should I join Matt and go to the antique store?  
+## A. Yes, go with him! (Cost: 10 Diamond ID: plot_htcac_11_antique_store)  
+## B. Not my cup of tea  
+#### A  
+\*Gain ANIUQUE_STORE_11  
+Rosie(happy): That sounds really nice. I'd like that.  
+Matt(smile): Great. Let's get going then.  
+Narrator: You grab your bag and follow Matt.  
+### \*Goto htcac11_antique_store  
+#### B  
+Rosie(smile): Antique stores aren't really my thing.  
+Matt(smile): It's okay. I'll just go alone some other time.  
+### \*Goto htcac11_end_chapter  
+\***  
+# htcac11_antique_store  
+\*Scene EXT_MATTS_APARTMENT_NIGHT_SNNY (Color: Black 3)  
+\*Play Music m_mystery_snug_sprightly_good_starts  
+\>  
+Rosie(smile): So, how far away is this antique shop?  
+Matt(sad): It's only a few blocks away. I thought we could walk. Are you up for that?  
+Rosie(smile): Yes, sure. Good idea. I've been in desperate need of some fresh air.  
+Narrator: It's a cold but dry winter night in New York City. It only takes a few minutes for you to reach the shop.  
+\*Scene VARITY_PRANK_STORE (Color: Black 1)  
+Matt(smile): This should be it.  
+Rosie(smile): Oh...  
+## A. It's lovely.  
+## B. It's cluttered.  
+#### A  
+Rosie(shy): It's lovely in here. Look at the lights on the ceiling.  
+Matt(smile): Yeah, it's very charming.  
+#### B  
+Rosie(happy): It's kinda cluttered, isn't it?  
+Matt(smile): I guess that's part of the charm.  
+Rosie(shy): You're right.  
+\***  
+\>>  
+Rosie(shy): I didn't take you for an antique shop lover.  
+Matt(smile): Why do you say that?  
+Rosie(confuse): Maybe because you live in the most modern apartment in New York.  
+Rosie(happy): And everything about you kind of screams neat freak.  
+Matt(happy): I would be lying if I told you that was the first time I ever heard that one.  
+Matt(smile): But I'm actually not. I hired someone to clean my apartment...  
+Matt(shy): ... And I'm not that good at keeping track of things, which is why I need you.  
+\>  
+Narrator: Matt looks through a small treasure chest that's filled with old coins.  
+Rosie(smile): Any coins, in particular, you're looking for?  
+Matt(sad): Not really, just rare ones. But I'm usually not that lucky.  
+\*Condition  
+## A. (Condition: RARE_COIN >= 1)  
+#### A  
+Rosie(smile)*Think: I wonder if he's looking for the coin I got for him. He probably is.  
+Rosie(shy)*Think: I'm not going to give it to him just yet. It's my secret weapon.  
+\***  
+Narrator: Something beautiful catches your eye.  
+\*ITEM  
+## A. ITEM_MOODRING Pick it up  
+\***  
+\*Play Music m_sprightly_cute_avalanche_01  
+Rosie(shy): Oh, wow.  
+Matt(smile): What have you got there?  
+Rosie(smile): It's a mood ring. I had one of these when I was a kid.  
+Narrator: You put it on and watch the liquid crystals inside change to a deep blue color.  
+Matt(confuse): So, what does that color mean?  
+Narrator: You pick up the little pamphlet next to it where the meanings of each color are explained.  
+Rosie(smile): Apparently, I'm either relaxed, calm, or loveable?  
+Matt(smile): Sounds good.  
+Rosie(happy): Your turn.  
+Matt(happy): That's not going to fit my fingers.  
+Narrator: You grab Matt's hand and put it on the tip of his little finger.  
+\>>  
+Rosie(happy): There.  
+Matt(smile): Purple?  
+Narrator: You reread the pamphlet.  
+Rosie(confuse): Interesting.  
+\>>>  
+Rosie(shy): It says it can symbolize very happy, love, passion, or romance.  
+Matt(shy): Oh, well, I am happy' being here with you.  
+\>  
+Narrator: Matt wears a silly grin as he nonchalantly tries to lean against an old phone that he ends up knocking over.  
+Matt(surprise): Oh, sh...!  
+Rosie(happy)*Think: On the outside, he might seem like a badass boss...  
+Rosie(shy)*Think: But on the inside, he's a...  
+## A. Softie.  
+## B. Child.  
+## C. Romantic.  
+#### A  
+\*Gain matt_softie MATT_SOFTIE_11  
+Rosie(shy)*Think: ... Softie. He's kind, gentle, and generous.  
+#### B  
+\*Gain MATT_CHILD_11  
+Rosie(shy)*Think: ... Child. He's playful, a bit silly, and as elegant as a baby moose.  
+#### C  
+\*Gain MATT_ROMANTIC_11  
+Rosie(shy)*Think: ... Romantic. He's affectionate, warm, and passionate.  
+\***  
+Rosie(shy): I'm happy being here with you too, Matt.  
+Narrator: Matt takes the mood ring off his finger, lifting it up in front of him, calling out to the shop owner.  
+Matt(smile): Excuse me, sir, how much for this mood ring?  
+\*Antique Name Shop Owner  
+Antique(smile): 8 dollars and it's yours.  
+Matt(smile): Alright, we'll take it.  
+Matt(shy): Here...  
+Narrator: Matt takes your hand in his and puts the mood ring on your ring finger.  
+\>>>  
+Rosie(shy): Really? For me?  
+Matt(happy): Yeah. Every woman should come with one of these and a pamphlet.  
+Rosie(happy): You're very funny, Mr. Dalton.  
+\>  
+Narrator: You nudge Matt with your shoulder as you go to pay the shop owner.  
+Rosie(smile): This was fun. We should go exploring more antique shops in the <i>future</i>.  
+Rosie(shy): And thanks for the ring. {*Joyful I love it.}  
+Matt(smile): You're welcome. I found a small coin I don't already have, so I'll say it was a success.  
+Rosie(happy): It was.  
+Matt(smile): Let's go home.  
+\*Stop Music  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_luxury_apartment_block_night.jpg-story' width='60'>
+\*Scene EXT_MATTS_APARTMENT_NIGHT_SUNNY (Color: Black 2)
+{% endhint %}  
+\*Wait 2  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_3_city_luxury_apartment_night_sunny.jpg-story' width='60'>
+\*Scene INT_MATTS_APARTMENT_NIGHT_SUNNY
+{% endhint %}  
+\*Play Music m_sadness_suspense_gently_every_step  
+Narrator: You get back into Matt's luxurious apartment, and immediately feel trapped again.  
+Rosie(sad): Sigh...  
+Matt(sad): Are you okay?  
+Rosie(smile): I'm fine. I just forgot the reality of my situation for a while.  
+Rosie(sad): I miss my freedom. I miss feeling safe like I just did with you at the antique store.  
+Matt(sad): I understand. But we will catch her.  
+Rosie(confuse): How can you be so sure it's a woman?  
+Narrator: Matt fiddles with a button on his sleeve, looking nervous, all of a sudden.  
+### \*Goto htcac11_end_chapter  
+# htcac11_end_chapter  
+\*Play Music m_sadness_suspense_gently_every_step  
+Matt(sad): Listen, {Rosie Name}, there's something I want to tell you...  
+Matt(sad): I haven't been completely honest with you.  
+Rosie(surprise): About what?  
+Matt(sad): I... I think I know who was behind the snake attack.  
+# end  

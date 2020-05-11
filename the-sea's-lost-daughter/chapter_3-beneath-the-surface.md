@@ -1,0 +1,784 @@
+# Begin  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_deep_ocean_underwater.jpg-story' width='60'>
+\*Scene UNDERWATER_DROWNING
+{% endhint %}  
+# merm03_transformation  
+\*Play Music deepsea  
+\*+FALL_FROM_CLIFF  
+\*Stop Music  
+\*Play Sound sinking  
+Narrator: You fall from the cliff and hit the water hard.  
+Narrator: You try to scream but only bubbles come out.  
+Layla*Think(cry): Oh my god... I'm going to die...  
+\*Play Sound transformation  
+\*+MAGIC_ANIMATION_QUICK  
+\*Stop Sound  
+Narrator: In the dark of the ocean, a flash of light wraps around your body.  
+Layla*Think(surprise): What is this?!  
+Narrator: The light feels like a physical force wrapping your body, tying your limbs together...  
+Narrator: Heat like fire spreads across your legs and you scream.  
+Layla*Think(surprise): Aaah!  
+\*Play Sound transformation  
+\*+MERMAID_TRANSFORMATION  
+\*Stop Sound  
+Narrator: As the light clears from your vision, you realize you can see underwater much more clearly...  
+\*  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_3_city_cliff_house_underwater.jpg-story' width='60'>
+\*Scene CLIFF_HOUSE_UNDERWATER
+{% endhint %}  
+\*Camera Right 0  
+\*  
+\*Play Music deepsea  
+\*Layla Outfit Free_Merm  
+\*Condition  
+## A. (Condition: Layla Face = Face_1)  
+## B. (Condition: Layla Face = Face_2)  
+## C. (Condition: Layla Face = Face_3)  
+#### A  
+\*Layla Face Face_White_Merm  
+#### B  
+\*Layla Face Face_Black_Merm  
+#### C  
+\*Layla Face Face_Asian_Merm  
+\***  
+Narrator: Your lungs no longer ache from lack of air...  
+Narrator: And most importantly...  
+Layla(surprise): Oh my god...  
+Layla(surprise): I'm... I'm...  
+# (sld_03_01_fall_from_cliff)  
+## A. I'm definitely dead.  
+## B. I'm losing my mind.  
+## C. I'm a mermaid!  
+#### A  
+Layla(sad): This is the afterlife. It has to be.  
+Layla(sad): I died and instead of going to heaven, I became some kind of...  
+Narrator: Your mind resists even thinking the word <i>mermaid.</i>  
+Layla: ...Fish ghost.  
+Narrator*Top: Zale | You're not dead.  
+#### B  
+Layla(sad): First I'm seeing strange lights and symbols...  
+Layla(sad): Now I've entirely lost my mind. Hallucinating I have a tail...  
+Narrator*Top: Zale | You're not hallucinating.  
+#### C  
+Layla(surprise): I'm a real-life, mermaid ready to sing siren songs and lure men to their death.  
+Narrator*Top: Zale | I'd prefer if you <i>didn't</i> lure me to my death.  
+\***  
+Narrator: You spin around to face the voice...  
+Narrator: Or try to anyway. You fumble awkwardly in the water and wind up staring at Zale upside-down.  
+\*Stop Music  
+\*Zale Face Zale_Shirtless  
+\*Play Music illusion2  
+Zale(happy): Fancy meeting you here.  
+Layla(surprise): Zale! You're... We're both...  
+Zale(smile): Merfolk.  
+\>>  
+Narrator: Zale takes your hand and helps you flip right-side up again.  
+Layla(surprise): I'm a mermaid...  
+Zale(smile): Apparently.  
+Layla(surprise): How do you keep finding me like this?  
+Narrator: Still holding your hand, he pulls you closer to him.  
+\>>>  
+Zale(smile): It's in my nature to go after what I want.  
+Layla(shy): ...What?  
+\>>  
+Zale(shy): Sorry... That sounded way less corny in my head.  
+\>  
+Layla: Hold on...  
+# (sld_03_02_zale_help_layla)  
+## A. Are you <i>flirting</i> with me right now?  
+## B. How did I transform into a mermaid?  
+#### A  
+Zale(happy): ...Yyyyes?  
+Layla(surprise): Now is not the time! I just became a mermaid!  
+#### B  
+Narrator: Zale shrugs, the motion making his hair ripple through the water.  
+Zale(smile): Probably the same way merfolk change into humans: magic.  
+Layla(surprise): But magic isn't real!  
+Layla*Think(surprise): ...And neither are mermaids!  
+\***  
+Narrator: You're about to say something else, when a voice calls out through the water.  
+Narrator*Top: ??? | Nothing on my end. What did you find?  
+Zale: Come on, I want you to meet someone...  
+Narrator: Zale takes your arm, swimming fast, pulling you with him.  
+Layla(surprise): Wait, where are you taking me?!  
+Layla(surprise): And how can you move so fast?!  
+Narrator: Zale throws a smirk at you over his shoulder.  
+Zale(happy): This isn't even my top speed.  
+### \*Goto merm03_meet_tai  
+# merm03_meet_tai  
+\*Camera Middle 2  
+\*Play Music oceandance1  
+\*Tai Name ???  
+Tai(surprise): Who's this?  
+Zale: She's the human I was telling you about... The one I met in the cave.  
+Narrator: The other merman gives you a skeptical once-over.  
+Tai: She doesn't seem very human to me...  
+Layla(angry): I <i>was</i> human until just a few minutes ago! Then I fell off a cliff and thought I was going to die and--  
+Narrator: Your voice quivers, and you realize you're fighting off tears.  
+Layla*Think(sad): Can mermaids even cry?  
+Zale(surprise): Wait... You didn't transform on purpose?  
+Layla(sad): No! That's what I've been saying...  
+Layla(sad): It all happened so fast and now I don't know where I am or how this happened and I just--  
+\*Condition  
+# (sld_03_03_CP_swim_with_zale)  
+## A. (Condition: Zale FLIRT >= 2)  
+## B. (Condition: Zale FLIRT < 2)  
+#### A  
+Narrator: Zale puts an arm around your shoulders, the playfulness melting off his expression.  
+#### B  
+Zale(sad): Oh {Layla Name}, I'm so sorry...  
+Narrator: The playfulness melts from Zale's expression. He rakes a hand through his hair, looking a little ashamed of himself.  
+\***  
+Zale(sad): Damnit... I'm sorry for joking around. This must be terrifying for you.  
+Narrator: The dark-skinned merman throws his friend a withering look.  
+Tai: You'll have to forgive Zale... He doesn't think before he acts.  
+\*Tai Name Tai  
+Tai: I'm Tai, by the way. I'm the Captain of the Guard for this part of the border.  
+Tai: Zale is my Steadfast. We've been investigating some strange energy pulses coming from this area.  
+Layla*Think(sad): Border? Steadfast? What?  
+\*Condition  
+## A. (Condition: CONFIDED_IN_ZALE_ABOUT_FLASHES = 1)  
+## B. (Condition: CONFIDED_IN_ZALE_ABOUT_FLASHES = 0)  
+#### A  
+Zale: I thought they were coming from you... Those flashes you kept seeing.  
+#### B  
+Zale: Anytime we touched, there was a flash of magic...  
+Layla(surprise): Magic? But--  
+Layla*Think(sad): Magic isn't real... Right?  
+\***  
+\*Condition  
+# (sld_03_04_CP_tai_joke)  
+## A. (Condition: Zale FLIRT >= 2)  
+## B. (Condition: Zale FLIRT < 2)  
+#### A  
+Tai: Honestly, I thought he was making it up as an excuse to keep seeing you.  
+Tai: We had a long talk about the dangers of fraternizing with humans...  
+#### B  
+Tai: It didn't seem likely, but it was the only lead we had.  
+\***  
+Tai(sad): But now...  
+Layla(angry): Wait, wait... Hang on.  
+Layla(sad): None of this makes any sense.  
+# (sld_03_05_tai_analyze)  
+## A. You were investigating me?  
+## B. Someone was doing magic on me?  
+## C. Can't I just go home?  
+#### A  
+Zale(surprise): It wasn't like that... exactly...  
+Tai: It <i>should've</i> been like that, unless you were flirting with land-dwellers instead of doing your job...  
+Zale(shy): ...I, uh...  
+#### B  
+Layla(angry): So this is some magic spell that's been put on me?  
+Layla(angry): Who would do something like that?!  
+Tai(sad): We don't know that for certain... But if it were--  
+#### C  
+Zale(sad): You can go home... But it's not that easy. We'll have to make you human again.  
+Layla(angry): So let's do that, then! How do we do it?  
+Layla(sad): Am I going to have to give up my voice, or--  
+Zale(surprise): Huh? What kind of crap are they teaching you land--  
+\***  
+Narrator: Zale and Tai both go suddenly still, tilting their heads as if listening for something.  
+Layla(surprise): What? What is it?  
+Zale: We shouldn't be having this conversation in open water.  
+Tai: Come on... Let's take her to my place.  
+Tai: Can you keep up?  
+Layla(surprise): I... Well...  
+Narrator: You try to swim forward...  
+Narrator: But the instinct to kick your legs results in your tail flopping wildly, spinning you upside down instead of going forward.  
+Zale(happy): ...That's, um--  
+Layla(angry): If you laugh, I will kill you.  
+Tai(smile): If we each take your arm, we can propel you through the water...  
+Tai(smile): Try to learn how your tail works while we go, alright?  
+Narrator: They swim through the water, holding your arms gently...  
+Layla*Think(angry): This is so frustrating... How do they make it look so effortless?  
+\>>  
+Layla(sad): Is this how you teach little kids to swim?  
+Zale(happy): Actually, most young mer are able to figure it out on their own...  
+Layla*Think(angry): Great. I'm worse than a toddler...  
+Narrator: Sensing your frustration, Zale signals to Tai to go on ahead and give the two of you some space.  
+Zale: If you want, I can give you some pointers... Help you get used to your new fins.  
+Zale(happy): I can be your swimming teacher.  
+Layla(happy): Are you going to assign homework?  
+Narrator: He pokes you in the ribs and you squirm to the side... spinning yourself upside down again.  
+Layla(surprise): Woah...  
+Zale: I dunno... Maybe you <i>need</i> homework.  
+Narrator: He gently steadies you by the elbow.  
+Layla: Well... Teach away, Professor.  
+Zale(shy): Uhh... To really help, I'm going to be needing to touch you... a lot.  
+Zale(shy): I just want to make sure you're comfortable with that.  
+Layla*Think: Learn to swim as a mermaid from Zale... up close and personal?  
+# (sld_03_06_learn_swim)  
+## A. Yes! Please teach me. (Cost: 19 Diamond ID: plot_sld_03_zale_swim) *Goto prem_swimming_lessons  
+## B. I think I'll be okay on my own.  
+#### B  
+Zale: Alright. There's plenty of time to practice on the way. And if you get stuck--  
+Layla(angry): I won't get stuck!  
+Narrator: Zale raises an eyebrow at you, clearly trying not to laugh.  
+Zale: I'm sure you won't.  
+\*Stop Music  
+### \*Goto merm03_tais_house  
+\***  
+# prem_swimming_lessons  
+\*Gain SWIM_SKILL_PREM  
+\*Play Music m_gently_melancholy_sadness_fortress_europe_01  
+Zale(happy): Alright. I promise you're in good hands.  
+Narrator: He places one hand on the small of your back and the other on the back of your tail.  
+\>>>  
+Layla*Think(shy): This feels... intimate... Like he's touching the back of my thighs...  
+\>>  
+Zale: Your muscle memory for swimming is used to having two legs.  
+Zale: When you try to move them independently...  
+\>  
+Narrator: You kick your 'legs' and he puts pressure on each muscle that moves.  
+Layla(surprise): Oh! I'm wobbling the two sides of my tail.  
+Zale(smile): Yep. Try moving both legs together.  
+Narrator: He places his palms on either side of your tail, pressing on the muscle groups he wants you to use.  
+Layla(shy): Um, okay...  
+Narrator: You flick your tail, and this time you actually move in the direction you want to go.  
+Layla(surprise): It worked!  
+Zale(happy): Nice! Now let's try turning corners...  
+Tai(smile): Hey, I'm gonna scout ahead... You two keep practicing.  
+Narrator: As Tai speeds up ahead of you, Zale guides you through more swimming lessons.  
+Narrator: With each instruction he gives, he slides his warm hands across your skin, shifting your body where it needs to go.  
+Layla(shy): Right...  
+Zale: If you think about flexing your toes, you should be able to control the very tips of your tail...  
+Narrator: He swims with you in his arms, one hand against your stomach, the other where your thighs should be.  
+Zale: For powerful thrusts, swim from your core...  
+# (sld_04_06_DP1_learn_the_skill)  
+## A. Powerful thrusts, huh?  
+## B. You can let go now...  
+#### A  
+Narrator: You intentionally squirm closer to him, moving your tail in sync with his.  
+Layla(smile): Going to teach me all about <i>thrusting</i>, are you, professor?  
+\*Zale FLIRT +1  
+Zale(happy): Young lady, you have a filthy mind.  
+Narrator: He swims away from you, letting his tail slide along yours as he moves away.  
+#### B  
+Layla(shy): Zale, um, I think I got it...  
+Zale(shy): Oh! Uh... Right. Sorry.  
+Narrator: Zale shifts away from you, giving you space to move.  
+\***  
+Layla: How do you know so much about this, anyway?  
+Zale(smile): It's kind of my job. I take new recruits up to land and train them during their first mission.  
+Layla: Mission...? Are you spying on humans?  
+Zale(happy): As you say in your movies... That's classified.  
+Zale(smile): Now link arms with me and work on controlling your fin as we swim.  
+Layla*Think(shy): I feel like a little kid learning to ride a bike...  
+Narrator: You take Zale's offered arm and you set off, swimming through open water.  
+\*Camera Middle 2  
+Layla(surprise): Wow... You can't see anything for miles...  
+Zale: It can be intimidating the first time you come out here, though.  
+Zale: The ocean can make you realize just how small you really are.  
+Narrator: You stare all around you, truly feeling what he just said.  
+Zale(smile): Hey... Have you noticed?  
+Layla: Noticed what?  
+Narrator: Zale holds both of his hands up as he swims in front of you.  
+\>>>  
+Layla(surprise): I'm swimming on my own!  
+Zale(happy): See? It's not so hard. Just takes some practice.  
+\>  
+Narrator: You flick your tail, reveling in the rush of water through your hair.  
+Layla(happy): I'm really doing it!  
+Tai(smile): Congratulations.  
+Layla(happy): Yes! Now I...  
+# (sld_03_06_DP2_swimming)  
+## A. Can keep up with you!  
+## B. Don't have to rely on you!  
+#### A  
+Layla(happy): You don't have to worry about me slowing you down anymore!  
+Zale(smile): You know we were happy to take things at your pace...  
+\>>  
+Layla(happy): But now that I've mastered swimming, we'll-- oh no...  
+Zale(happy): Mastered, huh?  
+#### B  
+Zale(surprise): Oh yeah? So you've mastered steering, too?  
+Layla(shy): I, um... Well...  
+Narrator: You try to turn to your right, but...  
+Layla(surprise): No, no no! The other way... I... Ugh!  
+\***  
+Narrator: You start to drift sideways. You struggle to correct your balance, but...  
+\>  
+Layla(angry): ...Why do I always end upside down?  
+Zale(happy): It's a good look for you.  
+Layla(angry): I will have you know I took swimming lessons every summer growing up.  
+Zale(happy): And did they help at all?  
+Narrator: You glare at him wordlessly, and he tries valiantly not to laugh.  
+Tai(smile): Don't feel too bad. Swimming with a tail is much different than swimming with legs.  
+Narrator: Zale laughs, then swims to your side.  
+\>>  
+Zale: Here...  
+Narrator: He comes up behind you and puts his hands on your hips, pulling you close so that your bodies are pressed together.  
+Layla(shy): Um... What are you doing?  
+Zale(smile): Move your tail with mine. Close your eyes and focus on which muscles you're using.  
+Narrator: You do as he says, closing your eyes and leaning into him as he swims through the water.  
+Narrator: Together, you move as one through the currents, tails rippling in sync.  
+Zale(smile): Now I'm going to turn.  
+Narrator: You feel him shift his weight behind you, and think you can tell what movements he used to cause the turn.  
+Layla(surprise): Oh! That makes more sense now...  
+Zale(smile): Yeah? I'm glad.  
+Narrator: He moves away from you, the loss of his warmth leaving you feeling chilled.  
+Layla: You know...  
+# (sld_03_06_DP3_thanks_zale)  
+## A. You can stay where you are.  
+## B. You're a pretty good teacher.  
+#### A  
+\*Zale FLIRT +1  
+Zale(smile): Oh really?  
+Narrator: He settles in behind you again and puts his arms around you, holding you close. His voice rumbles through your body when he speaks.  
+Zale(smile): You like me this close to you?  
+Layla(shy): Um... Well... Maybe...  
+Narrator: He laughs, teasing you a little, then swims away again.  
+Zale(happy): Unfortunately you can't practice like that... And you definitely need to practice.  
+Layla(surprise): Hey! I'll be swimming circles around you soon. Just wait.  
+Zale(happy): Yeah? Let's see it, then.  
+#### B  
+Zale(happy): Yeah? Let's see how well you've learned, then.  
+\***  
+Narrator: With a flick of his tail, he sails ahead through the water, leaving you in a cloud of bubbles.  
+Zale(happy): Try to catch up!  
+Layla(angry): Oh, I will!  
+Narrator: You swim after him as quickly as you can.  
+\*Stop Music  
+### \*Goto merm03_tais_house  
+# merm03_tais_house  
+\*Camera Left 2  
+\>  
+Narrator: You practice your swimming as you catch up with Tai. Soon, the two mermen lead you into a kelp forest.  
+\*Play Music oceandance  
+Layla(surprise): Woah...  
+Layla*Think(surprise): It's so peaceful and serene here...  
+\>>  
+Zale(smile): Have you gotten the hang of swimming yet?  
+Layla(shy): I don't know... Maybe?  
+Layla*Think(sad): Swimming is so much harder than I thought it would be...  
+\>  
+Narrator: Both of them let go of you, leaving you suspended in the water.  
+Tai(smile): Why don't you try swimming the rest of the way? We're almost there.  
+Layla: Where are we even going?  
+Narrator: Tai points to something among the swaying leaves...  
+Layla*Think(surprise): Is that a... bubble?  
+Tai(smile): That's my house. Or, rather, it's a portable guardpost with my home inside.  
+Narrator*Top: ??? | <i>Eeee!!!</i>  
+Narrator: A high-pitched squeal seems to come from all around you.  
+Layla(surprise): What the hell is that?!  
+Zale(happy): <i>That</i> is the sound of the Noona, the only creature capable of defeating Tai in combat.  
+Layla(surprise): What?! Shouldn't we hide, or--  
+\*Play Sound noonalaugh  
+Noona(happy): <i>Daddyyyy!</i>  
+Narrator: You get the impression of a small, round fish barreling across the water like a torpedo...  
+Narrator: And slamming straight into Tai's chest.  
+Tai(happy): Oof! Hello! How's my little angel fish?  
+\>>  
+Noona(happy): Hiii!  
+\>  
+Layla(surprise): Oh my god...  
+# (sld_03_06_meet_noona)  
+## A. She's so cute!  
+## B. Zale, what the hell?! I was terrified!  
+#### A  
+Layla(happy): A tiny little mermaid... Oh my god!  
+Layla(happy): She's like a little goldfish.  
+Noona(surprise): Go...fish?  
+#### B  
+Narrator: You try to smack him on the arm, but you're clumsy in the water and he dodges you easily.  
+Zale(happy): What? I said nothing but the truth.  
+\***  
+\*Lisi Name ???  
+Lisi(surprise): Noona! Get back here! It's not-- Oh!  
+Lisi(happy): No wonder she was so quick to dash outside.  
+Layla*Think(surprise): How many mermaids are there?!  
+\*Lisi Name Lisi  
+Tai(smile): {Layla Name}... This is my wife, Lisi, and my daughter, Noona.  
+Noona(happy): Hi hi!  
+Lisi(smile): I don't think we've met before... What clan are you from?  
+Zale(sad): That's part of why we're here...  
+Tai(sad): Let's go inside where we can talk.  
+### \*Goto merm03_tai_family  
+# merm03_tai_family  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_merm_home_small.jpg-story' width='60'>
+\*Scene MERM_HOME_SMALL (Color: black)
+{% endhint %}  
+\*Stop Music  
+\*Play Music romance  
+Narrator: The inside of the round pod is larger than I thought it would be, with no space wasted.  
+Narrator: Baby toys float past us in the water, which Lisi and Tai snag from the air and secure in netted shelves.  
+Lisi(sad): Sorry for the mess... I wasn't expecting company...  
+Layla(smile): Well, I wasn't expecting to fall into the water and wind up with a tail, so I guess we're even.  
+Lisi(surprise): ...What?  
+Tai(sad): Let's all settle down and go over everything from the beginning.  
+Narrator: You tell them what you know... The magic flashes, meeting Zale, the fall from the cliff, and the sudden transformation.  
+Lisi(sad): Shifting forms is never comfortable... But it sounds like yours was especially painful.  
+Zale(sad): It can be a shock if you're not prepared for it. That's why you're supposed to take it slow the first time.  
+Tai: And you said you have no idea what would have caused this?  
+Layla(surprise): No, none!  
+Tai: No magic in your family? Relatives with an especially long lifespan?  
+Layla(surprise): I... Hmm...  
+# (sld_03_07_family_of_layla)  
+## A. I don't know much about my father's side of the family...  
+## B. Yes, my grandma. But I don't think it's unusual...  
+#### A  
+Tai: Your father? Why is that?  
+Layla(sad): He died when I was young... He and my mother...  
+Lisi(surprise): Oh, {Layla Name}... I'm so sorry to hear that...  
+Narrator: She elbows her husband, giving him a look for prodding into sensitive topics.  
+Layla(sad): It's alright. I was very young. My grandmother raised me, so I know about that side of the family, but...  
+Layla: I don't really know much about my father.  
+Tai: Hmm... If he had magic, I would think it would have been evident much sooner than this.  
+#### B  
+Zale: Merfolk live a very long time. We're talking well over a hundred years.  
+Layla(surprise): Oh wow... I don't think she's <i>that</i> old.  
+Layla: ...Wait, how old are you, Zale?  
+Narrator: Lisi chuckles behind her hand.  
+Lisi(smile): Zale and Tai are very young...  
+Lisi(smile): My family was worried about me getting involved with someone half my age...  
+Layla*Think(surprise): Half?! She looks only a few years older than I do...  
+\***  
+\*Stop Music  
+Lisi(sad): Before we go on... Can I ask about something that's been bothering me?  
+Lisi(sad): The garment you're wearing... Those are human underthings, yes?  
+Narrator: I glance at my chest, feeling self-conscious for the first time since the transformation.  
+Layla*Think(sad): I guess with everything happening... I didn't really have time to think about it.  
+Layla(sad): Um... Yes, it is. I'm not sure what happened to my clothes...  
+Lisi(sad): Oh dear... Maybe I have something you could wear...  
+Lisi: I used to be your size, before I had Noona...  
+Layla(surprise): Oh, really, you don't need to do that! I'm fine...  
+Narrator: Lisi waves you off and swims through a hole in the ceiling leading to the second floor, returning immediately with several outfits.  
+Lisi(happy): Here, try these on! These were some of my favorites... I couldn't bear to get rid of them...  
+Lisi(happy): It will be great to see them get some use again. Go, go! Try it on!  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_black.jpg-story' width='60'>
+\*Scene BLACK
+{% endhint %}  
+Narrator: She shoos you into the other room where you quickly change...  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_merm_home_small.jpg-story' width='60'>
+\*Scene MERM_HOME_SMALL
+{% endhint %}  
+\*Play Music moment  
+\*Layla Outfit Prem_Precious_Pearl (Tag: Record)  
+Layla(smile): Well, um... What do you think?  
+Zale(surprise): Oh wow...  
+Lisi(happy): Ee! That looks perfect on you. I think you wear it better than I did...  
+Narrator: Tai gives his wife's shoulder a quick kiss.  
+Tai(smile): Not possible, Love.  
+Layla(shy): Isn't it a little... fancy?  
+Narrator: Lisi grabs the tulle train, fluffing it so it floats about you in the water.  
+Lisi(happy): This is what all the fashionable mermaids wear!  
+Narrator: She glances down at her own outfit and grimaces.  
+Lisi(sad): Ignore what I'm wearing. I have to keep up with a baby all day. She'd wreck that dress in an instant.  
+Noona(happy): Hehe...  
+Narrator: The baby grabs hold of the flowing skirt and stuffs the corner in her mouth.  
+Lisi(angry): Noona!  
+Zale(smile): You look amazing, {Layla Name}...  
+Zale(shy): Like you were meant to wear it.  
+Layla(smile): Hmmm...  
+\*Model  
+# (sld_03_08_pay_dress)  
+## A. Get the dress! (Cost: 25 Diamond ID: look_sld_03_clothes)  
+## B. Turn it down...  
+#### A  
+\*Gain PRECIOUS_PEARL  
+\>>  
+Narrator: From the corner of your eye, you think you see Zale pump his fist and say, "Yes!"  
+Layla(surprise): What was that?  
+Zale(shy): Nothing! You just look... Damn you look great in that.  
+\>  
+Narrator: Tai rolls his eyes.  
+Tai: Keep it in your tail, man.  
+Zale(surprise): Hey! I wasn't doing anything...  
+Narrator: Lisi giggles behind her hand, leaning close to you.  
+\>>>  
+Lisi(happy): Zale's such a flirt, isn't he?  
+Layla(shy): Yeah...  
+#### B  
+Layla(sad): Thank you for the offer, but I really couldn't take this.  
+Narrator: You swim back to change into your regular top, then head back.  
+\*Layla Outfit Reset  
+Layla(smile): Thank you for thinking of me, though.  
+\***  
+\>  
+Narrator: Noona yawns, curling herself against her mother and sucking her thumb.  
+Noona(sad): Mama...  
+Lisi(smile): You getting sleepy, little one?  
+Noona(angry): No!  
+Narrator: But when Lisi scoops her up and heads upstairs, the baby doesn't protest.  
+Lisi(smile): It was good meeting you, {Layla Name}!  
+Narrator: The homey feel of the house, seeing Lisi kindly carry her child to bed...  
+Layla(sad): Zale... When can I go home?  
+Narrator: Zale and Tai exchange a sad look.  
+Layla(sad): My friends probably think I drowned... They must be scared out of their minds!  
+Tai(sad): {Layla Name}... We don't know what's going on, yet.  
+Tai: Someone used magic on you against your will... That's an unforgivable crime.  
+Zale(sad): But it sounds like that person was on land, beyond our borders.  
+\>>  
+Zale(sad): Can you think of anyone who would have wanted to hurt you?  
+\>  
+\*Stop Music  
+\*Play Music illusion4  
+Layla(sad): Well...  
+# (sld_03_09_someone_hurt_you)  
+## A. Addison.  
+## B. No one comes to mind.  
+#### A  
+Layla(sad): I'm pretty sure Addison hates me... She kind of pushed me off the cliff.  
+Zale(surprise): She pushed you?  
+Layla(surprise): More like backed me into the cliff?  
+Layla*Think(sad): So much happened... My problems with her seem so far away right now...  
+Layla: I don't think she has magic powers or anything, though.  
+#### B  
+Layla(sad): I was just a college student on vacation with some friends...  
+Layla(sad): It wasn't like I went around making deadly enemies on a regular basis.  
+\***  
+Narrator: A silence settles over the room, all three of you lost in your thoughts.  
+Layla(sad): My grandma warned me against getting close to the ocean...  
+Layla(sad): She didn't want me to go on this trip. She said it was dangerous.  
+Layla(cry): We got into an argument... I wouldn't listen to her...  
+Layla(cry): Maybe I should have listened...  
+\>>  
+Zale(sad): {Layla Name}...  
+Narrator: Zale moves over to you, wrapping you in a quick hug.  
+Zale(sad): We'll figure this out, okay?  
+\>  
+Narrator: He releases you quickly, his concerned smile making you feel a little better.  
+Tai: I think our next step should be heading back on land.  
+Tai: {Layla Name} can go home, and we can keep investigating topside.  
+Layla(surprise): You make it sound so easy!  
+Tai(sad): I wouldn't say <i>easy</i>... But if we just need to transform you back...  
+Tai: We can always visit the local sea witch.  
+Layla(surprise): The sea witch...?!  
+Narrator: Flashes of children's cartoons play through your mind...  
+Layla(sad): Is that such a good idea...?  
+Narrator: The two mermen look at you, confused.  
+Tai: I thought you wanted to go home.  
+Layla(surprise): I do! But... Won't she demand a sacrifice? Cut out my tongue, or...  
+Zale: ...  
+Tai: ...  
+Narrator: Both of them burst out laughing.  
+\*Stop Music  
+\*Play Music merry2  
+Zale(happy): Seriously, what are they teaching you up there?!  
+Tai(happy): A sacrifice... I mean she might ask for payment for her services, but...  
+Tai(smile): You don't have to worry about that. I can cover it.  
+Layla(surprise): So, then...  
+# (sld_03_10_the_sea_witch)  
+## A. The sea witch isn't evil?  
+## B. She can really help me go home?  
+#### A  
+Narrator: Zale playfully bumps the top of your head with his fist.  
+Zale(happy): She can be kinda grumpy if you catch her too early in the morning, but...  
+Tai(smile): I wouldn't say she's evil. Although working with magic so closely does make people a little... eccentric...  
+Layla(shy): Oh...  
+#### B  
+Tai: She can transform you into a human using the same method Zale used to visit you.  
+Tai(sad): Although I'm not sure if it will work as easily on a human...  
+Zale: Either way, she's our best bet at getting answers.  
+\***  
+Narrator: Tai stretches and yawns.  
+Tai: I think I'm going to head to bed, too. Zale... You know where the bed things are?  
+Zale(smile): Yep. I got it.  
+Narrator: Tai waves to you, then slips up the hatch to join his family...  
+Narrator: ...Leaving you and Zale alone in the room.  
+Layla(surprise): So, um...  
+# (sld_03_11_where_to_sleep)  
+## A. How do mermaids sleep? I don't see beds...  
+## B. You and Tai seem like really close friends...  
+## C. Do you live here, too?  
+#### A  
+Zale(smile): No beds the way you're thinking... We'd float away if we were lying down like that.  
+Zale(smile): But just like the chairs are dome-shaped, we have sleeping bags over there...  
+Narrator: He points to what looks like a small tube or cave made out of soft materials.  
+Zale(smile): They're great. You'll like them.  
+#### B  
+\*Gain LEARNED_ABOUT_STEADFASTS  
+Zale(smile): Tai is my Steadfast. It's a bond much deeper than friendship. More than brothers, even...  
+Layla(surprise): You mentioned that before... What is it, exactly?  
+Zale: In our culture, warriors come in pairs. You always have someone watching your back, a partner to rely on.  
+Narrator: Zale gestures to the swirling tattoo on his shoulder.  
+Zale: There's a ritual, a ceremony with some magic involved, where we were both marked with matching ink.  
+Zale(happy): A pair of Steadfasts moves in sync with each other. They train together from a young age, but it's more than that.  
+Zale(smile): It's... kind of hard to explain. But he's my partner. The only person closer to him would be his wife.  
+#### C  
+Zale(happy): I stay here sometimes... But this is just a temporary outpost for when Tai's on assignment.  
+Zale(smile): Both of us have actual homes in the city.  
+Layla(surprise): There's a city? Like... A real mermaid city?  
+Zale(happy): Haha... Yeah? Of course.  
+Layla(shy): Yeah, you're right... of course...  
+Zale(smile): There are towns, too... The sea witch we're going to visit lives just outside of a small village east of here.  
+\***  
+Layla(smile): Oh... I see...  
+Narrator: Zale watches you with a grin, then heads for the door.  
+Zale(smile): Come on... I want to show you something.  
+Narrator: You awkwardly make it across the room to his side.  
+\>>  
+Layla(angry): Swimming is so frustrating...  
+Zale(happy): You'll get there. Don't worry about it.  
+Zale(smile): I've got you. I won't let you get lost.  
+\>  
+Narrator: He takes your hand and propels the two of you out the door.  
+\*Stop Music  
+### \*Goto merm03_underwater_cave  
+# merm03_underwater_cave  
+\*Play Music oceandance  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_city_sea_cave_coral.jpg-story' width='60'>
+\*Scene UNDERWATER_CAVE (Color: black)
+{% endhint %}  
+Narrator: He takes you through the kelp forest to a beautiful undersea cave...  
+Layla(surprise): Oh wow! This is amazing!  
+Zale(happy): Isn't it? Lisi's been tending to it as her own personal garden.  
+Zale(smile): The coral wasn't quite so vibrant last time I was here..  
+Narrator: He lets go of your arm and you try swimming up to different sea plants and animals.  
+Layla(happy): This is so beautiful...  
+Narrator: You look over and see him smiling at you fondly.  
+\>>  
+Layla(shy): What is it?  
+Zale(smile): You were pretty on land, but seeing you as a mer...  
+\>  
+Narrator: He clears his throat and looks away.  
+Zale(smile): It just... It suits you...  
+\*Condition  
+## A. (Condition: PRECIOUS_PEARL = 1)  
+## B. (Condition: PRECIOUS_PEARL = 0)  
+#### A  
+Zale(smile): And then you made it worse by wearing something so stunning...  
+Zale(happy): Sorry... I'll quit staring at you eventually... I promise...  
+#### B  
+Zale(smile): Sorry... I'll quit staring at you.  
+\***  
+\>>  
+Layla(shy): Oh...  
+Narrator: You swim over to him, nearly drifting past him before he catches you, steering you into place.  
+Layla(shy): Thank you... But you know...  
+# (sld_03_12_play_with_zale)  
+## A. You can do more than just stare... (Cost: 17 Diamond ID: plot_sld_03_zale) *Goto prem_zale_cave_kiss  
+## B. We should probably head back...  
+#### B  
+\>  
+Zale(shy): Yeah, sorry... I got a little carried away there...  
+Zale(smile): You'll need your rest. We're doing a lot of traveling tomorrow.  
+Narrator: He takes your hand again, guiding you out of the cave and back to Tai and Lisi's home.  
+### \*Goto merm03_cliffhanger  
+\***  
+# prem_zale_cave_kiss  
+\*Stop Music  
+\*Play Music romancesea  
+Zale(smile): Oh? Is that so...  
+Narrator: He pulls you closer to him and places one hand against your cheek.  
+\>>>  
+Zale(happy): What can I do, then?  
+Layla(shy): Zale...  
+# (sld_03_12_DP1_flirt_with_zale)  
+## A. Kiss me. *Goto prem_zale_cave_make_out  
+## B. Hold me.  
+#### B  
+\>>  
+Narrator: Zale wraps his big arms around you, surrounding you in his strength.  
+Narrator: His voice tingles your ear as he speaks low and quiet.  
+Zale(smile): Is this what you wanted?  
+Layla(shy): Yeah...  
+Narrator: He presses a kiss to your temple, twining your fingers together.  
+Layla(smile): Thank you for bringing me here... It's so beautiful...  
+Zale(smile): Will you smack me if I tell you it's not as beautiful as you are?  
+Layla(shy): ...I might.  
+Zale(happy): Glad I didn't say it, then.  
+Narrator: He uses his tail to lower you down to the cave floor, keeping you pressed close to him.  
+### \*Goto prem_zale_cave_cuddle  
+\***  
+# prem_zale_cave_make_out  
+\>>  
+Narrator: He kisses you passionately, one hand sliding into your hair.  
+Narrator: Your hands explore his naked chest, savoring the feel of his skin on yours.  
+Zale(smile): God, you're hot.  
+Zale(happy): Seeing you with a tail was driving me a little crazy...  
+Narrator: Zale's tongue traces your lips and you cling to him.  
+Layla(smile): My tail, huh? So you've got some kind of tail fetish?  
+Narrator: Zale laughs as he kisses you, the warm sound filling up your chest.  
+Zale(happy): Hey. It's no different than a guy on land being into legs.  
+Narrator: You swoosh your tail through the water in what you hope is a sexy wiggle...  
+Zale: {Layla Name}...  
+Narrator: The way Zale's eyes go dark with lust makes you think you succeeded.  
+Layla*Think(smile): I should...  
+# (sld_03_12_DP1_AP_make_out)  
+## A. Pull him on top of me.  
+## B. Wrap our tails together.  
+#### A  
+Narrator: You wrap your arms around his neck and pull him down...  
+Narrator: ...And both of you drift slowly into the cave wall.  
+Layla(surprise): Oh... That's not what I was going for...  
+Zale(happy): Here...  
+Narrator: Zale leans into you, pushing you against the cave wall.  
+Narrator: He kisses you hard, holding onto the wall to keep you pressed tight against him.  
+Zale(smile): Mmm...  
+Narrator: His low moan rumbles against your ear, his kisses trailing down your throat.  
+Layla(surprise): Zale...  
+Narrator: You wrap your tail around his, pushing up against him as you kiss him again...  
+#### B  
+Narrator: You twine your tails together, kissing him eagerly.  
+\>>>  
+Zale(happy): {Layla Name}...  
+Narrator: Arms around him, you press close, feeling the solidness of his body...  
+Zale(surprise): Oh God...  
+Narrator: He gently nips your lip between his teeth, groaning low in his throat.  
+Layla(smile): Zale...  
+\>>  
+Narrator: Your tail presses hard against his as you kiss him again...  
+\***  
+Zale(surprise): Um... Hold on... We need to back up a bit here...  
+\>  
+Layla(surprise): Why? What's wrong?  
+Narrator: He backs away from you, hands resting on the top of his head.  
+\*Stop Music  
+\*Play Music durnk  
+Zale(surprise): So, uh...  
+Zale(surprise): Quick rundown of merman anataomy...  
+Narrator: He swallows hard, angling his body away from you.  
+Zale: Twining our tails together... That's, uh...  
+Zale: A few moments later and we would've been having sex.  
+Layla(shy): Oh... That's kind of how it works with humans, too...  
+Zale(shy): Ehh... It's a little different than that... biologically...  
+Layla: I see...  
+\*Gain FIRST_MERMAN_ANATOMY  
+Narrator: Zale wraps you in his arms, keeping you very carefully to his side.  
+\>>  
+Zale(smile): I hardly know you...  
+Layla(smile): Yeah? Maybe we should fix that, then...  
+### \*Goto prem_zale_cave_cuddle  
+# prem_zale_cave_cuddle  
+Narrator: He tucks your hair back behind your ear.  
+Zale(smile): Tell me something about yourself...  
+Layla(smile): What do you want to know?  
+Zale(smile): Anything at all. Something you want me to know about yourself.  
+Layla(smile): Hmm...  
+# (sld_03_12_DP2_tell_yourself)  
+## A. I'm a terrible singer.  
+## B. I was never that great at swimming.  
+## C. The only pets I ever had were fish.  
+#### A  
+Layla(happy): You know... So if being a mermaid means getting a siren song or something...  
+Zale(happy): We need to work on your mermaid mythology...  
+#### B  
+Layla(happy): Maybe that's why this is so hard for me...  
+Zale(happy): I'm sure suddenly having a tail has nothing to do with it.  
+#### C  
+Layla(happy): So maybe I was meant for this all along.  
+Narrator: Zale laughs, kissing your temple.  
+Zale(happy): Yeah... Maybe you were.  
+\***  
+Narrator: The two of you cuddle close together until you start to nod off...  
+\*Stop Music  
+\*Play Music moment  
+Zale(happy): Alright, time to get you back...  
+Zale(smile): You need your rest. We're doing a lot of traveling tomorrow.  
+Narrator: He takes your hand again, guiding you out of the cave and back to Tai and Lisi's home.  
+### \*Goto merm03_cliffhanger  
+# merm03_cliffhanger  
+{% hint style="info" %}
+<img src='https://ustories.saiyunyx.com/update/CDN_C/CDN/BGPics/bg_3_city_cliff_house_underwater.jpg-story' width='60'>
+\*Scene: CLIFF_HOUSE_UNDERWATER (Color: Black)
+{% endhint %}  
+\>  
+Narrator: The next morning... We set out to see the sea witch.  
+# End  
